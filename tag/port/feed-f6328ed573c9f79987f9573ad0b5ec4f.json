@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Qualityology - Let's get the most out of life! • All posts by \"port\" tag",
+    "description": "To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.",
+    "home_page_url": "https://www.qualityology.com",
+    "items": [
+        {
+            "id": "https://www.qualityology.com/tech/configure-sendmail-to-use-a-different-port-for-outgoing-mail-other-than-25/",
+            "url": "https://www.qualityology.com/tech/configure-sendmail-to-use-a-different-port-for-outgoing-mail-other-than-25/",
+            "title": "Configure sendmail to use a different port for outgoing mail other than 25",
+            "date_published": "2014-07-15T04:03:55.000Z",
+            "content_html": "<p>Typically sendmail uses standard SMTP port 25 to relay mail. In most cases, this works fine as is, however, some ISPs block port 25. This makes it particularly difficult for sendmail to do its thing since it is supposed to work on port 25. In addition, opening port 25 could be risky. What are the security risks of opening port 25? Port 25 is used by the SMTP protocol to send mail. Some DDOS attacks seems to be targeted at port 25, email related. Under DDOS attacks, it will create huge number of connections to port 25 and causing too much traffic on the server. Port 25 obviously needs to be open for us to receive legitimate email, so we can&#x2019;t block it. We can however change the default port 25 to other ports to reduce the risk of being attack. </p>\n<p>To make sendmail listen on a different port: </p>\n<h2 id=\"1-edit-etc-mail-sendmail-mc\"><a href=\"#1-edit-etc-mail-sendmail-mc\" class=\"headerlink\" title=\"1. edit /etc/mail/sendmail.mc\"></a>1. edit /etc/mail/sendmail.mc</h2><p>Change Port=<portnumber> in the line DAEMON_OPTIONS. </portnumber></p>\n<h2 id=\"2-Rebuild-the-sendmail-cf\"><a href=\"#2-Rebuild-the-sendmail-cf\" class=\"headerlink\" title=\"2. Rebuild the sendmail.cf.\"></a>2. Rebuild the sendmail.cf.</h2><figure class=\"highlight plain hljs\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">m4 /etc/mail/sendmail.mc &gt; /etc/mail/sendmail.cf</span><br></pre></td></tr></table></figure>\n<h2 id=\"3-Restart-sendmail\"><a href=\"#3-Restart-sendmail\" class=\"headerlink\" title=\"3. Restart sendmail.\"></a>3. Restart sendmail.</h2><p> For Debian:</p>\n<figure class=\"highlight plain hljs\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">/etc/rc.d/init.d/sendmail restart</span><br></pre></td></tr></table></figure>\n<p>For CentOS:</p>\n<figure class=\"highlight plain hljs\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">service sendmail restart</span><br></pre></td></tr></table></figure>",
+            "tags": [
+                "port"
+            ]
+        }
+    ]
+}

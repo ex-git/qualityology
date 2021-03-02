@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;opencart&#34; tag</title>
+        <link>https://www.qualityology.com</link>
+        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
+        <language>en</language>
+        <pubDate>Fri, 12 Sep 2014 15:01:59 -0700</pubDate>
+        <lastBuildDate>Fri, 12 Sep 2014 15:01:59 -0700</lastBuildDate>
+        <category term="tech" />
+        <category term="lifestyle" />
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/opencart-admin-folder-rename-with-vqmod/</guid>
+            <title>Opencart Admin Folder Rename with vQmod</title>
+            <link>https://www.qualityology.com/tech/opencart-admin-folder-rename-with-vqmod/</link>
+            <category>tech</category>
+            <pubDate>Fri, 12 Sep 2014 15:01:59 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;OpenCart is open source so the basic file structure is exposed. In order to secure OpenCart, the easiest way is rename the /admin/ folder to other phrase. Renaming OpenCart admin folder can prevent hackers who specifically looking for the admin folder of OpenCart break in into OpenCart. This tutorial is for OpenCart with vQmod installed. If you don&amp;#x2019;t have vQmod installed, simply rename the Admin folder will work. If you have vQmod installed, you will need some extra steps to make vQmod recognize your new Admin folder. For how install vQmod to OpenCart, follow this tutorial: &lt;a href=&#34;https://www.qualityology.com/tech/install-vqmod-to-opencart/&#34; title=&#34;Install vQmod to OpenCart&#34;&gt;Install vQmod to OpenCart&lt;/a&gt; &lt;/p&gt;
+&lt;h2 id=&#34;Step-one-updated-all-instances-in-your-admin-config-php&#34;&gt;&lt;a href=&#34;#Step-one-updated-all-instances-in-your-admin-config-php&#34; class=&#34;headerlink&#34; title=&#34;Step one, updated all instances in your admin/config.php.&#34;&gt;&lt;/a&gt;Step one, updated all instances in your admin/config.php.&lt;/h2&gt;&lt;p&gt;Change &lt;strong&gt;xxx.com/admin/&lt;/strong&gt; to &lt;strong&gt;xxx.com/(your new admin folder name)/&lt;/strong&gt; in config.php. &lt;/p&gt;
+&lt;h2 id=&#34;Step-two-rename-the-admin-folder&#34;&gt;&lt;a href=&#34;#Step-two-rename-the-admin-folder&#34; class=&#34;headerlink&#34; title=&#34;Step two, rename the admin folder.&#34;&gt;&lt;/a&gt;Step two, rename the admin folder.&lt;/h2&gt;&lt;p&gt;Simple rename the admin folder using the method that you prefer. &lt;/p&gt;
+&lt;h2 id=&#34;Step-three-edit-vQmod&amp;#x2019;s-configuration-file&#34;&gt;&lt;a href=&#34;#Step-three-edit-vQmod&amp;#x2019;s-configuration-file&#34; class=&#34;headerlink&#34; title=&#34;Step three, edit vQmod&amp;#x2019;s configuration file.&#34;&gt;&lt;/a&gt;Step three, edit vQmod&amp;#x2019;s configuration file.&lt;/h2&gt;&lt;p&gt;vQmod must already installed! &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Edit the file vqmod/install/&lt;strong&gt;index.php&lt;/strong&gt;, change the name &lt;strong&gt;admin&lt;/strong&gt; to match the name in previous steps.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;// CHANGE THIS IF YOU EDIT YOUR ADMIN FOLDER NAME&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$admin = &amp;apos;admin&amp;apos;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;2. Edit the file vqmod/&lt;strong&gt;pathReplaces.php&lt;/strong&gt;. Add the following to the file after &lt;strong&gt;// START REPLACES //&lt;/strong&gt; before &lt;strong&gt;// END REPLACES //&lt;/strong&gt;. Change the admin123 to match the name in previous steps.&lt;/p&gt;
+&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;// START REPLACES //&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$replaces[] = array(&amp;apos;~^admin\b~&amp;apos;, &amp;apos;admin123&amp;apos;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;// END REPLACES //&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;Step-four-clean-the-vQmod-cache&#34;&gt;&lt;a href=&#34;#Step-four-clean-the-vQmod-cache&#34; class=&#34;headerlink&#34; title=&#34;Step four, clean the vQmod cache.&#34;&gt;&lt;/a&gt;Step four, clean the vQmod cache.&lt;/h2&gt;&lt;p&gt;Simply delete all files under &lt;strong&gt;vqmod/vqcache&lt;/strong&gt; folder. &lt;strong&gt;You are all set. Don&amp;#x2019;t forget that once you do this, you&amp;#x2019;ll need to use the new path to access your admin dashboard.&lt;/strong&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/install-vqmod-to-opencart/</guid>
+            <title>Install vQmod to OpenCart</title>
+            <link>https://www.qualityology.com/tech/install-vqmod-to-opencart/</link>
+            <category>tech</category>
+            <pubDate>Thu, 24 Jul 2014 00:06:38 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Modifying OpenCart core files greatly reduces your ability to upgrade your store to later versions, and can affect other modules and extensions. vQmod provides a mechanism by which modules requiring OpenCart core modifications can be installed without damaging the integrity of your core system for upgrades. vQmod keeps a list of filenames and changes required, in the form of one XML file per extension. These changes are then created as the core files are used, and the resulting files are stored as cached copies which are executed instead of the original, core PHP or TPL file. Note: OpenCart 2.0 already include OCmod in default. OCmod is similar to vQmod. The vQmod download and instructions for installation can be found here: &lt;a href=&#34;https://github.com/vqmod/vqmod/releases&#34; title=&#34;vqmod&#34;&gt;vQmod download&lt;/a&gt; &lt;a href=&#34;https://github.com/vqmod/vqmod/wiki&#34; title=&#34;vqmod&#34;&gt;vQmod WiKi&lt;/a&gt; Here is the easy instruction:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt; Download the appropriate vQmod zip file provided in the link.&lt;/li&gt;
+&lt;li&gt; Uncompress the zip file and FTP the vQmod folder to your site&amp;#x2019;s root directory.&lt;/li&gt;
+&lt;li&gt; Set the permissions to 755 or 777 to sure vqmod/vqcache folders writable.&lt;/li&gt;
+&lt;li&gt; Enter your store&amp;#x2019;s location in your browser, then &amp;#x201C;vqmod/install&amp;#x201D; afterwards. If your store is located at &amp;#x201C;&lt;a href=&#34;http://www.mystore.com&amp;quot;/&#34;&gt;www.mystore.com&amp;quot;&lt;/a&gt;, the vQmod install page would be located at &amp;#x201C;&lt;a href=&#34;http://www.mystore.com/vqmod/install&amp;quot;&#34;&gt;www.mystore.com/vqmod/install&amp;quot;&lt;/a&gt;. The following text will appear on the page if it was installed correctly: &amp;#x201C;VQMOD HAS BEEN INSTALLED ON YOUR SYSTEM!&amp;#x201D;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Unlike the install folder after installing OpenCart, &lt;strong&gt;do not delete vQmod&amp;#x2019;s install folder after the vQmod installation!&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Load your homepage to see if it appears and works correctly after the install.&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/opencart-manual-installation-guide/</guid>
+            <title>Opencart Manual Installation Guide</title>
+            <link>https://www.qualityology.com/tech/opencart-manual-installation-guide/</link>
+            <category>tech</category>
+            <pubDate>Wed, 23 Jul 2014 23:56:34 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;OpenCart is a free, open-source shopping cart. You can install OpenCart using cPanel by just one click, which will be much easier than manually installing it. However, in this tutorial, we will show you how to manually install OpenCart into your server. Before anything else, make sure your hosting meet the requirements listed below.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;  PHP (at least 5.2)&lt;/li&gt;
+&lt;li&gt;PHP Settings:&lt;ul&gt;
+&lt;li&gt;  Register Globals: Off&lt;/li&gt;
+&lt;li&gt;  Magic Quotes GPC: Off&lt;/li&gt;
+&lt;li&gt;  File Uploads: On&lt;/li&gt;
+&lt;li&gt;  Session Auto Start: Off&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Required PHP extensions:&lt;ul&gt;
+&lt;li&gt;  MySQL&lt;/li&gt;
+&lt;li&gt;  GD&lt;/li&gt;
+&lt;li&gt;  cURL&lt;/li&gt;
+&lt;li&gt;  mCrypt&lt;/li&gt;
+&lt;li&gt;  ZIP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;  Database (MySQLi suggested)&lt;/li&gt;
+&lt;li&gt;  Curl enabled&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;Step-1-Download-OpenCart-from-the-OpenCart-Downloads-Page&#34;&gt;&lt;a href=&#34;#Step-1-Download-OpenCart-from-the-OpenCart-Downloads-Page&#34; class=&#34;headerlink&#34; title=&#34;Step 1. Download OpenCart from the OpenCart Downloads Page&#34;&gt;&lt;/a&gt;Step 1. Download OpenCart from the &lt;a href=&#34;http://www.opencart.com/index.php?route=download/download&#34;&gt;OpenCart Downloads Page&lt;/a&gt;&lt;/h2&gt;&lt;h2 id=&#34;Step-2-Create-a-MySQL-database-and-assign-a-user-to-it&#34;&gt;&lt;a href=&#34;#Step-2-Create-a-MySQL-database-and-assign-a-user-to-it&#34; class=&#34;headerlink&#34; title=&#34;Step 2. Create a MySQL database and assign a user to it.&#34;&gt;&lt;/a&gt;Step 2. Create a MySQL database and assign a user to it.&lt;/h2&gt;&lt;p&gt;Assign the user ALL Privileges. The database information is needed for the installation process.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;OpenCart does not allow special characters in the database password field, be sure to NOT use any special characters in the password, only letters and numbers.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;Step-3-Extract-the-&amp;#x201C;opencart-x-x-x-x&amp;#x201D;-zipped-file&#34;&gt;&lt;a href=&#34;#Step-3-Extract-the-&amp;#x201C;opencart-x-x-x-x&amp;#x201D;-zipped-file&#34; class=&#34;headerlink&#34; title=&#34;Step 3. Extract the &amp;#x201C;opencart-x.x.x.x&amp;#x201D; zipped file.&#34;&gt;&lt;/a&gt;Step 3. Extract the &amp;#x201C;opencart-x.x.x.x&amp;#x201D; zipped file.&lt;/h2&gt;&lt;p&gt;Use your FTP or SFTP client to upload the extracted folders and files in the folder &amp;#x201C;upload&amp;#x201D; to your hosting. &lt;img src=&#34;/2014/07/opencart-install.png&#34; alt=&#34;Opencart Install&#34;&gt; &lt;strong&gt;Make sure you have set the correct permissions on the opencart directories.&lt;/strong&gt; For example, for Apache server, default user/group names are &amp;#x201C;apache&amp;#x201D;. To set the user/group permission in Linux, execute the command (&lt;em&gt;Change the Path to match the location of the your store&lt;/em&gt;):&lt;/p&gt;
+&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;chown apache:apache /var/www/store-path/* -R&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;Step-4-Visit-the-store&amp;#x2019;s-home-page-use-your-browser&#34;&gt;&lt;a href=&#34;#Step-4-Visit-the-store&amp;#x2019;s-home-page-use-your-browser&#34; class=&#34;headerlink&#34; title=&#34;Step 4. Visit the store&amp;#x2019;s home page use your browser.&#34;&gt;&lt;/a&gt;Step 4. Visit the store&amp;#x2019;s home page use your browser.&lt;/h2&gt;&lt;h2 id=&#34;Step-5-You-are-almost-done-Follow-the-onscreen-instructions&#34;&gt;&lt;a href=&#34;#Step-5-You-are-almost-done-Follow-the-onscreen-instructions&#34; class=&#34;headerlink&#34; title=&#34;Step 5. You are almost done! Follow the onscreen instructions.&#34;&gt;&lt;/a&gt;Step 5. You are almost done! Follow the onscreen instructions.&lt;/h2&gt;&lt;p&gt;You&amp;#x2019;ll need to fill in the database name, database username, and password. You&amp;#x2019;ll also be setting up an adminstrator username and password as well. &lt;/p&gt;
+&lt;h2 id=&#34;Step-6-Delete-the-install-directory-after-the-installation-is-complete-for-security-purposes&#34;&gt;&lt;a href=&#34;#Step-6-Delete-the-install-directory-after-the-installation-is-complete-for-security-purposes&#34; class=&#34;headerlink&#34; title=&#34;Step 6. Delete the install directory after the installation is complete for security purposes&#34;&gt;&lt;/a&gt;Step 6. Delete the install directory after the installation is complete for security purposes&lt;/h2&gt; ]]></description>
+        </item>
+    </channel>
+</rss>

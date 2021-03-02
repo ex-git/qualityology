@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.qualityology.com</id>
+    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;beini&#34; tag</title>
+    <link href="https://www.qualityology.com" />
+    <updated>2014-07-15T02:44:34.000Z</updated>
+    <category term="tech" />
+    <category term="lifestyle" />
+    <entry>
+        <id>https://www.qualityology.com/tech/create-a-bootable-latest-final-version-beini-1-2-5-usb/</id>
+        <title>Create a bootable latest &amp; final version Beini 1.2.5 USB</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/create-a-bootable-latest-final-version-beini-1-2-5-usb/"/>
+        <content type="html">&lt;p&gt;Beini is a small Linux distribution that packs a punch. it is based on Tiny Core Linux. It offers an array of WiFi security audit tools. Beini is easy for newbie to used compare to BackTrack, which is the popular system used to crack WEP/WPA. Beini include packages: Minidwep, Aircrack, Inflator, Reaver, Feeding Bottle, Wifite&lt;/p&gt;
+&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;
+&lt;p&gt;*This guide is for your own educational purpose. Hacking or Cracking other people wireless network is illegal and against law. We advice you do not attempt to attack wireless network other than your own.&lt;/p&gt;
+&lt;h2 id=&#34;1-Download-the-latest-Beini-system&#34;&gt;&lt;a href=&#34;#1-Download-the-latest-Beini-system&#34; class=&#34;headerlink&#34; title=&#34;1. Download the latest Beini system.&#34;&gt;&lt;/a&gt;1. Download the latest Beini system.&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;http://sourceforge.net/projects/xiaopanos/files/Beini/Beini%201.2.5.iso/download&#34; title=&#34;Beini 1.2.5 Final Version&#34;&gt;Beini-1.2.5.iso&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2-Download-UNetbootin&#34;&gt;&lt;a href=&#34;#2-Download-UNetbootin&#34; class=&#34;headerlink&#34; title=&#34;2. Download UNetbootin&#34;&gt;&lt;/a&gt;2. Download UNetbootin&lt;/h2&gt;&lt;p&gt;. (&lt;strong&gt;Note: Do NOT use the latest version, here we use 377&lt;/strong&gt;) &lt;a href=&#34;https://sourceforge.net/projects/unetbootin/files/UNetbootin/377/unetbootin-windows-377.exe/download&#34; title=&#34;UNetbootin Download&#34;&gt;UNetbootin 377&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;3-Format-your-USB-as-FAT32&#34;&gt;&lt;a href=&#34;#3-Format-your-USB-as-FAT32&#34; class=&#34;headerlink&#34; title=&#34;3. Format your USB as FAT32.&#34;&gt;&lt;/a&gt;3. Format your USB as FAT32.&lt;/h2&gt;&lt;h2 id=&#34;4-Create-a-new-folder-on-your-desktop-extract-the-ISO-file-that-you-downloaded-in-step-1-into-that-folder&#34;&gt;&lt;a href=&#34;#4-Create-a-new-folder-on-your-desktop-extract-the-ISO-file-that-you-downloaded-in-step-1-into-that-folder&#34; class=&#34;headerlink&#34; title=&#34;4. Create a new folder on your desktop, extract the ISO file that you downloaded in step 1 into that folder.&#34;&gt;&lt;/a&gt;4. Create a new folder on your desktop, extract the ISO file that you downloaded in step 1 into that folder.&lt;/h2&gt;&lt;h2 id=&#34;5-Open-UNetbootin-and-setup-the-following&#34;&gt;&lt;a href=&#34;#5-Open-UNetbootin-and-setup-the-following&#34; class=&#34;headerlink&#34; title=&#34;5. Open UNetbootin and setup the following&#34;&gt;&lt;/a&gt;5. Open UNetbootin and setup the following&lt;/h2&gt;&lt;p&gt;(~ means the full Path of a Folder): &lt;strong&gt;Kernel&lt;/strong&gt;: ~\boot\bzImage &lt;strong&gt;Initrd&lt;/strong&gt;: ~\boot\tinycore.gz &lt;strong&gt;Options&lt;/strong&gt;: ~\boot\isolinux\isolinux.cfg (you can change these options manually, for example: change the language (e.g. en.utf8). &lt;strong&gt;Note:&lt;/strong&gt; If the USB does not load you should add the following kernel boot parameter waitusb=8 to potentially fix the problem. Note: Make sure you select the correct USB drive.&lt;/p&gt;
+&lt;h2 id=&#34;6-After-you-see-&amp;#x201C;Installation-Complete-Reboot-Current-&amp;#x201D;-you-can-reboot-the-computer-and-select-boot-from-your-USB-from-BIOS&#34;&gt;&lt;a href=&#34;#6-After-you-see-&amp;#x201C;Installation-Complete-Reboot-Current-&amp;#x201D;-you-can-reboot-the-computer-and-select-boot-from-your-USB-from-BIOS&#34; class=&#34;headerlink&#34; title=&#34;6. After you see &amp;#x201C;Installation Complete, Reboot (Current)&amp;#x201D;, you can reboot the computer and select boot from your USB from BIOS.&#34;&gt;&lt;/a&gt;6. After you see &amp;#x201C;Installation Complete, Reboot (Current)&amp;#x201D;, you can reboot the computer and select boot from your USB from BIOS.&lt;/h2&gt;</content>
+        <category term="tech" />
+        <updated>2014-07-15T02:44:34.000Z</updated>
+    </entry>
+</feed>

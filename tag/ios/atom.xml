@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;ios&#34; tag</title>
+        <link>https://www.qualityology.com</link>
+        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
+        <language>en</language>
+        <pubDate>Sat, 16 May 2015 00:09:41 -0700</pubDate>
+        <lastBuildDate>Sat, 16 May 2015 00:09:41 -0700</lastBuildDate>
+        <category term="tech" />
+        <category term="lifestyle" />
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/try-our-free-new-ios-public-beta-update-without-an-invite/</guid>
+            <title>Try out Free New iOS Public Beta Update Without an Invite</title>
+            <link>https://www.qualityology.com/tech/try-our-free-new-ios-public-beta-update-without-an-invite/</link>
+            <category>tech</category>
+            <pubDate>Sat, 16 May 2015 00:09:41 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Apple has launched the iOS public beta program which allowing anyone in a trial scheme to use the new iOS. This DOES NOT require your iOS device to be jailbroken and you DO NOT need to add your iOS device&amp;#x2019;s UDID to an Apple Developer Account. Install Beta version iOS DOES NOT void the warranty, but apps and services may not work the same because it is BETA! The benefits of using Beta version iOS are you are getting latest iOS, bug fix, and improvements. You can sign up for Apple&amp;#x2019;s Beta Software program by visiting &lt;a href=&#34;https://appleseed.apple.com/sp/betaprogram/&#34;&gt;Appleseed Beta testing site&lt;/a&gt;. However, you may not allow to use the iOS beta because it is invite based. You will have to wait to be selected. Once you are invited, you will have to option to download a &lt;strong&gt;iOS Beta Software Profile&lt;/strong&gt;. After you install the profile into your iOS device, you will see the new version update available. &lt;img src=&#34;/2015/05/ios_update.png&#34; alt=&#34;Ios Update&#34;&gt; If you don&amp;#x2019;t want to signup for beta program, don&amp;#x2019;t want the long wait for the invite, want a simple step to get beta iOS, following the step below.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;  First, use the iOS device that you want to install iOS Public Beta to visit this page (important!).&lt;/li&gt;
+&lt;li&gt;  Second, download and install the Mobile Config profile on your iOS Device using Safari. (This profile is from Apple Beta program and it is signed by Apple.)&lt;/li&gt;
+&lt;li&gt;  Third, once the profile is installed restart your iOS device.&lt;/li&gt;
+&lt;li&gt;  Lastly, go to Settings &amp;gt; General &amp;gt; Software Updates. You should now see the iOS Update available.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What the profile mainly do is changes the URL of the XML file your device downloads when it checks for updates. The profile will automatically remove itself on April 1, 2016 at 07:15:00 GMT. You will get all available beta before then (including iOS 9). You can also remove the profile yourself by going to Settings &amp;gt; General &amp;gt; Profile. Oct 15, 2017: Removed iOS Mobile Config Profile. You can download from Apple for free without invitation now.&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

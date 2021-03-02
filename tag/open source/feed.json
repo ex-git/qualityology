@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Qualityology - Let's get the most out of life! • All posts by \"open source\" tag",
+    "description": "To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.",
+    "home_page_url": "https://www.qualityology.com",
+    "items": [
+        {
+            "id": "https://www.qualityology.com/tech/open-source-free-automatic-periodic-screen-capture-tool/",
+            "url": "https://www.qualityology.com/tech/open-source-free-automatic-periodic-screen-capture-tool/",
+            "title": "Open Source FREE Automatic Periodic Screen Capture Tool",
+            "date_published": "2014-09-21T07:28:35.000Z",
+            "content_html": "<p>AutoScreenCap is a lightweight Open Source screen capture tool. It is a small software does like what its name describes: auto screen capture. It allows you to make screen shots periodically and automatically save to the folder in JPG format. It is fully customizable, the capture interval can be set from 1 second to 99999 and the JPG quality also adjustable. It can be set to auto hide the main windows and auto start screenshot capture for special purposes. <img src=\"/2014/09/autoscreencap.jpg\" alt=\"Autoscreencap\"> </p>\n<p>Although the last update of this tool is back in 2012, this software still work fine in the latest Windows 8.1 64 bit. <a href=\"http://sourceforge.net/projects/autoscreencap/files/latest/download?source=files\" title=\"autoscreencap download\">Click here to download the latest version AutoScreenCap</a> It does not require installation. So basically extract the zip file to a folder and run AutoScreenCap.exe</p>\n",
+            "tags": [
+                "Open Source"
+            ]
+        }
+    ]
+}

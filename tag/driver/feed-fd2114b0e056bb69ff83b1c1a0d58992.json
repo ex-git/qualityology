@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Qualityology - Let's get the most out of life! • All posts by \"driver\" tag",
+    "description": "To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.",
+    "home_page_url": "https://www.qualityology.com",
+    "items": [
+        {
+            "id": "https://www.qualityology.com/tech/ricoh-sp-c250dn-c252dn-ppd-cups-driver-for-linux-macos/",
+            "url": "https://www.qualityology.com/tech/ricoh-sp-c250dn-c252dn-ppd-cups-driver-for-linux-macos/",
+            "title": "Ricoh SP C250DN C252DN PPD CUPS driver for LINUX and macOS",
+            "date_published": "2017-10-04T21:25:43.000Z",
+            "content_html": "<p>C250DN or C252DN can be driven by setting PCL6 and use CUPS+Gutenprint driver. However, if we use Generic driver, it will not print out color. </p>\n<p>Ricoh does not have dedicate PPD driver for Linux platforms like Ubuntu or Debian for SP C250DN and C252DN color printers. However, Ricoh does have driver for MacOS which in fact is a PPD driver. It comes with a PPD installer for MacOS and it will copy to the PPD to MacOS&#x2019;s CUPS driver folder. We can use this PPD for Linux CUPS setup. With the driver, we can also make Air Print server to make this printer even more valuable if you have Apple devices all around your house. </p>\n<p><a href=\"https://www.qualityology.com/2016/06/RICOH-C250DN-C252DN.zip\">Download RICOH C250DN C252DN PPD Driver</a> </p>\n<p>Both PPDs has been tested in macOS high sierra, and also in AirPrint setup using Debian and CUPS, print, color and alignment all work perfectly.</p>\n<p> <img src=\"/2016/06/C250DN-CUPS-6bd68357caa511d0179d035c83791079.png\" alt=\"C250dn Cups\"></p>\n",
+            "tags": [
+                "driver"
+            ]
+        }
+    ]
+}
