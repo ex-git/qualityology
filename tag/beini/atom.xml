@@ -16,7 +16,7 @@
             <category>tech</category>
             <pubDate>Mon, 14 Jul 2014 19:44:34 -0700</pubDate>
             <description><![CDATA[ &lt;p&gt;Beini is a small Linux distribution that packs a punch. it is based on Tiny Core Linux. It offers an array of WiFi security audit tools. Beini is easy for newbie to used compare to BackTrack, which is the popular system used to crack WEP/WPA. Beini include packages: Minidwep, Aircrack, Inflator, Reaver, Feeding Bottle, Wifite&lt;/p&gt;
-&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;p&gt;*This guide is for your own educational purpose. Hacking or Cracking other people wireless network is illegal and against law. We advice you do not attempt to attack wireless network other than your own.&lt;/p&gt;
 &lt;h2 id=&#34;1-Download-the-latest-Beini-system&#34;&gt;&lt;a href=&#34;#1-Download-the-latest-Beini-system&#34; class=&#34;headerlink&#34; title=&#34;1. Download the latest Beini system.&#34;&gt;&lt;/a&gt;1. Download the latest Beini system.&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;http://sourceforge.net/projects/xiaopanos/files/Beini/Beini%201.2.5.iso/download&#34; title=&#34;Beini 1.2.5 Final Version&#34;&gt;Beini-1.2.5.iso&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;2-Download-UNetbootin&#34;&gt;&lt;a href=&#34;#2-Download-UNetbootin&#34; class=&#34;headerlink&#34; title=&#34;2. Download UNetbootin&#34;&gt;&lt;/a&gt;2. Download UNetbootin&lt;/h2&gt;&lt;p&gt;. (&lt;strong&gt;Note: Do NOT use the latest version, here we use 377&lt;/strong&gt;) &lt;a href=&#34;https://sourceforge.net/projects/unetbootin/files/UNetbootin/377/unetbootin-windows-377.exe/download&#34; title=&#34;UNetbootin Download&#34;&gt;UNetbootin 377&lt;/a&gt;&lt;/p&gt;

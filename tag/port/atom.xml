@@ -19,8 +19,10 @@
 &lt;p&gt;To make sendmail listen on a different port: &lt;/p&gt;
 &lt;h2 id=&#34;1-edit-etc-mail-sendmail-mc&#34;&gt;&lt;a href=&#34;#1-edit-etc-mail-sendmail-mc&#34; class=&#34;headerlink&#34; title=&#34;1. edit /etc/mail/sendmail.mc&#34;&gt;&lt;/a&gt;1. edit /etc/mail/sendmail.mc&lt;/h2&gt;&lt;p&gt;Change Port=&lt;portnumber&gt; in the line DAEMON_OPTIONS. &lt;/portnumber&gt;&lt;/p&gt;
 &lt;h2 id=&#34;2-Rebuild-the-sendmail-cf&#34;&gt;&lt;a href=&#34;#2-Rebuild-the-sendmail-cf&#34; class=&#34;headerlink&#34; title=&#34;2. Rebuild the sendmail.cf.&#34;&gt;&lt;/a&gt;2. Rebuild the sendmail.cf.&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;m4 /etc/mail/sendmail.mc &amp;gt; /etc/mail/sendmail.cf&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
 &lt;h2 id=&#34;3-Restart-sendmail&#34;&gt;&lt;a href=&#34;#3-Restart-sendmail&#34; class=&#34;headerlink&#34; title=&#34;3. Restart sendmail.&#34;&gt;&lt;/a&gt;3. Restart sendmail.&lt;/h2&gt;&lt;p&gt; For Debian:&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;/etc/rc.d/init.d/sendmail restart&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
 &lt;p&gt;For CentOS:&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;service sendmail restart&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
