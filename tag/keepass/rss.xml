@@ -7,8 +7,8 @@
         <language>en</language>
         <pubDate>Mon, 25 Apr 2016 22:57:37 -0700</pubDate>
         <lastBuildDate>Mon, 25 Apr 2016 22:57:37 -0700</lastBuildDate>
-        <category>WordPress</category>
         <category>MySQL</category>
+        <category>WordPress</category>
         <category>apps</category>
         <category>OpenWrt</category>
         <category>Ads</category>
@@ -25,12 +25,12 @@
         <category>Amazon</category>
         <category>React</category>
         <category>API</category>
-        <category>DOS</category>
         <category>Beini</category>
+        <category>DOS</category>
         <category>PDF</category>
+        <category>UEFI</category>
         <category>Mikrotik</category>
         <category>PCC</category>
-        <category>UEFI</category>
         <category>Java</category>
         <category>DNS</category>
         <category>Raspberry-Pi</category>
@@ -40,8 +40,8 @@
         <category>Google Voice</category>
         <category>ram</category>
         <category>CentOS</category>
-        <category>Docker</category>
         <category>firmware</category>
+        <category>Docker</category>
         <category>entware</category>
         <category>LAMP</category>
         <category>Opencart</category>
