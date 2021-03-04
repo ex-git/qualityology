@@ -1,16 +1,71 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.qualityology.com</id>
-    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;centos&#34; tag</title>
-    <link href="https://www.qualityology.com" />
-    <updated>2014-08-31T03:22:09.000Z</updated>
-    <category term="tech" />
-    <category term="lifestyle" />
-    <entry>
-        <id>https://www.qualityology.com/tech/initial-server-setup-with-centos-5-x-6-x-7-x//</id>
-        <title>Initial Server Setup with CentOS 5.x 6.x 7.x</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/initial-server-setup-with-centos-5-x-6-x-7-x/"/>
-        <content type="html">&lt;p&gt;This is a quick tutorial for building a CentOS based VPS/Dedicated server. CentOS server doesn&amp;#x2019;t include GUI in default so the only way to access server is using Secure Shell (SSH). The following steps will be completed by using SSH. &lt;/p&gt;
+<rss version="2.0">
+    <channel>
+        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;centos&#34; tag</title>
+        <link>https://www.qualityology.com</link>
+        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
+        <language>en</language>
+        <pubDate>Sat, 30 Aug 2014 20:22:09 -0700</pubDate>
+        <lastBuildDate>Sat, 30 Aug 2014 20:22:09 -0700</lastBuildDate>
+        <category>WordPress</category>
+        <category>MySQL</category>
+        <category>apps</category>
+        <category>OpenWrt</category>
+        <category>Ads</category>
+        <category>printers</category>
+        <category>Apache</category>
+        <category>MacOS</category>
+        <category>baby</category>
+        <category>Nginx</category>
+        <category>Server</category>
+        <category>pfsense</category>
+        <category>timezone</category>
+        <category>Windows</category>
+        <category>port</category>
+        <category>Amazon</category>
+        <category>React</category>
+        <category>API</category>
+        <category>DOS</category>
+        <category>PDF</category>
+        <category>UEFI</category>
+        <category>Beini</category>
+        <category>Mikrotik</category>
+        <category>PCC</category>
+        <category>Java</category>
+        <category>DNS</category>
+        <category>Raspberry-Pi</category>
+        <category>SSL</category>
+        <category>Office</category>
+        <category>Wireless</category>
+        <category>Google Voice</category>
+        <category>ram</category>
+        <category>CentOS</category>
+        <category>Docker</category>
+        <category>firmware</category>
+        <category>entware</category>
+        <category>LAMP</category>
+        <category>Opencart</category>
+        <category>iPhone</category>
+        <category>Linksys</category>
+        <category>Safari</category>
+        <category>keepass</category>
+        <category>iptables</category>
+        <category>Open Source</category>
+        <category>patch</category>
+        <category>DISKPART</category>
+        <category>MAC</category>
+        <category>hosts</category>
+        <category>driver</category>
+        <category>iOS</category>
+        <category>Google Drive</category>
+        <category>SEO</category>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/initial-server-setup-with-centos-5-x-6-x-7-x/</guid>
+            <title>Initial Server Setup with CentOS 5.x 6.x 7.x</title>
+            <link>https://www.qualityology.com/tech/initial-server-setup-with-centos-5-x-6-x-7-x/</link>
+            <category>CentOS</category>
+            <pubDate>Sat, 30 Aug 2014 20:22:09 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;This is a quick tutorial for building a CentOS based VPS/Dedicated server. CentOS server doesn&amp;#x2019;t include GUI in default so the only way to access server is using Secure Shell (SSH). The following steps will be completed by using SSH. &lt;/p&gt;
 &lt;h2 id=&#34;Step-One-Login-to-your-server-as-root&#34;&gt;&lt;a href=&#34;#Step-One-Login-to-your-server-as-root&#34; class=&#34;headerlink&#34; title=&#34;Step One: Login to your server as root.&#34;&gt;&lt;/a&gt;Step One: Login to your server as root.&lt;/h2&gt;&lt;p&gt;Have your server&amp;#x2019;s IP address and root password ready. Login as the main user: root. We use &lt;a href=&#34;http://www.putty.org/&#34; title=&#34;Putty&#34;&gt;PuTTY&lt;/a&gt; in Windows environment here to demonstrate how to use SSH to connect to your CentOS server. Open Putty and fill in the IP address, make sure the &amp;#x201C;connection type&amp;#x201D; is &amp;#x201C;SSH&amp;#x201D;. Leave port 22 as default and click Open. &lt;img src=&#34;/2014/08/putty-ssh.png&#34; alt=&#34;Putty Ssh&#34;&gt; For other platforms like Mac OS X which has a built-in SSH client call Terminal. Use the following command (replace the boldfaced numbers with your own IP address):&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;ssh root@192.168.1.1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
@@ -57,16 +112,15 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;service sshd restart&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;And that&amp;#x2019;s it. Your SSH port number will change and you can no longer directly access root via SSH.&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2014-08-31T03:22:09.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/installing-epel-and-remi-repository-on-centos-5-x-6-x-or-7-x//</id>
-        <title>Installing EPEL and REMI repository on CentOS 5.x, 6.x, or 7.x</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/installing-epel-and-remi-repository-on-centos-5-x-6-x-or-7-x/"/>
-        <content type="html">&lt;p&gt;How to install EPEL and REMI repository on CentOS 5.x, 6.x, or 7.x? The following article will describe how to configure a CentOS 5 based, CentOS 6 based, or CentOS 7 based system to use Fedora Epel repos and third party remi package repos. These package repositories are not officially supported by CentOS, but they provide much more current versions of popular applications like PHP or MYSQL. Like the PHP that the official repositories provide is 5.3.3, the PHP from REMI repository is much more current versions PHP 5.5 or 5.6. &lt;strong&gt;Install the extra repositories:&lt;/strong&gt; The first step requires downloading some RPM files that contain the additional YUM repository definitions. &lt;strong&gt;The example below point to the 64-bit versions that work with 64bit VPS instances.&lt;/strong&gt; &lt;strong&gt;CentOS 5.x 64-bit&lt;/strong&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/installing-epel-and-remi-repository-on-centos-5-x-6-x-or-7-x/</guid>
+            <title>Installing EPEL and REMI repository on CentOS 5.x, 6.x, or 7.x</title>
+            <link>https://www.qualityology.com/tech/installing-epel-and-remi-repository-on-centos-5-x-6-x-or-7-x/</link>
+            <category>CentOS</category>
+            <pubDate>Sat, 26 Jul 2014 17:06:40 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;How to install EPEL and REMI repository on CentOS 5.x, 6.x, or 7.x? The following article will describe how to configure a CentOS 5 based, CentOS 6 based, or CentOS 7 based system to use Fedora Epel repos and third party remi package repos. These package repositories are not officially supported by CentOS, but they provide much more current versions of popular applications like PHP or MYSQL. Like the PHP that the official repositories provide is 5.3.3, the PHP from REMI repository is much more current versions PHP 5.5 or 5.6. &lt;strong&gt;Install the extra repositories:&lt;/strong&gt; The first step requires downloading some RPM files that contain the additional YUM repository definitions. &lt;strong&gt;The example below point to the 64-bit versions that work with 64bit VPS instances.&lt;/strong&gt; &lt;strong&gt;CentOS 5.x 64-bit&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wget http://dl.fedoraproject.org/pub/epel/5/x86_64/epel-release-5-4.noarch.rpm&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;wget http://rpms.famillecollet.com/enterprise/remi-release-5.rpm&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo rpm -Uvh remi-release-5*.rpm epel-release-5*.rpm&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;CentOS 6.x 64-bit&lt;/strong&gt;&lt;/p&gt;
@@ -97,9 +151,7 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;[remi-php55]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;name=Les RPM de remi de PHP 5.5 pour Enterprise Linux 6 - $basearch&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;#baseurl=http://rpms.famillecollet.com/enterprise/6/php55/$basearch/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;mirrorlist=http://rpms.famillecollet.com/enterprise/6/php55/mirror&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# WARNING: If you enable this repository, you must also enable &amp;quot;remi&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;enabled=1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;gpgcheck=1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;Enabling [remi-php56] PHP 5.6 update is Not recommend before the stable version come out&lt;/strong&gt; You will now have a larger array of yum repositories from EPEL and REMI. &lt;strong&gt;Next is update your CentOS&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;yum update&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <category term="tech" />
-        <updated>2014-07-27T00:06:40.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-</feed>
+&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;yum update&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
+    </channel>
+</rss>

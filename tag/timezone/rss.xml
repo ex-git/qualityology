@@ -1,16 +1,71 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.qualityology.com</id>
-    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;timezone&#34; tag</title>
-    <link href="https://www.qualityology.com" />
-    <updated>2014-07-08T07:38:42.000Z</updated>
-    <category term="tech" />
-    <category term="lifestyle" />
-    <entry>
-        <id>https://www.qualityology.com/tech/changing-default-date-and-timezones-on-a-linux-server//</id>
-        <title>Changing default date and timezones on a Linux server</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/changing-default-date-and-timezones-on-a-linux-server/"/>
-        <content type="html">&lt;p&gt;Assume that your current timezone is UTC. You would like to change your server&amp;#x2019;s timezone to Pacific Time. How do I change the timezone on my Linux distribution? On some distributions (for example, CentOS), the timezone is controlled by /etc/localtime file. The /etc/localtime file is a link to or copy of a file containing information about your time zone.&lt;/p&gt;
+<rss version="2.0">
+    <channel>
+        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;timezone&#34; tag</title>
+        <link>https://www.qualityology.com</link>
+        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
+        <language>en</language>
+        <pubDate>Tue, 08 Jul 2014 00:38:42 -0700</pubDate>
+        <lastBuildDate>Tue, 08 Jul 2014 00:38:42 -0700</lastBuildDate>
+        <category>WordPress</category>
+        <category>MySQL</category>
+        <category>apps</category>
+        <category>OpenWrt</category>
+        <category>Ads</category>
+        <category>printers</category>
+        <category>Apache</category>
+        <category>MacOS</category>
+        <category>baby</category>
+        <category>Nginx</category>
+        <category>Server</category>
+        <category>pfsense</category>
+        <category>timezone</category>
+        <category>Windows</category>
+        <category>port</category>
+        <category>Amazon</category>
+        <category>React</category>
+        <category>API</category>
+        <category>DOS</category>
+        <category>PDF</category>
+        <category>UEFI</category>
+        <category>Beini</category>
+        <category>Mikrotik</category>
+        <category>PCC</category>
+        <category>Java</category>
+        <category>DNS</category>
+        <category>Raspberry-Pi</category>
+        <category>SSL</category>
+        <category>Office</category>
+        <category>Wireless</category>
+        <category>Google Voice</category>
+        <category>ram</category>
+        <category>CentOS</category>
+        <category>Docker</category>
+        <category>firmware</category>
+        <category>entware</category>
+        <category>LAMP</category>
+        <category>Opencart</category>
+        <category>iPhone</category>
+        <category>Linksys</category>
+        <category>Safari</category>
+        <category>keepass</category>
+        <category>iptables</category>
+        <category>Open Source</category>
+        <category>patch</category>
+        <category>DISKPART</category>
+        <category>MAC</category>
+        <category>hosts</category>
+        <category>driver</category>
+        <category>iOS</category>
+        <category>Google Drive</category>
+        <category>SEO</category>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/changing-default-date-and-timezones-on-a-linux-server/</guid>
+            <title>Changing default date and timezones on a Linux server</title>
+            <link>https://www.qualityology.com/tech/changing-default-date-and-timezones-on-a-linux-server/</link>
+            <category>timezone</category>
+            <pubDate>Tue, 08 Jul 2014 00:38:42 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Assume that your current timezone is UTC. You would like to change your server&amp;#x2019;s timezone to Pacific Time. How do I change the timezone on my Linux distribution? On some distributions (for example, CentOS), the timezone is controlled by /etc/localtime file. The /etc/localtime file is a link to or copy of a file containing information about your time zone.&lt;/p&gt;
 &lt;h2 id=&#34;How-to-get-the-current-date-and-time-in-the-terminal&#34;&gt;&lt;a href=&#34;#How-to-get-the-current-date-and-time-in-the-terminal&#34; class=&#34;headerlink&#34; title=&#34;How to get the current date and time in the terminal?&#34;&gt;&lt;/a&gt;How to get the current date and time in the terminal?&lt;/h2&gt;&lt;p&gt;You need to use the following syntax to print current date and time on screen:&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;date&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
@@ -42,9 +97,7 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;America/Los_Angeles&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;set the timezone from the terminal using the TZ variable.&lt;/p&gt;
-&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;export TZ=America/Los_Angeles&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <category term="tech" />
-        <updated>2014-07-08T07:38:42.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-</feed>
+&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;export TZ=America/Los_Angeles&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
+    </channel>
+</rss>

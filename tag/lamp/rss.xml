@@ -1,16 +1,71 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.qualityology.com</id>
-    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;lamp&#34; tag</title>
-    <link href="https://www.qualityology.com" />
-    <updated>2017-09-08T18:12:47.000Z</updated>
-    <category term="tech" />
-    <category term="lifestyle" />
-    <entry>
-        <id>https://www.qualityology.com/tech/install-linux-apache-mysql-php-phpmyadmin-centos-6-7//</id>
-        <title>Install LAMP (Linux Apache MySQL and PHP) phpMyAdmin on CentOS 6 7</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/install-linux-apache-mysql-php-phpmyadmin-centos-6-7/"/>
-        <content type="html">&lt;p&gt;LAMP represents a full featured stack of the most popular web server, database, web programming language known as Apache, MySQL and PHP. This article will cover the steps on how to install the LAMP on a CentOS 6 and CentOS 7. &lt;/p&gt;
+<rss version="2.0">
+    <channel>
+        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;lamp&#34; tag</title>
+        <link>https://www.qualityology.com</link>
+        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
+        <language>en</language>
+        <pubDate>Fri, 08 Sep 2017 11:12:47 -0700</pubDate>
+        <lastBuildDate>Fri, 08 Sep 2017 11:12:47 -0700</lastBuildDate>
+        <category>WordPress</category>
+        <category>MySQL</category>
+        <category>apps</category>
+        <category>OpenWrt</category>
+        <category>Ads</category>
+        <category>printers</category>
+        <category>Apache</category>
+        <category>MacOS</category>
+        <category>baby</category>
+        <category>Nginx</category>
+        <category>Server</category>
+        <category>pfsense</category>
+        <category>timezone</category>
+        <category>Windows</category>
+        <category>port</category>
+        <category>Amazon</category>
+        <category>React</category>
+        <category>API</category>
+        <category>DOS</category>
+        <category>PDF</category>
+        <category>UEFI</category>
+        <category>Beini</category>
+        <category>Mikrotik</category>
+        <category>PCC</category>
+        <category>Java</category>
+        <category>DNS</category>
+        <category>Raspberry-Pi</category>
+        <category>SSL</category>
+        <category>Office</category>
+        <category>Wireless</category>
+        <category>Google Voice</category>
+        <category>ram</category>
+        <category>CentOS</category>
+        <category>Docker</category>
+        <category>firmware</category>
+        <category>entware</category>
+        <category>LAMP</category>
+        <category>Opencart</category>
+        <category>iPhone</category>
+        <category>Linksys</category>
+        <category>Safari</category>
+        <category>keepass</category>
+        <category>iptables</category>
+        <category>Open Source</category>
+        <category>patch</category>
+        <category>DISKPART</category>
+        <category>MAC</category>
+        <category>hosts</category>
+        <category>driver</category>
+        <category>iOS</category>
+        <category>Google Drive</category>
+        <category>SEO</category>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/install-linux-apache-mysql-php-phpmyadmin-centos-6-7/</guid>
+            <title>Install LAMP (Linux Apache MySQL and PHP) phpMyAdmin on CentOS 6 7</title>
+            <link>https://www.qualityology.com/tech/install-linux-apache-mysql-php-phpmyadmin-centos-6-7/</link>
+            <category>LAMP</category>
+            <pubDate>Fri, 08 Sep 2017 11:12:47 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;LAMP represents a full featured stack of the most popular web server, database, web programming language known as Apache, MySQL and PHP. This article will cover the steps on how to install the LAMP on a CentOS 6 and CentOS 7. &lt;/p&gt;
 &lt;h2 id=&#34;Step-1-make-sure-your-system-is-up-to-date&#34;&gt;&lt;a href=&#34;#Step-1-make-sure-your-system-is-up-to-date&#34; class=&#34;headerlink&#34; title=&#34;Step 1, make sure your system is up to date.&#34;&gt;&lt;/a&gt;Step 1, make sure your system is up to date.&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;yum update -y&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h2 id=&#34;Step-2-install-Apache-and-add-Apache-to-your-system&amp;#x2019;s-startup&#34;&gt;&lt;a href=&#34;#Step-2-install-Apache-and-add-Apache-to-your-system&amp;#x2019;s-startup&#34; class=&#34;headerlink&#34; title=&#34;Step 2, install Apache and add Apache to your system&amp;#x2019;s startup.&#34;&gt;&lt;/a&gt;Step 2, install Apache and add Apache to your system&amp;#x2019;s startup.&lt;/h2&gt;&lt;p&gt;Apache is available as a package in the official Cent-OS repositories. The installation of Apache can be as easy as this.&lt;/p&gt;
@@ -49,9 +104,7 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wget -P /tmp http://prdownloads.sourceforge.net/phpmyadmin/phpMyAdmin-4.2.5-english.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;tar -zxf /tmp/phpMyAdmin*.tar.gz -C /var/www/html/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;mv /var/www/html/phpMyAdmin-4.2.5-english /var/www/html/dbAdmin&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cd /var/www/html/mysql&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cp config.sample.inc.php config.inc.php&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;Finish up by visiting your phpMyadmin: &lt;a href=&#34;http://yourdomain/mysql&#34;&gt;http://yourdomain/mysql&lt;/a&gt;&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2017-09-08T18:12:47.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>

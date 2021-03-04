@@ -1,16 +1,71 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.qualityology.com</id>
-    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;google drive&#34; tag</title>
-    <link href="https://www.qualityology.com" />
-    <updated>2014-08-01T05:02:21.000Z</updated>
-    <category term="tech" />
-    <category term="lifestyle" />
-    <entry>
-        <id>https://www.qualityology.com/tech/use-google-drive-as-your-free-websites-uptime-monitor//</id>
-        <title>Use Google Drive as Your Free Website&#39;s Uptime Monitor</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/use-google-drive-as-your-free-websites-uptime-monitor/"/>
-        <content type="html">&lt;p&gt;Most webmasters use &amp;#x201C;free&amp;#x201D; website monitoring services to track the downtime and uptime of their sites. These free service normally offer one domain monitoring service and often required to upgrade to the premium version for unlimited domain monitoring. Some feature like email or SMS alerts require premium version. Now, via Google Drive Spreadsheet, you can monitor the status your websites freely with out paying for any commercial services. You can track and monitor unlimited number of websites and get alerts from email or SMS. This Google Scripts based website monitoring tool is absolutely FREE as well. The setup only takes free minute. After you configured, Google Drive will monitor the uptime /downtime of your website(s) continuously and automatically. &lt;/p&gt;
+<rss version="2.0">
+    <channel>
+        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;google drive&#34; tag</title>
+        <link>https://www.qualityology.com</link>
+        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
+        <language>en</language>
+        <pubDate>Thu, 31 Jul 2014 22:02:21 -0700</pubDate>
+        <lastBuildDate>Thu, 31 Jul 2014 22:02:21 -0700</lastBuildDate>
+        <category>WordPress</category>
+        <category>MySQL</category>
+        <category>apps</category>
+        <category>OpenWrt</category>
+        <category>Ads</category>
+        <category>printers</category>
+        <category>Apache</category>
+        <category>MacOS</category>
+        <category>baby</category>
+        <category>Nginx</category>
+        <category>Server</category>
+        <category>pfsense</category>
+        <category>timezone</category>
+        <category>Windows</category>
+        <category>port</category>
+        <category>Amazon</category>
+        <category>React</category>
+        <category>API</category>
+        <category>DOS</category>
+        <category>PDF</category>
+        <category>UEFI</category>
+        <category>Beini</category>
+        <category>Mikrotik</category>
+        <category>PCC</category>
+        <category>Java</category>
+        <category>DNS</category>
+        <category>Raspberry-Pi</category>
+        <category>SSL</category>
+        <category>Office</category>
+        <category>Wireless</category>
+        <category>Google Voice</category>
+        <category>ram</category>
+        <category>CentOS</category>
+        <category>Docker</category>
+        <category>firmware</category>
+        <category>entware</category>
+        <category>LAMP</category>
+        <category>Opencart</category>
+        <category>iPhone</category>
+        <category>Linksys</category>
+        <category>Safari</category>
+        <category>keepass</category>
+        <category>iptables</category>
+        <category>Open Source</category>
+        <category>patch</category>
+        <category>DISKPART</category>
+        <category>MAC</category>
+        <category>hosts</category>
+        <category>driver</category>
+        <category>iOS</category>
+        <category>Google Drive</category>
+        <category>SEO</category>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/use-google-drive-as-your-free-websites-uptime-monitor/</guid>
+            <title>Use Google Drive as Your Free Website&#39;s Uptime Monitor</title>
+            <link>https://www.qualityology.com/tech/use-google-drive-as-your-free-websites-uptime-monitor/</link>
+            <category>Google Drive</category>
+            <pubDate>Thu, 31 Jul 2014 22:02:21 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Most webmasters use &amp;#x201C;free&amp;#x201D; website monitoring services to track the downtime and uptime of their sites. These free service normally offer one domain monitoring service and often required to upgrade to the premium version for unlimited domain monitoring. Some feature like email or SMS alerts require premium version. Now, via Google Drive Spreadsheet, you can monitor the status your websites freely with out paying for any commercial services. You can track and monitor unlimited number of websites and get alerts from email or SMS. This Google Scripts based website monitoring tool is absolutely FREE as well. The setup only takes free minute. After you configured, Google Drive will monitor the uptime /downtime of your website(s) continuously and automatically. &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;How is how to:&lt;/strong&gt; &lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Sign-in to your Google account and then &lt;a href=&#34;https://docs.google.com/spreadsheet/ccc?key=0AtZBCk9l0uZJdEozSFM2cFEyVmtjbUgtNEhjNGlheWc&amp;amp;newcopy=true&#34; title=&#34;Google Drive Website monitor&#34;&gt;click here&lt;/a&gt; to copy this Google sheet into your Google Drive. You can copy to as many Google account as you want. &lt;/li&gt;
@@ -32,9 +87,7 @@
 &lt;li&gt; Click Save.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Original Script from: &lt;a href=&#34;http://www.labnol.org/internet/website-uptime-monitor/21060/&#34; title=&#34;Digital Inspiration&#34;&gt;Digital Inspiration&lt;/a&gt;&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2014-08-01T05:02:21.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>

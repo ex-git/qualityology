@@ -1,16 +1,73 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.qualityology.com</id>
-    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;apache&#34; tag</title>
-    <link href="https://www.qualityology.com" />
-    <updated>2018-04-12T23:57:49.000Z</updated>
-    <category term="tech" />
-    <category term="lifestyle" />
-    <entry>
-        <id>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack//</id>
-        <title>Protect your WordPress from Automated Comment Spam and Brute Force Login Attack</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/"/>
-        <content type="html">&lt;p&gt;Is your WordPress flooded with spam comment or being attacked by brute force login attempt? Thinking about spam blocking plugin? There are a lot of plug in can help you stop spam comment. You will notice it put thousands spam comments into spam folder after a while. Those Anti-Spam did a great job stopping spam comment show up in our post. There is some drawbacks for that kind of plugin. First,spam comments will be processed and store in your database before it gets deleted manually or automatically. Second, plugin like Akismet Anti-Spam will add a java-script to your site. If your site has limited resources, these kind of activities will drag down your site&amp;#x2019;s performance. If you use captcha plugin, you will also interrupt user&amp;#x2019;s experience.&lt;/p&gt;
+<rss version="2.0">
+    <channel>
+        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;apache&#34; tag</title>
+        <link>https://www.qualityology.com</link>
+        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
+        <language>en</language>
+        <pubDate>Thu, 12 Apr 2018 16:57:49 -0700</pubDate>
+        <lastBuildDate>Thu, 12 Apr 2018 16:57:49 -0700</lastBuildDate>
+        <category>WordPress</category>
+        <category>MySQL</category>
+        <category>apps</category>
+        <category>OpenWrt</category>
+        <category>Ads</category>
+        <category>printers</category>
+        <category>Apache</category>
+        <category>MacOS</category>
+        <category>baby</category>
+        <category>Nginx</category>
+        <category>Server</category>
+        <category>pfsense</category>
+        <category>timezone</category>
+        <category>Windows</category>
+        <category>port</category>
+        <category>Amazon</category>
+        <category>React</category>
+        <category>API</category>
+        <category>DOS</category>
+        <category>PDF</category>
+        <category>UEFI</category>
+        <category>Beini</category>
+        <category>Mikrotik</category>
+        <category>PCC</category>
+        <category>Java</category>
+        <category>DNS</category>
+        <category>Raspberry-Pi</category>
+        <category>SSL</category>
+        <category>Office</category>
+        <category>Wireless</category>
+        <category>Google Voice</category>
+        <category>ram</category>
+        <category>CentOS</category>
+        <category>Docker</category>
+        <category>firmware</category>
+        <category>entware</category>
+        <category>LAMP</category>
+        <category>Opencart</category>
+        <category>iPhone</category>
+        <category>Linksys</category>
+        <category>Safari</category>
+        <category>keepass</category>
+        <category>iptables</category>
+        <category>Open Source</category>
+        <category>patch</category>
+        <category>DISKPART</category>
+        <category>MAC</category>
+        <category>hosts</category>
+        <category>driver</category>
+        <category>iOS</category>
+        <category>Google Drive</category>
+        <category>SEO</category>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</guid>
+            <title>Protect your WordPress from Automated Comment Spam and Brute Force Login Attack</title>
+            <link>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</link>
+            <category>WordPress</category>
+            <category>Apache</category>
+            <category>Nginx</category>
+            <pubDate>Thu, 12 Apr 2018 16:57:49 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Is your WordPress flooded with spam comment or being attacked by brute force login attempt? Thinking about spam blocking plugin? There are a lot of plug in can help you stop spam comment. You will notice it put thousands spam comments into spam folder after a while. Those Anti-Spam did a great job stopping spam comment show up in our post. There is some drawbacks for that kind of plugin. First,spam comments will be processed and store in your database before it gets deleted manually or automatically. Second, plugin like Akismet Anti-Spam will add a java-script to your site. If your site has limited resources, these kind of activities will drag down your site&amp;#x2019;s performance. If you use captcha plugin, you will also interrupt user&amp;#x2019;s experience.&lt;/p&gt;
 &lt;p&gt;If you are looking for a light way to block the spam bot before the comment get posted. Yes, we have one. We can block the spam bot and also protect your login page at the same time, Spam bots&amp;#x2019; comments will not even reach the server. Unless you got hit with spam from real human. This method is almost perfect and very light to your server. It has no captcha, no moderation queues, no complicate settings page, and 99.99% filter rate. This idea is inspired by this &lt;a href=&#34;https://www.rtcx.net/stop-automated-comment-spam-wordpress&#34;&gt;Stop Automated Comment Spam on WordPress with Nginx.&lt;/a&gt; &lt;strong&gt;How this work?&lt;/strong&gt; Most spam bot will not process contents from server, including js and cookies. Their job is to get the comment form and post. So we can use java-script and cookies to block spam bot when they try to post any word.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;  When post is viewed, browser will set a small cookie named _pass into viewer&amp;#x2019;s system.&lt;/li&gt;
@@ -36,16 +93,15 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;function no_wordpress_errors(){&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;echo &amp;apos;&amp;lt;script&amp;gt;document.cookie = &amp;quot;_pass=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; secure&amp;quot;;&amp;lt;/script&amp;gt;&amp;apos; . &amp;quot;&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$ip=$_SERVER[&amp;apos;REMOTE_ADDR&amp;apos;];&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$message = &amp;quot;Your are blocked. IP address $ip&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;return $message;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;add_filter( &amp;apos;login_errors&amp;apos;, &amp;apos;no_wordpress_errors&amp;apos;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h3 id=&#34;JavaScript-must-be-turned-on-and-browser-must-accept-cookie-for-this-system-to-work&#34;&gt;&lt;a href=&#34;#JavaScript-must-be-turned-on-and-browser-must-accept-cookie-for-this-system-to-work&#34; class=&#34;headerlink&#34; title=&#34;JavaScript must be turned on and browser must accept cookie for this system to work.&#34;&gt;&lt;/a&gt;JavaScript must be turned on and browser must accept cookie for this system to work.&lt;/h3&gt;&lt;p&gt;Remember! Next time when you try to login your admin page, open a post first so you will have the cookie and will not be blocked by this.&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2018-04-12T23:57:49.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/setup-log-rotation-for-apache-access-logs-error-logs-using-cronolog//</id>
-        <title>Setup log rotation for Apache access logs error logs using cronolog</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/setup-log-rotation-for-apache-access-logs-error-logs-using-cronolog/"/>
-        <content type="html">&lt;p&gt;If you want Apache log file to be saved on daily basis automatically. Cronolog is one of the best way to do it. Although Apache itself has rotatelogs for rotating activities, rotatelogs are not really creating log file everyday based on the calendar date. Rotatelogs creates and saves log files based on the rotation time or file size limits. For example we set up rotatelogs to rotate logs every 86400 seconds, technically is 24 hours, the start time is whenever you start ratatelogs, not from 00:00:00AM as what people normally assume. For how to setup rotatelogs, you can follow the instruction here: &lt;a href=&#34;https://www.qualityology.com/tech/rotate-apache-logs-on-daily-basis-using-rotatelogs/&#34; title=&#34;Rotate Apache logs on a daily basis using rotatelogs in CentOS Apache 2.x&#34;&gt;Rotate Apache logs on a daily basis using rotatelogs&lt;/a&gt; Cronolog is a simple filter program that reads log file entries from standard input and writes each entry to the output file specified by a filename template and the current date and time. cronolog is intended to be used in conjunction with a Web server, such as Apache, to split the access log into daily or monthly logs. If you want your log files start from 0:00 to the exact end of a day 23:59, cronolog can handle that. &lt;strong&gt;1. Install Cronolog.&lt;/strong&gt; For Debian, Ubuntu, or Linux distributions using apt-get&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/setup-log-rotation-for-apache-access-logs-error-logs-using-cronolog/</guid>
+            <title>Setup log rotation for Apache access logs error logs using cronolog</title>
+            <link>https://www.qualityology.com/tech/setup-log-rotation-for-apache-access-logs-error-logs-using-cronolog/</link>
+            <category>Apache</category>
+            <pubDate>Wed, 30 Jul 2014 11:33:13 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;If you want Apache log file to be saved on daily basis automatically. Cronolog is one of the best way to do it. Although Apache itself has rotatelogs for rotating activities, rotatelogs are not really creating log file everyday based on the calendar date. Rotatelogs creates and saves log files based on the rotation time or file size limits. For example we set up rotatelogs to rotate logs every 86400 seconds, technically is 24 hours, the start time is whenever you start ratatelogs, not from 00:00:00AM as what people normally assume. For how to setup rotatelogs, you can follow the instruction here: &lt;a href=&#34;https://www.qualityology.com/tech/rotate-apache-logs-on-daily-basis-using-rotatelogs/&#34; title=&#34;Rotate Apache logs on a daily basis using rotatelogs in CentOS Apache 2.x&#34;&gt;Rotate Apache logs on a daily basis using rotatelogs&lt;/a&gt; Cronolog is a simple filter program that reads log file entries from standard input and writes each entry to the output file specified by a filename template and the current date and time. cronolog is intended to be used in conjunction with a Web server, such as Apache, to split the access log into daily or monthly logs. If you want your log files start from 0:00 to the exact end of a day 23:59, cronolog can handle that. &lt;strong&gt;1. Install Cronolog.&lt;/strong&gt; For Debian, Ubuntu, or Linux distributions using apt-get&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;apt-get install cronolog&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;For CentOS&lt;/p&gt;
@@ -77,16 +133,15 @@
 &lt;li&gt;  &lt;strong&gt;apachectl configtest&lt;/strong&gt; to test the configuration file syntax.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;For cronolog usage details, &lt;a href=&#34;http://cronolog.org/usage.html&#34; title=&#34;cronolog usage&#34;&gt;click here&lt;/a&gt;.&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2014-07-30T18:33:13.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/rotate-apache-logs-on-daily-basis-using-rotatelogs//</id>
-        <title>Rotate Apache logs on a daily basis using rotatelogs</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/rotate-apache-logs-on-daily-basis-using-rotatelogs/"/>
-        <content type="html">&lt;p&gt;If you Apache to start a new log file every day automatically, rotatelogs is the simple way to do it. Rotatelogs is a simple program for use in conjunction with Apache&amp;#x2019;s piped logfile feature. It supports rotation based on a time interval or maximum size of the log. The use of rotatelogs is actually quite simple. Search your httpd.conf and replace the following line&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/rotate-apache-logs-on-daily-basis-using-rotatelogs/</guid>
+            <title>Rotate Apache logs on a daily basis using rotatelogs</title>
+            <link>https://www.qualityology.com/tech/rotate-apache-logs-on-daily-basis-using-rotatelogs/</link>
+            <category>Apache</category>
+            <pubDate>Mon, 28 Jul 2014 12:06:23 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;If you Apache to start a new log file every day automatically, rotatelogs is the simple way to do it. Rotatelogs is a simple program for use in conjunction with Apache&amp;#x2019;s piped logfile feature. It supports rotation based on a time interval or maximum size of the log. The use of rotatelogs is actually quite simple. Search your httpd.conf and replace the following line&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;CustomLog logs/access_log combined&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;to&lt;/p&gt;
@@ -108,25 +163,22 @@
 &lt;li&gt;  &lt;strong&gt;apachectl start&lt;/strong&gt; to start the Apache server (will throw an error message if Apache is running)&lt;/li&gt;
 &lt;li&gt;  &lt;strong&gt;apachectl configtest&lt;/strong&gt; to test the configuration file syntax.&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-        <category term="tech" />
-        <updated>2014-07-28T19:06:23.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/apache-blocking-bad-bots-attacks-zmeu//</id>
-        <title>Apache: Blocking bad bots attacks from ZmEu</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/apache-blocking-bad-bots-attacks-zmeu/"/>
-        <content type="html">&lt;p&gt;Take a quick look at Apache&amp;#x2019;s access.log, there are always all sorts of unknown IPs are connecting, mostly with a status code 403, 404. For example, Some bots like ZmEu are trying to find phpmyadmin or other unprotect web server. ZmEu is a script built by a group of Romanian Hackers. This script essentially looks for a set of scripts and directories of common interest, like for example /phpMyAdmin/*, /pma/* what it is actually looking for is unprotect scripts and other things that might allow the foreign host access into something valuable. such as such as your MySQL databases! An example of ZmEu scan logs. If you see the status code is 403 or 404, your are mostly OK. If the status code is 200, you might need to find out what ZmEu already found out. It&amp;#x2019;s only dangerous if you have unpatched or unprotected versions of software on the host that may be vulnerable.&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/apache-blocking-bad-bots-attacks-zmeu/</guid>
+            <title>Apache: Blocking bad bots attacks from ZmEu</title>
+            <link>https://www.qualityology.com/tech/apache-blocking-bad-bots-attacks-zmeu/</link>
+            <category>Apache</category>
+            <pubDate>Thu, 17 Jul 2014 11:14:18 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Take a quick look at Apache&amp;#x2019;s access.log, there are always all sorts of unknown IPs are connecting, mostly with a status code 403, 404. For example, Some bots like ZmEu are trying to find phpmyadmin or other unprotect web server. ZmEu is a script built by a group of Romanian Hackers. This script essentially looks for a set of scripts and directories of common interest, like for example /phpMyAdmin/*, /pma/* what it is actually looking for is unprotect scripts and other things that might allow the foreign host access into something valuable. such as such as your MySQL databases! An example of ZmEu scan logs. If you see the status code is 403 or 404, your are mostly OK. If the status code is 200, you might need to find out what ZmEu already found out. It&amp;#x2019;s only dangerous if you have unpatched or unprotected versions of software on the host that may be vulnerable.&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;186.42.181.66 - - [17/Jul/2014:08:29:35 -0700] &amp;quot;GET /phpMyAdmin/scripts/setup.php HTTP/1.1&amp;quot; 403 230 &amp;quot;-&amp;quot; &amp;quot;ZmEu&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;186.42.181.66 - - [17/Jul/2014:08:29:36 -0700] &amp;quot;GET /phpmyadmin/scripts/setup.php HTTP/1.1&amp;quot; 403 230 &amp;quot;-&amp;quot; &amp;quot;ZmEu&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;186.42.181.66 - - [17/Jul/2014:08:29:36 -0700] &amp;quot;GET /pma/scripts/setup.php HTTP/1.1&amp;quot; 404 2946 &amp;quot;-&amp;quot; &amp;quot;ZmEu&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;190.95.232.234 - - [17/Jul/2014:08:29:36 -0700] &amp;quot;GET /myadmin/scripts/setup.php HTTP/1.1&amp;quot; 404 2948 &amp;quot;-&amp;quot; &amp;quot;ZmEu&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;190.95.232.234 - - [17/Jul/2014:08:29:37 -0700] &amp;quot;GET /MyAdmin/scripts/setup.php HTTP/1.1&amp;quot; 404 2949 &amp;quot;-&amp;quot; &amp;quot;ZmEu&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;How to stop ZmEu?&lt;/strong&gt; IP blocking is not a essential way to fix this problem because ZmEu scan can be executed from any IP address. An easy quick fix to rid of almost all ZmEu attacks is block all http-agent contains &amp;#x201C;ZmEu&amp;#x201D; because the http-agent that ZmEu uses is &amp;#x201C;ZmEu&amp;#x201D;. Lets block it on an Apache global level, add this to any of your virtual host or host directives (httpd.conf or *.conf or .htaccess):&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;order allow,deny  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# deny based on User-Agent&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;SetEnvIfNoCase User-Agent &amp;quot;^ZmEu&amp;quot; bad_bot&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;deny from env=bad_bot&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;allow from all&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;Then restart your Apache and enjoy.&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2014-07-17T18:14:18.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>

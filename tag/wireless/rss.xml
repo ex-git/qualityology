@@ -1,16 +1,71 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.qualityology.com</id>
-    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;wireless&#34; tag</title>
-    <link href="https://www.qualityology.com" />
-    <updated>2017-10-26T16:53:00.000Z</updated>
-    <category term="tech" />
-    <category term="lifestyle" />
-    <entry>
-        <id>https://www.qualityology.com/lifestyle/get-free-25-cricket-wireless-credit-new-customer//</id>
-        <title>Get Free $25 Cricket Wireless Credit for New Customer - Expired</title>
-        <link rel="alternate" href="https://www.qualityology.com/lifestyle/get-free-25-cricket-wireless-credit-new-customer/"/>
-        <content type="html">&lt;p&gt;Why use Cricket Wireless?&lt;/p&gt;
+<rss version="2.0">
+    <channel>
+        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;wireless&#34; tag</title>
+        <link>https://www.qualityology.com</link>
+        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
+        <language>en</language>
+        <pubDate>Thu, 26 Oct 2017 09:53:00 -0700</pubDate>
+        <lastBuildDate>Thu, 26 Oct 2017 09:53:00 -0700</lastBuildDate>
+        <category>WordPress</category>
+        <category>MySQL</category>
+        <category>apps</category>
+        <category>OpenWrt</category>
+        <category>Ads</category>
+        <category>printers</category>
+        <category>Apache</category>
+        <category>MacOS</category>
+        <category>baby</category>
+        <category>Nginx</category>
+        <category>Server</category>
+        <category>pfsense</category>
+        <category>timezone</category>
+        <category>Windows</category>
+        <category>port</category>
+        <category>Amazon</category>
+        <category>React</category>
+        <category>API</category>
+        <category>DOS</category>
+        <category>PDF</category>
+        <category>UEFI</category>
+        <category>Beini</category>
+        <category>Mikrotik</category>
+        <category>PCC</category>
+        <category>Java</category>
+        <category>DNS</category>
+        <category>Raspberry-Pi</category>
+        <category>SSL</category>
+        <category>Office</category>
+        <category>Wireless</category>
+        <category>Google Voice</category>
+        <category>ram</category>
+        <category>CentOS</category>
+        <category>Docker</category>
+        <category>firmware</category>
+        <category>entware</category>
+        <category>LAMP</category>
+        <category>Opencart</category>
+        <category>iPhone</category>
+        <category>Linksys</category>
+        <category>Safari</category>
+        <category>keepass</category>
+        <category>iptables</category>
+        <category>Open Source</category>
+        <category>patch</category>
+        <category>DISKPART</category>
+        <category>MAC</category>
+        <category>hosts</category>
+        <category>driver</category>
+        <category>iOS</category>
+        <category>Google Drive</category>
+        <category>SEO</category>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/lifestyle/get-free-25-cricket-wireless-credit-new-customer/</guid>
+            <title>Get Free $25 Cricket Wireless Credit for New Customer - Expired</title>
+            <link>https://www.qualityology.com/lifestyle/get-free-25-cricket-wireless-credit-new-customer/</link>
+            <category>Wireless</category>
+            <pubDate>Thu, 26 Oct 2017 09:53:00 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Why use Cricket Wireless?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;  Cricket Wireless uses AT&amp;amp;T cell towers so it will have native AT&amp;amp;T coverage plus some domestic roaming.&lt;/li&gt;
 &lt;li&gt;  You can even have Canada and Mexico roaming coverage when traveling by paying $10 more.&lt;/li&gt;
@@ -30,9 +85,7 @@
 &lt;li&gt; Keep your account active and in good standing for 60 days.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;You can refer your friend using the Cricket Rewards account too. Both parties will receive $25 Credit.&lt;/p&gt;
-</content>
-        <category term="lifestyle" />
-        <updated>2017-10-26T16:53:00.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>

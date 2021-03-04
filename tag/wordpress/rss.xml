@@ -1,16 +1,71 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.qualityology.com</id>
-    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;wordpress&#34; tag</title>
-    <link href="https://www.qualityology.com" />
-    <updated>2021-02-23T20:09:23.000Z</updated>
-    <category term="tech" />
-    <category term="lifestyle" />
-    <entry>
-        <id>https://www.qualityology.com/tech/29-code-snippets-for-wordpress-users//</id>
-        <title>29 Code Snippets for WordPress Users</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/29-code-snippets-for-wordpress-users/"/>
-        <content type="html">&lt;p&gt;Tired of installing tons of WordPress plugins for small features? You can use code snippets to do certain things without a dedicated plugin. Generally the &lt;code&gt;functions.php&lt;/code&gt; file is the place to add code snippes.&lt;/p&gt;
+<rss version="2.0">
+    <channel>
+        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;wordpress&#34; tag</title>
+        <link>https://www.qualityology.com</link>
+        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
+        <language>en</language>
+        <pubDate>Tue, 23 Feb 2021 12:09:23 -0800</pubDate>
+        <lastBuildDate>Tue, 23 Feb 2021 12:09:23 -0800</lastBuildDate>
+        <category>WordPress</category>
+        <category>MySQL</category>
+        <category>apps</category>
+        <category>OpenWrt</category>
+        <category>Ads</category>
+        <category>printers</category>
+        <category>Apache</category>
+        <category>MacOS</category>
+        <category>baby</category>
+        <category>Nginx</category>
+        <category>Server</category>
+        <category>pfsense</category>
+        <category>timezone</category>
+        <category>Windows</category>
+        <category>port</category>
+        <category>Amazon</category>
+        <category>React</category>
+        <category>API</category>
+        <category>DOS</category>
+        <category>PDF</category>
+        <category>UEFI</category>
+        <category>Beini</category>
+        <category>Mikrotik</category>
+        <category>PCC</category>
+        <category>Java</category>
+        <category>DNS</category>
+        <category>Raspberry-Pi</category>
+        <category>SSL</category>
+        <category>Office</category>
+        <category>Wireless</category>
+        <category>Google Voice</category>
+        <category>ram</category>
+        <category>CentOS</category>
+        <category>Docker</category>
+        <category>firmware</category>
+        <category>entware</category>
+        <category>LAMP</category>
+        <category>Opencart</category>
+        <category>iPhone</category>
+        <category>Linksys</category>
+        <category>Safari</category>
+        <category>keepass</category>
+        <category>iptables</category>
+        <category>Open Source</category>
+        <category>patch</category>
+        <category>DISKPART</category>
+        <category>MAC</category>
+        <category>hosts</category>
+        <category>driver</category>
+        <category>iOS</category>
+        <category>Google Drive</category>
+        <category>SEO</category>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/29-code-snippets-for-wordpress-users/</guid>
+            <title>29 Code Snippets for WordPress Users</title>
+            <link>https://www.qualityology.com/tech/29-code-snippets-for-wordpress-users/</link>
+            <category>WordPress</category>
+            <pubDate>Tue, 23 Feb 2021 12:09:23 -0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Tired of installing tons of WordPress plugins for small features? You can use code snippets to do certain things without a dedicated plugin. Generally the &lt;code&gt;functions.php&lt;/code&gt; file is the place to add code snippes.&lt;/p&gt;
 &lt;p&gt;If you don&amp;#x2019;t want to edit PHP file and want to gain more fine control over code snippets? You should try out &lt;strong&gt;Code Snippets&lt;/strong&gt; plugin. With &lt;strong&gt;Code Snippets&lt;/strong&gt;, you can easily add PHP code snippets to your WordPress site without custom snippets in theme&amp;#x2019;s &lt;code&gt;functions.php&lt;/code&gt; file. Search &lt;code&gt;Code Snippets&lt;/code&gt; in WordPress&amp;#x2019;s Add Plugins page and install it. You can start adding code snippet just like how you write post.&lt;/p&gt;
 &lt;p&gt;We collected some very useful code snippets for WordPress. All can be used with Code Snippets plugin or added it directly to PHP file.&lt;/p&gt;
 &lt;h2 id=&#34;1-Auto-update-plug-and-theme&#34;&gt;&lt;a href=&#34;#1-Auto-update-plug-and-theme&#34; class=&#34;headerlink&#34; title=&#34;1. Auto update plug and theme&#34;&gt;&lt;/a&gt;1. Auto update plug and theme&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;add_filter( &amp;apos;auto_update_plugin&amp;apos;, &amp;apos;__return_true&amp;apos; );&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;add_filter( &amp;apos;auto_update_theme&amp;apos;, &amp;apos;__return_true&amp;apos; );&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -70,16 +125,17 @@
 &lt;h2 id=&#34;28-Convert-links-and-images-to-being-site-root-relative&#34;&gt;&lt;a href=&#34;#28-Convert-links-and-images-to-being-site-root-relative&#34; class=&#34;headerlink&#34; title=&#34;28.  Convert links and images to being site root relative&#34;&gt;&lt;/a&gt;28.  Convert links and images to being site root relative&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;figcaption&gt;&lt;span&gt;Image URLs&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;add_filter(&amp;apos;image_send_to_editor&amp;apos;,&amp;apos;image_to_relative&amp;apos;,5,8);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;function image_to_relative($html, $id, $caption, $title, $align, $url, $size, $alt)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	$sp = strpos($html,&amp;quot;src=&amp;quot;) + 5;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	$ep = strpos($html,&amp;quot;\&amp;quot;&amp;quot;,$sp);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	$imageurl = substr($html,$sp,$ep-$sp);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	$relativeurl = str_replace([&amp;quot;http://&amp;quot;, &amp;quot;https://&amp;quot;],&amp;quot;&amp;quot;,$imageurl);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	$sp = strpos($relativeurl,&amp;quot;/&amp;quot;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	$relativeurl = substr($relativeurl,$sp);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	$html = str_replace($imageurl,$relativeurl,$html);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	return $html;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h2 id=&#34;29-Set-custom-cookie&#34;&gt;&lt;a href=&#34;#29-Set-custom-cookie&#34; class=&#34;headerlink&#34; title=&#34;29. Set custom cookie&#34;&gt;&lt;/a&gt;29. Set custom cookie&lt;/h2&gt;&lt;p&gt;If you have server control, you can use this to stop spam.&lt;br&gt;&lt;a href=&#34;https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/&#34;&gt;Stop Automated Comment Spam with Nginx&lt;/a&gt;&lt;/p&gt;
-&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;figcaption&gt;&lt;span&gt;Automated Comment Spam with Nginx&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;function set_post_cookie() {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    echo &amp;apos;&amp;lt;script&amp;gt;document.cookie = &amp;quot;_pass=1; max-age=1800; path=/; secure&amp;quot;;&amp;lt;/script&amp;gt;&amp;apos; . &amp;quot;&amp;quot;; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;add_action( &amp;apos;comment_form&amp;apos;, &amp;apos;set_post_cookie&amp;apos;, 100 );&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <category term="tech" />
-        <updated>2021-02-23T20:09:23.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack//</id>
-        <title>Protect your WordPress from Automated Comment Spam and Brute Force Login Attack</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/"/>
-        <content type="html">&lt;p&gt;Is your WordPress flooded with spam comment or being attacked by brute force login attempt? Thinking about spam blocking plugin? There are a lot of plug in can help you stop spam comment. You will notice it put thousands spam comments into spam folder after a while. Those Anti-Spam did a great job stopping spam comment show up in our post. There is some drawbacks for that kind of plugin. First,spam comments will be processed and store in your database before it gets deleted manually or automatically. Second, plugin like Akismet Anti-Spam will add a java-script to your site. If your site has limited resources, these kind of activities will drag down your site&amp;#x2019;s performance. If you use captcha plugin, you will also interrupt user&amp;#x2019;s experience.&lt;/p&gt;
+&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;figcaption&gt;&lt;span&gt;Automated Comment Spam with Nginx&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;function set_post_cookie() {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    echo &amp;apos;&amp;lt;script&amp;gt;document.cookie = &amp;quot;_pass=1; max-age=1800; path=/; secure&amp;quot;;&amp;lt;/script&amp;gt;&amp;apos; . &amp;quot;&amp;quot;; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;add_action( &amp;apos;comment_form&amp;apos;, &amp;apos;set_post_cookie&amp;apos;, 100 );&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</guid>
+            <title>Protect your WordPress from Automated Comment Spam and Brute Force Login Attack</title>
+            <link>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</link>
+            <category>WordPress</category>
+            <category>Apache</category>
+            <category>Nginx</category>
+            <pubDate>Thu, 12 Apr 2018 16:57:49 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Is your WordPress flooded with spam comment or being attacked by brute force login attempt? Thinking about spam blocking plugin? There are a lot of plug in can help you stop spam comment. You will notice it put thousands spam comments into spam folder after a while. Those Anti-Spam did a great job stopping spam comment show up in our post. There is some drawbacks for that kind of plugin. First,spam comments will be processed and store in your database before it gets deleted manually or automatically. Second, plugin like Akismet Anti-Spam will add a java-script to your site. If your site has limited resources, these kind of activities will drag down your site&amp;#x2019;s performance. If you use captcha plugin, you will also interrupt user&amp;#x2019;s experience.&lt;/p&gt;
 &lt;p&gt;If you are looking for a light way to block the spam bot before the comment get posted. Yes, we have one. We can block the spam bot and also protect your login page at the same time, Spam bots&amp;#x2019; comments will not even reach the server. Unless you got hit with spam from real human. This method is almost perfect and very light to your server. It has no captcha, no moderation queues, no complicate settings page, and 99.99% filter rate. This idea is inspired by this &lt;a href=&#34;https://www.rtcx.net/stop-automated-comment-spam-wordpress&#34;&gt;Stop Automated Comment Spam on WordPress with Nginx.&lt;/a&gt; &lt;strong&gt;How this work?&lt;/strong&gt; Most spam bot will not process contents from server, including js and cookies. Their job is to get the comment form and post. So we can use java-script and cookies to block spam bot when they try to post any word.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;  When post is viewed, browser will set a small cookie named _pass into viewer&amp;#x2019;s system.&lt;/li&gt;
@@ -105,16 +161,17 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;function no_wordpress_errors(){&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;echo &amp;apos;&amp;lt;script&amp;gt;document.cookie = &amp;quot;_pass=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; secure&amp;quot;;&amp;lt;/script&amp;gt;&amp;apos; . &amp;quot;&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$ip=$_SERVER[&amp;apos;REMOTE_ADDR&amp;apos;];&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$message = &amp;quot;Your are blocked. IP address $ip&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;return $message;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;add_filter( &amp;apos;login_errors&amp;apos;, &amp;apos;no_wordpress_errors&amp;apos;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h3 id=&#34;JavaScript-must-be-turned-on-and-browser-must-accept-cookie-for-this-system-to-work&#34;&gt;&lt;a href=&#34;#JavaScript-must-be-turned-on-and-browser-must-accept-cookie-for-this-system-to-work&#34; class=&#34;headerlink&#34; title=&#34;JavaScript must be turned on and browser must accept cookie for this system to work.&#34;&gt;&lt;/a&gt;JavaScript must be turned on and browser must accept cookie for this system to work.&lt;/h3&gt;&lt;p&gt;Remember! Next time when you try to login your admin page, open a post first so you will have the cookie and will not be blocked by this.&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2018-04-12T23:57:49.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx//</id>
-        <title>Build an extremely fast WordPress with GCP Part 2: Nginx</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/"/>
-        <content type="html">&lt;p&gt;Apache or Nginx, what softwares should be used to for your server to achieve the maximum performance? If you have a small free server from GCP from &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;part 1&lt;/a&gt;, and you want it to be able to handle average 1000 clients per second, Nginx is the best option. Apache use more server resources and must be configured properly to get the best performance. Nginx can handle very large amount of traffic even in a limited environment. We have done the loading test with the server from Google Cloud Platform from &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;part 1&lt;/a&gt;&amp;#xA0;and the result was great without deep optimization. 1000 client/sec is not the maximum that this setup can get, it is the limit of the free test we could get. &lt;img src=&#34;/2017/09/loading-test-result.png&#34;&gt; When we tried the same test using Apache, the test was aborted at the beginning because server crashed. That is why we will use Nginx. We are not the server expert, so we will not discuss how to optimize Apache to pass the same test. What we will need is NGINX + MySQL + PHP-FPM +&amp;#xA0;Microcaching + WordPress.&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/</guid>
+            <title>Build an extremely fast WordPress with GCP Part 2: Nginx</title>
+            <link>https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/</link>
+            <category>WordPress</category>
+            <category>Nginx</category>
+            <category>Server</category>
+            <pubDate>Sat, 30 Sep 2017 22:11:32 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Apache or Nginx, what softwares should be used to for your server to achieve the maximum performance? If you have a small free server from GCP from &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;part 1&lt;/a&gt;, and you want it to be able to handle average 1000 clients per second, Nginx is the best option. Apache use more server resources and must be configured properly to get the best performance. Nginx can handle very large amount of traffic even in a limited environment. We have done the loading test with the server from Google Cloud Platform from &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;part 1&lt;/a&gt;&amp;#xA0;and the result was great without deep optimization. 1000 client/sec is not the maximum that this setup can get, it is the limit of the free test we could get. &lt;img src=&#34;/2017/09/loading-test-result.png&#34;&gt; When we tried the same test using Apache, the test was aborted at the beginning because server crashed. That is why we will use Nginx. We are not the server expert, so we will not discuss how to optimize Apache to pass the same test. What we will need is NGINX + MySQL + PHP-FPM +&amp;#xA0;Microcaching + WordPress.&lt;/p&gt;
 &lt;h2 id=&#34;Step-1-install-Nginx&#34;&gt;&lt;a href=&#34;#Step-1-install-Nginx&#34; class=&#34;headerlink&#34; title=&#34;Step 1, install Nginx.&#34;&gt;&lt;/a&gt;Step 1, install Nginx.&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo apt-get update -y&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo apt-get install nginx -y&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo service nginx start&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h2 id=&#34;Step-2-install-Mysql-or-MariaDB&#34;&gt;&lt;a href=&#34;#Step-2-install-Mysql-or-MariaDB&#34; class=&#34;headerlink&#34; title=&#34;Step 2, install Mysql (or MariaDB).&#34;&gt;&lt;/a&gt;Step 2, install Mysql (or MariaDB).&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo apt-get install mysql-server -y&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo service mysql stop&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo mysql_install_db # follow instructions&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo service mysql start&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo mysql_secure_installation # follow instructions&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -149,16 +206,17 @@
 &lt;h2 id=&#34;Step-6-install-WordPress&#34;&gt;&lt;a href=&#34;#Step-6-install-WordPress&#34; class=&#34;headerlink&#34; title=&#34;Step 6, install WordPress&#34;&gt;&lt;/a&gt;Step 6, install WordPress&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cd /var/www/html/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo wget http://wordpress.org/latest.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo tar xzvf latest.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo rm latest.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo mv wordpress/* ./&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo chown -R www-data:www-data /var/www/html/*&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;You are all set. Now, open your domain or IP to setup WordPress&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2017-10-01T05:11:32.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server//</id>
-        <title>Build an extremely fast WordPress with GCP Part 1: server</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/"/>
-        <content type="html">&lt;p&gt;Can you get a super fast server free from Google? Yes, you can. Google Cloud Platform has free tier for US region server. If you are building a small WordPress website using light bandwidth, the free tier is more than sufficient. Free tier provide 720 hours of instance usage which will cover whole month of usage. The only downside is if your site use a lot of bandwidth you will be billed after 1GB of free egress bandwidth, but still cheap because 1 GB cost only&amp;#xA0;$0.01 for US and 1 TB $0.12 - $0.23 depends on the regions. Most new sites use only small amount of bandwidth. Ingress is free if you wonder. As of today, the free tier offer:&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/</guid>
+            <title>Build an extremely fast WordPress with GCP Part 1: server</title>
+            <link>https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/</link>
+            <category>WordPress</category>
+            <category>Nginx</category>
+            <category>Server</category>
+            <pubDate>Sun, 17 Sep 2017 21:16:14 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Can you get a super fast server free from Google? Yes, you can. Google Cloud Platform has free tier for US region server. If you are building a small WordPress website using light bandwidth, the free tier is more than sufficient. Free tier provide 720 hours of instance usage which will cover whole month of usage. The only downside is if your site use a lot of bandwidth you will be billed after 1GB of free egress bandwidth, but still cheap because 1 GB cost only&amp;#xA0;$0.01 for US and 1 TB $0.12 - $0.23 depends on the regions. Most new sites use only small amount of bandwidth. Ingress is free if you wonder. As of today, the free tier offer:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;  1 f1-micro instance per month (US regions only - Excluding Northern Virginia)&lt;/li&gt;
@@ -177,16 +235,16 @@
 &lt;li&gt;  &lt;strong&gt;Firewall&lt;/strong&gt;: check Allow HTTP traffic and Allow HTTPS traffic&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;Step-4-get-an-static-IP-for-your-instance&#34;&gt;&lt;a href=&#34;#Step-4-get-an-static-IP-for-your-instance&#34; class=&#34;headerlink&#34; title=&#34;Step 4: get an static IP for your instance.&#34;&gt;&lt;/a&gt;Step 4: get an static IP for your instance.&lt;/h2&gt;&lt;p&gt;Expand&amp;#xA0;Management, disks, networking, SSH keys &lt;img src=&#34;https://www.qualityology.com/2017/09/instance_config_micro.png&#34;&gt; Under Networking &amp;gt;&amp;gt; Network interfaces &amp;gt;&amp;gt; External IP, select Create IP address &lt;img src=&#34;/2017/09/instance_static_ip.png&#34;&gt; After you reserve an static external IP address, you can click Create to finish the instance setup. You have complete the step 1 and you have your&amp;#xA0;free server from GCP, continue to &lt;a href=&#34;https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/&#34;&gt;part 2&lt;/a&gt; when you ready.&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2017-09-18T04:16:14.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/wordpress-mobile-site-seo-vary-http-header//</id>
-        <title>Wordpress Mobile Site SEO: Vary HTTP header</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/wordpress-mobile-site-seo-vary-http-header/"/>
-        <content type="html">&lt;p&gt;Google&amp;#x2019;s recommendation for Smartphone-optimized Websites recommends use Vary HTTP header when using mobile site dynamically serving different HTML on the same URL. Google recommend that the server send a hint to request that Googlebot for smartphones should crawl the page, too, and thus discover the mobile content. This hint is implemented using the Vary HTTP header.&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/wordpress-mobile-site-seo-vary-http-header/</guid>
+            <title>Wordpress Mobile Site SEO: Vary HTTP header</title>
+            <link>https://www.qualityology.com/tech/wordpress-mobile-site-seo-vary-http-header/</link>
+            <category>WordPress</category>
+            <category>SEO</category>
+            <pubDate>Mon, 18 Aug 2014 21:42:29 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Google&amp;#x2019;s recommendation for Smartphone-optimized Websites recommends use Vary HTTP header when using mobile site dynamically serving different HTML on the same URL. Google recommend that the server send a hint to request that Googlebot for smartphones should crawl the page, too, and thus discover the mobile content. This hint is implemented using the Vary HTTP header.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;After the Content-Type header, a Vary header is sent to (if I understand it correctly) tell intermediate caches, like proxy servers, that the content type of the document varies depending on the capabilities of the client which requests the document.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -205,9 +263,7 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;HTTP/1.1 200 OK&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Content-Type: text/html&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Vary: User-Agent&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Connection: Keep-Alive&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;(... rest of HTTP response headers...)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;This tiny SEO trick will not change anything besides adding one line into the header response code. &lt;img src=&#34;/2014/08/vary-header.png&#34; alt=&#34;Vary Header&#34;&gt;&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2014-08-19T04:42:29.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>

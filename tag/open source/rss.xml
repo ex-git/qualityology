@@ -1,20 +1,73 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.qualityology.com</id>
-    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;open source&#34; tag</title>
-    <link href="https://www.qualityology.com" />
-    <updated>2014-09-21T07:28:35.000Z</updated>
-    <category term="tech" />
-    <category term="lifestyle" />
-    <entry>
-        <id>https://www.qualityology.com/tech/open-source-free-automatic-periodic-screen-capture-tool//</id>
-        <title>Open Source FREE Automatic Periodic Screen Capture Tool</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/open-source-free-automatic-periodic-screen-capture-tool/"/>
-        <content type="html">&lt;p&gt;AutoScreenCap is a lightweight Open Source screen capture tool. It is a small software does like what its name describes: auto screen capture. It allows you to make screen shots periodically and automatically save to the folder in JPG format. It is fully customizable, the capture interval can be set from 1 second to 99999 and the JPG quality also adjustable. It can be set to auto hide the main windows and auto start screenshot capture for special purposes. &lt;img src=&#34;/2014/09/autoscreencap.jpg&#34; alt=&#34;Autoscreencap&#34;&gt; &lt;/p&gt;
+<rss version="2.0">
+    <channel>
+        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;open source&#34; tag</title>
+        <link>https://www.qualityology.com</link>
+        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
+        <language>en</language>
+        <pubDate>Sun, 21 Sep 2014 00:28:35 -0700</pubDate>
+        <lastBuildDate>Sun, 21 Sep 2014 00:28:35 -0700</lastBuildDate>
+        <category>WordPress</category>
+        <category>MySQL</category>
+        <category>apps</category>
+        <category>OpenWrt</category>
+        <category>Ads</category>
+        <category>printers</category>
+        <category>Apache</category>
+        <category>MacOS</category>
+        <category>baby</category>
+        <category>Nginx</category>
+        <category>Server</category>
+        <category>pfsense</category>
+        <category>timezone</category>
+        <category>Windows</category>
+        <category>port</category>
+        <category>Amazon</category>
+        <category>React</category>
+        <category>API</category>
+        <category>DOS</category>
+        <category>PDF</category>
+        <category>UEFI</category>
+        <category>Beini</category>
+        <category>Mikrotik</category>
+        <category>PCC</category>
+        <category>Java</category>
+        <category>DNS</category>
+        <category>Raspberry-Pi</category>
+        <category>SSL</category>
+        <category>Office</category>
+        <category>Wireless</category>
+        <category>Google Voice</category>
+        <category>ram</category>
+        <category>CentOS</category>
+        <category>Docker</category>
+        <category>firmware</category>
+        <category>entware</category>
+        <category>LAMP</category>
+        <category>Opencart</category>
+        <category>iPhone</category>
+        <category>Linksys</category>
+        <category>Safari</category>
+        <category>keepass</category>
+        <category>iptables</category>
+        <category>Open Source</category>
+        <category>patch</category>
+        <category>DISKPART</category>
+        <category>MAC</category>
+        <category>hosts</category>
+        <category>driver</category>
+        <category>iOS</category>
+        <category>Google Drive</category>
+        <category>SEO</category>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/open-source-free-automatic-periodic-screen-capture-tool/</guid>
+            <title>Open Source FREE Automatic Periodic Screen Capture Tool</title>
+            <link>https://www.qualityology.com/tech/open-source-free-automatic-periodic-screen-capture-tool/</link>
+            <category>Open Source</category>
+            <pubDate>Sun, 21 Sep 2014 00:28:35 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;AutoScreenCap is a lightweight Open Source screen capture tool. It is a small software does like what its name describes: auto screen capture. It allows you to make screen shots periodically and automatically save to the folder in JPG format. It is fully customizable, the capture interval can be set from 1 second to 99999 and the JPG quality also adjustable. It can be set to auto hide the main windows and auto start screenshot capture for special purposes. &lt;img src=&#34;/2014/09/autoscreencap.jpg&#34; alt=&#34;Autoscreencap&#34;&gt; &lt;/p&gt;
 &lt;p&gt;Although the last update of this tool is back in 2012, this software still work fine in the latest Windows 8.1 64 bit. &lt;a href=&#34;http://sourceforge.net/projects/autoscreencap/files/latest/download?source=files&#34; title=&#34;autoscreencap download&#34;&gt;Click here to download the latest version AutoScreenCap&lt;/a&gt; It does not require installation. So basically extract the zip file to a folder and run AutoScreenCap.exe&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2014-09-21T07:28:35.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>

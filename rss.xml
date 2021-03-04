@@ -1,16 +1,71 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.qualityology.com</id>
-    <title>Qualityology - Let&#39;s get the most out of life!</title>
-    <link href="https://www.qualityology.com" />
-    <updated>2021-03-03T05:44:34.000Z</updated>
-    <category term="tech" />
-    <category term="lifestyle" />
-    <entry>
-        <id>https://www.qualityology.com/tech/install-isso-server-free-with-gcp//</id>
-        <title>Install Isso server free with GCP</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/install-isso-server-free-with-gcp/"/>
-        <content type="html">&lt;p&gt;Isso is an open source comment system similar to Disqus and other paid comment systems, but without using heavy third party script that contain tracking and analystic functions. It use SQLite3 database to store comments since comments take very litttle space. &lt;/p&gt;
+<rss version="2.0">
+    <channel>
+        <title>Qualityology - Let&#39;s get the most out of life!</title>
+        <link>https://www.qualityology.com</link>
+        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
+        <language>en</language>
+        <pubDate>Tue, 02 Mar 2021 21:44:34 -0800</pubDate>
+        <lastBuildDate>Tue, 02 Mar 2021 21:44:34 -0800</lastBuildDate>
+        <category>WordPress</category>
+        <category>MySQL</category>
+        <category>apps</category>
+        <category>OpenWrt</category>
+        <category>Ads</category>
+        <category>printers</category>
+        <category>Apache</category>
+        <category>MacOS</category>
+        <category>baby</category>
+        <category>Nginx</category>
+        <category>Server</category>
+        <category>pfsense</category>
+        <category>timezone</category>
+        <category>Windows</category>
+        <category>port</category>
+        <category>Amazon</category>
+        <category>React</category>
+        <category>API</category>
+        <category>DOS</category>
+        <category>PDF</category>
+        <category>UEFI</category>
+        <category>Beini</category>
+        <category>Mikrotik</category>
+        <category>PCC</category>
+        <category>Java</category>
+        <category>DNS</category>
+        <category>Raspberry-Pi</category>
+        <category>SSL</category>
+        <category>Office</category>
+        <category>Wireless</category>
+        <category>Google Voice</category>
+        <category>ram</category>
+        <category>CentOS</category>
+        <category>Docker</category>
+        <category>firmware</category>
+        <category>entware</category>
+        <category>LAMP</category>
+        <category>Opencart</category>
+        <category>iPhone</category>
+        <category>Linksys</category>
+        <category>Safari</category>
+        <category>keepass</category>
+        <category>iptables</category>
+        <category>Open Source</category>
+        <category>patch</category>
+        <category>DISKPART</category>
+        <category>MAC</category>
+        <category>hosts</category>
+        <category>driver</category>
+        <category>iOS</category>
+        <category>Google Drive</category>
+        <category>SEO</category>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/install-isso-server-free-with-gcp/</guid>
+            <title>Install Isso server free with GCP</title>
+            <link>https://www.qualityology.com/tech/install-isso-server-free-with-gcp/</link>
+            <category>Server</category>
+            <pubDate>Tue, 02 Mar 2021 21:44:34 -0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Isso is an open source comment system similar to Disqus and other paid comment systems, but without using heavy third party script that contain tracking and analystic functions. It use SQLite3 database to store comments since comments take very litttle space. &lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/2021/isso.jpg&#34; alt=&#34;isso&#34;&gt;&lt;/p&gt;
 &lt;p&gt;If you are using CMS or blog engine that doesn&amp;#x2019;t support comments and you care about your website&amp;#x2019;s loading time and also don&amp;#x2019;t want your user to tracked by third party comment system. You should try Isso.&lt;/p&gt;
 &lt;h2 id=&#34;1-Get-a-Linux-server-GCP-free-tier-is-more-than-enough&#34;&gt;&lt;a href=&#34;#1-Get-a-Linux-server-GCP-free-tier-is-more-than-enough&#34; class=&#34;headerlink&#34; title=&#34;1. Get a Linux server. GCP free tier is more than enough.&#34;&gt;&lt;/a&gt;1. Get a Linux server. GCP free tier is more than enough.&lt;/h2&gt;&lt;p&gt;You will need a Linux server for Isso. If you don&amp;#x2019;t have one, you can use Google Cloud Platform (GCP) and create an server with their free tier option. Comments system use very little traffic so you will not likely go over the free tier quota. &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;Start a Linux server first from here&lt;/a&gt; &lt;/p&gt;
@@ -48,16 +103,16 @@
 &lt;h2 id=&#34;12-You-are-all-set&#34;&gt;&lt;a href=&#34;#12-You-are-all-set&#34; class=&#34;headerlink&#34; title=&#34;12. You are all set.&#34;&gt;&lt;/a&gt;12. You are all set.&lt;/h2&gt;&lt;p&gt;You now should be able to use your Isso server. Calling your server from your website/blog with something similar to below script.&lt;/p&gt;
 &lt;figure class=&#34;highlight javascript hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;script &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    data-isso=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;//your_post_url&amp;quot;&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    src=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;//isso.your_domain.com/js/embed.min.js&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    data-isso-&lt;span class=&#34;hljs-built_in&#34;&gt;require&lt;/span&gt;-author=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;true&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    data-isso-&lt;span class=&#34;hljs-built_in&#34;&gt;require&lt;/span&gt;-email=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;true&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    data-isso-avatar=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;false&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    data-isso-gravatar=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;true&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    data-isso-vote=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;true&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    data-isso-reveal-on-click=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;true&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
-</content>
-        <category term="tech" />
-        <updated>2021-03-03T05:44:34.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/install-docker-and-docker-compose-on-raspberry-pi//</id>
-        <title>Install Docker and Docker Compose On Raspberry Pi</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/install-docker-and-docker-compose-on-raspberry-pi/"/>
-        <content type="html">&lt;p&gt;If you need help installing Docker on your Raspberry Pi, be sure you pick the guide wisely. Some guides online won&amp;#x2019;t work on Raspberry Pi. The following steps had been tested on Raspberry Pi 4.&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/install-docker-and-docker-compose-on-raspberry-pi/</guid>
+            <title>Install Docker and Docker Compose On Raspberry Pi</title>
+            <link>https://www.qualityology.com/tech/install-docker-and-docker-compose-on-raspberry-pi/</link>
+            <category>Raspberry-Pi</category>
+            <category>Docker</category>
+            <pubDate>Mon, 01 Mar 2021 12:55:35 -0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;If you need help installing Docker on your Raspberry Pi, be sure you pick the guide wisely. Some guides online won&amp;#x2019;t work on Raspberry Pi. The following steps had been tested on Raspberry Pi 4.&lt;/p&gt;
 &lt;h2 id=&#34;1-Install-Docker&#34;&gt;&lt;a href=&#34;#1-Install-Docker&#34; class=&#34;headerlink&#34; title=&#34;1. Install Docker&#34;&gt;&lt;/a&gt;1. Install Docker&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;/2021/docker.png&#34; alt=&#34;docker&#34;&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight bash hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# Install required packages&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo apt update&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo apt install -y \&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;     apt-transport-https \&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;     ca-certificates \&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;     curl \&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;     gnupg2 \&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;     software-properties-common&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# Get recommened installation script from docker.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;curl -fsSL https://get.docker.com -o get-docker.sh&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo sh get-docker.sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;figure class=&#34;highlight bash hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# verify you have docker installed&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;docker -v&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# Docker version 20.10.4, build d3cb89e&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -71,16 +126,17 @@
 &lt;figure class=&#34;highlight bash hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# Install Docker Compose from pip (Python3)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo apt install -y python3-pip libffi-dev&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo pip3 install docker-compose&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;figure class=&#34;highlight bash hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# verify you have docker-compose installed&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;docker-compose -v&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# docker-compose version 1.28.5, build unknown&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-</content>
-        <category term="tech" />
-        <updated>2021-03-01T20:55:35.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/connect-to-existing-aws-appsync-api-from-a-react-application//</id>
-        <title>Connect to existing AWS AppSync API from a React Application</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/connect-to-existing-aws-appsync-api-from-a-react-application/"/>
-        <content type="html">&lt;p&gt;Have an existing API within AWS AppSync and need to connect it from a React web application? If you are not completely new to GraphQL you should know that the most popular GraphQL client is Apollo. &lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/connect-to-existing-aws-appsync-api-from-a-react-application/</guid>
+            <title>Connect to existing AWS AppSync API from a React Application</title>
+            <link>https://www.qualityology.com/tech/connect-to-existing-aws-appsync-api-from-a-react-application/</link>
+            <category>Server</category>
+            <category>React</category>
+            <category>API</category>
+            <pubDate>Fri, 26 Feb 2021 20:53:22 -0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Have an existing API within AWS AppSync and need to connect it from a React web application? If you are not completely new to GraphQL you should know that the most popular GraphQL client is Apollo. &lt;/p&gt;
 &lt;p&gt;There are many different way to connect to AWS AppSync with React, using different packages. Some required more packages/dependencies. &lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/2021/aws_appsync.jpeg&#34; alt=&#34;aws_appsync&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;1-Use-Apollo-client&#34;&gt;&lt;a href=&#34;#1-Use-Apollo-client&#34; class=&#34;headerlink&#34; title=&#34;1. Use Apollo client&#34;&gt;&lt;/a&gt;1. Use Apollo client&lt;/h2&gt;&lt;p&gt;The latest version &lt;code&gt;@apollo/client&lt;/code&gt; can handle AWS AppSync&amp;#x2019;s query and mutation just fine with simple setup and also support React hook out of the box. Per their official doc, they will only support &lt;code&gt;useQuery&lt;/code&gt; for query and &lt;code&gt;useMutation&lt;/code&gt; for mutation hooks in their future release. Component based query and mutation will still work but will not be supported. However, for subscription, &lt;code&gt;@apollo/client&lt;/code&gt; and AWS AppSync API won&amp;#x2019;t work without complex setup because AppSync&amp;#x2019;s subscriptions use MQTT as the transport layer, but &lt;code&gt;@apollo/client&lt;/code&gt; support WebSockets.&lt;/p&gt;
@@ -137,16 +193,15 @@
 &lt;p&gt;Example of how the function used to call mutation look like:&lt;/p&gt;
 &lt;figure class=&#34;highlight js hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;import&lt;/span&gt; { API, graphqlOperation } &lt;span class=&#34;hljs-keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;aws-amplify&amp;apos;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;import&lt;/span&gt; { createTodo } &lt;span class=&#34;hljs-keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;/graphql/mutations&amp;apos;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;const&lt;/span&gt; todo = {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	item: &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;visit qualityology.com&amp;apos;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;const&lt;/span&gt; update = &lt;span class=&#34;hljs-keyword&#34;&gt;await&lt;/span&gt; API.graphql(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            graphqlOperation(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                createTodo,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                    input: todo,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                },&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            ),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        )&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        .then(&lt;span class=&#34;hljs-function&#34;&gt;(&lt;span class=&#34;hljs-params&#34;&gt;res&lt;/span&gt;) =&amp;gt;&lt;/span&gt; res)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        .catch(&lt;span class=&#34;hljs-function&#34;&gt;(&lt;span class=&#34;hljs-params&#34;&gt;error&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &lt;span class=&#34;hljs-built_in&#34;&gt;console&lt;/span&gt;.log(&lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;error, creating user&amp;apos;&lt;/span&gt;, error));&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-built_in&#34;&gt;console&lt;/span&gt;.log(&lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;update&amp;apos;&lt;/span&gt;, update);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;/ol&gt;
-</content>
-        <category term="tech" />
-        <updated>2021-02-27T04:53:22.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/29-code-snippets-for-wordpress-users//</id>
-        <title>29 Code Snippets for WordPress Users</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/29-code-snippets-for-wordpress-users/"/>
-        <content type="html">&lt;p&gt;Tired of installing tons of WordPress plugins for small features? You can use code snippets to do certain things without a dedicated plugin. Generally the &lt;code&gt;functions.php&lt;/code&gt; file is the place to add code snippes.&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/29-code-snippets-for-wordpress-users/</guid>
+            <title>29 Code Snippets for WordPress Users</title>
+            <link>https://www.qualityology.com/tech/29-code-snippets-for-wordpress-users/</link>
+            <category>WordPress</category>
+            <pubDate>Tue, 23 Feb 2021 12:09:23 -0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Tired of installing tons of WordPress plugins for small features? You can use code snippets to do certain things without a dedicated plugin. Generally the &lt;code&gt;functions.php&lt;/code&gt; file is the place to add code snippes.&lt;/p&gt;
 &lt;p&gt;If you don&amp;#x2019;t want to edit PHP file and want to gain more fine control over code snippets? You should try out &lt;strong&gt;Code Snippets&lt;/strong&gt; plugin. With &lt;strong&gt;Code Snippets&lt;/strong&gt;, you can easily add PHP code snippets to your WordPress site without custom snippets in theme&amp;#x2019;s &lt;code&gt;functions.php&lt;/code&gt; file. Search &lt;code&gt;Code Snippets&lt;/code&gt; in WordPress&amp;#x2019;s Add Plugins page and install it. You can start adding code snippet just like how you write post.&lt;/p&gt;
 &lt;p&gt;We collected some very useful code snippets for WordPress. All can be used with Code Snippets plugin or added it directly to PHP file.&lt;/p&gt;
 &lt;h2 id=&#34;1-Auto-update-plug-and-theme&#34;&gt;&lt;a href=&#34;#1-Auto-update-plug-and-theme&#34; class=&#34;headerlink&#34; title=&#34;1. Auto update plug and theme&#34;&gt;&lt;/a&gt;1. Auto update plug and theme&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;add_filter( &amp;apos;auto_update_plugin&amp;apos;, &amp;apos;__return_true&amp;apos; );&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;add_filter( &amp;apos;auto_update_theme&amp;apos;, &amp;apos;__return_true&amp;apos; );&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -206,16 +261,16 @@
 &lt;h2 id=&#34;28-Convert-links-and-images-to-being-site-root-relative&#34;&gt;&lt;a href=&#34;#28-Convert-links-and-images-to-being-site-root-relative&#34; class=&#34;headerlink&#34; title=&#34;28.  Convert links and images to being site root relative&#34;&gt;&lt;/a&gt;28.  Convert links and images to being site root relative&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;figcaption&gt;&lt;span&gt;Image URLs&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;add_filter(&amp;apos;image_send_to_editor&amp;apos;,&amp;apos;image_to_relative&amp;apos;,5,8);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;function image_to_relative($html, $id, $caption, $title, $align, $url, $size, $alt)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	$sp = strpos($html,&amp;quot;src=&amp;quot;) + 5;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	$ep = strpos($html,&amp;quot;\&amp;quot;&amp;quot;,$sp);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	$imageurl = substr($html,$sp,$ep-$sp);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	$relativeurl = str_replace([&amp;quot;http://&amp;quot;, &amp;quot;https://&amp;quot;],&amp;quot;&amp;quot;,$imageurl);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	$sp = strpos($relativeurl,&amp;quot;/&amp;quot;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	$relativeurl = substr($relativeurl,$sp);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	$html = str_replace($imageurl,$relativeurl,$html);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	return $html;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h2 id=&#34;29-Set-custom-cookie&#34;&gt;&lt;a href=&#34;#29-Set-custom-cookie&#34; class=&#34;headerlink&#34; title=&#34;29. Set custom cookie&#34;&gt;&lt;/a&gt;29. Set custom cookie&lt;/h2&gt;&lt;p&gt;If you have server control, you can use this to stop spam.&lt;br&gt;&lt;a href=&#34;https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/&#34;&gt;Stop Automated Comment Spam with Nginx&lt;/a&gt;&lt;/p&gt;
-&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;figcaption&gt;&lt;span&gt;Automated Comment Spam with Nginx&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;function set_post_cookie() {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    echo &amp;apos;&amp;lt;script&amp;gt;document.cookie = &amp;quot;_pass=1; max-age=1800; path=/; secure&amp;quot;;&amp;lt;/script&amp;gt;&amp;apos; . &amp;quot;&amp;quot;; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;add_action( &amp;apos;comment_form&amp;apos;, &amp;apos;set_post_cookie&amp;apos;, 100 );&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <category term="tech" />
-        <updated>2021-02-23T20:09:23.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/easy-dual-wan-load-balancing-with-mikrotik-routeros-pcc//</id>
-        <title>Easy Dual WAN Load Balancing with MikroTik RouterOS PCC</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/easy-dual-wan-load-balancing-with-mikrotik-routeros-pcc/"/>
-        <content type="html">&lt;p&gt;RouterOS&amp;#x2019;s load balancing is simple but tricky. Even Mikrotik shows an example of how to configure PCC for load balancing. It does not say how to implement it with dynamic IP. The method introduced here is simple. We will add lease scripts to WAN1 and WAN2. RouterOS will run the script to add the correct gateway IP and firewall rules to make the load balancing work.&lt;/p&gt;
+&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;figcaption&gt;&lt;span&gt;Automated Comment Spam with Nginx&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;function set_post_cookie() {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    echo &amp;apos;&amp;lt;script&amp;gt;document.cookie = &amp;quot;_pass=1; max-age=1800; path=/; secure&amp;quot;;&amp;lt;/script&amp;gt;&amp;apos; . &amp;quot;&amp;quot;; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;add_action( &amp;apos;comment_form&amp;apos;, &amp;apos;set_post_cookie&amp;apos;, 100 );&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/easy-dual-wan-load-balancing-with-mikrotik-routeros-pcc/</guid>
+            <title>Easy Dual WAN Load Balancing with MikroTik RouterOS PCC</title>
+            <link>https://www.qualityology.com/tech/easy-dual-wan-load-balancing-with-mikrotik-routeros-pcc/</link>
+            <category>Mikrotik</category>
+            <category>PCC</category>
+            <pubDate>Thu, 14 Feb 2019 14:39:03 -0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;RouterOS&amp;#x2019;s load balancing is simple but tricky. Even Mikrotik shows an example of how to configure PCC for load balancing. It does not say how to implement it with dynamic IP. The method introduced here is simple. We will add lease scripts to WAN1 and WAN2. RouterOS will run the script to add the correct gateway IP and firewall rules to make the load balancing work.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;1. Name your WAN ports as WAN1 and WAN2. Your bridge as bridge.&lt;br&gt;2. Basic knowledge of RouterOS&lt;br&gt;3. Turn off fasttrack. Yes. It must be off. Otherwise, router can&amp;#x2019;t mark traffic and distribute to both WANs. Disable the firewall filter with action &amp;#x201C;fasttrack-connection&amp;#x201D; and that is it.&lt;/p&gt;
 &lt;p&gt;Add below scripts to&amp;#xA0;IP/DHCP Client/WAN1 and&amp;#xA0;IP/DHCP Client/WAN2. You can do that via web config.&lt;/p&gt;
@@ -227,16 +282,15 @@
 
 &lt;p&gt;For port 22,80,443 we use &amp;#x201C;both-addresses&amp;#x201D; as connection classifier to avoid HTTPS error or other authentication issues. Other ports we use both-addresses-and-ports so we can get maximum speed from both WANs.&lt;/p&gt;
 &lt;p&gt;If you want to see the official doc of how to configure PCC in RouterOS. Here is the link: &lt;a href=&#34;https://wiki.mikrotik.com/wiki/Manual:PCC&#34;&gt;https://wiki.mikrotik.com/wiki/Manual:PCC&lt;/a&gt;&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2019-02-14T22:39:03.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf//</id>
-        <title>Set custom DNS servers on Linux with resolv.conf</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf/"/>
-        <content type="html">&lt;p&gt;resolv.conf is the configuration file for DNS resolvers for all Linux distributions, including Debian, Mint, Ubuntu, RedHat, CentOS, etc. Usually we change the DNS resolvers list by editing resolv.conf. However, depends on your dhcp client configuration, resolv.conf may be rewrite after reboot. Without deep Linux experience, setting customs DNS servers on Linux maybe time consuming. But one thing we can do is make /etc/resolv.conf immutable to other program after you changed it. This will be the easier setup with no side effects on system.&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf/</guid>
+            <title>Set custom DNS servers on Linux with resolv.conf</title>
+            <link>https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf/</link>
+            <category>DNS</category>
+            <pubDate>Wed, 25 Apr 2018 10:11:50 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;resolv.conf is the configuration file for DNS resolvers for all Linux distributions, including Debian, Mint, Ubuntu, RedHat, CentOS, etc. Usually we change the DNS resolvers list by editing resolv.conf. However, depends on your dhcp client configuration, resolv.conf may be rewrite after reboot. Without deep Linux experience, setting customs DNS servers on Linux maybe time consuming. But one thing we can do is make /etc/resolv.conf immutable to other program after you changed it. This will be the easier setup with no side effects on system.&lt;/p&gt;
 &lt;h2 id=&#34;Change-the-DNS-server&#34;&gt;&lt;a href=&#34;#Change-the-DNS-server&#34; class=&#34;headerlink&#34; title=&#34;Change the DNS server&#34;&gt;&lt;/a&gt;Change the DNS server&lt;/h2&gt;&lt;p&gt;Below example we will set DNS resolver to 1.1.1.1. (1.1.1.1 is a privacy-first consumer DNS service provided by Cloudflare.)&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo echo &amp;apos;nameserver 1.1.1.1&amp;apos; &amp;gt; /etc/resolv.conf&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
@@ -258,16 +312,17 @@
 &lt;p&gt;Quad9 9.9.9.9 9.9.9.10 2620:fe::fe 2620:fe::10 &lt;/p&gt;
 &lt;p&gt;Cloudflare DNS Resolver 1.1.1.1 1.0.0.1 2606:4700:4700::1111 2606:4700:4700::1001 &lt;/p&gt;
 &lt;p&gt;CleanBrowsing Family Filter 185.228.168.168 185.228.168.169 2a0d:2a00:1:: 2a0d:2a00:2::&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2018-04-25T17:11:50.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack//</id>
-        <title>Protect your WordPress from Automated Comment Spam and Brute Force Login Attack</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/"/>
-        <content type="html">&lt;p&gt;Is your WordPress flooded with spam comment or being attacked by brute force login attempt? Thinking about spam blocking plugin? There are a lot of plug in can help you stop spam comment. You will notice it put thousands spam comments into spam folder after a while. Those Anti-Spam did a great job stopping spam comment show up in our post. There is some drawbacks for that kind of plugin. First,spam comments will be processed and store in your database before it gets deleted manually or automatically. Second, plugin like Akismet Anti-Spam will add a java-script to your site. If your site has limited resources, these kind of activities will drag down your site&amp;#x2019;s performance. If you use captcha plugin, you will also interrupt user&amp;#x2019;s experience.&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</guid>
+            <title>Protect your WordPress from Automated Comment Spam and Brute Force Login Attack</title>
+            <link>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</link>
+            <category>WordPress</category>
+            <category>Apache</category>
+            <category>Nginx</category>
+            <pubDate>Thu, 12 Apr 2018 16:57:49 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Is your WordPress flooded with spam comment or being attacked by brute force login attempt? Thinking about spam blocking plugin? There are a lot of plug in can help you stop spam comment. You will notice it put thousands spam comments into spam folder after a while. Those Anti-Spam did a great job stopping spam comment show up in our post. There is some drawbacks for that kind of plugin. First,spam comments will be processed and store in your database before it gets deleted manually or automatically. Second, plugin like Akismet Anti-Spam will add a java-script to your site. If your site has limited resources, these kind of activities will drag down your site&amp;#x2019;s performance. If you use captcha plugin, you will also interrupt user&amp;#x2019;s experience.&lt;/p&gt;
 &lt;p&gt;If you are looking for a light way to block the spam bot before the comment get posted. Yes, we have one. We can block the spam bot and also protect your login page at the same time, Spam bots&amp;#x2019; comments will not even reach the server. Unless you got hit with spam from real human. This method is almost perfect and very light to your server. It has no captcha, no moderation queues, no complicate settings page, and 99.99% filter rate. This idea is inspired by this &lt;a href=&#34;https://www.rtcx.net/stop-automated-comment-spam-wordpress&#34;&gt;Stop Automated Comment Spam on WordPress with Nginx.&lt;/a&gt; &lt;strong&gt;How this work?&lt;/strong&gt; Most spam bot will not process contents from server, including js and cookies. Their job is to get the comment form and post. So we can use java-script and cookies to block spam bot when they try to post any word.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;  When post is viewed, browser will set a small cookie named _pass into viewer&amp;#x2019;s system.&lt;/li&gt;
@@ -293,16 +348,15 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;function no_wordpress_errors(){&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;echo &amp;apos;&amp;lt;script&amp;gt;document.cookie = &amp;quot;_pass=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; secure&amp;quot;;&amp;lt;/script&amp;gt;&amp;apos; . &amp;quot;&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$ip=$_SERVER[&amp;apos;REMOTE_ADDR&amp;apos;];&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$message = &amp;quot;Your are blocked. IP address $ip&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;return $message;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;add_filter( &amp;apos;login_errors&amp;apos;, &amp;apos;no_wordpress_errors&amp;apos;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h3 id=&#34;JavaScript-must-be-turned-on-and-browser-must-accept-cookie-for-this-system-to-work&#34;&gt;&lt;a href=&#34;#JavaScript-must-be-turned-on-and-browser-must-accept-cookie-for-this-system-to-work&#34; class=&#34;headerlink&#34; title=&#34;JavaScript must be turned on and browser must accept cookie for this system to work.&#34;&gt;&lt;/a&gt;JavaScript must be turned on and browser must accept cookie for this system to work.&lt;/h3&gt;&lt;p&gt;Remember! Next time when you try to login your admin page, open a post first so you will have the cookie and will not be blocked by this.&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2018-04-12T23:57:49.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover//</id>
-        <title>Asus Z87-A MacOS high sierra upgrade prepare with clover</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover/"/>
-        <content type="html">&lt;p&gt;This guide is for upgrading your system from previous version to high sierra 10.13.x. For how to prepare USB installation kit, check here: &lt;a href=&#34;https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/&#34; title=&#34;Install Mac OS X with clover EFI bootloader on ASUS Z87a&#34;&gt;Install Mac OS X with clover EFI bootloader on ASUS Z87a&lt;/a&gt; &lt;img src=&#34;/2017/12/masOS-highsierra.png&#34; alt=&#34;Masos Highsierra&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover/</guid>
+            <title>Asus Z87-A MacOS high sierra upgrade prepare with clover</title>
+            <link>https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover/</link>
+            <category>MacOS</category>
+            <pubDate>Sun, 31 Dec 2017 16:43:06 -0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;This guide is for upgrading your system from previous version to high sierra 10.13.x. For how to prepare USB installation kit, check here: &lt;a href=&#34;https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/&#34; title=&#34;Install Mac OS X with clover EFI bootloader on ASUS Z87a&#34;&gt;Install Mac OS X with clover EFI bootloader on ASUS Z87a&lt;/a&gt; &lt;img src=&#34;/2017/12/masOS-highsierra.png&#34; alt=&#34;Masos Highsierra&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;First-add-driver-support-to-APFS&#34;&gt;&lt;a href=&#34;#First-add-driver-support-to-APFS&#34; class=&#34;headerlink&#34; title=&#34;First, add driver support to APFS.&#34;&gt;&lt;/a&gt;First, add driver support to APFS.&lt;/h2&gt;&lt;p&gt;Upgrading to high sierra will automatically cover HFS+ file system to APFS. Without the driver, clover will not able to boot to high sierra. &lt;strong&gt;What is APFS?&lt;/strong&gt; APFS is the Apple File System. It was introduced at WWDC 2016 and, starting this year, it will replace the existing HFS+ file system on Apple Watch, Apple TV, iPhone, iPad, MacBook, iMac, and Mac Pro. &lt;a href=&#34;https://www.qualityology.com/2017/12/apfs.efi_.zip&#34;&gt;apfs.efi&lt;/a&gt; for 10.13.2 If you already have apfs.edi in your clover driver folder and want to upgrade it to the version that match your system. You can follow below step. 1. Boot into macOS High Sierra 2. open terminal 3. type&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;open /usr/standalone/i386/&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
@@ -317,16 +371,15 @@
 &lt;h2 id=&#34;Third-raise-USB-Port-limit&#34;&gt;&lt;a href=&#34;#Third-raise-USB-Port-limit&#34; class=&#34;headerlink&#34; title=&#34;Third, raise USB Port limit&#34;&gt;&lt;/a&gt;Third, raise USB Port limit&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Comment: Change 15 port limit to 24 in XHCI kext 10.13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Find: 837D8C10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Name: AppleUSBXHCIPCI&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Replace: 837D8C1B&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;Now you are good to go with the upgrade just like upgrading a real Mac.&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2018-01-01T00:43:06.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation//</id>
-        <title>Fix error - Mediakit reports not enough space on device for requested operation</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/"/>
-        <content type="html">&lt;p&gt;If you tried use MacOS&amp;#x2019;s disk utility to erase or format a old/new hard drive, you may encounter some issue. MacOS will show below error when you tried to erase or format the drive, regardless your hard drive space:&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/</guid>
+            <title>Fix error - Mediakit reports not enough space on device for requested operation</title>
+            <link>https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/</link>
+            <category>MacOS</category>
+            <pubDate>Sat, 30 Dec 2017 15:15:34 -0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;If you tried use MacOS&amp;#x2019;s disk utility to erase or format a old/new hard drive, you may encounter some issue. MacOS will show below error when you tried to erase or format the drive, regardless your hard drive space:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Erase process has failed, press done to continue&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -347,16 +400,15 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;diskutil partitionDisk disk3 GPT JHFS+ &amp;quot;My External HD&amp;quot; 0g&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;If you have issue with Windows, you can see the tutorial for Windows: &lt;a href=&#34;https://www.qualityology.com/tech/properly-delete-a-partition-on-usb-drive-using-diskpart/&#34;&gt;Properly Delete Extra Partitions on USB Drive using DiskPart&lt;/a&gt;&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2017-12-30T23:15:34.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/lifestyle/best-easiest-way-sterilize-baby-bottles-uv-sterilization//</id>
-        <title>Best and easiest way to sterilize baby bottles - UV sterilization</title>
-        <link rel="alternate" href="https://www.qualityology.com/lifestyle/best-easiest-way-sterilize-baby-bottles-uv-sterilization/"/>
-        <content type="html">&lt;p&gt;Baby is vulnerable to diseases and illnesses, so you will want to ensure their bottles are clean and germ free until baby&amp;#x2019;s immune system developed providing a much higher tolerance to bacterias and germs. Sterilizing bottles can have different ways. Some require more efforts and times and some need more cautions. &lt;strong&gt;There are many ways to sterilize baby bottles.&lt;/strong&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/lifestyle/best-easiest-way-sterilize-baby-bottles-uv-sterilization/</guid>
+            <title>Best and easiest way to sterilize baby bottles - UV sterilization</title>
+            <link>https://www.qualityology.com/lifestyle/best-easiest-way-sterilize-baby-bottles-uv-sterilization/</link>
+            <category>baby</category>
+            <pubDate>Sun, 12 Nov 2017 23:19:14 -0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Baby is vulnerable to diseases and illnesses, so you will want to ensure their bottles are clean and germ free until baby&amp;#x2019;s immune system developed providing a much higher tolerance to bacterias and germs. Sterilizing bottles can have different ways. Some require more efforts and times and some need more cautions. &lt;strong&gt;There are many ways to sterilize baby bottles.&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;  Use&amp;#xA0;electric steamers&lt;/li&gt;
 &lt;li&gt;  Use Microwave&lt;/li&gt;
@@ -385,16 +437,15 @@
 &lt;p&gt;Looks very cool also when it is on. &lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/2017/11/wabi-uv-sterilizer-dryer-on.jpg&#34; alt=&#34;Wabi Uv Sterilizer Dryer On&#34;&gt; &lt;/p&gt;
 &lt;p&gt;We tested the UV and dryer function for a set of bottles. After the full cycle complete, all bottles were dry and feels clean. It does left some warm feeling when finish, but that is totally normal.&lt;/p&gt;
-</content>
-        <category term="lifestyle" />
-        <updated>2017-11-13T07:19:14.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/lifestyle/get-free-25-cricket-wireless-credit-new-customer//</id>
-        <title>Get Free $25 Cricket Wireless Credit for New Customer - Expired</title>
-        <link rel="alternate" href="https://www.qualityology.com/lifestyle/get-free-25-cricket-wireless-credit-new-customer/"/>
-        <content type="html">&lt;p&gt;Why use Cricket Wireless?&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/lifestyle/get-free-25-cricket-wireless-credit-new-customer/</guid>
+            <title>Get Free $25 Cricket Wireless Credit for New Customer - Expired</title>
+            <link>https://www.qualityology.com/lifestyle/get-free-25-cricket-wireless-credit-new-customer/</link>
+            <category>Wireless</category>
+            <pubDate>Thu, 26 Oct 2017 09:53:00 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Why use Cricket Wireless?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;  Cricket Wireless uses AT&amp;amp;T cell towers so it will have native AT&amp;amp;T coverage plus some domestic roaming.&lt;/li&gt;
 &lt;li&gt;  You can even have Canada and Mexico roaming coverage when traveling by paying $10 more.&lt;/li&gt;
@@ -414,45 +465,42 @@
 &lt;li&gt; Keep your account active and in good standing for 60 days.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;You can refer your friend using the Cricket Rewards account too. Both parties will receive $25 Credit.&lt;/p&gt;
-</content>
-        <category term="lifestyle" />
-        <updated>2017-10-26T16:53:00.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/open-pdfa-pdf-file-without-read-mode//</id>
-        <title>Open PDF/A PDF file without read-only mode</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/open-pdfa-pdf-file-without-read-mode/"/>
-        <content type="html">&lt;p&gt;The file you have opened complies with the pdf/a standard and has been opened read-only. If you open a PDF/A standard PDF, in default you will not able to modify it because Adobe PDF reader or Acrobat will open it in view only mode. &lt;img src=&#34;/2017/10/pdf-a.png&#34; alt=&#34;Pdf A&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/open-pdfa-pdf-file-without-read-mode/</guid>
+            <title>Open PDF/A PDF file without read-only mode</title>
+            <link>https://www.qualityology.com/tech/open-pdfa-pdf-file-without-read-mode/</link>
+            <category>PDF</category>
+            <pubDate>Thu, 19 Oct 2017 22:49:04 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;The file you have opened complies with the pdf/a standard and has been opened read-only. If you open a PDF/A standard PDF, in default you will not able to modify it because Adobe PDF reader or Acrobat will open it in view only mode. &lt;img src=&#34;/2017/10/pdf-a.png&#34; alt=&#34;Pdf A&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;PDF/A is an ISO-standardized version of the Portable Document Format (PDF) specialized for use in the archiving and long-term preservation of electronic documents. PDF/A differs from PDF by prohibiting features ill-suited to long-term archiving, such as font linking (as opposed to font embedding) and encryption.[1] The ISO requirements for PDF/A file viewers include color management guidelines, support for embedded fonts, and a user interface for reading embedded annotations (From Wikipedia).&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;PDF/A format is important and mainly for business use. It&amp;#x2019;s a format that ensures a PDF file can be reproduced exactly the same way because all necessary information for displaying the document is embedded in the file. It is safe, It is safer and securer for long run. Actually Adobe PDF reader or Acrobat have the option to turn off the PDF/A view only mode.&lt;/p&gt;
 &lt;h2 id=&#34;How-to-open-a-PDF-A-PDF-file-without-read-only-mode&#34;&gt;&lt;a href=&#34;#How-to-open-a-PDF-A-PDF-file-without-read-only-mode&#34; class=&#34;headerlink&#34; title=&#34;How to open a PDF/A PDF file without read-only mode?&#34;&gt;&lt;/a&gt;How to open a PDF/A PDF file without read-only mode?&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Edit&lt;/strong&gt;&amp;gt;&lt;strong&gt;Preferences&lt;/strong&gt;&amp;gt;&lt;strong&gt;Documents&lt;/strong&gt;&amp;gt;&lt;strong&gt;PDF/A View mode&lt;/strong&gt;. Set &lt;strong&gt;view documents in PDF/A mode&lt;/strong&gt; to &amp;#x201C;never&amp;#x201D;. You can revert back to the default setting anytime you want to.&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2017-10-20T05:49:04.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/ricoh-sp-c250dn-c252dn-ppd-cups-driver-for-linux-macos//</id>
-        <title>Ricoh SP C250DN C252DN PPD CUPS driver for LINUX and macOS</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/ricoh-sp-c250dn-c252dn-ppd-cups-driver-for-linux-macos/"/>
-        <content type="html">&lt;p&gt;C250DN or C252DN can be driven by setting PCL6 and use CUPS+Gutenprint driver. However, if we use Generic driver, it will not print out color. &lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/ricoh-sp-c250dn-c252dn-ppd-cups-driver-for-linux-macos/</guid>
+            <title>Ricoh SP C250DN C252DN PPD CUPS driver for LINUX and macOS</title>
+            <link>https://www.qualityology.com/tech/ricoh-sp-c250dn-c252dn-ppd-cups-driver-for-linux-macos/</link>
+            <category>driver</category>
+            <pubDate>Wed, 04 Oct 2017 14:25:43 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;C250DN or C252DN can be driven by setting PCL6 and use CUPS+Gutenprint driver. However, if we use Generic driver, it will not print out color. &lt;/p&gt;
 &lt;p&gt;Ricoh does not have dedicate PPD driver for Linux platforms like Ubuntu or Debian for SP C250DN and C252DN color printers. However, Ricoh does have driver for MacOS which in fact is a PPD driver. It comes with a PPD installer for MacOS and it will copy to the PPD to MacOS&amp;#x2019;s CUPS driver folder. We can use this PPD for Linux CUPS setup. With the driver, we can also make Air Print server to make this printer even more valuable if you have Apple devices all around your house. &lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.qualityology.com/2016/06/RICOH-C250DN-C252DN.zip&#34;&gt;Download RICOH C250DN C252DN PPD Driver&lt;/a&gt; &lt;/p&gt;
 &lt;p&gt;Both PPDs has been tested in macOS high sierra, and also in AirPrint setup using Debian and CUPS, print, color and alignment all work perfectly.&lt;/p&gt;
 &lt;p&gt; &lt;img src=&#34;/2016/06/C250DN-CUPS.png&#34; alt=&#34;C250dn Cups&#34;&gt;&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2017-10-04T21:25:43.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains//</id>
-        <title>Edit Hosts file to override DNS record for domains</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains/"/>
-        <content type="html">&lt;p&gt;Hosts file will instruct your machine to go directly to an IP address for specified domain instead of checking with DNS server. For example, point &lt;a href=&#34;http://www.qualityology.com/&#34;&gt;www.qualityology.com&lt;/a&gt; and qualityology.com to Google Cloud Platform server:&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains/</guid>
+            <title>Edit Hosts file to override DNS record for domains</title>
+            <link>https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains/</link>
+            <category>DNS</category>
+            <pubDate>Sun, 01 Oct 2017 12:01:02 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Hosts file will instruct your machine to go directly to an IP address for specified domain instead of checking with DNS server. For example, point &lt;a href=&#34;http://www.qualityology.com/&#34;&gt;www.qualityology.com&lt;/a&gt; and qualityology.com to Google Cloud Platform server:&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;35.185.219.11 www.qualityology.com&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35.185.219.11 qualityology.com&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h2 id=&#34;Windows&#34;&gt;&lt;a href=&#34;#Windows&#34; class=&#34;headerlink&#34; title=&#34;Windows&#34;&gt;&lt;/a&gt;Windows&lt;/h2&gt;&lt;p&gt;For Windows 10, Windows 8, Windows 7, and Windows Vista systems that use User Account Control (UAC).&lt;/p&gt;
@@ -491,16 +539,17 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo killall -HUP mDNSResponder&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&#34;/2017/10/mac-terminal.png&#34;&gt;&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2017-10-01T19:01:02.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx//</id>
-        <title>Build an extremely fast WordPress with GCP Part 2: Nginx</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/"/>
-        <content type="html">&lt;p&gt;Apache or Nginx, what softwares should be used to for your server to achieve the maximum performance? If you have a small free server from GCP from &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;part 1&lt;/a&gt;, and you want it to be able to handle average 1000 clients per second, Nginx is the best option. Apache use more server resources and must be configured properly to get the best performance. Nginx can handle very large amount of traffic even in a limited environment. We have done the loading test with the server from Google Cloud Platform from &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;part 1&lt;/a&gt;&amp;#xA0;and the result was great without deep optimization. 1000 client/sec is not the maximum that this setup can get, it is the limit of the free test we could get. &lt;img src=&#34;/2017/09/loading-test-result.png&#34;&gt; When we tried the same test using Apache, the test was aborted at the beginning because server crashed. That is why we will use Nginx. We are not the server expert, so we will not discuss how to optimize Apache to pass the same test. What we will need is NGINX + MySQL + PHP-FPM +&amp;#xA0;Microcaching + WordPress.&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/</guid>
+            <title>Build an extremely fast WordPress with GCP Part 2: Nginx</title>
+            <link>https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/</link>
+            <category>WordPress</category>
+            <category>Nginx</category>
+            <category>Server</category>
+            <pubDate>Sat, 30 Sep 2017 22:11:32 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Apache or Nginx, what softwares should be used to for your server to achieve the maximum performance? If you have a small free server from GCP from &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;part 1&lt;/a&gt;, and you want it to be able to handle average 1000 clients per second, Nginx is the best option. Apache use more server resources and must be configured properly to get the best performance. Nginx can handle very large amount of traffic even in a limited environment. We have done the loading test with the server from Google Cloud Platform from &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;part 1&lt;/a&gt;&amp;#xA0;and the result was great without deep optimization. 1000 client/sec is not the maximum that this setup can get, it is the limit of the free test we could get. &lt;img src=&#34;/2017/09/loading-test-result.png&#34;&gt; When we tried the same test using Apache, the test was aborted at the beginning because server crashed. That is why we will use Nginx. We are not the server expert, so we will not discuss how to optimize Apache to pass the same test. What we will need is NGINX + MySQL + PHP-FPM +&amp;#xA0;Microcaching + WordPress.&lt;/p&gt;
 &lt;h2 id=&#34;Step-1-install-Nginx&#34;&gt;&lt;a href=&#34;#Step-1-install-Nginx&#34; class=&#34;headerlink&#34; title=&#34;Step 1, install Nginx.&#34;&gt;&lt;/a&gt;Step 1, install Nginx.&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo apt-get update -y&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo apt-get install nginx -y&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo service nginx start&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h2 id=&#34;Step-2-install-Mysql-or-MariaDB&#34;&gt;&lt;a href=&#34;#Step-2-install-Mysql-or-MariaDB&#34; class=&#34;headerlink&#34; title=&#34;Step 2, install Mysql (or MariaDB).&#34;&gt;&lt;/a&gt;Step 2, install Mysql (or MariaDB).&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo apt-get install mysql-server -y&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo service mysql stop&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo mysql_install_db # follow instructions&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo service mysql start&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo mysql_secure_installation # follow instructions&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -535,16 +584,15 @@
 &lt;h2 id=&#34;Step-6-install-WordPress&#34;&gt;&lt;a href=&#34;#Step-6-install-WordPress&#34; class=&#34;headerlink&#34; title=&#34;Step 6, install WordPress&#34;&gt;&lt;/a&gt;Step 6, install WordPress&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cd /var/www/html/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo wget http://wordpress.org/latest.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo tar xzvf latest.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo rm latest.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo mv wordpress/* ./&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo chown -R www-data:www-data /var/www/html/*&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;You are all set. Now, open your domain or IP to setup WordPress&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2017-10-01T05:11:32.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/iphones-battery-draining-heres-what-you-can-do//</id>
-        <title>iPhone&#39;s battery draining? Here&#39;s what you can do</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/iphones-battery-draining-heres-what-you-can-do/"/>
-        <content type="html">&lt;p&gt;If you just upgraded your iPhone to a new version iOS system from the old version for example from iOS 10 to iOS 11 or iOS 9 to iOS 11, you may notice that your battery is draining twice as fast or more after the upgrade. Sometime system can be lagging too. You may heard that you can turn off some features to help the battery to stay longer. However, if a smart phone needs to turn off all the features, what is the point of having a smart phone right? Here is what you can do if you experience battery issue after upgraded.&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/iphones-battery-draining-heres-what-you-can-do/</guid>
+            <title>iPhone&#39;s battery draining? Here&#39;s what you can do</title>
+            <link>https://www.qualityology.com/tech/iphones-battery-draining-heres-what-you-can-do/</link>
+            <category>iPhone</category>
+            <pubDate>Mon, 25 Sep 2017 16:27:43 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;If you just upgraded your iPhone to a new version iOS system from the old version for example from iOS 10 to iOS 11 or iOS 9 to iOS 11, you may notice that your battery is draining twice as fast or more after the upgrade. Sometime system can be lagging too. You may heard that you can turn off some features to help the battery to stay longer. However, if a smart phone needs to turn off all the features, what is the point of having a smart phone right? Here is what you can do if you experience battery issue after upgraded.&lt;/p&gt;
 &lt;h2 id=&#34;Option-1-leave-it-alone&#34;&gt;&lt;a href=&#34;#Option-1-leave-it-alone&#34; class=&#34;headerlink&#34; title=&#34;Option 1, leave it alone!&#34;&gt;&lt;/a&gt;Option 1, leave it alone!&lt;/h2&gt;&lt;p&gt;If you just finished the upgrade, let your new system reindex everything! It will take couple hours and use some battery, that is normal.&lt;/p&gt;
 &lt;h2 id=&#34;Option-2-hard-restart-with-full-battery&#34;&gt;&lt;a href=&#34;#Option-2-hard-restart-with-full-battery&#34; class=&#34;headerlink&#34; title=&#34;Option 2, hard restart with full battery&#34;&gt;&lt;/a&gt;Option 2, hard restart with full battery&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Step 1,&lt;/strong&gt; connect your phone to the charger and let it charge until 100% and hard reset your iPhone with the charger connecting using below methods. For iPhone 6/6S/6S+, press and hold the &lt;strong&gt;Home&lt;/strong&gt; button. At the same time, press and hold the &lt;strong&gt;Power&lt;/strong&gt; button until you see the Apple logo. For iPhone 7/7+,&amp;#xA0;press and hold the &lt;strong&gt;Lock/Wake&lt;/strong&gt; button. At the same time, press and hold down the &lt;strong&gt;Volume Down&lt;/strong&gt; button until you see the Apple logo. For iPhone 8/8+, and iPhone X,&lt;/p&gt;
 &lt;ul&gt;
@@ -555,16 +603,17 @@
 &lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt;, after your iPhone restarted, continue charge for ~10 mins and you are good to go.&lt;/p&gt;
 &lt;h2 id=&#34;Option-3-reset-you-iPhone&amp;#x2019;s-setting&#34;&gt;&lt;a href=&#34;#Option-3-reset-you-iPhone&amp;#x2019;s-setting&#34; class=&#34;headerlink&#34; title=&#34;Option 3, reset you iPhone&amp;#x2019;s setting.&#34;&gt;&lt;/a&gt;Option 3, reset you iPhone&amp;#x2019;s setting.&lt;/h2&gt;&lt;p&gt;You can find the reset option in &amp;#xA0;&lt;strong&gt;Setting&lt;/strong&gt; &amp;gt; &lt;strong&gt;General&lt;/strong&gt; &amp;gt; &lt;strong&gt;Reset&lt;/strong&gt; &amp;gt; &lt;strong&gt;Reset All Settings.&lt;/strong&gt; All setting will be reset but your personal items like photos, musics, and other things will remain. Do &lt;strong&gt;NOT&lt;/strong&gt; select &lt;strong&gt;Erase All Content and Setting&lt;/strong&gt;&amp;#xA0; unless you want clean phone!&lt;/p&gt;
 &lt;h2 id=&#34;Option-4-revert-back-if-you-can&#34;&gt;&lt;a href=&#34;#Option-4-revert-back-if-you-can&#34; class=&#34;headerlink&#34; title=&#34;Option 4, revert back if you can.&#34;&gt;&lt;/a&gt;Option 4, revert back if you can.&lt;/h2&gt;&lt;p&gt;Revert back to the previous version and wait for Apple to release the newer version to fix the issue.&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2017-09-25T23:27:43.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server//</id>
-        <title>Build an extremely fast WordPress with GCP Part 1: server</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/"/>
-        <content type="html">&lt;p&gt;Can you get a super fast server free from Google? Yes, you can. Google Cloud Platform has free tier for US region server. If you are building a small WordPress website using light bandwidth, the free tier is more than sufficient. Free tier provide 720 hours of instance usage which will cover whole month of usage. The only downside is if your site use a lot of bandwidth you will be billed after 1GB of free egress bandwidth, but still cheap because 1 GB cost only&amp;#xA0;$0.01 for US and 1 TB $0.12 - $0.23 depends on the regions. Most new sites use only small amount of bandwidth. Ingress is free if you wonder. As of today, the free tier offer:&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/</guid>
+            <title>Build an extremely fast WordPress with GCP Part 1: server</title>
+            <link>https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/</link>
+            <category>WordPress</category>
+            <category>Nginx</category>
+            <category>Server</category>
+            <pubDate>Sun, 17 Sep 2017 21:16:14 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Can you get a super fast server free from Google? Yes, you can. Google Cloud Platform has free tier for US region server. If you are building a small WordPress website using light bandwidth, the free tier is more than sufficient. Free tier provide 720 hours of instance usage which will cover whole month of usage. The only downside is if your site use a lot of bandwidth you will be billed after 1GB of free egress bandwidth, but still cheap because 1 GB cost only&amp;#xA0;$0.01 for US and 1 TB $0.12 - $0.23 depends on the regions. Most new sites use only small amount of bandwidth. Ingress is free if you wonder. As of today, the free tier offer:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;  1 f1-micro instance per month (US regions only - Excluding Northern Virginia)&lt;/li&gt;
@@ -583,16 +632,15 @@
 &lt;li&gt;  &lt;strong&gt;Firewall&lt;/strong&gt;: check Allow HTTP traffic and Allow HTTPS traffic&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;Step-4-get-an-static-IP-for-your-instance&#34;&gt;&lt;a href=&#34;#Step-4-get-an-static-IP-for-your-instance&#34; class=&#34;headerlink&#34; title=&#34;Step 4: get an static IP for your instance.&#34;&gt;&lt;/a&gt;Step 4: get an static IP for your instance.&lt;/h2&gt;&lt;p&gt;Expand&amp;#xA0;Management, disks, networking, SSH keys &lt;img src=&#34;https://www.qualityology.com/2017/09/instance_config_micro.png&#34;&gt; Under Networking &amp;gt;&amp;gt; Network interfaces &amp;gt;&amp;gt; External IP, select Create IP address &lt;img src=&#34;/2017/09/instance_static_ip.png&#34;&gt; After you reserve an static external IP address, you can click Create to finish the instance setup. You have complete the step 1 and you have your&amp;#xA0;free server from GCP, continue to &lt;a href=&#34;https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/&#34;&gt;part 2&lt;/a&gt; when you ready.&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2017-09-18T04:16:14.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/install-linux-apache-mysql-php-phpmyadmin-centos-6-7//</id>
-        <title>Install LAMP (Linux Apache MySQL and PHP) phpMyAdmin on CentOS 6 7</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/install-linux-apache-mysql-php-phpmyadmin-centos-6-7/"/>
-        <content type="html">&lt;p&gt;LAMP represents a full featured stack of the most popular web server, database, web programming language known as Apache, MySQL and PHP. This article will cover the steps on how to install the LAMP on a CentOS 6 and CentOS 7. &lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/install-linux-apache-mysql-php-phpmyadmin-centos-6-7/</guid>
+            <title>Install LAMP (Linux Apache MySQL and PHP) phpMyAdmin on CentOS 6 7</title>
+            <link>https://www.qualityology.com/tech/install-linux-apache-mysql-php-phpmyadmin-centos-6-7/</link>
+            <category>LAMP</category>
+            <pubDate>Fri, 08 Sep 2017 11:12:47 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;LAMP represents a full featured stack of the most popular web server, database, web programming language known as Apache, MySQL and PHP. This article will cover the steps on how to install the LAMP on a CentOS 6 and CentOS 7. &lt;/p&gt;
 &lt;h2 id=&#34;Step-1-make-sure-your-system-is-up-to-date&#34;&gt;&lt;a href=&#34;#Step-1-make-sure-your-system-is-up-to-date&#34; class=&#34;headerlink&#34; title=&#34;Step 1, make sure your system is up to date.&#34;&gt;&lt;/a&gt;Step 1, make sure your system is up to date.&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;yum update -y&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h2 id=&#34;Step-2-install-Apache-and-add-Apache-to-your-system&amp;#x2019;s-startup&#34;&gt;&lt;a href=&#34;#Step-2-install-Apache-and-add-Apache-to-your-system&amp;#x2019;s-startup&#34; class=&#34;headerlink&#34; title=&#34;Step 2, install Apache and add Apache to your system&amp;#x2019;s startup.&#34;&gt;&lt;/a&gt;Step 2, install Apache and add Apache to your system&amp;#x2019;s startup.&lt;/h2&gt;&lt;p&gt;Apache is available as a package in the official Cent-OS repositories. The installation of Apache can be as easy as this.&lt;/p&gt;
@@ -631,16 +679,15 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wget -P /tmp http://prdownloads.sourceforge.net/phpmyadmin/phpMyAdmin-4.2.5-english.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;tar -zxf /tmp/phpMyAdmin*.tar.gz -C /var/www/html/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;mv /var/www/html/phpMyAdmin-4.2.5-english /var/www/html/dbAdmin&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cd /var/www/html/mysql&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cp config.sample.inc.php config.inc.php&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;Finish up by visiting your phpMyadmin: &lt;a href=&#34;http://yourdomain/mysql&#34;&gt;http://yourdomain/mysql&lt;/a&gt;&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2017-09-08T18:12:47.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot//</id>
-        <title>FREE Let&#39;s Encrypt SSL certificate via Certbot and auto renew</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot/"/>
-        <content type="html">&lt;p&gt;SSL certificate from Let&amp;#x2019;s Encrypt is free. That is the the whole point of why people are getting Let&amp;#x2019;s Encrypt&amp;#x2019;s SSL certificate. Their SSl are supported in all modern browsers. The only con is the certificate expire in 3 months. However, we can make the renewing process easier with cron. This guide is for server that already have https setup correctly, and will NOT cover how to setup https or modify server ssl configuration file.&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot/</guid>
+            <title>FREE Let&#39;s Encrypt SSL certificate via Certbot and auto renew</title>
+            <link>https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot/</link>
+            <category>SSL</category>
+            <pubDate>Sat, 28 Jan 2017 23:43:55 -0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;SSL certificate from Let&amp;#x2019;s Encrypt is free. That is the the whole point of why people are getting Let&amp;#x2019;s Encrypt&amp;#x2019;s SSL certificate. Their SSl are supported in all modern browsers. The only con is the certificate expire in 3 months. However, we can make the renewing process easier with cron. This guide is for server that already have https setup correctly, and will NOT cover how to setup https or modify server ssl configuration file.&lt;/p&gt;
 &lt;h2 id=&#34;Step-1-get-Let&amp;#x2019;s-Encrypt&amp;#x2019;s-client-Certbot&#34;&gt;&lt;a href=&#34;#Step-1-get-Let&amp;#x2019;s-Encrypt&amp;#x2019;s-client-Certbot&#34; class=&#34;headerlink&#34; title=&#34;Step 1, get Let&amp;#x2019;s Encrypt&amp;#x2019;s client: Certbot.&#34;&gt;&lt;/a&gt;Step 1, get Let&amp;#x2019;s Encrypt&amp;#x2019;s client: Certbot.&lt;/h2&gt;&lt;p&gt;Most systems already have Certbot package in the repository. You can check and follow the installation step from &lt;a href=&#34;https://certbot.eff.org/&#34;&gt;https://certbot.eff.org&lt;/a&gt; *You can add more domain to above command if you like.&lt;/p&gt;
 &lt;h2 id=&#34;Step-2-use-CertBot-to-get-SSL-certificate-for-domain1-and-domain2&#34;&gt;&lt;a href=&#34;#Step-2-use-CertBot-to-get-SSL-certificate-for-domain1-and-domain2&#34; class=&#34;headerlink&#34; title=&#34;Step 2, use CertBot to get SSL certificate for domain1 and domain2.&#34;&gt;&lt;/a&gt;Step 2, use CertBot to get SSL certificate for domain1 and domain2.&lt;/h2&gt;&lt;p&gt;*We only need CertBot to generate certificate only in this case and we don&amp;#x2019;t want CertBot to touch SSL configuration file.&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;./certbot certonly --email xxx@xxx.com -d domain1.com -d www.domain1.com -d domain2.com -d www.domain2.com&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -654,25 +701,22 @@
 &lt;h2 id=&#34;Step3-check-if-your-SSL-certificate-is-in-etc-letsencrypt-live-domain1-com-folder-You-should-have-below-files&#34;&gt;&lt;a href=&#34;#Step3-check-if-your-SSL-certificate-is-in-etc-letsencrypt-live-domain1-com-folder-You-should-have-below-files&#34; class=&#34;headerlink&#34; title=&#34;Step3, check if your SSL certificate is in /etc/letsencrypt/live/domain1.com/ folder. You should have below files.&#34;&gt;&lt;/a&gt;Step3, check if your SSL certificate is in /etc/letsencrypt/live/&lt;strong&gt;domain1&lt;/strong&gt;.com/ folder. You should have below files.&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;privkey.pem  : the private key for your certificate.&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;fullchain.pem: the certificate file used in most server software.&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;chain.pem    : used for OCSP stapling in Nginx &amp;gt;=1.3.7.&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cert.pem     : will break many server configurations, and should not be used without reading further documentation.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h2 id=&#34;Step-4-point-your-SSL-certificate-private-key-and-chain-to-the-new-generated-SSL-certificate-location-with-correct-names&#34;&gt;&lt;a href=&#34;#Step-4-point-your-SSL-certificate-private-key-and-chain-to-the-new-generated-SSL-certificate-location-with-correct-names&#34; class=&#34;headerlink&#34; title=&#34;Step 4, point your SSL certificate, private key, and chain to the new generated SSL certificate location with correct names.&#34;&gt;&lt;/a&gt;Step 4, point your SSL certificate, private key, and chain to the new generated SSL certificate location with correct names.&lt;/h2&gt;&lt;p&gt;(How to? please refer to this guide: &lt;a href=&#34;http://nginx.org/en/docs/http/configuring_https_servers.html&#34;&gt;Configuring HTTPS servers&lt;/a&gt;)&lt;/p&gt;
-&lt;h2 id=&#34;Step-5-create-a-auto-renewal-check-task-to-have-your-server-run-CertBot-to-check-the-certification-expiration-date-everyday-to-make-sure-your-SSL-is-not-expired&#34;&gt;&lt;a href=&#34;#Step-5-create-a-auto-renewal-check-task-to-have-your-server-run-CertBot-to-check-the-certification-expiration-date-everyday-to-make-sure-your-SSL-is-not-expired&#34; class=&#34;headerlink&#34; title=&#34;Step 5, create a auto renewal check task to have your server run CertBot to check the certification expiration date everyday to make sure your SSL is not expired.&#34;&gt;&lt;/a&gt;Step 5, create a auto renewal check task to have your server run CertBot to check the certification expiration date everyday to make sure your SSL is not expired.&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;#!/bin/bash&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;certbot renew --noninteractive --renew-hook &amp;apos;sudo systemctl reload nginx&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <category term="tech" />
-        <updated>2017-01-29T07:43:55.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install//</id>
-        <title>macOS Sierra Asus Z87-A Clover Installation for Upgrade from El Capitan Or Fresh Install</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install/"/>
-        <content type="html">&lt;p&gt;Instruction for how to prepare Clover USB system installation flash driver can be found from here: &lt;a href=&#34;https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/&#34; title=&#34;Install Mac OS X with clover EFI bootloader on ASUS Z87a&#34;&gt;Install Mac OS X with clover EFI bootloader on ASUS Z87a&lt;/a&gt; Hardwares used in this instruction: Motherboard: Asus Z87-A motherboard (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;fst=as:off&amp;amp;keywords=z87-a&amp;amp;linkCode=ur2&amp;amp;qid=1437343162&amp;amp;rh=n:1048424,k:z87-a&amp;amp;rnid=2941120011&amp;amp;tag=qualityologycom-20&amp;amp;linkId=KIDLVK46HWUS4WMI&#34;&gt;Get ASUS Z87-A motherboard from Amazon&lt;/a&gt;) CPU: I7 4770K CPU or any LGA1150 CPU (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;field-keywords=LGA%201150&amp;amp;linkCode=ur2&amp;amp;rh=n:172282,n:541966,n:193870011,n:229189,k:LGA%201150&amp;amp;tag=qualityologycom-20&amp;amp;url=node=229189&amp;amp;linkId=HCREEQYPNTODHQHU&#34;&gt;Get LGA1150 CPU from Amazon&lt;/a&gt;) Graphics Card: Integrated Graphics Processor (HD Graphics 4600) Sound Card: Integrated Realtek ALC892 Harddriver: SATA3 SSD Clover&amp;#x2019;s configuration and files from this guide will fit El Capitan and Sierra. You can directly upgrade from previous macOS to Sierra using this guide for Asus Z87-A motherboard or other similar Asus motherboards. &lt;strong&gt;What is working?&lt;/strong&gt; CPU Power management/Sleep/Wake OK USB 3.0 OK USB 2.0 OK ALC892 Sound Card OK Graphic Card OK Almost everything &lt;strong&gt;What is not working?&lt;/strong&gt; None &lt;strong&gt;macOS bug or Clover bug and fix?&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;Step-5-create-a-auto-renewal-check-task-to-have-your-server-run-CertBot-to-check-the-certification-expiration-date-everyday-to-make-sure-your-SSL-is-not-expired&#34;&gt;&lt;a href=&#34;#Step-5-create-a-auto-renewal-check-task-to-have-your-server-run-CertBot-to-check-the-certification-expiration-date-everyday-to-make-sure-your-SSL-is-not-expired&#34; class=&#34;headerlink&#34; title=&#34;Step 5, create a auto renewal check task to have your server run CertBot to check the certification expiration date everyday to make sure your SSL is not expired.&#34;&gt;&lt;/a&gt;Step 5, create a auto renewal check task to have your server run CertBot to check the certification expiration date everyday to make sure your SSL is not expired.&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;#!/bin/bash&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;certbot renew --noninteractive --renew-hook &amp;apos;sudo systemctl reload nginx&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install/</guid>
+            <title>macOS Sierra Asus Z87-A Clover Installation for Upgrade from El Capitan Or Fresh Install</title>
+            <link>https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install/</link>
+            <category>MacOS</category>
+            <pubDate>Thu, 13 Oct 2016 22:54:17 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Instruction for how to prepare Clover USB system installation flash driver can be found from here: &lt;a href=&#34;https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/&#34; title=&#34;Install Mac OS X with clover EFI bootloader on ASUS Z87a&#34;&gt;Install Mac OS X with clover EFI bootloader on ASUS Z87a&lt;/a&gt; Hardwares used in this instruction: Motherboard: Asus Z87-A motherboard (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;fst=as:off&amp;amp;keywords=z87-a&amp;amp;linkCode=ur2&amp;amp;qid=1437343162&amp;amp;rh=n:1048424,k:z87-a&amp;amp;rnid=2941120011&amp;amp;tag=qualityologycom-20&amp;amp;linkId=KIDLVK46HWUS4WMI&#34;&gt;Get ASUS Z87-A motherboard from Amazon&lt;/a&gt;) CPU: I7 4770K CPU or any LGA1150 CPU (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;field-keywords=LGA%201150&amp;amp;linkCode=ur2&amp;amp;rh=n:172282,n:541966,n:193870011,n:229189,k:LGA%201150&amp;amp;tag=qualityologycom-20&amp;amp;url=node=229189&amp;amp;linkId=HCREEQYPNTODHQHU&#34;&gt;Get LGA1150 CPU from Amazon&lt;/a&gt;) Graphics Card: Integrated Graphics Processor (HD Graphics 4600) Sound Card: Integrated Realtek ALC892 Harddriver: SATA3 SSD Clover&amp;#x2019;s configuration and files from this guide will fit El Capitan and Sierra. You can directly upgrade from previous macOS to Sierra using this guide for Asus Z87-A motherboard or other similar Asus motherboards. &lt;strong&gt;What is working?&lt;/strong&gt; CPU Power management/Sleep/Wake OK USB 3.0 OK USB 2.0 OK ALC892 Sound Card OK Graphic Card OK Almost everything &lt;strong&gt;What is not working?&lt;/strong&gt; None &lt;strong&gt;macOS bug or Clover bug and fix?&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;  WiFi issue after wake from sleep? uncheck &lt;strong&gt;Disable Wake for network access&lt;/strong&gt; from &lt;strong&gt;Energy Saver&lt;/strong&gt; and restart&lt;/li&gt;
 &lt;li&gt;  No sound after wake from sleep? Install CodecCommander, download the latest version from here: &lt;a href=&#34;https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads&#34;&gt;https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;  iMessage issue? Do you have 17 digit MLB# and Board Serial number? 15 digit Serial#? and SmUUID?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;Step-1-Clover-configuration&#34;&gt;&lt;a href=&#34;#Step-1-Clover-configuration&#34; class=&#34;headerlink&#34; title=&#34;Step 1, Clover configuration&#34;&gt;&lt;/a&gt;Step 1, Clover configuration&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;/2016/10/clover_acpi.png&#34; alt=&#34;Clover Acpi&#34;&gt; &lt;img src=&#34;/2016/10/clover_boot.png&#34; alt=&#34;Clover Boot&#34;&gt; &lt;img src=&#34;/2016/10/clover_devices.png&#34; alt=&#34;Clover Devices&#34;&gt; &lt;img src=&#34;/2016/10/clover_graphics.png&#34; alt=&#34;Clover Graphics&#34;&gt; &lt;img src=&#34;/2016/10/clover_kernel_and_kext_patches.png&#34; alt=&#34;Clover Kernel And Kext Patches&#34;&gt; &lt;img src=&#34;/2016/10/clover_Rt_Variables.png&#34; alt=&#34;Clover Rt Variables&#34;&gt; &lt;img src=&#34;/2016/10/clover_SMBIOS.png&#34; alt=&#34;Clover Smbios&#34;&gt; &lt;img src=&#34;/2016/10/clover_System_Parameters.png&#34; alt=&#34;Clover System Parameters&#34;&gt; &lt;/p&gt;
-&lt;h2 id=&#34;Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34;&gt;&lt;a href=&#34;#Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34; class=&#34;headerlink&#34; title=&#34;Step 2. download SSDT-XOSI.aml and ssdt.amland unzip to EFI/CLOVER/ACPI/patched&#34;&gt;&lt;/a&gt;Step 2. download &lt;a href=&#34;https://www.qualityology.com/2016/10/patch.zip&#34;&gt;SSDT-XOSI.aml and ssdt.aml&lt;/a&gt;and unzip to EFI/CLOVER/ACPI/patched&lt;/h2&gt;&lt;h2 id=&#34;Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34;&gt;&lt;a href=&#34;#Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34; class=&#34;headerlink&#34; title=&#34;Step 3. download AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext and unzip to EFI/CLOVER/kexts/Other&#34;&gt;&lt;/a&gt;Step 3. download &lt;a href=&#34;https://www.qualityology.com/2016/10/other.zip&#34;&gt;AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext&lt;/a&gt; and unzip to EFI/CLOVER/kexts/Other&lt;/h2&gt;&lt;h2 id=&#34;Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34;&gt;&lt;a href=&#34;#Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34; class=&#34;headerlink&#34; title=&#34;Step 4. download FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&#34;&gt;&lt;/a&gt;Step 4. download &lt;a href=&#34;https://www.qualityology.com/2016/10/drivers64UEFI.zip&#34;&gt;FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi&lt;/a&gt; and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&lt;/h2&gt;&lt;h2 id=&#34;Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34;&gt;&lt;a href=&#34;#Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34; class=&#34;headerlink&#34; title=&#34;Step 5. upgrade to macOS Sierra or do a fresh installation.&#34;&gt;&lt;/a&gt;Step 5. upgrade to macOS Sierra or do a fresh installation.&lt;/h2&gt;</content>
-        <category term="tech" />
-        <updated>2016-10-14T05:54:17.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-</feed>
+&lt;h2 id=&#34;Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34;&gt;&lt;a href=&#34;#Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34; class=&#34;headerlink&#34; title=&#34;Step 2. download SSDT-XOSI.aml and ssdt.amland unzip to EFI/CLOVER/ACPI/patched&#34;&gt;&lt;/a&gt;Step 2. download &lt;a href=&#34;https://www.qualityology.com/2016/10/patch.zip&#34;&gt;SSDT-XOSI.aml and ssdt.aml&lt;/a&gt;and unzip to EFI/CLOVER/ACPI/patched&lt;/h2&gt;&lt;h2 id=&#34;Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34;&gt;&lt;a href=&#34;#Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34; class=&#34;headerlink&#34; title=&#34;Step 3. download AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext and unzip to EFI/CLOVER/kexts/Other&#34;&gt;&lt;/a&gt;Step 3. download &lt;a href=&#34;https://www.qualityology.com/2016/10/other.zip&#34;&gt;AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext&lt;/a&gt; and unzip to EFI/CLOVER/kexts/Other&lt;/h2&gt;&lt;h2 id=&#34;Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34;&gt;&lt;a href=&#34;#Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34; class=&#34;headerlink&#34; title=&#34;Step 4. download FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&#34;&gt;&lt;/a&gt;Step 4. download &lt;a href=&#34;https://www.qualityology.com/2016/10/drivers64UEFI.zip&#34;&gt;FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi&lt;/a&gt; and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&lt;/h2&gt;&lt;h2 id=&#34;Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34;&gt;&lt;a href=&#34;#Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34; class=&#34;headerlink&#34; title=&#34;Step 5. upgrade to macOS Sierra or do a fresh installation.&#34;&gt;&lt;/a&gt;Step 5. upgrade to macOS Sierra or do a fresh installation.&lt;/h2&gt; ]]></description>
+        </item>
+    </channel>
+</rss>

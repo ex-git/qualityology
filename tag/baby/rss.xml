@@ -1,16 +1,71 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.qualityology.com</id>
-    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;baby&#34; tag</title>
-    <link href="https://www.qualityology.com" />
-    <updated>2017-11-13T07:19:14.000Z</updated>
-    <category term="tech" />
-    <category term="lifestyle" />
-    <entry>
-        <id>https://www.qualityology.com/lifestyle/best-easiest-way-sterilize-baby-bottles-uv-sterilization//</id>
-        <title>Best and easiest way to sterilize baby bottles - UV sterilization</title>
-        <link rel="alternate" href="https://www.qualityology.com/lifestyle/best-easiest-way-sterilize-baby-bottles-uv-sterilization/"/>
-        <content type="html">&lt;p&gt;Baby is vulnerable to diseases and illnesses, so you will want to ensure their bottles are clean and germ free until baby&amp;#x2019;s immune system developed providing a much higher tolerance to bacterias and germs. Sterilizing bottles can have different ways. Some require more efforts and times and some need more cautions. &lt;strong&gt;There are many ways to sterilize baby bottles.&lt;/strong&gt;&lt;/p&gt;
+<rss version="2.0">
+    <channel>
+        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;baby&#34; tag</title>
+        <link>https://www.qualityology.com</link>
+        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
+        <language>en</language>
+        <pubDate>Sun, 12 Nov 2017 23:19:14 -0800</pubDate>
+        <lastBuildDate>Sun, 12 Nov 2017 23:19:14 -0800</lastBuildDate>
+        <category>WordPress</category>
+        <category>MySQL</category>
+        <category>apps</category>
+        <category>OpenWrt</category>
+        <category>Ads</category>
+        <category>printers</category>
+        <category>Apache</category>
+        <category>MacOS</category>
+        <category>baby</category>
+        <category>Nginx</category>
+        <category>Server</category>
+        <category>pfsense</category>
+        <category>timezone</category>
+        <category>Windows</category>
+        <category>port</category>
+        <category>Amazon</category>
+        <category>React</category>
+        <category>API</category>
+        <category>DOS</category>
+        <category>PDF</category>
+        <category>UEFI</category>
+        <category>Beini</category>
+        <category>Mikrotik</category>
+        <category>PCC</category>
+        <category>Java</category>
+        <category>DNS</category>
+        <category>Raspberry-Pi</category>
+        <category>SSL</category>
+        <category>Office</category>
+        <category>Wireless</category>
+        <category>Google Voice</category>
+        <category>ram</category>
+        <category>CentOS</category>
+        <category>Docker</category>
+        <category>firmware</category>
+        <category>entware</category>
+        <category>LAMP</category>
+        <category>Opencart</category>
+        <category>iPhone</category>
+        <category>Linksys</category>
+        <category>Safari</category>
+        <category>keepass</category>
+        <category>iptables</category>
+        <category>Open Source</category>
+        <category>patch</category>
+        <category>DISKPART</category>
+        <category>MAC</category>
+        <category>hosts</category>
+        <category>driver</category>
+        <category>iOS</category>
+        <category>Google Drive</category>
+        <category>SEO</category>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/lifestyle/best-easiest-way-sterilize-baby-bottles-uv-sterilization/</guid>
+            <title>Best and easiest way to sterilize baby bottles - UV sterilization</title>
+            <link>https://www.qualityology.com/lifestyle/best-easiest-way-sterilize-baby-bottles-uv-sterilization/</link>
+            <category>baby</category>
+            <pubDate>Sun, 12 Nov 2017 23:19:14 -0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Baby is vulnerable to diseases and illnesses, so you will want to ensure their bottles are clean and germ free until baby&amp;#x2019;s immune system developed providing a much higher tolerance to bacterias and germs. Sterilizing bottles can have different ways. Some require more efforts and times and some need more cautions. &lt;strong&gt;There are many ways to sterilize baby bottles.&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;  Use&amp;#xA0;electric steamers&lt;/li&gt;
 &lt;li&gt;  Use Microwave&lt;/li&gt;
@@ -39,9 +94,7 @@
 &lt;p&gt;Looks very cool also when it is on. &lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/2017/11/wabi-uv-sterilizer-dryer-on.jpg&#34; alt=&#34;Wabi Uv Sterilizer Dryer On&#34;&gt; &lt;/p&gt;
 &lt;p&gt;We tested the UV and dryer function for a set of bottles. After the full cycle complete, all bottles were dry and feels clean. It does left some warm feeling when finish, but that is totally normal.&lt;/p&gt;
-</content>
-        <category term="lifestyle" />
-        <updated>2017-11-13T07:19:14.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>

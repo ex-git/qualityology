@@ -1,16 +1,71 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.qualityology.com</id>
-    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;server&#34; tag</title>
-    <link href="https://www.qualityology.com" />
-    <updated>2021-03-03T05:44:34.000Z</updated>
-    <category term="tech" />
-    <category term="lifestyle" />
-    <entry>
-        <id>https://www.qualityology.com/tech/install-isso-server-free-with-gcp//</id>
-        <title>Install Isso server free with GCP</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/install-isso-server-free-with-gcp/"/>
-        <content type="html">&lt;p&gt;Isso is an open source comment system similar to Disqus and other paid comment systems, but without using heavy third party script that contain tracking and analystic functions. It use SQLite3 database to store comments since comments take very litttle space. &lt;/p&gt;
+<rss version="2.0">
+    <channel>
+        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;server&#34; tag</title>
+        <link>https://www.qualityology.com</link>
+        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
+        <language>en</language>
+        <pubDate>Tue, 02 Mar 2021 21:44:34 -0800</pubDate>
+        <lastBuildDate>Tue, 02 Mar 2021 21:44:34 -0800</lastBuildDate>
+        <category>WordPress</category>
+        <category>MySQL</category>
+        <category>apps</category>
+        <category>OpenWrt</category>
+        <category>Ads</category>
+        <category>printers</category>
+        <category>Apache</category>
+        <category>MacOS</category>
+        <category>baby</category>
+        <category>Nginx</category>
+        <category>Server</category>
+        <category>pfsense</category>
+        <category>timezone</category>
+        <category>Windows</category>
+        <category>port</category>
+        <category>Amazon</category>
+        <category>React</category>
+        <category>API</category>
+        <category>DOS</category>
+        <category>PDF</category>
+        <category>UEFI</category>
+        <category>Beini</category>
+        <category>Mikrotik</category>
+        <category>PCC</category>
+        <category>Java</category>
+        <category>DNS</category>
+        <category>Raspberry-Pi</category>
+        <category>SSL</category>
+        <category>Office</category>
+        <category>Wireless</category>
+        <category>Google Voice</category>
+        <category>ram</category>
+        <category>CentOS</category>
+        <category>Docker</category>
+        <category>firmware</category>
+        <category>entware</category>
+        <category>LAMP</category>
+        <category>Opencart</category>
+        <category>iPhone</category>
+        <category>Linksys</category>
+        <category>Safari</category>
+        <category>keepass</category>
+        <category>iptables</category>
+        <category>Open Source</category>
+        <category>patch</category>
+        <category>DISKPART</category>
+        <category>MAC</category>
+        <category>hosts</category>
+        <category>driver</category>
+        <category>iOS</category>
+        <category>Google Drive</category>
+        <category>SEO</category>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/install-isso-server-free-with-gcp/</guid>
+            <title>Install Isso server free with GCP</title>
+            <link>https://www.qualityology.com/tech/install-isso-server-free-with-gcp/</link>
+            <category>Server</category>
+            <pubDate>Tue, 02 Mar 2021 21:44:34 -0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Isso is an open source comment system similar to Disqus and other paid comment systems, but without using heavy third party script that contain tracking and analystic functions. It use SQLite3 database to store comments since comments take very litttle space. &lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/2021/isso.jpg&#34; alt=&#34;isso&#34;&gt;&lt;/p&gt;
 &lt;p&gt;If you are using CMS or blog engine that doesn&amp;#x2019;t support comments and you care about your website&amp;#x2019;s loading time and also don&amp;#x2019;t want your user to tracked by third party comment system. You should try Isso.&lt;/p&gt;
 &lt;h2 id=&#34;1-Get-a-Linux-server-GCP-free-tier-is-more-than-enough&#34;&gt;&lt;a href=&#34;#1-Get-a-Linux-server-GCP-free-tier-is-more-than-enough&#34; class=&#34;headerlink&#34; title=&#34;1. Get a Linux server. GCP free tier is more than enough.&#34;&gt;&lt;/a&gt;1. Get a Linux server. GCP free tier is more than enough.&lt;/h2&gt;&lt;p&gt;You will need a Linux server for Isso. If you don&amp;#x2019;t have one, you can use Google Cloud Platform (GCP) and create an server with their free tier option. Comments system use very little traffic so you will not likely go over the free tier quota. &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;Start a Linux server first from here&lt;/a&gt; &lt;/p&gt;
@@ -48,16 +103,17 @@
 &lt;h2 id=&#34;12-You-are-all-set&#34;&gt;&lt;a href=&#34;#12-You-are-all-set&#34; class=&#34;headerlink&#34; title=&#34;12. You are all set.&#34;&gt;&lt;/a&gt;12. You are all set.&lt;/h2&gt;&lt;p&gt;You now should be able to use your Isso server. Calling your server from your website/blog with something similar to below script.&lt;/p&gt;
 &lt;figure class=&#34;highlight javascript hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;script &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    data-isso=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;//your_post_url&amp;quot;&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    src=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;//isso.your_domain.com/js/embed.min.js&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    data-isso-&lt;span class=&#34;hljs-built_in&#34;&gt;require&lt;/span&gt;-author=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;true&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    data-isso-&lt;span class=&#34;hljs-built_in&#34;&gt;require&lt;/span&gt;-email=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;true&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    data-isso-avatar=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;false&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    data-isso-gravatar=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;true&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    data-isso-vote=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;true&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    data-isso-reveal-on-click=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;true&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
-</content>
-        <category term="tech" />
-        <updated>2021-03-03T05:44:34.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/connect-to-existing-aws-appsync-api-from-a-react-application//</id>
-        <title>Connect to existing AWS AppSync API from a React Application</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/connect-to-existing-aws-appsync-api-from-a-react-application/"/>
-        <content type="html">&lt;p&gt;Have an existing API within AWS AppSync and need to connect it from a React web application? If you are not completely new to GraphQL you should know that the most popular GraphQL client is Apollo. &lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/connect-to-existing-aws-appsync-api-from-a-react-application/</guid>
+            <title>Connect to existing AWS AppSync API from a React Application</title>
+            <link>https://www.qualityology.com/tech/connect-to-existing-aws-appsync-api-from-a-react-application/</link>
+            <category>Server</category>
+            <category>React</category>
+            <category>API</category>
+            <pubDate>Fri, 26 Feb 2021 20:53:22 -0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Have an existing API within AWS AppSync and need to connect it from a React web application? If you are not completely new to GraphQL you should know that the most popular GraphQL client is Apollo. &lt;/p&gt;
 &lt;p&gt;There are many different way to connect to AWS AppSync with React, using different packages. Some required more packages/dependencies. &lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/2021/aws_appsync.jpeg&#34; alt=&#34;aws_appsync&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;1-Use-Apollo-client&#34;&gt;&lt;a href=&#34;#1-Use-Apollo-client&#34; class=&#34;headerlink&#34; title=&#34;1. Use Apollo client&#34;&gt;&lt;/a&gt;1. Use Apollo client&lt;/h2&gt;&lt;p&gt;The latest version &lt;code&gt;@apollo/client&lt;/code&gt; can handle AWS AppSync&amp;#x2019;s query and mutation just fine with simple setup and also support React hook out of the box. Per their official doc, they will only support &lt;code&gt;useQuery&lt;/code&gt; for query and &lt;code&gt;useMutation&lt;/code&gt; for mutation hooks in their future release. Component based query and mutation will still work but will not be supported. However, for subscription, &lt;code&gt;@apollo/client&lt;/code&gt; and AWS AppSync API won&amp;#x2019;t work without complex setup because AppSync&amp;#x2019;s subscriptions use MQTT as the transport layer, but &lt;code&gt;@apollo/client&lt;/code&gt; support WebSockets.&lt;/p&gt;
@@ -114,16 +170,17 @@
 &lt;p&gt;Example of how the function used to call mutation look like:&lt;/p&gt;
 &lt;figure class=&#34;highlight js hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;import&lt;/span&gt; { API, graphqlOperation } &lt;span class=&#34;hljs-keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;aws-amplify&amp;apos;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;import&lt;/span&gt; { createTodo } &lt;span class=&#34;hljs-keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;/graphql/mutations&amp;apos;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;const&lt;/span&gt; todo = {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	item: &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;visit qualityology.com&amp;apos;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;const&lt;/span&gt; update = &lt;span class=&#34;hljs-keyword&#34;&gt;await&lt;/span&gt; API.graphql(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            graphqlOperation(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                createTodo,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                    input: todo,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                },&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            ),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        )&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        .then(&lt;span class=&#34;hljs-function&#34;&gt;(&lt;span class=&#34;hljs-params&#34;&gt;res&lt;/span&gt;) =&amp;gt;&lt;/span&gt; res)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        .catch(&lt;span class=&#34;hljs-function&#34;&gt;(&lt;span class=&#34;hljs-params&#34;&gt;error&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &lt;span class=&#34;hljs-built_in&#34;&gt;console&lt;/span&gt;.log(&lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;error, creating user&amp;apos;&lt;/span&gt;, error));&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-built_in&#34;&gt;console&lt;/span&gt;.log(&lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;update&amp;apos;&lt;/span&gt;, update);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;/ol&gt;
-</content>
-        <category term="tech" />
-        <updated>2021-02-27T04:53:22.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx//</id>
-        <title>Build an extremely fast WordPress with GCP Part 2: Nginx</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/"/>
-        <content type="html">&lt;p&gt;Apache or Nginx, what softwares should be used to for your server to achieve the maximum performance? If you have a small free server from GCP from &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;part 1&lt;/a&gt;, and you want it to be able to handle average 1000 clients per second, Nginx is the best option. Apache use more server resources and must be configured properly to get the best performance. Nginx can handle very large amount of traffic even in a limited environment. We have done the loading test with the server from Google Cloud Platform from &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;part 1&lt;/a&gt;&amp;#xA0;and the result was great without deep optimization. 1000 client/sec is not the maximum that this setup can get, it is the limit of the free test we could get. &lt;img src=&#34;/2017/09/loading-test-result.png&#34;&gt; When we tried the same test using Apache, the test was aborted at the beginning because server crashed. That is why we will use Nginx. We are not the server expert, so we will not discuss how to optimize Apache to pass the same test. What we will need is NGINX + MySQL + PHP-FPM +&amp;#xA0;Microcaching + WordPress.&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/</guid>
+            <title>Build an extremely fast WordPress with GCP Part 2: Nginx</title>
+            <link>https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/</link>
+            <category>WordPress</category>
+            <category>Nginx</category>
+            <category>Server</category>
+            <pubDate>Sat, 30 Sep 2017 22:11:32 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Apache or Nginx, what softwares should be used to for your server to achieve the maximum performance? If you have a small free server from GCP from &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;part 1&lt;/a&gt;, and you want it to be able to handle average 1000 clients per second, Nginx is the best option. Apache use more server resources and must be configured properly to get the best performance. Nginx can handle very large amount of traffic even in a limited environment. We have done the loading test with the server from Google Cloud Platform from &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;part 1&lt;/a&gt;&amp;#xA0;and the result was great without deep optimization. 1000 client/sec is not the maximum that this setup can get, it is the limit of the free test we could get. &lt;img src=&#34;/2017/09/loading-test-result.png&#34;&gt; When we tried the same test using Apache, the test was aborted at the beginning because server crashed. That is why we will use Nginx. We are not the server expert, so we will not discuss how to optimize Apache to pass the same test. What we will need is NGINX + MySQL + PHP-FPM +&amp;#xA0;Microcaching + WordPress.&lt;/p&gt;
 &lt;h2 id=&#34;Step-1-install-Nginx&#34;&gt;&lt;a href=&#34;#Step-1-install-Nginx&#34; class=&#34;headerlink&#34; title=&#34;Step 1, install Nginx.&#34;&gt;&lt;/a&gt;Step 1, install Nginx.&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo apt-get update -y&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo apt-get install nginx -y&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo service nginx start&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h2 id=&#34;Step-2-install-Mysql-or-MariaDB&#34;&gt;&lt;a href=&#34;#Step-2-install-Mysql-or-MariaDB&#34; class=&#34;headerlink&#34; title=&#34;Step 2, install Mysql (or MariaDB).&#34;&gt;&lt;/a&gt;Step 2, install Mysql (or MariaDB).&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo apt-get install mysql-server -y&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo service mysql stop&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo mysql_install_db # follow instructions&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo service mysql start&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo mysql_secure_installation # follow instructions&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -158,16 +215,17 @@
 &lt;h2 id=&#34;Step-6-install-WordPress&#34;&gt;&lt;a href=&#34;#Step-6-install-WordPress&#34; class=&#34;headerlink&#34; title=&#34;Step 6, install WordPress&#34;&gt;&lt;/a&gt;Step 6, install WordPress&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cd /var/www/html/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo wget http://wordpress.org/latest.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo tar xzvf latest.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo rm latest.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo mv wordpress/* ./&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo chown -R www-data:www-data /var/www/html/*&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;You are all set. Now, open your domain or IP to setup WordPress&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2017-10-01T05:11:32.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-    <entry>
-        <id>https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server//</id>
-        <title>Build an extremely fast WordPress with GCP Part 1: server</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/"/>
-        <content type="html">&lt;p&gt;Can you get a super fast server free from Google? Yes, you can. Google Cloud Platform has free tier for US region server. If you are building a small WordPress website using light bandwidth, the free tier is more than sufficient. Free tier provide 720 hours of instance usage which will cover whole month of usage. The only downside is if your site use a lot of bandwidth you will be billed after 1GB of free egress bandwidth, but still cheap because 1 GB cost only&amp;#xA0;$0.01 for US and 1 TB $0.12 - $0.23 depends on the regions. Most new sites use only small amount of bandwidth. Ingress is free if you wonder. As of today, the free tier offer:&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/</guid>
+            <title>Build an extremely fast WordPress with GCP Part 1: server</title>
+            <link>https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/</link>
+            <category>WordPress</category>
+            <category>Nginx</category>
+            <category>Server</category>
+            <pubDate>Sun, 17 Sep 2017 21:16:14 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Can you get a super fast server free from Google? Yes, you can. Google Cloud Platform has free tier for US region server. If you are building a small WordPress website using light bandwidth, the free tier is more than sufficient. Free tier provide 720 hours of instance usage which will cover whole month of usage. The only downside is if your site use a lot of bandwidth you will be billed after 1GB of free egress bandwidth, but still cheap because 1 GB cost only&amp;#xA0;$0.01 for US and 1 TB $0.12 - $0.23 depends on the regions. Most new sites use only small amount of bandwidth. Ingress is free if you wonder. As of today, the free tier offer:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;  1 f1-micro instance per month (US regions only - Excluding Northern Virginia)&lt;/li&gt;
@@ -186,9 +244,7 @@
 &lt;li&gt;  &lt;strong&gt;Firewall&lt;/strong&gt;: check Allow HTTP traffic and Allow HTTPS traffic&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;Step-4-get-an-static-IP-for-your-instance&#34;&gt;&lt;a href=&#34;#Step-4-get-an-static-IP-for-your-instance&#34; class=&#34;headerlink&#34; title=&#34;Step 4: get an static IP for your instance.&#34;&gt;&lt;/a&gt;Step 4: get an static IP for your instance.&lt;/h2&gt;&lt;p&gt;Expand&amp;#xA0;Management, disks, networking, SSH keys &lt;img src=&#34;https://www.qualityology.com/2017/09/instance_config_micro.png&#34;&gt; Under Networking &amp;gt;&amp;gt; Network interfaces &amp;gt;&amp;gt; External IP, select Create IP address &lt;img src=&#34;/2017/09/instance_static_ip.png&#34;&gt; After you reserve an static external IP address, you can click Create to finish the instance setup. You have complete the step 1 and you have your&amp;#xA0;free server from GCP, continue to &lt;a href=&#34;https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/&#34;&gt;part 2&lt;/a&gt; when you ready.&lt;/p&gt;
-</content>
-        <category term="tech" />
-        <updated>2017-09-18T04:16:14.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>

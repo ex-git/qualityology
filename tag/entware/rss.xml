@@ -1,16 +1,71 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.qualityology.com</id>
-    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;entware&#34; tag</title>
-    <link href="https://www.qualityology.com" />
-    <updated>2016-09-08T19:56:47.000Z</updated>
-    <category term="tech" />
-    <category term="lifestyle" />
-    <entry>
-        <id>https://www.qualityology.com/tech/install-entware-on-arm-mips-based-ddwrt-tomato-and-asus-merlin//</id>
-        <title>Install entware on ARM MIPS based DDWRT, Tomato, and ASUS Merlin</title>
-        <link rel="alternate" href="https://www.qualityology.com/tech/install-entware-on-arm-mips-based-ddwrt-tomato-and-asus-merlin/"/>
-        <content type="html">&lt;p&gt;Entware is described as a modern optware replacement. Most of entware&amp;#x2019;s packages are taken from OpenWRT, but others are unique. If you are considering to install optware, you should try entware. This instruction is for ARM or MIPS devices only.&lt;/p&gt;
+<rss version="2.0">
+    <channel>
+        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;entware&#34; tag</title>
+        <link>https://www.qualityology.com</link>
+        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
+        <language>en</language>
+        <pubDate>Thu, 08 Sep 2016 12:56:47 -0700</pubDate>
+        <lastBuildDate>Thu, 08 Sep 2016 12:56:47 -0700</lastBuildDate>
+        <category>WordPress</category>
+        <category>MySQL</category>
+        <category>apps</category>
+        <category>OpenWrt</category>
+        <category>Ads</category>
+        <category>printers</category>
+        <category>Apache</category>
+        <category>MacOS</category>
+        <category>baby</category>
+        <category>Nginx</category>
+        <category>Server</category>
+        <category>pfsense</category>
+        <category>timezone</category>
+        <category>Windows</category>
+        <category>port</category>
+        <category>Amazon</category>
+        <category>React</category>
+        <category>API</category>
+        <category>DOS</category>
+        <category>PDF</category>
+        <category>UEFI</category>
+        <category>Beini</category>
+        <category>Mikrotik</category>
+        <category>PCC</category>
+        <category>Java</category>
+        <category>DNS</category>
+        <category>Raspberry-Pi</category>
+        <category>SSL</category>
+        <category>Office</category>
+        <category>Wireless</category>
+        <category>Google Voice</category>
+        <category>ram</category>
+        <category>CentOS</category>
+        <category>Docker</category>
+        <category>firmware</category>
+        <category>entware</category>
+        <category>LAMP</category>
+        <category>Opencart</category>
+        <category>iPhone</category>
+        <category>Linksys</category>
+        <category>Safari</category>
+        <category>keepass</category>
+        <category>iptables</category>
+        <category>Open Source</category>
+        <category>patch</category>
+        <category>DISKPART</category>
+        <category>MAC</category>
+        <category>hosts</category>
+        <category>driver</category>
+        <category>iOS</category>
+        <category>Google Drive</category>
+        <category>SEO</category>
+        <item>
+            <guid isPermalink="true">https://www.qualityology.com/tech/install-entware-on-arm-mips-based-ddwrt-tomato-and-asus-merlin/</guid>
+            <title>Install entware on ARM MIPS based DDWRT, Tomato, and ASUS Merlin</title>
+            <link>https://www.qualityology.com/tech/install-entware-on-arm-mips-based-ddwrt-tomato-and-asus-merlin/</link>
+            <category>entware</category>
+            <pubDate>Thu, 08 Sep 2016 12:56:47 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;Entware is described as a modern optware replacement. Most of entware&amp;#x2019;s packages are taken from OpenWRT, but others are unique. If you are considering to install optware, you should try entware. This instruction is for ARM or MIPS devices only.&lt;/p&gt;
 &lt;h2 id=&#34;1-Turn-on-jffs&#34;&gt;&lt;a href=&#34;#1-Turn-on-jffs&#34; class=&#34;headerlink&#34; title=&#34;1. Turn on jffs.&#34;&gt;&lt;/a&gt;1. Turn on jffs.&lt;/h2&gt;&lt;p&gt;In Tomato, enter the web interface, go to &amp;#x201C;Administrator&amp;#x201D;, then &amp;#x201C;jffs&amp;#x201D;, check &amp;#x201C;Enable&amp;#x201D;. Type in the code below into the &amp;#x201C;Execute When Mounted&amp;#x201D; box.&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;mount -o bind /jffs /opt&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
@@ -21,9 +76,7 @@
 &lt;p&gt;&lt;strong&gt;On MIPS devices:&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wget -O - http://pkg.entware.net/binaries/mipsel/installer/installer.sh  sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
-&lt;h2 id=&#34;3-Entware-is-now-installed-Use-&amp;#x2018;opkg&amp;#x2019;-command-to-install-pkgs&#34;&gt;&lt;a href=&#34;#3-Entware-is-now-installed-Use-&amp;#x2018;opkg&amp;#x2019;-command-to-install-pkgs&#34; class=&#34;headerlink&#34; title=&#34;3. Entware is now installed. Use &amp;#x2018;opkg&amp;#x2019; command to install pkgs&#34;&gt;&lt;/a&gt;3. Entware is now installed. Use &amp;#x2018;opkg&amp;#x2019; command to install pkgs&lt;/h2&gt;</content>
-        <category term="tech" />
-        <updated>2016-09-08T19:56:47.000Z</updated>
-        <author>Evan Xu(Qualityology)</author>
-    </entry>
-</feed>
+&lt;h2 id=&#34;3-Entware-is-now-installed-Use-&amp;#x2018;opkg&amp;#x2019;-command-to-install-pkgs&#34;&gt;&lt;a href=&#34;#3-Entware-is-now-installed-Use-&amp;#x2018;opkg&amp;#x2019;-command-to-install-pkgs&#34; class=&#34;headerlink&#34; title=&#34;3. Entware is now installed. Use &amp;#x2018;opkg&amp;#x2019; command to install pkgs&#34;&gt;&lt;/a&gt;3. Entware is now installed. Use &amp;#x2018;opkg&amp;#x2019; command to install pkgs&lt;/h2&gt; ]]></description>
+        </item>
+    </channel>
+</rss>
