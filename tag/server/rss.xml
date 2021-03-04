@@ -93,7 +93,8 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Navigate to your React project root folder.&lt;br&gt;&lt;code&gt;amplify init&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Add the codegen category to your React project.&lt;br&gt; `amplify add codegen &amp;#x2013;apiId YOUR_API_ID_HERE&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Add the codegen category to your React project. &lt;/p&gt;
+&lt;figure class=&#34;highlight bash hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;amplify add codegen --apiId YOUR_API_ID_HERE&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Generate client code.&lt;br&gt;&lt;code&gt;amplify codegen&lt;/code&gt;&lt;br&gt;Follow the steps in your terminal. &lt;/p&gt;
 &lt;/li&gt;
