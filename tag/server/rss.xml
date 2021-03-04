@@ -7,42 +7,42 @@
         <language>en</language>
         <pubDate>Tue, 02 Mar 2021 21:44:34 -0800</pubDate>
         <lastBuildDate>Tue, 02 Mar 2021 21:44:34 -0800</lastBuildDate>
-        <category>OpenWrt</category>
-        <category>MySQL</category>
         <category>WordPress</category>
+        <category>MySQL</category>
         <category>apps</category>
-        <category>Ads</category>
+        <category>OpenWrt</category>
         <category>printers</category>
+        <category>Ads</category>
         <category>Apache</category>
         <category>MacOS</category>
         <category>baby</category>
         <category>pfsense</category>
         <category>Nginx</category>
         <category>Server</category>
-        <category>Windows</category>
         <category>timezone</category>
+        <category>Windows</category>
         <category>port</category>
+        <category>Amazon</category>
         <category>React</category>
         <category>API</category>
         <category>Beini</category>
-        <category>Amazon</category>
-        <category>DOS</category>
         <category>PDF</category>
+        <category>DOS</category>
+        <category>UEFI</category>
         <category>Mikrotik</category>
         <category>PCC</category>
-        <category>Java</category>
-        <category>UEFI</category>
-        <category>Raspberry-Pi</category>
         <category>DNS</category>
-        <category>Office</category>
+        <category>Java</category>
+        <category>Raspberry-Pi</category>
         <category>SSL</category>
-        <category>Google Voice</category>
+        <category>Office</category>
         <category>Wireless</category>
+        <category>Google Voice</category>
         <category>ram</category>
         <category>CentOS</category>
+        <category>entware</category>
         <category>Docker</category>
         <category>firmware</category>
-        <category>entware</category>
         <category>LAMP</category>
         <category>Opencart</category>
         <category>iPhone</category>
