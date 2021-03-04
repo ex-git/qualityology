@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
+        <atom:link href="/atom.xml" rel="self" type="application/rss+xml" />
         <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;openwrt&#34; tag</title>
         <link>https://www.qualityology.com</link>
         <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
