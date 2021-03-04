@@ -13,10 +13,10 @@
         <category>OpenWrt</category>
         <category>Ads</category>
         <category>printers</category>
-        <category>Apache</category>
         <category>MacOS</category>
-        <category>pfsense</category>
+        <category>Apache</category>
         <category>baby</category>
+        <category>pfsense</category>
         <category>Nginx</category>
         <category>Server</category>
         <category>Windows</category>
@@ -26,8 +26,8 @@
         <category>React</category>
         <category>API</category>
         <category>Beini</category>
-        <category>DOS</category>
         <category>PDF</category>
+        <category>DOS</category>
         <category>UEFI</category>
         <category>Mikrotik</category>
         <category>PCC</category>
@@ -41,8 +41,8 @@
         <category>ram</category>
         <category>CentOS</category>
         <category>Docker</category>
-        <category>entware</category>
         <category>firmware</category>
+        <category>entware</category>
         <category>LAMP</category>
         <category>Opencart</category>
         <category>iPhone</category>
