@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;raspberry-pi&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -27,6 +27,7 @@
 </content>
         <category term="tech" />
         <updated>2021-03-01T20:55:35.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/fix-raspberry-pi-openwrt-boot-problem/</id>
@@ -39,6 +40,7 @@
 </content>
         <category term="tech" />
         <updated>2015-04-13T23:51:07.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/how-to-install-openwrt-on-raspberry-pi/</id>
@@ -80,6 +82,7 @@
 </content>
         <category term="tech" />
         <updated>2015-04-07T07:20:13.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/raspberry-pi-model-b-plus-july-2014-vs-model-b/</id>
@@ -116,6 +119,7 @@
 </content>
         <category term="tech" />
         <updated>2014-07-26T19:19:51.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/set-up-your-raspberry-pi-for-the-first-time/</id>
@@ -167,5 +171,6 @@
 </content>
         <category term="tech" />
         <updated>2014-07-14T22:34:39.000Z</updated>
+        <author>Qualityology</author>
     </entry>
 </feed>

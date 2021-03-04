@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Sat, 25 Apr 2015 16:14:22 -0700</pubDate>
         <lastBuildDate>Sat, 25 Apr 2015 16:14:22 -0700</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/connect-to-amazon-ec2-linux-instance-from-windows-via-putty/</guid>
+            <guid>https://www.qualityology.com/tech/connect-to-amazon-ec2-linux-instance-from-windows-via-putty/</guid>
             <title>Connect to Amazon EC2 Linux Instance from Windows Via PuTTY</title>
             <link>https://www.qualityology.com/tech/connect-to-amazon-ec2-linux-instance-from-windows-via-putty/</link>
             <category>tech</category>

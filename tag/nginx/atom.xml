@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Thu, 12 Apr 2018 16:57:49 -0700</pubDate>
         <lastBuildDate>Thu, 12 Apr 2018 16:57:49 -0700</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</guid>
+            <guid>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</guid>
             <title>Protect your WordPress from Automated Comment Spam and Brute Force Login Attack</title>
             <link>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</link>
             <category>tech</category>
@@ -44,7 +42,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/</guid>
+            <guid>https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/</guid>
             <title>Build an extremely fast WordPress with GCP Part 2: Nginx</title>
             <link>https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/</link>
             <category>tech</category>
@@ -87,7 +85,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/</guid>
+            <guid>https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/</guid>
             <title>Build an extremely fast WordPress with GCP Part 1: server</title>
             <link>https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/</link>
             <category>tech</category>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;wordpress&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -73,6 +73,7 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;figcaption&gt;&lt;span&gt;Automated Comment Spam with Nginx&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;function set_post_cookie() {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    echo &amp;apos;&amp;lt;script&amp;gt;document.cookie = &amp;quot;_pass=1; max-age=1800; path=/; secure&amp;quot;;&amp;lt;/script&amp;gt;&amp;apos; . &amp;quot;&amp;quot;; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;add_action( &amp;apos;comment_form&amp;apos;, &amp;apos;set_post_cookie&amp;apos;, 100 );&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="tech" />
         <updated>2021-02-23T20:09:23.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</id>
@@ -107,6 +108,7 @@
 </content>
         <category term="tech" />
         <updated>2018-04-12T23:57:49.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/</id>
@@ -150,6 +152,7 @@
 </content>
         <category term="tech" />
         <updated>2017-10-01T05:11:32.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/</id>
@@ -177,6 +180,7 @@
 </content>
         <category term="tech" />
         <updated>2017-09-18T04:16:14.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/wordpress-mobile-site-seo-vary-http-header/</id>
@@ -204,5 +208,6 @@
 </content>
         <category term="tech" />
         <updated>2014-08-19T04:42:29.000Z</updated>
+        <author>Qualityology</author>
     </entry>
 </feed>

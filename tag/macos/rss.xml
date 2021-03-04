@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;macos&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -28,6 +28,7 @@
 </content>
         <category term="tech" />
         <updated>2018-01-01T00:43:06.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/</id>
@@ -57,6 +58,7 @@
 </content>
         <category term="tech" />
         <updated>2017-12-30T23:15:34.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install/</id>
@@ -72,6 +74,7 @@
 &lt;h2 id=&#34;Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34;&gt;&lt;a href=&#34;#Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34; class=&#34;headerlink&#34; title=&#34;Step 2. download SSDT-XOSI.aml and ssdt.amland unzip to EFI/CLOVER/ACPI/patched&#34;&gt;&lt;/a&gt;Step 2. download &lt;a href=&#34;https://www.qualityology.com/2016/10/patch.zip&#34;&gt;SSDT-XOSI.aml and ssdt.aml&lt;/a&gt;and unzip to EFI/CLOVER/ACPI/patched&lt;/h2&gt;&lt;h2 id=&#34;Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34;&gt;&lt;a href=&#34;#Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34; class=&#34;headerlink&#34; title=&#34;Step 3. download AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext and unzip to EFI/CLOVER/kexts/Other&#34;&gt;&lt;/a&gt;Step 3. download &lt;a href=&#34;https://www.qualityology.com/2016/10/other.zip&#34;&gt;AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext&lt;/a&gt; and unzip to EFI/CLOVER/kexts/Other&lt;/h2&gt;&lt;h2 id=&#34;Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34;&gt;&lt;a href=&#34;#Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34; class=&#34;headerlink&#34; title=&#34;Step 4. download FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&#34;&gt;&lt;/a&gt;Step 4. download &lt;a href=&#34;https://www.qualityology.com/2016/10/drivers64UEFI.zip&#34;&gt;FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi&lt;/a&gt; and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&lt;/h2&gt;&lt;h2 id=&#34;Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34;&gt;&lt;a href=&#34;#Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34; class=&#34;headerlink&#34; title=&#34;Step 5. upgrade to macOS Sierra or do a fresh installation.&#34;&gt;&lt;/a&gt;Step 5. upgrade to macOS Sierra or do a fresh installation.&lt;/h2&gt;</content>
         <category term="tech" />
         <updated>2016-10-14T05:54:17.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/</id>
@@ -153,5 +156,6 @@
 </content>
         <category term="tech" />
         <updated>2015-08-16T01:08:38.000Z</updated>
+        <author>Qualityology</author>
     </entry>
 </feed>

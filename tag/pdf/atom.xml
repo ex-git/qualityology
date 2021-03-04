@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Thu, 19 Oct 2017 22:49:04 -0700</pubDate>
         <lastBuildDate>Thu, 19 Oct 2017 22:49:04 -0700</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/open-pdfa-pdf-file-without-read-mode/</guid>
+            <guid>https://www.qualityology.com/tech/open-pdfa-pdf-file-without-read-mode/</guid>
             <title>Open PDF/A PDF file without read-only mode</title>
             <link>https://www.qualityology.com/tech/open-pdfa-pdf-file-without-read-mode/</link>
             <category>tech</category>
@@ -24,7 +22,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/disable-adobe-reader-build-in-pdf-viewer-in-firefox-chrome-ie/</guid>
+            <guid>https://www.qualityology.com/tech/disable-adobe-reader-build-in-pdf-viewer-in-firefox-chrome-ie/</guid>
             <title>Disable Adobe Reader build in PDF Viewer in Firefox Chrome IE</title>
             <link>https://www.qualityology.com/tech/disable-adobe-reader-build-in-pdf-viewer-in-firefox-chrome-ie/</link>
             <category>tech</category>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;google voice&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -20,6 +20,7 @@
 </content>
         <category term="tech" />
         <updated>2014-11-10T08:19:37.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/missing-forwards-calls-to-google-chat-option-in-google-voice/</id>
@@ -31,5 +32,6 @@
 </content>
         <category term="tech" />
         <updated>2014-09-29T00:18:58.000Z</updated>
+        <author>Qualityology</author>
     </entry>
 </feed>

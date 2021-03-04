@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Tue, 15 Jul 2014 16:03:21 -0700</pubDate>
         <lastBuildDate>Tue, 15 Jul 2014 16:03:21 -0700</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/24-practical-usages-of-mysqladmin-commands-for-mysql-mariadb/</guid>
+            <guid>https://www.qualityology.com/tech/24-practical-usages-of-mysqladmin-commands-for-mysql-mariadb/</guid>
             <title>24 Practical Usages of Mysqladmin Commands for Mysql MariaDB</title>
             <link>https://www.qualityology.com/tech/24-practical-usages-of-mysqladmin-commands-for-mysql-mariadb/</link>
             <category>tech</category>

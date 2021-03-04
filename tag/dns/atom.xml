@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Wed, 25 Apr 2018 10:11:50 -0700</pubDate>
         <lastBuildDate>Wed, 25 Apr 2018 10:11:50 -0700</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf/</guid>
+            <guid>https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf/</guid>
             <title>Set custom DNS servers on Linux with resolv.conf</title>
             <link>https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf/</link>
             <category>tech</category>
@@ -40,7 +38,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains/</guid>
+            <guid>https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains/</guid>
             <title>Edit Hosts file to override DNS record for domains</title>
             <link>https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains/</link>
             <category>tech</category>
@@ -87,7 +85,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/host-your-dns-with-google-cloud-dns/</guid>
+            <guid>https://www.qualityology.com/tech/host-your-dns-with-google-cloud-dns/</guid>
             <title>Host Your DNS With Google Cloud DNS</title>
             <link>https://www.qualityology.com/tech/host-your-dns-with-google-cloud-dns/</link>
             <category>tech</category>

@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Sat, 11 Apr 2015 16:05:53 -0700</pubDate>
         <lastBuildDate>Sat, 11 Apr 2015 16:05:53 -0700</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/add-802-11-n-support-to-bcm47xx-and-bcm53xx-openwrt/</guid>
+            <guid>https://www.qualityology.com/tech/add-802-11-n-support-to-bcm47xx-and-bcm53xx-openwrt/</guid>
             <title>Add 802.11-n support to BCM47xx and BCM53xx OpenWrt</title>
             <link>https://www.qualityology.com/tech/add-802-11-n-support-to-bcm47xx-and-bcm53xx-openwrt/</link>
             <category>tech</category>
@@ -30,7 +28,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/how-to-install-openwrt-on-raspberry-pi/</guid>
+            <guid>https://www.qualityology.com/tech/how-to-install-openwrt-on-raspberry-pi/</guid>
             <title>How to install OpenWrt on Raspberry Pi</title>
             <link>https://www.qualityology.com/tech/how-to-install-openwrt-on-raspberry-pi/</link>
             <category>tech</category>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;linksys&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -17,6 +17,7 @@
 &lt;h2 id=&#34;6-Test-your-speed-again-and-you-should-see-the-speed-back-to-normal&#34;&gt;&lt;a href=&#34;#6-Test-your-speed-again-and-you-should-see-the-speed-back-to-normal&#34; class=&#34;headerlink&#34; title=&#34;6. Test your speed again and you should see the speed back to normal.&#34;&gt;&lt;/a&gt;6. Test your speed again and you should see the speed back to normal.&lt;/h2&gt;</content>
         <category term="tech" />
         <updated>2016-01-20T06:23:52.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/resolve-overheating-issues-on-linksys-ea6300-ea6350-ea6400-ea6700-or-similar-routers/</id>
@@ -44,5 +45,6 @@
 </content>
         <category term="tech" />
         <updated>2015-10-25T05:36:14.000Z</updated>
+        <author>Qualityology</author>
     </entry>
 </feed>

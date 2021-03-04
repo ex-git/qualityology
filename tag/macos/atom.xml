@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Sun, 31 Dec 2017 16:43:06 -0800</pubDate>
         <lastBuildDate>Sun, 31 Dec 2017 16:43:06 -0800</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover/</guid>
+            <guid>https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover/</guid>
             <title>Asus Z87-A MacOS high sierra upgrade prepare with clover</title>
             <link>https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover/</link>
             <category>tech</category>
@@ -33,7 +31,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/</guid>
+            <guid>https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/</guid>
             <title>Fix error - Mediakit reports not enough space on device for requested operation</title>
             <link>https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/</link>
             <category>tech</category>
@@ -62,7 +60,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install/</guid>
+            <guid>https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install/</guid>
             <title>macOS Sierra Asus Z87-A Clover Installation for Upgrade from El Capitan Or Fresh Install</title>
             <link>https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install/</link>
             <category>tech</category>
@@ -77,7 +75,7 @@
 &lt;h2 id=&#34;Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34;&gt;&lt;a href=&#34;#Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34; class=&#34;headerlink&#34; title=&#34;Step 2. download SSDT-XOSI.aml and ssdt.amland unzip to EFI/CLOVER/ACPI/patched&#34;&gt;&lt;/a&gt;Step 2. download &lt;a href=&#34;https://www.qualityology.com/2016/10/patch.zip&#34;&gt;SSDT-XOSI.aml and ssdt.aml&lt;/a&gt;and unzip to EFI/CLOVER/ACPI/patched&lt;/h2&gt;&lt;h2 id=&#34;Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34;&gt;&lt;a href=&#34;#Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34; class=&#34;headerlink&#34; title=&#34;Step 3. download AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext and unzip to EFI/CLOVER/kexts/Other&#34;&gt;&lt;/a&gt;Step 3. download &lt;a href=&#34;https://www.qualityology.com/2016/10/other.zip&#34;&gt;AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext&lt;/a&gt; and unzip to EFI/CLOVER/kexts/Other&lt;/h2&gt;&lt;h2 id=&#34;Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34;&gt;&lt;a href=&#34;#Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34; class=&#34;headerlink&#34; title=&#34;Step 4. download FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&#34;&gt;&lt;/a&gt;Step 4. download &lt;a href=&#34;https://www.qualityology.com/2016/10/drivers64UEFI.zip&#34;&gt;FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi&lt;/a&gt; and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&lt;/h2&gt;&lt;h2 id=&#34;Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34;&gt;&lt;a href=&#34;#Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34; class=&#34;headerlink&#34; title=&#34;Step 5. upgrade to macOS Sierra or do a fresh installation.&#34;&gt;&lt;/a&gt;Step 5. upgrade to macOS Sierra or do a fresh installation.&lt;/h2&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/</guid>
+            <guid>https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/</guid>
             <title>Install MacOS with clover EFI bootloader on ASUS Z87a</title>
             <link>https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/</link>
             <category>tech</category>

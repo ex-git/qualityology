@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Tue, 08 Jul 2014 00:38:42 -0700</pubDate>
         <lastBuildDate>Tue, 08 Jul 2014 00:38:42 -0700</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/changing-default-date-and-timezones-on-a-linux-server/</guid>
+            <guid>https://www.qualityology.com/tech/changing-default-date-and-timezones-on-a-linux-server/</guid>
             <title>Changing default date and timezones on a Linux server</title>
             <link>https://www.qualityology.com/tech/changing-default-date-and-timezones-on-a-linux-server/</link>
             <category>tech</category>

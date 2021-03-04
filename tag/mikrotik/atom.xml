@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Thu, 14 Feb 2019 14:39:03 -0800</pubDate>
         <lastBuildDate>Thu, 14 Feb 2019 14:39:03 -0800</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/easy-dual-wan-load-balancing-with-mikrotik-routeros-pcc/</guid>
+            <guid>https://www.qualityology.com/tech/easy-dual-wan-load-balancing-with-mikrotik-routeros-pcc/</guid>
             <title>Easy Dual WAN Load Balancing with MikroTik RouterOS PCC</title>
             <link>https://www.qualityology.com/tech/easy-dual-wan-load-balancing-with-mikrotik-routeros-pcc/</link>
             <category>tech</category>

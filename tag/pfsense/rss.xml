@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;pfsense&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -20,6 +20,7 @@
 &lt;h2 id=&#34;Step-8-reboot-and-test&#34;&gt;&lt;a href=&#34;#Step-8-reboot-and-test&#34; class=&#34;headerlink&#34; title=&#34;Step 8: reboot and test.&#34;&gt;&lt;/a&gt;Step 8: reboot and test.&lt;/h2&gt;</content>
         <category term="tech" />
         <updated>2014-07-15T04:45:25.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/installing-the-cups-print-server-to-pfsense-2-1-and-2-x/</id>
@@ -97,5 +98,6 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;add path &amp;apos;usb/0.2.*&amp;apos; mode 0660 group cups&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="tech" />
         <updated>2014-07-14T22:09:46.000Z</updated>
+        <author>Qualityology</author>
     </entry>
 </feed>

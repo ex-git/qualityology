@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Fri, 12 Sep 2014 15:01:59 -0700</pubDate>
         <lastBuildDate>Fri, 12 Sep 2014 15:01:59 -0700</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/opencart-admin-folder-rename-with-vqmod/</guid>
+            <guid>https://www.qualityology.com/tech/opencart-admin-folder-rename-with-vqmod/</guid>
             <title>Opencart Admin Folder Rename with vQmod</title>
             <link>https://www.qualityology.com/tech/opencart-admin-folder-rename-with-vqmod/</link>
             <category>tech</category>
@@ -31,7 +29,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/install-vqmod-to-opencart/</guid>
+            <guid>https://www.qualityology.com/tech/install-vqmod-to-opencart/</guid>
             <title>Install vQmod to OpenCart</title>
             <link>https://www.qualityology.com/tech/install-vqmod-to-opencart/</link>
             <category>tech</category>
@@ -50,7 +48,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/opencart-manual-installation-guide/</guid>
+            <guid>https://www.qualityology.com/tech/opencart-manual-installation-guide/</guid>
             <title>Opencart Manual Installation Guide</title>
             <link>https://www.qualityology.com/tech/opencart-manual-installation-guide/</link>
             <category>tech</category>

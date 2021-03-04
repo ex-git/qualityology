@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Mon, 10 Nov 2014 00:19:37 -0800</pubDate>
         <lastBuildDate>Mon, 10 Nov 2014 00:19:37 -0800</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/google-voice-obi202-free-home-phone-service/</guid>
+            <guid>https://www.qualityology.com/tech/google-voice-obi202-free-home-phone-service/</guid>
             <title>Google Voice + OBi202 = Free home phone service</title>
             <link>https://www.qualityology.com/tech/google-voice-obi202-free-home-phone-service/</link>
             <category>tech</category>
@@ -25,7 +23,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/missing-forwards-calls-to-google-chat-option-in-google-voice/</guid>
+            <guid>https://www.qualityology.com/tech/missing-forwards-calls-to-google-chat-option-in-google-voice/</guid>
             <title>Missing Forwards calls to Google Chat Option in Google Voice solution</title>
             <link>https://www.qualityology.com/tech/missing-forwards-calls-to-google-chat-option-in-google-voice/</link>
             <category>tech</category>

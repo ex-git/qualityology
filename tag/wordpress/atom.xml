@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Tue, 23 Feb 2021 12:09:23 -0800</pubDate>
         <lastBuildDate>Tue, 23 Feb 2021 12:09:23 -0800</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/29-code-snippets-for-wordpress-users/</guid>
+            <guid>https://www.qualityology.com/tech/29-code-snippets-for-wordpress-users/</guid>
             <title>29 Code Snippets for WordPress Users</title>
             <link>https://www.qualityology.com/tech/29-code-snippets-for-wordpress-users/</link>
             <category>tech</category>
@@ -78,7 +76,7 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;figcaption&gt;&lt;span&gt;Automated Comment Spam with Nginx&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;function set_post_cookie() {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    echo &amp;apos;&amp;lt;script&amp;gt;document.cookie = &amp;quot;_pass=1; max-age=1800; path=/; secure&amp;quot;;&amp;lt;/script&amp;gt;&amp;apos; . &amp;quot;&amp;quot;; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;add_action( &amp;apos;comment_form&amp;apos;, &amp;apos;set_post_cookie&amp;apos;, 100 );&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</guid>
+            <guid>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</guid>
             <title>Protect your WordPress from Automated Comment Spam and Brute Force Login Attack</title>
             <link>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</link>
             <category>tech</category>
@@ -112,7 +110,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/</guid>
+            <guid>https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/</guid>
             <title>Build an extremely fast WordPress with GCP Part 2: Nginx</title>
             <link>https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/</link>
             <category>tech</category>
@@ -155,7 +153,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/</guid>
+            <guid>https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/</guid>
             <title>Build an extremely fast WordPress with GCP Part 1: server</title>
             <link>https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/</link>
             <category>tech</category>
@@ -182,7 +180,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/wordpress-mobile-site-seo-vary-http-header/</guid>
+            <guid>https://www.qualityology.com/tech/wordpress-mobile-site-seo-vary-http-header/</guid>
             <title>Wordpress Mobile Site SEO: Vary HTTP header</title>
             <link>https://www.qualityology.com/tech/wordpress-mobile-site-seo-vary-http-header/</link>
             <category>tech</category>

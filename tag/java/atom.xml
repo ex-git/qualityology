@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Sun, 10 Aug 2014 16:31:22 -0700</pubDate>
         <lastBuildDate>Sun, 10 Aug 2014 16:31:22 -0700</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/easy-fix-for-java-error-oracle-jinitiator-version-too-low/</guid>
+            <guid>https://www.qualityology.com/tech/easy-fix-for-java-error-oracle-jinitiator-version-too-low/</guid>
             <title>Easy fix for Java error FRM-92095: Oracle JInitiator version too low</title>
             <link>https://www.qualityology.com/tech/easy-fix-for-java-error-oracle-jinitiator-version-too-low/</link>
             <category>tech</category>

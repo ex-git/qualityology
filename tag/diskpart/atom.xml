@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Fri, 03 Oct 2014 21:00:17 -0700</pubDate>
         <lastBuildDate>Fri, 03 Oct 2014 21:00:17 -0700</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/properly-delete-a-partition-on-usb-drive-using-diskpart/</guid>
+            <guid>https://www.qualityology.com/tech/properly-delete-a-partition-on-usb-drive-using-diskpart/</guid>
             <title>Properly Delete Extra Partitions on USB Drive using DiskPart</title>
             <link>https://www.qualityology.com/tech/properly-delete-a-partition-on-usb-drive-using-diskpart/</link>
             <category>tech</category>

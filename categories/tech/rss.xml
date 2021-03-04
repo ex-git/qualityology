@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;tech&#34; category</title>
     <link href="https://www.qualityology.com" />
@@ -51,6 +51,7 @@
 </content>
         <category term="tech" />
         <updated>2021-03-03T05:44:34.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/install-docker-and-docker-compose-on-raspberry-pi/</id>
@@ -73,6 +74,7 @@
 </content>
         <category term="tech" />
         <updated>2021-03-01T20:55:35.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/connect-to-existing-aws-appsync-api-from-a-react-application/</id>
@@ -110,33 +112,35 @@
 &lt;h2 id=&#34;3-Use-AWS-Amplify&#34;&gt;&lt;a href=&#34;#3-Use-AWS-Amplify&#34; class=&#34;headerlink&#34; title=&#34;3. Use AWS Amplify&#34;&gt;&lt;/a&gt;3. Use AWS Amplify&lt;/h2&gt;&lt;p&gt;This is the easiest and with complete support of query, mutation, and subscription for AWS AppSync API. You will need your AWS AppSync API ID and the config export for this method. It can be found in AWS console.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Install AWS Amplify cli. &lt;/p&gt;
-&lt;p&gt;&lt;code&gt;npm install -g @aws-amplify/cli&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;npm install -g @aws-amplify/cli&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
 &lt;p&gt;The cli is needed for importing API&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Navigate to your React project root folder.&lt;br&gt;&lt;code&gt;amplify init&lt;/code&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Navigate to your React project root folder. &lt;/p&gt;
+&lt;figure class=&#34;highlight bash hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;amplify init&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Add the codegen category to your React project. &lt;/p&gt;
 &lt;figure class=&#34;highlight bash hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;amplify add codegen --apiId YOUR_API_ID_HERE&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Generate client code.&lt;br&gt;&lt;code&gt;amplify codegen&lt;/code&gt;&lt;br&gt;Follow the steps in your terminal. &lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Generate client code. &lt;/p&gt;
+&lt;figure class=&#34;highlight bash hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;amplify codegen&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Follow the steps in your terminal. &lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Add &lt;code&gt;aws-amplify&lt;/code&gt;&lt;br&gt; &lt;code&gt;npm install aws-amplify&lt;/code&gt; or  &lt;code&gt;yarn add aws-amplify&lt;/code&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Add &lt;code&gt;aws-amplify&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;npm install aws-amplify&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;or use yarn&lt;/p&gt;
+&lt;figure class=&#34;highlight bash hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;yarn add aws-amplify&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Add below code to your React application root &lt;code&gt;index.js&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;figure class=&#34;highlight js hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;import&lt;/span&gt; { Amplify } &lt;span class=&#34;hljs-keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;aws-amplify&amp;apos;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-comment&#34;&gt;// some imports here&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;import&lt;/span&gt; { Amplify } &lt;span class=&#34;hljs-keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;aws-amplify&amp;apos;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;import&lt;/span&gt; amplifyConfig &lt;span class=&#34;hljs-keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;./aws-exports&amp;apos;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-comment&#34;&gt;// after all the imports&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Amplify.configure(amplifyConfig);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-comment&#34;&gt;// the rest of the code, ReactDOM etc.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;Example of how the function used to call mutation look like:&lt;/p&gt;
-&lt;figure class=&#34;highlight js hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;import&lt;/span&gt; { API, graphqlOperation } &lt;span class=&#34;hljs-keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;aws-amplify&amp;apos;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;import&lt;/span&gt; { createTodo } &lt;span class=&#34;hljs-keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;/graphql/mutations&amp;apos;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;const&lt;/span&gt; todo = {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	item: &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;visit qualityology.com&amp;apos;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;const&lt;/span&gt; update = &lt;span class=&#34;hljs-keyword&#34;&gt;await&lt;/span&gt; API.graphql(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            graphqlOperation(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                createTodo,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                    input: todo,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                },&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            ),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        )&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        .then(&lt;span class=&#34;hljs-function&#34;&gt;(&lt;span class=&#34;hljs-params&#34;&gt;res&lt;/span&gt;) =&amp;gt;&lt;/span&gt; res)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        .catch(&lt;span class=&#34;hljs-function&#34;&gt;(&lt;span class=&#34;hljs-params&#34;&gt;error&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &lt;span class=&#34;hljs-built_in&#34;&gt;console&lt;/span&gt;.log(&lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;error, creating user&amp;apos;&lt;/span&gt;, error));&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-built_in&#34;&gt;console&lt;/span&gt;.log(&lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;update&amp;apos;&lt;/span&gt;, update);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-
-
-
-
+&lt;figure class=&#34;highlight js hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;import&lt;/span&gt; { API, graphqlOperation } &lt;span class=&#34;hljs-keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;aws-amplify&amp;apos;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;import&lt;/span&gt; { createTodo } &lt;span class=&#34;hljs-keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;/graphql/mutations&amp;apos;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;const&lt;/span&gt; todo = {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	item: &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;visit qualityology.com&amp;apos;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;const&lt;/span&gt; update = &lt;span class=&#34;hljs-keyword&#34;&gt;await&lt;/span&gt; API.graphql(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            graphqlOperation(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                createTodo,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                    input: todo,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                },&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            ),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        )&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        .then(&lt;span class=&#34;hljs-function&#34;&gt;(&lt;span class=&#34;hljs-params&#34;&gt;res&lt;/span&gt;) =&amp;gt;&lt;/span&gt; res)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        .catch(&lt;span class=&#34;hljs-function&#34;&gt;(&lt;span class=&#34;hljs-params&#34;&gt;error&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &lt;span class=&#34;hljs-built_in&#34;&gt;console&lt;/span&gt;.log(&lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;error, creating user&amp;apos;&lt;/span&gt;, error));&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-built_in&#34;&gt;console&lt;/span&gt;.log(&lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;update&amp;apos;&lt;/span&gt;, update);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </content>
         <category term="tech" />
         <updated>2021-02-27T04:53:22.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/29-code-snippets-for-wordpress-users/</id>
@@ -205,6 +209,7 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;figcaption&gt;&lt;span&gt;Automated Comment Spam with Nginx&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;function set_post_cookie() {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    echo &amp;apos;&amp;lt;script&amp;gt;document.cookie = &amp;quot;_pass=1; max-age=1800; path=/; secure&amp;quot;;&amp;lt;/script&amp;gt;&amp;apos; . &amp;quot;&amp;quot;; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;add_action( &amp;apos;comment_form&amp;apos;, &amp;apos;set_post_cookie&amp;apos;, 100 );&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="tech" />
         <updated>2021-02-23T20:09:23.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/easy-dual-wan-load-balancing-with-mikrotik-routeros-pcc/</id>
@@ -225,6 +230,7 @@
 </content>
         <category term="tech" />
         <updated>2019-02-14T22:39:03.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf/</id>
@@ -255,6 +261,7 @@
 </content>
         <category term="tech" />
         <updated>2018-04-25T17:11:50.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</id>
@@ -289,6 +296,7 @@
 </content>
         <category term="tech" />
         <updated>2018-04-12T23:57:49.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover/</id>
@@ -312,6 +320,7 @@
 </content>
         <category term="tech" />
         <updated>2018-01-01T00:43:06.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/</id>
@@ -341,6 +350,7 @@
 </content>
         <category term="tech" />
         <updated>2017-12-30T23:15:34.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/open-pdfa-pdf-file-without-read-mode/</id>
@@ -355,6 +365,7 @@
 </content>
         <category term="tech" />
         <updated>2017-10-20T05:49:04.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/ricoh-sp-c250dn-c252dn-ppd-cups-driver-for-linux-macos/</id>
@@ -368,6 +379,7 @@
 </content>
         <category term="tech" />
         <updated>2017-10-04T21:25:43.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains/</id>
@@ -415,6 +427,7 @@
 </content>
         <category term="tech" />
         <updated>2017-10-01T19:01:02.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/</id>
@@ -458,6 +471,7 @@
 </content>
         <category term="tech" />
         <updated>2017-10-01T05:11:32.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/iphones-battery-draining-heres-what-you-can-do/</id>
@@ -477,6 +491,7 @@
 </content>
         <category term="tech" />
         <updated>2017-09-25T23:27:43.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/</id>
@@ -504,6 +519,7 @@
 </content>
         <category term="tech" />
         <updated>2017-09-18T04:16:14.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/install-linux-apache-mysql-php-phpmyadmin-centos-6-7/</id>
@@ -551,6 +567,7 @@
 </content>
         <category term="tech" />
         <updated>2017-09-08T18:12:47.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot/</id>
@@ -573,6 +590,7 @@
 &lt;h2 id=&#34;Step-5-create-a-auto-renewal-check-task-to-have-your-server-run-CertBot-to-check-the-certification-expiration-date-everyday-to-make-sure-your-SSL-is-not-expired&#34;&gt;&lt;a href=&#34;#Step-5-create-a-auto-renewal-check-task-to-have-your-server-run-CertBot-to-check-the-certification-expiration-date-everyday-to-make-sure-your-SSL-is-not-expired&#34; class=&#34;headerlink&#34; title=&#34;Step 5, create a auto renewal check task to have your server run CertBot to check the certification expiration date everyday to make sure your SSL is not expired.&#34;&gt;&lt;/a&gt;Step 5, create a auto renewal check task to have your server run CertBot to check the certification expiration date everyday to make sure your SSL is not expired.&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;#!/bin/bash&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;certbot renew --noninteractive --renew-hook &amp;apos;sudo systemctl reload nginx&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="tech" />
         <updated>2017-01-29T07:43:55.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install/</id>
@@ -588,6 +606,7 @@
 &lt;h2 id=&#34;Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34;&gt;&lt;a href=&#34;#Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34; class=&#34;headerlink&#34; title=&#34;Step 2. download SSDT-XOSI.aml and ssdt.amland unzip to EFI/CLOVER/ACPI/patched&#34;&gt;&lt;/a&gt;Step 2. download &lt;a href=&#34;https://www.qualityology.com/2016/10/patch.zip&#34;&gt;SSDT-XOSI.aml and ssdt.aml&lt;/a&gt;and unzip to EFI/CLOVER/ACPI/patched&lt;/h2&gt;&lt;h2 id=&#34;Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34;&gt;&lt;a href=&#34;#Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34; class=&#34;headerlink&#34; title=&#34;Step 3. download AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext and unzip to EFI/CLOVER/kexts/Other&#34;&gt;&lt;/a&gt;Step 3. download &lt;a href=&#34;https://www.qualityology.com/2016/10/other.zip&#34;&gt;AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext&lt;/a&gt; and unzip to EFI/CLOVER/kexts/Other&lt;/h2&gt;&lt;h2 id=&#34;Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34;&gt;&lt;a href=&#34;#Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34; class=&#34;headerlink&#34; title=&#34;Step 4. download FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&#34;&gt;&lt;/a&gt;Step 4. download &lt;a href=&#34;https://www.qualityology.com/2016/10/drivers64UEFI.zip&#34;&gt;FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi&lt;/a&gt; and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&lt;/h2&gt;&lt;h2 id=&#34;Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34;&gt;&lt;a href=&#34;#Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34; class=&#34;headerlink&#34; title=&#34;Step 5. upgrade to macOS Sierra or do a fresh installation.&#34;&gt;&lt;/a&gt;Step 5. upgrade to macOS Sierra or do a fresh installation.&lt;/h2&gt;</content>
         <category term="tech" />
         <updated>2016-10-14T05:54:17.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/install-entware-on-arm-mips-based-ddwrt-tomato-and-asus-merlin/</id>
@@ -607,6 +626,7 @@
 &lt;h2 id=&#34;3-Entware-is-now-installed-Use-&amp;#x2018;opkg&amp;#x2019;-command-to-install-pkgs&#34;&gt;&lt;a href=&#34;#3-Entware-is-now-installed-Use-&amp;#x2018;opkg&amp;#x2019;-command-to-install-pkgs&#34; class=&#34;headerlink&#34; title=&#34;3. Entware is now installed. Use &amp;#x2018;opkg&amp;#x2019; command to install pkgs&#34;&gt;&lt;/a&gt;3. Entware is now installed. Use &amp;#x2018;opkg&amp;#x2019; command to install pkgs&lt;/h2&gt;</content>
         <category term="tech" />
         <updated>2016-09-08T19:56:47.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/install-english-firmware-to-chinese-version-yi-car-wifi-dvr-camera/</id>
@@ -617,5 +637,6 @@
 &lt;h2 id=&#34;1-Create-a-blank-file-and-name-it-&amp;#x201C;engmode&amp;#x201D;-no-file-extension&#34;&gt;&lt;a href=&#34;#1-Create-a-blank-file-and-name-it-&amp;#x201C;engmode&amp;#x201D;-no-file-extension&#34; class=&#34;headerlink&#34; title=&#34;1. Create a blank file and name it &amp;#x201C;engmode&amp;#x201D;, no file extension.&#34;&gt;&lt;/a&gt;1. Create a blank file and name it &amp;#x201C;engmode&amp;#x201D;, no file extension.&lt;/h2&gt;&lt;h2 id=&#34;2-Copy-the-first-14-characters-of-the-serial-number-from-the-menu-or-label-on-the-bottom-of-the-camera-save-as-SN-txt-you-will-have-problem-connecting-the-cam-using-mobile-app-if-you-have-more-or-less-than-14-characters-in-this-step&#34;&gt;&lt;a href=&#34;#2-Copy-the-first-14-characters-of-the-serial-number-from-the-menu-or-label-on-the-bottom-of-the-camera-save-as-SN-txt-you-will-have-problem-connecting-the-cam-using-mobile-app-if-you-have-more-or-less-than-14-characters-in-this-step&#34; class=&#34;headerlink&#34; title=&#34;2. Copy the first 14 characters of the serial number from the menu or label on the bottom of the camera, save as SN.txt. (you will have problem connecting the cam using mobile app if you have more or less than 14 characters in this step)&#34;&gt;&lt;/a&gt;2. Copy the &lt;strong&gt;first 14 characters&lt;/strong&gt; of the serial number from the menu or label on the bottom of the camera, save as SN.txt. (you will have problem connecting the cam using mobile app if you have more or less than 14 characters in this step)&lt;/h2&gt;&lt;h2 id=&#34;3-Open-SN-txt-find-and-change-the-letter-&amp;#x201C;CN&amp;#x201D;-to-&amp;#x201C;US&amp;#x201D;-in-the-serial-number-For-example-CN-to-US&#34;&gt;&lt;a href=&#34;#3-Open-SN-txt-find-and-change-the-letter-&amp;#x201C;CN&amp;#x201D;-to-&amp;#x201C;US&amp;#x201D;-in-the-serial-number-For-example-CN-to-US&#34; class=&#34;headerlink&#34; title=&#34;3. Open SN.txt, find and change the letter &amp;#x201C;CN&amp;#x201D; to &amp;#x201C;US&amp;#x201D; in the serial number. For example: ******CN****** to ******US******&#34;&gt;&lt;/a&gt;3. Open SN.txt, find and change the letter &amp;#x201C;CN&amp;#x201D; to &amp;#x201C;US&amp;#x201D; in the serial number. For example: ******CN****** to ******US******&lt;/h2&gt;&lt;h2 id=&#34;4-Copy-two-files-engmode-and-SN-txt-to-your-SD-card&#34;&gt;&lt;a href=&#34;#4-Copy-two-files-engmode-and-SN-txt-to-your-SD-card&#34; class=&#34;headerlink&#34; title=&#34;4. Copy two files engmode and SN.txt to your SD card.&#34;&gt;&lt;/a&gt;4. Copy two files engmode and SN.txt to your SD card.&lt;/h2&gt;&lt;h2 id=&#34;Insert-the-SD-card-back-into-the-camera-and-power-it-on&#34;&gt;&lt;a href=&#34;#Insert-the-SD-card-back-into-the-camera-and-power-it-on&#34; class=&#34;headerlink&#34; title=&#34;Insert the SD card back into the camera and power it on.&#34;&gt;&lt;/a&gt;Insert the SD card back into the camera and power it on.&lt;/h2&gt;&lt;h2 id=&#34;6-Once-you-see-the-engineering-menu-select-number-8-exit&#34;&gt;&lt;a href=&#34;#6-Once-you-see-the-engineering-menu-select-number-8-exit&#34; class=&#34;headerlink&#34; title=&#34;6. Once you see the engineering menu, select number 8 - exit.&#34;&gt;&lt;/a&gt;6. Once you see the engineering menu, select number 8 - exit.&lt;/h2&gt;&lt;h2 id=&#34;7-Go-into-the-settings-menu-and-select-factory-reset&#34;&gt;&lt;a href=&#34;#7-Go-into-the-settings-menu-and-select-factory-reset&#34; class=&#34;headerlink&#34; title=&#34;7. Go into the settings menu and select factory reset.&#34;&gt;&lt;/a&gt;7. Go into the settings menu and select factory reset.&lt;/h2&gt;&lt;h2 id=&#34;8-Once-it-reboots-select-number-8-to-exit-ENG-mode-again-and-enter-the-settings-menu-and-check-if-your-serial-number-shows-&amp;#x201C;US&amp;#x201D;-and-all-other-characters-match-the-original-serial-number&#34;&gt;&lt;a href=&#34;#8-Once-it-reboots-select-number-8-to-exit-ENG-mode-again-and-enter-the-settings-menu-and-check-if-your-serial-number-shows-&amp;#x201C;US&amp;#x201D;-and-all-other-characters-match-the-original-serial-number&#34; class=&#34;headerlink&#34; title=&#34;8. Once it reboots, select number 8 to exit ENG mode again and enter the settings menu and check if your serial number shows &amp;#x201C;US&amp;#x201D; and all other characters match the original serial number.&#34;&gt;&lt;/a&gt;8. Once it reboots, select number 8 to exit ENG mode again and enter the settings menu and check if your serial number shows &amp;#x201C;US&amp;#x201D; and all other characters match the original serial number.&lt;/h2&gt;&lt;h2 id=&#34;9-If-all-good-power-off-the-dash-cam-download-the-firmware-from-http-www-yitechnology-com-support-firmware-en-html&#34;&gt;&lt;a href=&#34;#9-If-all-good-power-off-the-dash-cam-download-the-firmware-from-http-www-yitechnology-com-support-firmware-en-html&#34; class=&#34;headerlink&#34; title=&#34;9. If all good, power off the dash cam, download the firmware from : http://www.yitechnology.com/support/firmware\_en.html&#34;&gt;&lt;/a&gt;9. If all good, power off the dash cam, download the firmware from : &lt;a href=&#34;http://www.yitechnology.com/support/firmware/_en.html&#34;&gt;http://www.yitechnology.com/support/firmware\_en.html&lt;/a&gt;&lt;/h2&gt;&lt;h2 id=&#34;10-Check-the-file-you-download-it-should-be-FWCARC10-bin-and-size-around-9-3M-It-you-got-smaller-file-unzip-the-file-use-7zip-or-other-unarchiver-you-have&#34;&gt;&lt;a href=&#34;#10-Check-the-file-you-download-it-should-be-FWCARC10-bin-and-size-around-9-3M-It-you-got-smaller-file-unzip-the-file-use-7zip-or-other-unarchiver-you-have&#34; class=&#34;headerlink&#34; title=&#34;10. Check the file you download, it should be FWCARC10.bin and size around ~ 9.3M. It you got smaller file, unzip the file use 7zip or other unarchiver you have.&#34;&gt;&lt;/a&gt;10. Check the file you download, it should be FWCARC10.bin and size around ~ 9.3M. It you got smaller file, unzip the file use 7zip or other unarchiver you have.&lt;/h2&gt;&lt;h2 id=&#34;11-Copy-FWCARC10-bin-from-step-10-to-your-SD-card-insert-the-card-back-to-your-dash-cam&#34;&gt;&lt;a href=&#34;#11-Copy-FWCARC10-bin-from-step-10-to-your-SD-card-insert-the-card-back-to-your-dash-cam&#34; class=&#34;headerlink&#34; title=&#34;11. Copy FWCARC10.bin from step 10 to your SD card, insert the card back to your dash cam.&#34;&gt;&lt;/a&gt;11. Copy FWCARC10.bin from step 10 to your SD card, insert the card back to your dash cam.&lt;/h2&gt;&lt;h2 id=&#34;12-Power-on-the-cam-and-it-should-start-updating-the-firmware-Status-light-should-flash-when-flashing-firmware&#34;&gt;&lt;a href=&#34;#12-Power-on-the-cam-and-it-should-start-updating-the-firmware-Status-light-should-flash-when-flashing-firmware&#34; class=&#34;headerlink&#34; title=&#34;12. Power on the cam and it should start updating the firmware. Status light should flash when flashing firmware.&#34;&gt;&lt;/a&gt;12. Power on the cam and it should start updating the firmware. Status light should flash when flashing firmware.&lt;/h2&gt;&lt;h2 id=&#34;13-once-finished-accept-all-prompts-Format-the-card-and-reset-your-cam&#34;&gt;&lt;a href=&#34;#13-once-finished-accept-all-prompts-Format-the-card-and-reset-your-cam&#34; class=&#34;headerlink&#34; title=&#34;13. once finished, accept all prompts. Format the card and reset your cam.&#34;&gt;&lt;/a&gt;13. once finished, accept all prompts. Format the card and reset your cam.&lt;/h2&gt;</content>
         <category term="tech" />
         <updated>2016-08-14T22:06:58.000Z</updated>
+        <author>Qualityology</author>
     </entry>
 </feed>

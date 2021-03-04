@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Thu, 12 Apr 2018 16:57:49 -0700</pubDate>
         <lastBuildDate>Thu, 12 Apr 2018 16:57:49 -0700</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</guid>
+            <guid>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</guid>
             <title>Protect your WordPress from Automated Comment Spam and Brute Force Login Attack</title>
             <link>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</link>
             <category>tech</category>
@@ -44,7 +42,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/setup-log-rotation-for-apache-access-logs-error-logs-using-cronolog/</guid>
+            <guid>https://www.qualityology.com/tech/setup-log-rotation-for-apache-access-logs-error-logs-using-cronolog/</guid>
             <title>Setup log rotation for Apache access logs error logs using cronolog</title>
             <link>https://www.qualityology.com/tech/setup-log-rotation-for-apache-access-logs-error-logs-using-cronolog/</link>
             <category>tech</category>
@@ -84,7 +82,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/rotate-apache-logs-on-daily-basis-using-rotatelogs/</guid>
+            <guid>https://www.qualityology.com/tech/rotate-apache-logs-on-daily-basis-using-rotatelogs/</guid>
             <title>Rotate Apache logs on a daily basis using rotatelogs</title>
             <link>https://www.qualityology.com/tech/rotate-apache-logs-on-daily-basis-using-rotatelogs/</link>
             <category>tech</category>
@@ -114,7 +112,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/apache-blocking-bad-bots-attacks-zmeu/</guid>
+            <guid>https://www.qualityology.com/tech/apache-blocking-bad-bots-attacks-zmeu/</guid>
             <title>Apache: Blocking bad bots attacks from ZmEu</title>
             <link>https://www.qualityology.com/tech/apache-blocking-bad-bots-attacks-zmeu/</link>
             <category>tech</category>

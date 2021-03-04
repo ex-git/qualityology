@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Mon, 01 Mar 2021 12:55:35 -0800</pubDate>
         <lastBuildDate>Mon, 01 Mar 2021 12:55:35 -0800</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/install-docker-and-docker-compose-on-raspberry-pi/</guid>
+            <guid>https://www.qualityology.com/tech/install-docker-and-docker-compose-on-raspberry-pi/</guid>
             <title>Install Docker and Docker Compose On Raspberry Pi</title>
             <link>https://www.qualityology.com/tech/install-docker-and-docker-compose-on-raspberry-pi/</link>
             <category>tech</category>
@@ -32,7 +30,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/fix-raspberry-pi-openwrt-boot-problem/</guid>
+            <guid>https://www.qualityology.com/tech/fix-raspberry-pi-openwrt-boot-problem/</guid>
             <title>Fix Raspberry Pi OpenWrt Boot problem</title>
             <link>https://www.qualityology.com/tech/fix-raspberry-pi-openwrt-boot-problem/</link>
             <category>tech</category>
@@ -44,7 +42,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/how-to-install-openwrt-on-raspberry-pi/</guid>
+            <guid>https://www.qualityology.com/tech/how-to-install-openwrt-on-raspberry-pi/</guid>
             <title>How to install OpenWrt on Raspberry Pi</title>
             <link>https://www.qualityology.com/tech/how-to-install-openwrt-on-raspberry-pi/</link>
             <category>tech</category>
@@ -85,7 +83,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/raspberry-pi-model-b-plus-july-2014-vs-model-b/</guid>
+            <guid>https://www.qualityology.com/tech/raspberry-pi-model-b-plus-july-2014-vs-model-b/</guid>
             <title>Raspberry Pi Model B+ (July 2014) VS Model B</title>
             <link>https://www.qualityology.com/tech/raspberry-pi-model-b-plus-july-2014-vs-model-b/</link>
             <category>tech</category>
@@ -121,7 +119,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/set-up-your-raspberry-pi-for-the-first-time/</guid>
+            <guid>https://www.qualityology.com/tech/set-up-your-raspberry-pi-for-the-first-time/</guid>
             <title>Set up your Raspberry Pi for the first time</title>
             <link>https://www.qualityology.com/tech/set-up-your-raspberry-pi-for-the-first-time/</link>
             <category>tech</category>

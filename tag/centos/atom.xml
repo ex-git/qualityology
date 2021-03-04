@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Sat, 30 Aug 2014 20:22:09 -0700</pubDate>
         <lastBuildDate>Sat, 30 Aug 2014 20:22:09 -0700</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/initial-server-setup-with-centos-5-x-6-x-7-x/</guid>
+            <guid>https://www.qualityology.com/tech/initial-server-setup-with-centos-5-x-6-x-7-x/</guid>
             <title>Initial Server Setup with CentOS 5.x 6.x 7.x</title>
             <link>https://www.qualityology.com/tech/initial-server-setup-with-centos-5-x-6-x-7-x/</link>
             <category>tech</category>
@@ -65,7 +63,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/installing-epel-and-remi-repository-on-centos-5-x-6-x-or-7-x/</guid>
+            <guid>https://www.qualityology.com/tech/installing-epel-and-remi-repository-on-centos-5-x-6-x-or-7-x/</guid>
             <title>Installing EPEL and REMI repository on CentOS 5.x, 6.x, or 7.x</title>
             <link>https://www.qualityology.com/tech/installing-epel-and-remi-repository-on-centos-5-x-6-x-or-7-x/</link>
             <category>tech</category>

@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Mon, 14 Jul 2014 21:32:01 -0700</pubDate>
         <lastBuildDate>Mon, 14 Jul 2014 21:32:01 -0700</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/add-multiple-usb-printers-to-openwrt-firmware-router-via-p910nd-using-hotplug/</guid>
+            <guid>https://www.qualityology.com/tech/add-multiple-usb-printers-to-openwrt-firmware-router-via-p910nd-using-hotplug/</guid>
             <title>Add multiple usb printers to OpenWrt firmware router via p910nd using Hotplug</title>
             <link>https://www.qualityology.com/tech/add-multiple-usb-printers-to-openwrt-firmware-router-via-p910nd-using-hotplug/</link>
             <category>tech</category>
@@ -32,7 +30,7 @@
 &lt;h2 id=&#34;Step-6-Reboot-the-router-and-test&#34;&gt;&lt;a href=&#34;#Step-6-Reboot-the-router-and-test&#34; class=&#34;headerlink&#34; title=&#34;Step 6. Reboot the router and test.&#34;&gt;&lt;/a&gt;Step 6. Reboot the router and test.&lt;/h2&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/add-multiple-printers-on-tomato-firmware-router-with-hotplug/</guid>
+            <guid>https://www.qualityology.com/tech/add-multiple-printers-on-tomato-firmware-router-with-hotplug/</guid>
             <title>Add multiple printers on Tomato firmware router with hotplug</title>
             <link>https://www.qualityology.com/tech/add-multiple-printers-on-tomato-firmware-router-with-hotplug/</link>
             <category>tech</category>

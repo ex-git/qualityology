@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Sat, 28 Jan 2017 23:43:55 -0800</pubDate>
         <lastBuildDate>Sat, 28 Jan 2017 23:43:55 -0800</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot/</guid>
+            <guid>https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot/</guid>
             <title>FREE Let&#39;s Encrypt SSL certificate via Certbot and auto renew</title>
             <link>https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot/</link>
             <category>tech</category>

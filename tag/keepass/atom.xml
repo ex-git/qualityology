@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Mon, 25 Apr 2016 22:57:37 -0700</pubDate>
         <lastBuildDate>Mon, 25 Apr 2016 22:57:37 -0700</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/macpasshttp-keepasshttp-plugin-for-mac-keepass/</guid>
+            <guid>https://www.qualityology.com/tech/macpasshttp-keepasshttp-plugin-for-mac-keepass/</guid>
             <title>MacPassHTTP - keepasshttp plugin for Mac keepass</title>
             <link>https://www.qualityology.com/tech/macpasshttp-keepasshttp-plugin-for-mac-keepass/</link>
             <category>tech</category>
@@ -22,7 +20,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/native-keepass-for-mac-os-x-with-keepasshttp-macpass/</guid>
+            <guid>https://www.qualityology.com/tech/native-keepass-for-mac-os-x-with-keepasshttp-macpass/</guid>
             <title>Native KeePass client for MAC OS X with KeePassHTTP - MacPass</title>
             <link>https://www.qualityology.com/tech/native-keepass-for-mac-os-x-with-keepasshttp-macpass/</link>
             <category>tech</category>

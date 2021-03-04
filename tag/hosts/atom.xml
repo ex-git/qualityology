@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Tue, 22 Jul 2014 11:53:48 -0700</pubDate>
         <lastBuildDate>Tue, 22 Jul 2014 11:53:48 -0700</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/resetting-hosts-file-to-microsoft-defaults-in-windows-8-7-vista-xp/</guid>
+            <guid>https://www.qualityology.com/tech/resetting-hosts-file-to-microsoft-defaults-in-windows-8-7-vista-xp/</guid>
             <title>Resetting the Hosts File to Microsoft Defaults in Windows 8/7/Vista/XP</title>
             <link>https://www.qualityology.com/tech/resetting-hosts-file-to-microsoft-defaults-in-windows-8-7-vista-xp/</link>
             <category>tech</category>
@@ -71,7 +69,7 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/you-dont-have-permission-to-save-in-this-location/</guid>
+            <guid>https://www.qualityology.com/tech/you-dont-have-permission-to-save-in-this-location/</guid>
             <title>You don&#39;t have permission to save in this location</title>
             <link>https://www.qualityology.com/tech/you-dont-have-permission-to-save-in-this-location/</link>
             <category>tech</category>

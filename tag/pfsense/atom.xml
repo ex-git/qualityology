@@ -7,10 +7,8 @@
         <language>en</language>
         <pubDate>Mon, 14 Jul 2014 21:45:25 -0700</pubDate>
         <lastBuildDate>Mon, 14 Jul 2014 21:45:25 -0700</lastBuildDate>
-        <category term="tech" />
-        <category term="lifestyle" />
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/bridge-multiple-lan-ports-in-pfsense-2-1/</guid>
+            <guid>https://www.qualityology.com/tech/bridge-multiple-lan-ports-in-pfsense-2-1/</guid>
             <title>Bridge Multiple LAN ports/NICs in pfSense 2.1</title>
             <link>https://www.qualityology.com/tech/bridge-multiple-lan-ports-in-pfsense-2-1/</link>
             <category>tech</category>
@@ -25,7 +23,7 @@
 &lt;h2 id=&#34;Step-8-reboot-and-test&#34;&gt;&lt;a href=&#34;#Step-8-reboot-and-test&#34; class=&#34;headerlink&#34; title=&#34;Step 8: reboot and test.&#34;&gt;&lt;/a&gt;Step 8: reboot and test.&lt;/h2&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.qualityology.com/tech/installing-the-cups-print-server-to-pfsense-2-1-and-2-x/</guid>
+            <guid>https://www.qualityology.com/tech/installing-the-cups-print-server-to-pfsense-2-1-and-2-x/</guid>
             <title>Installing the CUPS Print Server to pfSense 2.1 and 2.x</title>
             <link>https://www.qualityology.com/tech/installing-the-cups-print-server-to-pfsense-2-1-and-2-x/</link>
             <category>tech</category>

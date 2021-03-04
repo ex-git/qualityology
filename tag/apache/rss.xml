@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;apache&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -39,6 +39,7 @@
 </content>
         <category term="tech" />
         <updated>2018-04-12T23:57:49.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/setup-log-rotation-for-apache-access-logs-error-logs-using-cronolog/</id>
@@ -79,6 +80,7 @@
 </content>
         <category term="tech" />
         <updated>2014-07-30T18:33:13.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/rotate-apache-logs-on-daily-basis-using-rotatelogs/</id>
@@ -109,6 +111,7 @@
 </content>
         <category term="tech" />
         <updated>2014-07-28T19:06:23.000Z</updated>
+        <author>Qualityology</author>
     </entry>
     <entry>
         <id>https://www.qualityology.com/tech/apache-blocking-bad-bots-attacks-zmeu/</id>
@@ -124,5 +127,6 @@
 </content>
         <category term="tech" />
         <updated>2014-07-17T18:14:18.000Z</updated>
+        <author>Qualityology</author>
     </entry>
 </feed>
