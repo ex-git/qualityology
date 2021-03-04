@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;pfsense&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -7,7 +8,7 @@
     <category term="tech" />
     <category term="lifestyle" />
     <entry>
-        <id>https://www.qualityology.com/tech/bridge-multiple-lan-ports-in-pfsense-2-1/</id>
+        <id>https://www.qualityology.com/tech/bridge-multiple-lan-ports-in-pfsense-2-1//</id>
         <title>Bridge Multiple LAN ports/NICs in pfSense 2.1</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/bridge-multiple-lan-ports-in-pfsense-2-1/"/>
         <content type="html">&lt;p&gt;Nowadays is easy to find a board with more than two ports. For a box with 4 gigabit ports, one used as WAN, others act as as LAN as if they are all part of a switch. Bridging is a good way to go. A bridged interface is one that can filter traffic without pfSense being involved in the IP layer of the connection. This is commonly referred to as a &amp;#x201C;transparent firewall&amp;#x201D;. &lt;strong&gt;Requirements:&lt;/strong&gt; pfSense box with multiple NICS; 1 for Wan, others for Lans (two or more). &lt;strong&gt;What we will get:&lt;/strong&gt; i port as 1 WAN, Others as LAN. &lt;/p&gt;
@@ -20,10 +21,10 @@
 &lt;h2 id=&#34;Step-8-reboot-and-test&#34;&gt;&lt;a href=&#34;#Step-8-reboot-and-test&#34; class=&#34;headerlink&#34; title=&#34;Step 8: reboot and test.&#34;&gt;&lt;/a&gt;Step 8: reboot and test.&lt;/h2&gt;</content>
         <category term="tech" />
         <updated>2014-07-15T04:45:25.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/installing-the-cups-print-server-to-pfsense-2-1-and-2-x/</id>
+        <id>https://www.qualityology.com/tech/installing-the-cups-print-server-to-pfsense-2-1-and-2-x//</id>
         <title>Installing the CUPS Print Server to pfSense 2.1 and 2.x</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/installing-the-cups-print-server-to-pfsense-2-1-and-2-x/"/>
         <content type="html">&lt;p&gt;CUPS, the Common UNIX Printing System, provides a portable printing layer for UNIX-based operating systems. It has been developed by Easy Software Products to promote a standard printing solution for all UNIX vendors and users. To install CUPS using a precompiled binary, for pfSense 2.x, issue the following command from a root terminal: Note: For NanoBSD, must remount embedded filesystem as read-write. &lt;strong&gt;pfSense 2.1:&lt;/strong&gt; in the GUI under Diagnostics &amp;gt; NanoBSD, using the toggle button there. &lt;strong&gt;Previous version:&lt;/strong&gt;&lt;/p&gt;
@@ -98,6 +99,6 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;add path &amp;apos;usb/0.2.*&amp;apos; mode 0660 group cups&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="tech" />
         <updated>2014-07-14T22:09:46.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
 </feed>

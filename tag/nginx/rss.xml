@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;nginx&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -7,7 +8,7 @@
     <category term="tech" />
     <category term="lifestyle" />
     <entry>
-        <id>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</id>
+        <id>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack//</id>
         <title>Protect your WordPress from Automated Comment Spam and Brute Force Login Attack</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/"/>
         <content type="html">&lt;p&gt;Is your WordPress flooded with spam comment or being attacked by brute force login attempt? Thinking about spam blocking plugin? There are a lot of plug in can help you stop spam comment. You will notice it put thousands spam comments into spam folder after a while. Those Anti-Spam did a great job stopping spam comment show up in our post. There is some drawbacks for that kind of plugin. First,spam comments will be processed and store in your database before it gets deleted manually or automatically. Second, plugin like Akismet Anti-Spam will add a java-script to your site. If your site has limited resources, these kind of activities will drag down your site&amp;#x2019;s performance. If you use captcha plugin, you will also interrupt user&amp;#x2019;s experience.&lt;/p&gt;
@@ -39,10 +40,10 @@
 </content>
         <category term="tech" />
         <updated>2018-04-12T23:57:49.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/</id>
+        <id>https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx//</id>
         <title>Build an extremely fast WordPress with GCP Part 2: Nginx</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/"/>
         <content type="html">&lt;p&gt;Apache or Nginx, what softwares should be used to for your server to achieve the maximum performance? If you have a small free server from GCP from &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;part 1&lt;/a&gt;, and you want it to be able to handle average 1000 clients per second, Nginx is the best option. Apache use more server resources and must be configured properly to get the best performance. Nginx can handle very large amount of traffic even in a limited environment. We have done the loading test with the server from Google Cloud Platform from &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;part 1&lt;/a&gt;&amp;#xA0;and the result was great without deep optimization. 1000 client/sec is not the maximum that this setup can get, it is the limit of the free test we could get. &lt;img src=&#34;/2017/09/loading-test-result.png&#34;&gt; When we tried the same test using Apache, the test was aborted at the beginning because server crashed. That is why we will use Nginx. We are not the server expert, so we will not discuss how to optimize Apache to pass the same test. What we will need is NGINX + MySQL + PHP-FPM +&amp;#xA0;Microcaching + WordPress.&lt;/p&gt;
@@ -83,10 +84,10 @@
 </content>
         <category term="tech" />
         <updated>2017-10-01T05:11:32.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/</id>
+        <id>https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server//</id>
         <title>Build an extremely fast WordPress with GCP Part 1: server</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/"/>
         <content type="html">&lt;p&gt;Can you get a super fast server free from Google? Yes, you can. Google Cloud Platform has free tier for US region server. If you are building a small WordPress website using light bandwidth, the free tier is more than sufficient. Free tier provide 720 hours of instance usage which will cover whole month of usage. The only downside is if your site use a lot of bandwidth you will be billed after 1GB of free egress bandwidth, but still cheap because 1 GB cost only&amp;#xA0;$0.01 for US and 1 TB $0.12 - $0.23 depends on the regions. Most new sites use only small amount of bandwidth. Ingress is free if you wonder. As of today, the free tier offer:&lt;/p&gt;
@@ -111,6 +112,6 @@
 </content>
         <category term="tech" />
         <updated>2017-09-18T04:16:14.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
 </feed>

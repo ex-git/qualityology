@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;macos&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -7,7 +8,7 @@
     <category term="tech" />
     <category term="lifestyle" />
     <entry>
-        <id>https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover/</id>
+        <id>https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover//</id>
         <title>Asus Z87-A MacOS high sierra upgrade prepare with clover</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover/"/>
         <content type="html">&lt;p&gt;This guide is for upgrading your system from previous version to high sierra 10.13.x. For how to prepare USB installation kit, check here: &lt;a href=&#34;https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/&#34; title=&#34;Install Mac OS X with clover EFI bootloader on ASUS Z87a&#34;&gt;Install Mac OS X with clover EFI bootloader on ASUS Z87a&lt;/a&gt; &lt;img src=&#34;/2017/12/masOS-highsierra.png&#34; alt=&#34;Masos Highsierra&#34;&gt;&lt;/p&gt;
@@ -28,10 +29,10 @@
 </content>
         <category term="tech" />
         <updated>2018-01-01T00:43:06.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/</id>
+        <id>https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation//</id>
         <title>Fix error - Mediakit reports not enough space on device for requested operation</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/"/>
         <content type="html">&lt;p&gt;If you tried use MacOS&amp;#x2019;s disk utility to erase or format a old/new hard drive, you may encounter some issue. MacOS will show below error when you tried to erase or format the drive, regardless your hard drive space:&lt;/p&gt;
@@ -58,10 +59,10 @@
 </content>
         <category term="tech" />
         <updated>2017-12-30T23:15:34.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install/</id>
+        <id>https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install//</id>
         <title>macOS Sierra Asus Z87-A Clover Installation for Upgrade from El Capitan Or Fresh Install</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install/"/>
         <content type="html">&lt;p&gt;Instruction for how to prepare Clover USB system installation flash driver can be found from here: &lt;a href=&#34;https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/&#34; title=&#34;Install Mac OS X with clover EFI bootloader on ASUS Z87a&#34;&gt;Install Mac OS X with clover EFI bootloader on ASUS Z87a&lt;/a&gt; Hardwares used in this instruction: Motherboard: Asus Z87-A motherboard (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;fst=as:off&amp;amp;keywords=z87-a&amp;amp;linkCode=ur2&amp;amp;qid=1437343162&amp;amp;rh=n:1048424,k:z87-a&amp;amp;rnid=2941120011&amp;amp;tag=qualityologycom-20&amp;amp;linkId=KIDLVK46HWUS4WMI&#34;&gt;Get ASUS Z87-A motherboard from Amazon&lt;/a&gt;) CPU: I7 4770K CPU or any LGA1150 CPU (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;field-keywords=LGA%201150&amp;amp;linkCode=ur2&amp;amp;rh=n:172282,n:541966,n:193870011,n:229189,k:LGA%201150&amp;amp;tag=qualityologycom-20&amp;amp;url=node=229189&amp;amp;linkId=HCREEQYPNTODHQHU&#34;&gt;Get LGA1150 CPU from Amazon&lt;/a&gt;) Graphics Card: Integrated Graphics Processor (HD Graphics 4600) Sound Card: Integrated Realtek ALC892 Harddriver: SATA3 SSD Clover&amp;#x2019;s configuration and files from this guide will fit El Capitan and Sierra. You can directly upgrade from previous macOS to Sierra using this guide for Asus Z87-A motherboard or other similar Asus motherboards. &lt;strong&gt;What is working?&lt;/strong&gt; CPU Power management/Sleep/Wake OK USB 3.0 OK USB 2.0 OK ALC892 Sound Card OK Graphic Card OK Almost everything &lt;strong&gt;What is not working?&lt;/strong&gt; None &lt;strong&gt;macOS bug or Clover bug and fix?&lt;/strong&gt;&lt;/p&gt;
@@ -74,10 +75,10 @@
 &lt;h2 id=&#34;Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34;&gt;&lt;a href=&#34;#Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34; class=&#34;headerlink&#34; title=&#34;Step 2. download SSDT-XOSI.aml and ssdt.amland unzip to EFI/CLOVER/ACPI/patched&#34;&gt;&lt;/a&gt;Step 2. download &lt;a href=&#34;https://www.qualityology.com/2016/10/patch.zip&#34;&gt;SSDT-XOSI.aml and ssdt.aml&lt;/a&gt;and unzip to EFI/CLOVER/ACPI/patched&lt;/h2&gt;&lt;h2 id=&#34;Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34;&gt;&lt;a href=&#34;#Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34; class=&#34;headerlink&#34; title=&#34;Step 3. download AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext and unzip to EFI/CLOVER/kexts/Other&#34;&gt;&lt;/a&gt;Step 3. download &lt;a href=&#34;https://www.qualityology.com/2016/10/other.zip&#34;&gt;AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext&lt;/a&gt; and unzip to EFI/CLOVER/kexts/Other&lt;/h2&gt;&lt;h2 id=&#34;Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34;&gt;&lt;a href=&#34;#Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34; class=&#34;headerlink&#34; title=&#34;Step 4. download FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&#34;&gt;&lt;/a&gt;Step 4. download &lt;a href=&#34;https://www.qualityology.com/2016/10/drivers64UEFI.zip&#34;&gt;FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi&lt;/a&gt; and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&lt;/h2&gt;&lt;h2 id=&#34;Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34;&gt;&lt;a href=&#34;#Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34; class=&#34;headerlink&#34; title=&#34;Step 5. upgrade to macOS Sierra or do a fresh installation.&#34;&gt;&lt;/a&gt;Step 5. upgrade to macOS Sierra or do a fresh installation.&lt;/h2&gt;</content>
         <category term="tech" />
         <updated>2016-10-14T05:54:17.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/</id>
+        <id>https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a//</id>
         <title>Install MacOS with clover EFI bootloader on ASUS Z87a</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/"/>
         <content type="html">&lt;p&gt;Clover is an open source EFI bootloader. clover can do better job than Chameleon, especially on newer UEFI based systems. Using Clover is easy and straightforward. There are tons of documents about how to use clover on Gigabyte motherboards because Gigabyte motherboards usually have less compatibility issues with MAC OS X in the old day. However, with Clover and new OS X after Yosemite, Asus motherboard can also be turned into a perfect Hackintosh. &lt;img src=&#34;/2015/08/clover-mac-os-e1437342949703.jpg&#34; alt=&#34;Clover Mac Os E1437342949703&#34;&gt; Hardwares used in this instruction: Motherboard: Asus Z87-A motherboard (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;fst=as:off&amp;amp;keywords=z87-a&amp;amp;linkCode=ur2&amp;amp;qid=1437343162&amp;amp;rh=n:1048424,k:z87-a&amp;amp;rnid=2941120011&amp;amp;tag=qualityologycom-20&amp;amp;linkId=KIDLVK46HWUS4WMI&#34;&gt;Get ASUS Z87-A motherboard from Amazon&lt;/a&gt;&lt;img src=&#34;https://ir-na.amazon-adsystem.com/e/ir?t=qualityologycom-20&amp;amp;l=ur2&amp;amp;o=1&#34;&gt;) CPU: I7 4770K CPU or any LGA1150 CPU (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;field-keywords=LGA%201150&amp;amp;linkCode=ur2&amp;amp;rh=n:172282,n:541966,n:193870011,n:229189,k:LGA%201150&amp;amp;tag=qualityologycom-20&amp;amp;url=node=229189&amp;amp;linkId=HCREEQYPNTODHQHU&#34;&gt;Get LGA1150 CPU from Amazon&lt;/a&gt;&lt;img src=&#34;https://ir-na.amazon-adsystem.com/e/ir?t=qualityologycom-20&amp;amp;l=ur2&amp;amp;o=1&#34;&gt;) Graphics Card: Integrated Graphics Processor (HD Graphics 4600) Sound Card: Integrated Realtek ALC892 Overview for this instructions:&lt;/p&gt;
@@ -156,6 +157,6 @@
 </content>
         <category term="tech" />
         <updated>2015-08-16T01:08:38.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
 </feed>

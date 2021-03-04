@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;iptables&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -7,7 +8,7 @@
     <category term="tech" />
     <category term="lifestyle" />
     <entry>
-        <id>https://www.qualityology.com/tech/no-chain-target-match-by-that-name-iptables-error/</id>
+        <id>https://www.qualityology.com/tech/no-chain-target-match-by-that-name-iptables-error//</id>
         <title>No chain/target/match by that name iptables error</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/no-chain-target-match-by-that-name-iptables-error/"/>
         <content type="html">&lt;p&gt;iptables: No chain/target/match by that name. That is one of the common error message shows up when we trying a iptables&amp;#x2019; rule in OpenVZ based VPS. If the chain and target are correct, it must be limited in kernel config. &lt;strong&gt;Problem description:&lt;/strong&gt; Error message: &lt;strong&gt;iptables: No chain/target/match by that name.&lt;/strong&gt; Run &amp;#x201C;iptables -L&amp;#x201D; and get:&lt;/p&gt;
@@ -25,6 +26,6 @@
 </content>
         <category term="tech" />
         <updated>2014-07-15T03:31:25.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
 </feed>

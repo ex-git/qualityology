@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;opencart&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -7,7 +8,7 @@
     <category term="tech" />
     <category term="lifestyle" />
     <entry>
-        <id>https://www.qualityology.com/tech/opencart-admin-folder-rename-with-vqmod/</id>
+        <id>https://www.qualityology.com/tech/opencart-admin-folder-rename-with-vqmod//</id>
         <title>Opencart Admin Folder Rename with vQmod</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/opencart-admin-folder-rename-with-vqmod/"/>
         <content type="html">&lt;p&gt;OpenCart is open source so the basic file structure is exposed. In order to secure OpenCart, the easiest way is rename the /admin/ folder to other phrase. Renaming OpenCart admin folder can prevent hackers who specifically looking for the admin folder of OpenCart break in into OpenCart. This tutorial is for OpenCart with vQmod installed. If you don&amp;#x2019;t have vQmod installed, simply rename the Admin folder will work. If you have vQmod installed, you will need some extra steps to make vQmod recognize your new Admin folder. For how install vQmod to OpenCart, follow this tutorial: &lt;a href=&#34;https://www.qualityology.com/tech/install-vqmod-to-opencart/&#34; title=&#34;Install vQmod to OpenCart&#34;&gt;Install vQmod to OpenCart&lt;/a&gt; &lt;/p&gt;
@@ -26,10 +27,10 @@
 </content>
         <category term="tech" />
         <updated>2014-09-12T22:01:59.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/install-vqmod-to-opencart/</id>
+        <id>https://www.qualityology.com/tech/install-vqmod-to-opencart//</id>
         <title>Install vQmod to OpenCart</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/install-vqmod-to-opencart/"/>
         <content type="html">&lt;p&gt;Modifying OpenCart core files greatly reduces your ability to upgrade your store to later versions, and can affect other modules and extensions. vQmod provides a mechanism by which modules requiring OpenCart core modifications can be installed without damaging the integrity of your core system for upgrades. vQmod keeps a list of filenames and changes required, in the form of one XML file per extension. These changes are then created as the core files are used, and the resulting files are stored as cached copies which are executed instead of the original, core PHP or TPL file. Note: OpenCart 2.0 already include OCmod in default. OCmod is similar to vQmod. The vQmod download and instructions for installation can be found here: &lt;a href=&#34;https://github.com/vqmod/vqmod/releases&#34; title=&#34;vqmod&#34;&gt;vQmod download&lt;/a&gt; &lt;a href=&#34;https://github.com/vqmod/vqmod/wiki&#34; title=&#34;vqmod&#34;&gt;vQmod WiKi&lt;/a&gt; Here is the easy instruction:&lt;/p&gt;
@@ -46,10 +47,10 @@
 </content>
         <category term="tech" />
         <updated>2014-07-24T07:06:38.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/opencart-manual-installation-guide/</id>
+        <id>https://www.qualityology.com/tech/opencart-manual-installation-guide//</id>
         <title>Opencart Manual Installation Guide</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/opencart-manual-installation-guide/"/>
         <content type="html">&lt;p&gt;OpenCart is a free, open-source shopping cart. You can install OpenCart using cPanel by just one click, which will be much easier than manually installing it. However, in this tutorial, we will show you how to manually install OpenCart into your server. Before anything else, make sure your hosting meet the requirements listed below.&lt;/p&gt;
@@ -84,6 +85,6 @@
 &lt;h2 id=&#34;Step-6-Delete-the-install-directory-after-the-installation-is-complete-for-security-purposes&#34;&gt;&lt;a href=&#34;#Step-6-Delete-the-install-directory-after-the-installation-is-complete-for-security-purposes&#34; class=&#34;headerlink&#34; title=&#34;Step 6. Delete the install directory after the installation is complete for security purposes&#34;&gt;&lt;/a&gt;Step 6. Delete the install directory after the installation is complete for security purposes&lt;/h2&gt;</content>
         <category term="tech" />
         <updated>2014-07-24T06:56:34.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
 </feed>

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;centos&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -7,7 +8,7 @@
     <category term="tech" />
     <category term="lifestyle" />
     <entry>
-        <id>https://www.qualityology.com/tech/initial-server-setup-with-centos-5-x-6-x-7-x/</id>
+        <id>https://www.qualityology.com/tech/initial-server-setup-with-centos-5-x-6-x-7-x//</id>
         <title>Initial Server Setup with CentOS 5.x 6.x 7.x</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/initial-server-setup-with-centos-5-x-6-x-7-x/"/>
         <content type="html">&lt;p&gt;This is a quick tutorial for building a CentOS based VPS/Dedicated server. CentOS server doesn&amp;#x2019;t include GUI in default so the only way to access server is using Secure Shell (SSH). The following steps will be completed by using SSH. &lt;/p&gt;
@@ -60,10 +61,10 @@
 </content>
         <category term="tech" />
         <updated>2014-08-31T03:22:09.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/installing-epel-and-remi-repository-on-centos-5-x-6-x-or-7-x/</id>
+        <id>https://www.qualityology.com/tech/installing-epel-and-remi-repository-on-centos-5-x-6-x-or-7-x//</id>
         <title>Installing EPEL and REMI repository on CentOS 5.x, 6.x, or 7.x</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/installing-epel-and-remi-repository-on-centos-5-x-6-x-or-7-x/"/>
         <content type="html">&lt;p&gt;How to install EPEL and REMI repository on CentOS 5.x, 6.x, or 7.x? The following article will describe how to configure a CentOS 5 based, CentOS 6 based, or CentOS 7 based system to use Fedora Epel repos and third party remi package repos. These package repositories are not officially supported by CentOS, but they provide much more current versions of popular applications like PHP or MYSQL. Like the PHP that the official repositories provide is 5.3.3, the PHP from REMI repository is much more current versions PHP 5.5 or 5.6. &lt;strong&gt;Install the extra repositories:&lt;/strong&gt; The first step requires downloading some RPM files that contain the additional YUM repository definitions. &lt;strong&gt;The example below point to the 64-bit versions that work with 64bit VPS instances.&lt;/strong&gt; &lt;strong&gt;CentOS 5.x 64-bit&lt;/strong&gt;&lt;/p&gt;
@@ -100,6 +101,6 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;yum update&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="tech" />
         <updated>2014-07-27T00:06:40.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
 </feed>

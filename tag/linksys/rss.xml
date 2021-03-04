@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;linksys&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -7,7 +8,7 @@
     <category term="tech" />
     <category term="lifestyle" />
     <entry>
-        <id>https://www.qualityology.com/tech/linksys-smart-router-slow-download-issue-fix/</id>
+        <id>https://www.qualityology.com/tech/linksys-smart-router-slow-download-issue-fix//</id>
         <title>Linksys smart router slow download issue fix</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/linksys-smart-router-slow-download-issue-fix/"/>
         <content type="html">&lt;p&gt;If you experience slow download speed with Linksys smart router in Comcast network, you are encountering a bug in some Linksys smart routers. When it happen, ipv4 speed test will be slower than real speed. However, ipv6 is not throttled. Comcast speed test on ipv4 speed is always &amp;lt; 20m. The cause is that IPv4 packets from the Comcast network are configured with DSCP 8, which Linksys smart routers will treat all package as low priority traffic and throttle their speed. ipv6 have correct DSCP so it is not affected. If you are facing this issue and using stock firmware, you can use the small fix below:&lt;/p&gt;
@@ -17,10 +18,10 @@
 &lt;h2 id=&#34;6-Test-your-speed-again-and-you-should-see-the-speed-back-to-normal&#34;&gt;&lt;a href=&#34;#6-Test-your-speed-again-and-you-should-see-the-speed-back-to-normal&#34; class=&#34;headerlink&#34; title=&#34;6. Test your speed again and you should see the speed back to normal.&#34;&gt;&lt;/a&gt;6. Test your speed again and you should see the speed back to normal.&lt;/h2&gt;</content>
         <category term="tech" />
         <updated>2016-01-20T06:23:52.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/resolve-overheating-issues-on-linksys-ea6300-ea6350-ea6400-ea6700-or-similar-routers/</id>
+        <id>https://www.qualityology.com/tech/resolve-overheating-issues-on-linksys-ea6300-ea6350-ea6400-ea6700-or-similar-routers//</id>
         <title>Resolve overheating issues on Linksys EA6300 EA6350 EA6400 EA6700 or similar routers</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/resolve-overheating-issues-on-linksys-ea6300-ea6350-ea6400-ea6700-or-similar-routers/"/>
         <content type="html">&lt;p&gt;Linksys smart WiFi routers like EA6300 EA6350 EA6400 EA6700 or other similar design routers usually heat up very fast and have high temperature issue. CPU temperature usually stay over 90&amp;#xB0;c after short run even idle. Although Broadcom chips are said to have an operating rating up to 130&amp;#xB0;c, it is not recommend to let routers that run 24/7 stay in high temperature since it will shorten its lifespan. Some consumer routers are designed to fail within a certain period of time, but we can make some tweak to make it stay longer. &lt;/p&gt;
@@ -45,6 +46,6 @@
 </content>
         <category term="tech" />
         <updated>2015-10-25T05:36:14.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
 </feed>

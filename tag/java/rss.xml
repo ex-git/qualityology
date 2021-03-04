@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;java&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -7,7 +8,7 @@
     <category term="tech" />
     <category term="lifestyle" />
     <entry>
-        <id>https://www.qualityology.com/tech/easy-fix-for-java-error-oracle-jinitiator-version-too-low/</id>
+        <id>https://www.qualityology.com/tech/easy-fix-for-java-error-oracle-jinitiator-version-too-low//</id>
         <title>Easy fix for Java error FRM-92095: Oracle JInitiator version too low</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/easy-fix-for-java-error-oracle-jinitiator-version-too-low/"/>
         <content type="html">&lt;p&gt;After logging into Java application in any browser (Chrome, Firefox, or Internet Explorer), Windows produces an error indicating that the JInitiator version is too low, system pop up below error message: &lt;strong&gt;FRM-92095: Oracle JInitiator version too low. Please install version 1.1.8.2 or higher&lt;/strong&gt; &lt;img src=&#34;/2014/08/FRM92095Jinittoolow.png&#34; alt=&#34;Frm92095jinittoolow&#34;&gt; &lt;strong&gt;Why:&lt;/strong&gt; The cause is the JRE version is not compatible. Oracle made an internal change in the Java plugin after Java 7 that causes Oracle Forms (Banner) to not recognize that Java is correctly installed. &lt;strong&gt;Solution 1:&lt;/strong&gt; Add a OS Parameter: JAVA_TOOL_OPTIONS, and parameter value: -Djava.vendor=&amp;#x201D;Sun Microsystems Inc.&amp;#x201D; as Environment Variables 1. Open Advanced system settings Start Menu &amp;#x203A; Control Panel &amp;#x203A; System and Security &amp;#x203A; System 2. Click Environment Variables &lt;img src=&#34;/2014/08/enviroment-variables.png&#34; alt=&#34;Enviroment Variables&#34;&gt; 3. Add a System variables&lt;/p&gt;
@@ -39,6 +40,6 @@
 </content>
         <category term="tech" />
         <updated>2014-08-10T23:31:22.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
 </feed>

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;baby&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -7,7 +8,7 @@
     <category term="tech" />
     <category term="lifestyle" />
     <entry>
-        <id>https://www.qualityology.com/lifestyle/best-easiest-way-sterilize-baby-bottles-uv-sterilization/</id>
+        <id>https://www.qualityology.com/lifestyle/best-easiest-way-sterilize-baby-bottles-uv-sterilization//</id>
         <title>Best and easiest way to sterilize baby bottles - UV sterilization</title>
         <link rel="alternate" href="https://www.qualityology.com/lifestyle/best-easiest-way-sterilize-baby-bottles-uv-sterilization/"/>
         <content type="html">&lt;p&gt;Baby is vulnerable to diseases and illnesses, so you will want to ensure their bottles are clean and germ free until baby&amp;#x2019;s immune system developed providing a much higher tolerance to bacterias and germs. Sterilizing bottles can have different ways. Some require more efforts and times and some need more cautions. &lt;strong&gt;There are many ways to sterilize baby bottles.&lt;/strong&gt;&lt;/p&gt;
@@ -42,6 +43,6 @@
 </content>
         <category term="lifestyle" />
         <updated>2017-11-13T07:19:14.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
 </feed>

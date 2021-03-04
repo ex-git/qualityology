@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;tech&#34; category</title>
     <link href="https://www.qualityology.com" />
@@ -7,7 +8,7 @@
     <category term="tech" />
     <category term="lifestyle" />
     <entry>
-        <id>https://www.qualityology.com/tech/install-isso-server-free-with-gcp/</id>
+        <id>https://www.qualityology.com/tech/install-isso-server-free-with-gcp//</id>
         <title>Install Isso server free with GCP</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/install-isso-server-free-with-gcp/"/>
         <content type="html">&lt;p&gt;Isso is an open source comment system similar to Disqus and other paid comment systems, but without using heavy third party script that contain tracking and analystic functions. It use SQLite3 database to store comments since comments take very litttle space. &lt;/p&gt;
@@ -51,10 +52,10 @@
 </content>
         <category term="tech" />
         <updated>2021-03-03T05:44:34.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/install-docker-and-docker-compose-on-raspberry-pi/</id>
+        <id>https://www.qualityology.com/tech/install-docker-and-docker-compose-on-raspberry-pi//</id>
         <title>Install Docker and Docker Compose On Raspberry Pi</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/install-docker-and-docker-compose-on-raspberry-pi/"/>
         <content type="html">&lt;p&gt;If you need help installing Docker on your Raspberry Pi, be sure you pick the guide wisely. Some guides online won&amp;#x2019;t work on Raspberry Pi. The following steps had been tested on Raspberry Pi 4.&lt;/p&gt;
@@ -74,10 +75,10 @@
 </content>
         <category term="tech" />
         <updated>2021-03-01T20:55:35.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/connect-to-existing-aws-appsync-api-from-a-react-application/</id>
+        <id>https://www.qualityology.com/tech/connect-to-existing-aws-appsync-api-from-a-react-application//</id>
         <title>Connect to existing AWS AppSync API from a React Application</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/connect-to-existing-aws-appsync-api-from-a-react-application/"/>
         <content type="html">&lt;p&gt;Have an existing API within AWS AppSync and need to connect it from a React web application? If you are not completely new to GraphQL you should know that the most popular GraphQL client is Apollo. &lt;/p&gt;
@@ -140,10 +141,10 @@
 </content>
         <category term="tech" />
         <updated>2021-02-27T04:53:22.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/29-code-snippets-for-wordpress-users/</id>
+        <id>https://www.qualityology.com/tech/29-code-snippets-for-wordpress-users//</id>
         <title>29 Code Snippets for WordPress Users</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/29-code-snippets-for-wordpress-users/"/>
         <content type="html">&lt;p&gt;Tired of installing tons of WordPress plugins for small features? You can use code snippets to do certain things without a dedicated plugin. Generally the &lt;code&gt;functions.php&lt;/code&gt; file is the place to add code snippes.&lt;/p&gt;
@@ -209,10 +210,10 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;figcaption&gt;&lt;span&gt;Automated Comment Spam with Nginx&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;function set_post_cookie() {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    echo &amp;apos;&amp;lt;script&amp;gt;document.cookie = &amp;quot;_pass=1; max-age=1800; path=/; secure&amp;quot;;&amp;lt;/script&amp;gt;&amp;apos; . &amp;quot;&amp;quot;; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;add_action( &amp;apos;comment_form&amp;apos;, &amp;apos;set_post_cookie&amp;apos;, 100 );&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="tech" />
         <updated>2021-02-23T20:09:23.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/easy-dual-wan-load-balancing-with-mikrotik-routeros-pcc/</id>
+        <id>https://www.qualityology.com/tech/easy-dual-wan-load-balancing-with-mikrotik-routeros-pcc//</id>
         <title>Easy Dual WAN Load Balancing with MikroTik RouterOS PCC</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/easy-dual-wan-load-balancing-with-mikrotik-routeros-pcc/"/>
         <content type="html">&lt;p&gt;RouterOS&amp;#x2019;s load balancing is simple but tricky. Even Mikrotik shows an example of how to configure PCC for load balancing. It does not say how to implement it with dynamic IP. The method introduced here is simple. We will add lease scripts to WAN1 and WAN2. RouterOS will run the script to add the correct gateway IP and firewall rules to make the load balancing work.&lt;/p&gt;
@@ -230,10 +231,10 @@
 </content>
         <category term="tech" />
         <updated>2019-02-14T22:39:03.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf/</id>
+        <id>https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf//</id>
         <title>Set custom DNS servers on Linux with resolv.conf</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf/"/>
         <content type="html">&lt;p&gt;resolv.conf is the configuration file for DNS resolvers for all Linux distributions, including Debian, Mint, Ubuntu, RedHat, CentOS, etc. Usually we change the DNS resolvers list by editing resolv.conf. However, depends on your dhcp client configuration, resolv.conf may be rewrite after reboot. Without deep Linux experience, setting customs DNS servers on Linux maybe time consuming. But one thing we can do is make /etc/resolv.conf immutable to other program after you changed it. This will be the easier setup with no side effects on system.&lt;/p&gt;
@@ -261,10 +262,10 @@
 </content>
         <category term="tech" />
         <updated>2018-04-25T17:11:50.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</id>
+        <id>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack//</id>
         <title>Protect your WordPress from Automated Comment Spam and Brute Force Login Attack</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/"/>
         <content type="html">&lt;p&gt;Is your WordPress flooded with spam comment or being attacked by brute force login attempt? Thinking about spam blocking plugin? There are a lot of plug in can help you stop spam comment. You will notice it put thousands spam comments into spam folder after a while. Those Anti-Spam did a great job stopping spam comment show up in our post. There is some drawbacks for that kind of plugin. First,spam comments will be processed and store in your database before it gets deleted manually or automatically. Second, plugin like Akismet Anti-Spam will add a java-script to your site. If your site has limited resources, these kind of activities will drag down your site&amp;#x2019;s performance. If you use captcha plugin, you will also interrupt user&amp;#x2019;s experience.&lt;/p&gt;
@@ -296,10 +297,10 @@
 </content>
         <category term="tech" />
         <updated>2018-04-12T23:57:49.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover/</id>
+        <id>https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover//</id>
         <title>Asus Z87-A MacOS high sierra upgrade prepare with clover</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover/"/>
         <content type="html">&lt;p&gt;This guide is for upgrading your system from previous version to high sierra 10.13.x. For how to prepare USB installation kit, check here: &lt;a href=&#34;https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/&#34; title=&#34;Install Mac OS X with clover EFI bootloader on ASUS Z87a&#34;&gt;Install Mac OS X with clover EFI bootloader on ASUS Z87a&lt;/a&gt; &lt;img src=&#34;/2017/12/masOS-highsierra.png&#34; alt=&#34;Masos Highsierra&#34;&gt;&lt;/p&gt;
@@ -320,10 +321,10 @@
 </content>
         <category term="tech" />
         <updated>2018-01-01T00:43:06.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/</id>
+        <id>https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation//</id>
         <title>Fix error - Mediakit reports not enough space on device for requested operation</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/"/>
         <content type="html">&lt;p&gt;If you tried use MacOS&amp;#x2019;s disk utility to erase or format a old/new hard drive, you may encounter some issue. MacOS will show below error when you tried to erase or format the drive, regardless your hard drive space:&lt;/p&gt;
@@ -350,10 +351,10 @@
 </content>
         <category term="tech" />
         <updated>2017-12-30T23:15:34.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/open-pdfa-pdf-file-without-read-mode/</id>
+        <id>https://www.qualityology.com/tech/open-pdfa-pdf-file-without-read-mode//</id>
         <title>Open PDF/A PDF file without read-only mode</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/open-pdfa-pdf-file-without-read-mode/"/>
         <content type="html">&lt;p&gt;The file you have opened complies with the pdf/a standard and has been opened read-only. If you open a PDF/A standard PDF, in default you will not able to modify it because Adobe PDF reader or Acrobat will open it in view only mode. &lt;img src=&#34;/2017/10/pdf-a.png&#34; alt=&#34;Pdf A&#34;&gt;&lt;/p&gt;
@@ -365,10 +366,10 @@
 </content>
         <category term="tech" />
         <updated>2017-10-20T05:49:04.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/ricoh-sp-c250dn-c252dn-ppd-cups-driver-for-linux-macos/</id>
+        <id>https://www.qualityology.com/tech/ricoh-sp-c250dn-c252dn-ppd-cups-driver-for-linux-macos//</id>
         <title>Ricoh SP C250DN C252DN PPD CUPS driver for LINUX and macOS</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/ricoh-sp-c250dn-c252dn-ppd-cups-driver-for-linux-macos/"/>
         <content type="html">&lt;p&gt;C250DN or C252DN can be driven by setting PCL6 and use CUPS+Gutenprint driver. However, if we use Generic driver, it will not print out color. &lt;/p&gt;
@@ -379,10 +380,10 @@
 </content>
         <category term="tech" />
         <updated>2017-10-04T21:25:43.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains/</id>
+        <id>https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains//</id>
         <title>Edit Hosts file to override DNS record for domains</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains/"/>
         <content type="html">&lt;p&gt;Hosts file will instruct your machine to go directly to an IP address for specified domain instead of checking with DNS server. For example, point &lt;a href=&#34;http://www.qualityology.com/&#34;&gt;www.qualityology.com&lt;/a&gt; and qualityology.com to Google Cloud Platform server:&lt;/p&gt;
@@ -427,10 +428,10 @@
 </content>
         <category term="tech" />
         <updated>2017-10-01T19:01:02.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/</id>
+        <id>https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx//</id>
         <title>Build an extremely fast WordPress with GCP Part 2: Nginx</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/build-extremely-fast-wordpress-gcp-part-2-nginx/"/>
         <content type="html">&lt;p&gt;Apache or Nginx, what softwares should be used to for your server to achieve the maximum performance? If you have a small free server from GCP from &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;part 1&lt;/a&gt;, and you want it to be able to handle average 1000 clients per second, Nginx is the best option. Apache use more server resources and must be configured properly to get the best performance. Nginx can handle very large amount of traffic even in a limited environment. We have done the loading test with the server from Google Cloud Platform from &lt;a href=&#34;https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/&#34;&gt;part 1&lt;/a&gt;&amp;#xA0;and the result was great without deep optimization. 1000 client/sec is not the maximum that this setup can get, it is the limit of the free test we could get. &lt;img src=&#34;/2017/09/loading-test-result.png&#34;&gt; When we tried the same test using Apache, the test was aborted at the beginning because server crashed. That is why we will use Nginx. We are not the server expert, so we will not discuss how to optimize Apache to pass the same test. What we will need is NGINX + MySQL + PHP-FPM +&amp;#xA0;Microcaching + WordPress.&lt;/p&gt;
@@ -471,10 +472,10 @@
 </content>
         <category term="tech" />
         <updated>2017-10-01T05:11:32.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/iphones-battery-draining-heres-what-you-can-do/</id>
+        <id>https://www.qualityology.com/tech/iphones-battery-draining-heres-what-you-can-do//</id>
         <title>iPhone&#39;s battery draining? Here&#39;s what you can do</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/iphones-battery-draining-heres-what-you-can-do/"/>
         <content type="html">&lt;p&gt;If you just upgraded your iPhone to a new version iOS system from the old version for example from iOS 10 to iOS 11 or iOS 9 to iOS 11, you may notice that your battery is draining twice as fast or more after the upgrade. Sometime system can be lagging too. You may heard that you can turn off some features to help the battery to stay longer. However, if a smart phone needs to turn off all the features, what is the point of having a smart phone right? Here is what you can do if you experience battery issue after upgraded.&lt;/p&gt;
@@ -491,10 +492,10 @@
 </content>
         <category term="tech" />
         <updated>2017-09-25T23:27:43.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/</id>
+        <id>https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server//</id>
         <title>Build an extremely fast WordPress with GCP Part 1: server</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/build-an-extremely-fast-wordpress-gcp-part1-server/"/>
         <content type="html">&lt;p&gt;Can you get a super fast server free from Google? Yes, you can. Google Cloud Platform has free tier for US region server. If you are building a small WordPress website using light bandwidth, the free tier is more than sufficient. Free tier provide 720 hours of instance usage which will cover whole month of usage. The only downside is if your site use a lot of bandwidth you will be billed after 1GB of free egress bandwidth, but still cheap because 1 GB cost only&amp;#xA0;$0.01 for US and 1 TB $0.12 - $0.23 depends on the regions. Most new sites use only small amount of bandwidth. Ingress is free if you wonder. As of today, the free tier offer:&lt;/p&gt;
@@ -519,10 +520,10 @@
 </content>
         <category term="tech" />
         <updated>2017-09-18T04:16:14.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/install-linux-apache-mysql-php-phpmyadmin-centos-6-7/</id>
+        <id>https://www.qualityology.com/tech/install-linux-apache-mysql-php-phpmyadmin-centos-6-7//</id>
         <title>Install LAMP (Linux Apache MySQL and PHP) phpMyAdmin on CentOS 6 7</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/install-linux-apache-mysql-php-phpmyadmin-centos-6-7/"/>
         <content type="html">&lt;p&gt;LAMP represents a full featured stack of the most popular web server, database, web programming language known as Apache, MySQL and PHP. This article will cover the steps on how to install the LAMP on a CentOS 6 and CentOS 7. &lt;/p&gt;
@@ -567,10 +568,10 @@
 </content>
         <category term="tech" />
         <updated>2017-09-08T18:12:47.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot/</id>
+        <id>https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot//</id>
         <title>FREE Let&#39;s Encrypt SSL certificate via Certbot and auto renew</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot/"/>
         <content type="html">&lt;p&gt;SSL certificate from Let&amp;#x2019;s Encrypt is free. That is the the whole point of why people are getting Let&amp;#x2019;s Encrypt&amp;#x2019;s SSL certificate. Their SSl are supported in all modern browsers. The only con is the certificate expire in 3 months. However, we can make the renewing process easier with cron. This guide is for server that already have https setup correctly, and will NOT cover how to setup https or modify server ssl configuration file.&lt;/p&gt;
@@ -590,10 +591,10 @@
 &lt;h2 id=&#34;Step-5-create-a-auto-renewal-check-task-to-have-your-server-run-CertBot-to-check-the-certification-expiration-date-everyday-to-make-sure-your-SSL-is-not-expired&#34;&gt;&lt;a href=&#34;#Step-5-create-a-auto-renewal-check-task-to-have-your-server-run-CertBot-to-check-the-certification-expiration-date-everyday-to-make-sure-your-SSL-is-not-expired&#34; class=&#34;headerlink&#34; title=&#34;Step 5, create a auto renewal check task to have your server run CertBot to check the certification expiration date everyday to make sure your SSL is not expired.&#34;&gt;&lt;/a&gt;Step 5, create a auto renewal check task to have your server run CertBot to check the certification expiration date everyday to make sure your SSL is not expired.&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;#!/bin/bash&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;certbot renew --noninteractive --renew-hook &amp;apos;sudo systemctl reload nginx&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="tech" />
         <updated>2017-01-29T07:43:55.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install/</id>
+        <id>https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install//</id>
         <title>macOS Sierra Asus Z87-A Clover Installation for Upgrade from El Capitan Or Fresh Install</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install/"/>
         <content type="html">&lt;p&gt;Instruction for how to prepare Clover USB system installation flash driver can be found from here: &lt;a href=&#34;https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/&#34; title=&#34;Install Mac OS X with clover EFI bootloader on ASUS Z87a&#34;&gt;Install Mac OS X with clover EFI bootloader on ASUS Z87a&lt;/a&gt; Hardwares used in this instruction: Motherboard: Asus Z87-A motherboard (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;fst=as:off&amp;amp;keywords=z87-a&amp;amp;linkCode=ur2&amp;amp;qid=1437343162&amp;amp;rh=n:1048424,k:z87-a&amp;amp;rnid=2941120011&amp;amp;tag=qualityologycom-20&amp;amp;linkId=KIDLVK46HWUS4WMI&#34;&gt;Get ASUS Z87-A motherboard from Amazon&lt;/a&gt;) CPU: I7 4770K CPU or any LGA1150 CPU (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;field-keywords=LGA%201150&amp;amp;linkCode=ur2&amp;amp;rh=n:172282,n:541966,n:193870011,n:229189,k:LGA%201150&amp;amp;tag=qualityologycom-20&amp;amp;url=node=229189&amp;amp;linkId=HCREEQYPNTODHQHU&#34;&gt;Get LGA1150 CPU from Amazon&lt;/a&gt;) Graphics Card: Integrated Graphics Processor (HD Graphics 4600) Sound Card: Integrated Realtek ALC892 Harddriver: SATA3 SSD Clover&amp;#x2019;s configuration and files from this guide will fit El Capitan and Sierra. You can directly upgrade from previous macOS to Sierra using this guide for Asus Z87-A motherboard or other similar Asus motherboards. &lt;strong&gt;What is working?&lt;/strong&gt; CPU Power management/Sleep/Wake OK USB 3.0 OK USB 2.0 OK ALC892 Sound Card OK Graphic Card OK Almost everything &lt;strong&gt;What is not working?&lt;/strong&gt; None &lt;strong&gt;macOS bug or Clover bug and fix?&lt;/strong&gt;&lt;/p&gt;
@@ -606,10 +607,10 @@
 &lt;h2 id=&#34;Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34;&gt;&lt;a href=&#34;#Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34; class=&#34;headerlink&#34; title=&#34;Step 2. download SSDT-XOSI.aml and ssdt.amland unzip to EFI/CLOVER/ACPI/patched&#34;&gt;&lt;/a&gt;Step 2. download &lt;a href=&#34;https://www.qualityology.com/2016/10/patch.zip&#34;&gt;SSDT-XOSI.aml and ssdt.aml&lt;/a&gt;and unzip to EFI/CLOVER/ACPI/patched&lt;/h2&gt;&lt;h2 id=&#34;Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34;&gt;&lt;a href=&#34;#Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34; class=&#34;headerlink&#34; title=&#34;Step 3. download AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext and unzip to EFI/CLOVER/kexts/Other&#34;&gt;&lt;/a&gt;Step 3. download &lt;a href=&#34;https://www.qualityology.com/2016/10/other.zip&#34;&gt;AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext&lt;/a&gt; and unzip to EFI/CLOVER/kexts/Other&lt;/h2&gt;&lt;h2 id=&#34;Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34;&gt;&lt;a href=&#34;#Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34; class=&#34;headerlink&#34; title=&#34;Step 4. download FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&#34;&gt;&lt;/a&gt;Step 4. download &lt;a href=&#34;https://www.qualityology.com/2016/10/drivers64UEFI.zip&#34;&gt;FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi&lt;/a&gt; and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&lt;/h2&gt;&lt;h2 id=&#34;Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34;&gt;&lt;a href=&#34;#Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34; class=&#34;headerlink&#34; title=&#34;Step 5. upgrade to macOS Sierra or do a fresh installation.&#34;&gt;&lt;/a&gt;Step 5. upgrade to macOS Sierra or do a fresh installation.&lt;/h2&gt;</content>
         <category term="tech" />
         <updated>2016-10-14T05:54:17.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/install-entware-on-arm-mips-based-ddwrt-tomato-and-asus-merlin/</id>
+        <id>https://www.qualityology.com/tech/install-entware-on-arm-mips-based-ddwrt-tomato-and-asus-merlin//</id>
         <title>Install entware on ARM MIPS based DDWRT, Tomato, and ASUS Merlin</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/install-entware-on-arm-mips-based-ddwrt-tomato-and-asus-merlin/"/>
         <content type="html">&lt;p&gt;Entware is described as a modern optware replacement. Most of entware&amp;#x2019;s packages are taken from OpenWRT, but others are unique. If you are considering to install optware, you should try entware. This instruction is for ARM or MIPS devices only.&lt;/p&gt;
@@ -626,10 +627,10 @@
 &lt;h2 id=&#34;3-Entware-is-now-installed-Use-&amp;#x2018;opkg&amp;#x2019;-command-to-install-pkgs&#34;&gt;&lt;a href=&#34;#3-Entware-is-now-installed-Use-&amp;#x2018;opkg&amp;#x2019;-command-to-install-pkgs&#34; class=&#34;headerlink&#34; title=&#34;3. Entware is now installed. Use &amp;#x2018;opkg&amp;#x2019; command to install pkgs&#34;&gt;&lt;/a&gt;3. Entware is now installed. Use &amp;#x2018;opkg&amp;#x2019; command to install pkgs&lt;/h2&gt;</content>
         <category term="tech" />
         <updated>2016-09-08T19:56:47.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/install-english-firmware-to-chinese-version-yi-car-wifi-dvr-camera/</id>
+        <id>https://www.qualityology.com/tech/install-english-firmware-to-chinese-version-yi-car-wifi-dvr-camera//</id>
         <title>Install English firmware to Chinese version Yi Car WiFi DVR Camera</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/install-english-firmware-to-chinese-version-yi-car-wifi-dvr-camera/"/>
         <content type="html">&lt;p&gt;Xiao Yi car DVR dash camcorder is a nice budget car DVR from a Chinese company Xiao Mi. There are two version of Xiao Yi car dash cam available in the Market. One is Chinese version, with suction cup mount, Chinese menu, and Chinese voice. There other one is the international version. with adhesive mount, English menu, and voice. The design and video quality are the same except one with suction cup and the other one with adhesive mount. If you bought a Chinese version from eBay or you like the suction cup version, you can covert the firmware to International version by following this guide. All menu will become English and the advanced driver assistance systems will have English prompts. &lt;/p&gt;
@@ -637,6 +638,6 @@
 &lt;h2 id=&#34;1-Create-a-blank-file-and-name-it-&amp;#x201C;engmode&amp;#x201D;-no-file-extension&#34;&gt;&lt;a href=&#34;#1-Create-a-blank-file-and-name-it-&amp;#x201C;engmode&amp;#x201D;-no-file-extension&#34; class=&#34;headerlink&#34; title=&#34;1. Create a blank file and name it &amp;#x201C;engmode&amp;#x201D;, no file extension.&#34;&gt;&lt;/a&gt;1. Create a blank file and name it &amp;#x201C;engmode&amp;#x201D;, no file extension.&lt;/h2&gt;&lt;h2 id=&#34;2-Copy-the-first-14-characters-of-the-serial-number-from-the-menu-or-label-on-the-bottom-of-the-camera-save-as-SN-txt-you-will-have-problem-connecting-the-cam-using-mobile-app-if-you-have-more-or-less-than-14-characters-in-this-step&#34;&gt;&lt;a href=&#34;#2-Copy-the-first-14-characters-of-the-serial-number-from-the-menu-or-label-on-the-bottom-of-the-camera-save-as-SN-txt-you-will-have-problem-connecting-the-cam-using-mobile-app-if-you-have-more-or-less-than-14-characters-in-this-step&#34; class=&#34;headerlink&#34; title=&#34;2. Copy the first 14 characters of the serial number from the menu or label on the bottom of the camera, save as SN.txt. (you will have problem connecting the cam using mobile app if you have more or less than 14 characters in this step)&#34;&gt;&lt;/a&gt;2. Copy the &lt;strong&gt;first 14 characters&lt;/strong&gt; of the serial number from the menu or label on the bottom of the camera, save as SN.txt. (you will have problem connecting the cam using mobile app if you have more or less than 14 characters in this step)&lt;/h2&gt;&lt;h2 id=&#34;3-Open-SN-txt-find-and-change-the-letter-&amp;#x201C;CN&amp;#x201D;-to-&amp;#x201C;US&amp;#x201D;-in-the-serial-number-For-example-CN-to-US&#34;&gt;&lt;a href=&#34;#3-Open-SN-txt-find-and-change-the-letter-&amp;#x201C;CN&amp;#x201D;-to-&amp;#x201C;US&amp;#x201D;-in-the-serial-number-For-example-CN-to-US&#34; class=&#34;headerlink&#34; title=&#34;3. Open SN.txt, find and change the letter &amp;#x201C;CN&amp;#x201D; to &amp;#x201C;US&amp;#x201D; in the serial number. For example: ******CN****** to ******US******&#34;&gt;&lt;/a&gt;3. Open SN.txt, find and change the letter &amp;#x201C;CN&amp;#x201D; to &amp;#x201C;US&amp;#x201D; in the serial number. For example: ******CN****** to ******US******&lt;/h2&gt;&lt;h2 id=&#34;4-Copy-two-files-engmode-and-SN-txt-to-your-SD-card&#34;&gt;&lt;a href=&#34;#4-Copy-two-files-engmode-and-SN-txt-to-your-SD-card&#34; class=&#34;headerlink&#34; title=&#34;4. Copy two files engmode and SN.txt to your SD card.&#34;&gt;&lt;/a&gt;4. Copy two files engmode and SN.txt to your SD card.&lt;/h2&gt;&lt;h2 id=&#34;Insert-the-SD-card-back-into-the-camera-and-power-it-on&#34;&gt;&lt;a href=&#34;#Insert-the-SD-card-back-into-the-camera-and-power-it-on&#34; class=&#34;headerlink&#34; title=&#34;Insert the SD card back into the camera and power it on.&#34;&gt;&lt;/a&gt;Insert the SD card back into the camera and power it on.&lt;/h2&gt;&lt;h2 id=&#34;6-Once-you-see-the-engineering-menu-select-number-8-exit&#34;&gt;&lt;a href=&#34;#6-Once-you-see-the-engineering-menu-select-number-8-exit&#34; class=&#34;headerlink&#34; title=&#34;6. Once you see the engineering menu, select number 8 - exit.&#34;&gt;&lt;/a&gt;6. Once you see the engineering menu, select number 8 - exit.&lt;/h2&gt;&lt;h2 id=&#34;7-Go-into-the-settings-menu-and-select-factory-reset&#34;&gt;&lt;a href=&#34;#7-Go-into-the-settings-menu-and-select-factory-reset&#34; class=&#34;headerlink&#34; title=&#34;7. Go into the settings menu and select factory reset.&#34;&gt;&lt;/a&gt;7. Go into the settings menu and select factory reset.&lt;/h2&gt;&lt;h2 id=&#34;8-Once-it-reboots-select-number-8-to-exit-ENG-mode-again-and-enter-the-settings-menu-and-check-if-your-serial-number-shows-&amp;#x201C;US&amp;#x201D;-and-all-other-characters-match-the-original-serial-number&#34;&gt;&lt;a href=&#34;#8-Once-it-reboots-select-number-8-to-exit-ENG-mode-again-and-enter-the-settings-menu-and-check-if-your-serial-number-shows-&amp;#x201C;US&amp;#x201D;-and-all-other-characters-match-the-original-serial-number&#34; class=&#34;headerlink&#34; title=&#34;8. Once it reboots, select number 8 to exit ENG mode again and enter the settings menu and check if your serial number shows &amp;#x201C;US&amp;#x201D; and all other characters match the original serial number.&#34;&gt;&lt;/a&gt;8. Once it reboots, select number 8 to exit ENG mode again and enter the settings menu and check if your serial number shows &amp;#x201C;US&amp;#x201D; and all other characters match the original serial number.&lt;/h2&gt;&lt;h2 id=&#34;9-If-all-good-power-off-the-dash-cam-download-the-firmware-from-http-www-yitechnology-com-support-firmware-en-html&#34;&gt;&lt;a href=&#34;#9-If-all-good-power-off-the-dash-cam-download-the-firmware-from-http-www-yitechnology-com-support-firmware-en-html&#34; class=&#34;headerlink&#34; title=&#34;9. If all good, power off the dash cam, download the firmware from : http://www.yitechnology.com/support/firmware\_en.html&#34;&gt;&lt;/a&gt;9. If all good, power off the dash cam, download the firmware from : &lt;a href=&#34;http://www.yitechnology.com/support/firmware/_en.html&#34;&gt;http://www.yitechnology.com/support/firmware\_en.html&lt;/a&gt;&lt;/h2&gt;&lt;h2 id=&#34;10-Check-the-file-you-download-it-should-be-FWCARC10-bin-and-size-around-9-3M-It-you-got-smaller-file-unzip-the-file-use-7zip-or-other-unarchiver-you-have&#34;&gt;&lt;a href=&#34;#10-Check-the-file-you-download-it-should-be-FWCARC10-bin-and-size-around-9-3M-It-you-got-smaller-file-unzip-the-file-use-7zip-or-other-unarchiver-you-have&#34; class=&#34;headerlink&#34; title=&#34;10. Check the file you download, it should be FWCARC10.bin and size around ~ 9.3M. It you got smaller file, unzip the file use 7zip or other unarchiver you have.&#34;&gt;&lt;/a&gt;10. Check the file you download, it should be FWCARC10.bin and size around ~ 9.3M. It you got smaller file, unzip the file use 7zip or other unarchiver you have.&lt;/h2&gt;&lt;h2 id=&#34;11-Copy-FWCARC10-bin-from-step-10-to-your-SD-card-insert-the-card-back-to-your-dash-cam&#34;&gt;&lt;a href=&#34;#11-Copy-FWCARC10-bin-from-step-10-to-your-SD-card-insert-the-card-back-to-your-dash-cam&#34; class=&#34;headerlink&#34; title=&#34;11. Copy FWCARC10.bin from step 10 to your SD card, insert the card back to your dash cam.&#34;&gt;&lt;/a&gt;11. Copy FWCARC10.bin from step 10 to your SD card, insert the card back to your dash cam.&lt;/h2&gt;&lt;h2 id=&#34;12-Power-on-the-cam-and-it-should-start-updating-the-firmware-Status-light-should-flash-when-flashing-firmware&#34;&gt;&lt;a href=&#34;#12-Power-on-the-cam-and-it-should-start-updating-the-firmware-Status-light-should-flash-when-flashing-firmware&#34; class=&#34;headerlink&#34; title=&#34;12. Power on the cam and it should start updating the firmware. Status light should flash when flashing firmware.&#34;&gt;&lt;/a&gt;12. Power on the cam and it should start updating the firmware. Status light should flash when flashing firmware.&lt;/h2&gt;&lt;h2 id=&#34;13-once-finished-accept-all-prompts-Format-the-card-and-reset-your-cam&#34;&gt;&lt;a href=&#34;#13-once-finished-accept-all-prompts-Format-the-card-and-reset-your-cam&#34; class=&#34;headerlink&#34; title=&#34;13. once finished, accept all prompts. Format the card and reset your cam.&#34;&gt;&lt;/a&gt;13. once finished, accept all prompts. Format the card and reset your cam.&lt;/h2&gt;</content>
         <category term="tech" />
         <updated>2016-08-14T22:06:58.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
 </feed>

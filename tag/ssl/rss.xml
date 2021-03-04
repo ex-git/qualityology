@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;ssl&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -7,7 +8,7 @@
     <category term="tech" />
     <category term="lifestyle" />
     <entry>
-        <id>https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot/</id>
+        <id>https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot//</id>
         <title>FREE Let&#39;s Encrypt SSL certificate via Certbot and auto renew</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot/"/>
         <content type="html">&lt;p&gt;SSL certificate from Let&amp;#x2019;s Encrypt is free. That is the the whole point of why people are getting Let&amp;#x2019;s Encrypt&amp;#x2019;s SSL certificate. Their SSl are supported in all modern browsers. The only con is the certificate expire in 3 months. However, we can make the renewing process easier with cron. This guide is for server that already have https setup correctly, and will NOT cover how to setup https or modify server ssl configuration file.&lt;/p&gt;
@@ -27,6 +28,6 @@
 &lt;h2 id=&#34;Step-5-create-a-auto-renewal-check-task-to-have-your-server-run-CertBot-to-check-the-certification-expiration-date-everyday-to-make-sure-your-SSL-is-not-expired&#34;&gt;&lt;a href=&#34;#Step-5-create-a-auto-renewal-check-task-to-have-your-server-run-CertBot-to-check-the-certification-expiration-date-everyday-to-make-sure-your-SSL-is-not-expired&#34; class=&#34;headerlink&#34; title=&#34;Step 5, create a auto renewal check task to have your server run CertBot to check the certification expiration date everyday to make sure your SSL is not expired.&#34;&gt;&lt;/a&gt;Step 5, create a auto renewal check task to have your server run CertBot to check the certification expiration date everyday to make sure your SSL is not expired.&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;#!/bin/bash&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;certbot renew --noninteractive --renew-hook &amp;apos;sudo systemctl reload nginx&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="tech" />
         <updated>2017-01-29T07:43:55.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
 </feed>

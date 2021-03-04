@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;printers&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -7,7 +8,7 @@
     <category term="tech" />
     <category term="lifestyle" />
     <entry>
-        <id>https://www.qualityology.com/tech/add-multiple-usb-printers-to-openwrt-firmware-router-via-p910nd-using-hotplug/</id>
+        <id>https://www.qualityology.com/tech/add-multiple-usb-printers-to-openwrt-firmware-router-via-p910nd-using-hotplug//</id>
         <title>Add multiple usb printers to OpenWrt firmware router via p910nd using Hotplug</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/add-multiple-usb-printers-to-openwrt-firmware-router-via-p910nd-using-hotplug/"/>
         <content type="html">&lt;p&gt;p910nd allow multiple printers through a socket connection to port 910n (where n=1, 2, 3 &amp;#x2026;). So, we can share more than one printer to OpenWrt. In default, port number when you unplug and plug in different printers. The following configuration uses the Hotplug script to pair printers to designed ports. This allows multiple printers to be recognized, assigned ports based on the product ID, same ports assigned will resume when printers are connected/turned on. Works on both usb printer and parallel printer using serial to USB adapter.&lt;/p&gt;
@@ -27,10 +28,10 @@
 &lt;h2 id=&#34;Step-6-Reboot-the-router-and-test&#34;&gt;&lt;a href=&#34;#Step-6-Reboot-the-router-and-test&#34; class=&#34;headerlink&#34; title=&#34;Step 6. Reboot the router and test.&#34;&gt;&lt;/a&gt;Step 6. Reboot the router and test.&lt;/h2&gt;</content>
         <category term="tech" />
         <updated>2014-07-15T04:32:01.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/add-multiple-printers-on-tomato-firmware-router-with-hotplug/</id>
+        <id>https://www.qualityology.com/tech/add-multiple-printers-on-tomato-firmware-router-with-hotplug//</id>
         <title>Add multiple printers on Tomato firmware router with hotplug</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/add-multiple-printers-on-tomato-firmware-router-with-hotplug/"/>
         <content type="html">&lt;p&gt;Tomato firmware in default only recognize one printer. If more printers are detected, it assign the first detected printer to lp0. When a printer is plugged into the Tomato router and turned on, the printer port is assigned. &lt;/p&gt;
@@ -47,6 +48,6 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;modprobe -r usb_storage&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="tech" />
         <updated>2014-07-14T17:25:08.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
 </feed>

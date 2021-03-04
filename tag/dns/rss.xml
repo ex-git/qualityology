@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;dns&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -7,7 +8,7 @@
     <category term="tech" />
     <category term="lifestyle" />
     <entry>
-        <id>https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf/</id>
+        <id>https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf//</id>
         <title>Set custom DNS servers on Linux with resolv.conf</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf/"/>
         <content type="html">&lt;p&gt;resolv.conf is the configuration file for DNS resolvers for all Linux distributions, including Debian, Mint, Ubuntu, RedHat, CentOS, etc. Usually we change the DNS resolvers list by editing resolv.conf. However, depends on your dhcp client configuration, resolv.conf may be rewrite after reboot. Without deep Linux experience, setting customs DNS servers on Linux maybe time consuming. But one thing we can do is make /etc/resolv.conf immutable to other program after you changed it. This will be the easier setup with no side effects on system.&lt;/p&gt;
@@ -35,10 +36,10 @@
 </content>
         <category term="tech" />
         <updated>2018-04-25T17:11:50.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains/</id>
+        <id>https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains//</id>
         <title>Edit Hosts file to override DNS record for domains</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains/"/>
         <content type="html">&lt;p&gt;Hosts file will instruct your machine to go directly to an IP address for specified domain instead of checking with DNS server. For example, point &lt;a href=&#34;http://www.qualityology.com/&#34;&gt;www.qualityology.com&lt;/a&gt; and qualityology.com to Google Cloud Platform server:&lt;/p&gt;
@@ -83,10 +84,10 @@
 </content>
         <category term="tech" />
         <updated>2017-10-01T19:01:02.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/host-your-dns-with-google-cloud-dns/</id>
+        <id>https://www.qualityology.com/tech/host-your-dns-with-google-cloud-dns//</id>
         <title>Host Your DNS With Google Cloud DNS</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/host-your-dns-with-google-cloud-dns/"/>
         <content type="html">&lt;p&gt;Can Google host my DNS? Yes. We can set domain DNS zones using the Google Cloud DNS service. Google Cloud DNS is a high performance, resilient, and global DNS service, which allows you to easily publish and manage DNS records. It is FREE? Google Cloud DNS provide max billable limit: 50,000 requests/day, so is almost free for a small website. For a website with huge amount of traffic, see &lt;a href=&#34;https://developers.google.com/cloud-dns/pricing&#34; title=&#34;Cloud DNS pricing&#34;&gt;https://developers.google.com/cloud-dns/pricing&lt;/a&gt; for pricing. &lt;strong&gt;1. Create a new Cloud Project.&lt;/strong&gt; Google Cloud DNS is part of the Google Cloud Platform. First you need to create a new Cloud Project.&lt;/p&gt;
@@ -165,6 +166,6 @@
 </content>
         <category term="tech" />
         <updated>2014-07-28T00:09:15.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
 </feed>

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;seo&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -7,7 +8,7 @@
     <category term="tech" />
     <category term="lifestyle" />
     <entry>
-        <id>https://www.qualityology.com/tech/wordpress-mobile-site-seo-vary-http-header/</id>
+        <id>https://www.qualityology.com/tech/wordpress-mobile-site-seo-vary-http-header//</id>
         <title>Wordpress Mobile Site SEO: Vary HTTP header</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/wordpress-mobile-site-seo-vary-http-header/"/>
         <content type="html">&lt;p&gt;Google&amp;#x2019;s recommendation for Smartphone-optimized Websites recommends use Vary HTTP header when using mobile site dynamically serving different HTML on the same URL. Google recommend that the server send a hint to request that Googlebot for smartphones should crawl the page, too, and thus discover the mobile content. This hint is implemented using the Vary HTTP header.&lt;/p&gt;
@@ -32,6 +33,6 @@
 </content>
         <category term="tech" />
         <updated>2014-08-19T04:42:29.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
 </feed>

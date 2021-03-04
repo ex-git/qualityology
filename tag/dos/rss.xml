@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;dos&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -7,7 +8,7 @@
     <category term="tech" />
     <category term="lifestyle" />
     <entry>
-        <id>https://www.qualityology.com/tech/create-a-bootable-ms-dos-freedos-usb-drive/</id>
+        <id>https://www.qualityology.com/tech/create-a-bootable-ms-dos-freedos-usb-drive//</id>
         <title>Still need DOS? Create a Bootable MS-DOS / FreeDOS USB Drive</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/create-a-bootable-ms-dos-freedos-usb-drive/"/>
         <content type="html">&lt;p&gt;Does we still need DOS for somethings? Yes, if you are still using Ghost for backup and restore. Or you need data recovery software work only under DOS. BIOS updates, firmware-updating utilities often require you to boot into DOS and run the utility. However, it is extremely hard to find a floppy disks with MS-DOS or a computer can read floppy disks anymore. If you still need DOS to do some operations, you can create a bootable DOS USB drive. Burning ISO to USB can be a headache for a lot of people, and oftentimes it will split a USB drive into two partitions. Here we have a tool Rufus to do this simple but not easy job for us. Rufus will not split USB to multiple partitions so the remaining portion of the drive can still be used. Download &lt;a href=&#34;http://rufus.akeo.ie/&#34;&gt;Rufus&lt;/a&gt; Rufus doesn&amp;#x2019;t need any installation so you just launch it after you downloaded it. &lt;img src=&#34;/2014/10/rufus.png&#34; alt=&#34;Rufus&#34;&gt; Now we can create a bootable USB drive with DOS in a very simple way:&lt;/p&gt;
@@ -15,6 +16,6 @@
 </content>
         <category term="tech" />
         <updated>2014-10-14T06:55:05.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
 </feed>

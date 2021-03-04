@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;apache&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -7,7 +8,7 @@
     <category term="tech" />
     <category term="lifestyle" />
     <entry>
-        <id>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/</id>
+        <id>https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack//</id>
         <title>Protect your WordPress from Automated Comment Spam and Brute Force Login Attack</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/stop-automated-comment-spam-brute-force-login-attack/"/>
         <content type="html">&lt;p&gt;Is your WordPress flooded with spam comment or being attacked by brute force login attempt? Thinking about spam blocking plugin? There are a lot of plug in can help you stop spam comment. You will notice it put thousands spam comments into spam folder after a while. Those Anti-Spam did a great job stopping spam comment show up in our post. There is some drawbacks for that kind of plugin. First,spam comments will be processed and store in your database before it gets deleted manually or automatically. Second, plugin like Akismet Anti-Spam will add a java-script to your site. If your site has limited resources, these kind of activities will drag down your site&amp;#x2019;s performance. If you use captcha plugin, you will also interrupt user&amp;#x2019;s experience.&lt;/p&gt;
@@ -39,10 +40,10 @@
 </content>
         <category term="tech" />
         <updated>2018-04-12T23:57:49.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/setup-log-rotation-for-apache-access-logs-error-logs-using-cronolog/</id>
+        <id>https://www.qualityology.com/tech/setup-log-rotation-for-apache-access-logs-error-logs-using-cronolog//</id>
         <title>Setup log rotation for Apache access logs error logs using cronolog</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/setup-log-rotation-for-apache-access-logs-error-logs-using-cronolog/"/>
         <content type="html">&lt;p&gt;If you want Apache log file to be saved on daily basis automatically. Cronolog is one of the best way to do it. Although Apache itself has rotatelogs for rotating activities, rotatelogs are not really creating log file everyday based on the calendar date. Rotatelogs creates and saves log files based on the rotation time or file size limits. For example we set up rotatelogs to rotate logs every 86400 seconds, technically is 24 hours, the start time is whenever you start ratatelogs, not from 00:00:00AM as what people normally assume. For how to setup rotatelogs, you can follow the instruction here: &lt;a href=&#34;https://www.qualityology.com/tech/rotate-apache-logs-on-daily-basis-using-rotatelogs/&#34; title=&#34;Rotate Apache logs on a daily basis using rotatelogs in CentOS Apache 2.x&#34;&gt;Rotate Apache logs on a daily basis using rotatelogs&lt;/a&gt; Cronolog is a simple filter program that reads log file entries from standard input and writes each entry to the output file specified by a filename template and the current date and time. cronolog is intended to be used in conjunction with a Web server, such as Apache, to split the access log into daily or monthly logs. If you want your log files start from 0:00 to the exact end of a day 23:59, cronolog can handle that. &lt;strong&gt;1. Install Cronolog.&lt;/strong&gt; For Debian, Ubuntu, or Linux distributions using apt-get&lt;/p&gt;
@@ -80,10 +81,10 @@
 </content>
         <category term="tech" />
         <updated>2014-07-30T18:33:13.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/rotate-apache-logs-on-daily-basis-using-rotatelogs/</id>
+        <id>https://www.qualityology.com/tech/rotate-apache-logs-on-daily-basis-using-rotatelogs//</id>
         <title>Rotate Apache logs on a daily basis using rotatelogs</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/rotate-apache-logs-on-daily-basis-using-rotatelogs/"/>
         <content type="html">&lt;p&gt;If you Apache to start a new log file every day automatically, rotatelogs is the simple way to do it. Rotatelogs is a simple program for use in conjunction with Apache&amp;#x2019;s piped logfile feature. It supports rotation based on a time interval or maximum size of the log. The use of rotatelogs is actually quite simple. Search your httpd.conf and replace the following line&lt;/p&gt;
@@ -111,10 +112,10 @@
 </content>
         <category term="tech" />
         <updated>2014-07-28T19:06:23.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/apache-blocking-bad-bots-attacks-zmeu/</id>
+        <id>https://www.qualityology.com/tech/apache-blocking-bad-bots-attacks-zmeu//</id>
         <title>Apache: Blocking bad bots attacks from ZmEu</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/apache-blocking-bad-bots-attacks-zmeu/"/>
         <content type="html">&lt;p&gt;Take a quick look at Apache&amp;#x2019;s access.log, there are always all sorts of unknown IPs are connecting, mostly with a status code 403, 404. For example, Some bots like ZmEu are trying to find phpmyadmin or other unprotect web server. ZmEu is a script built by a group of Romanian Hackers. This script essentially looks for a set of scripts and directories of common interest, like for example /phpMyAdmin/*, /pma/* what it is actually looking for is unprotect scripts and other things that might allow the foreign host access into something valuable. such as such as your MySQL databases! An example of ZmEu scan logs. If you see the status code is 403 or 404, your are mostly OK. If the status code is 200, you might need to find out what ZmEu already found out. It&amp;#x2019;s only dangerous if you have unpatched or unprotected versions of software on the host that may be vulnerable.&lt;/p&gt;
@@ -127,6 +128,6 @@
 </content>
         <category term="tech" />
         <updated>2014-07-17T18:14:18.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
 </feed>

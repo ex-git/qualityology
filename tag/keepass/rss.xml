@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" rel="self">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <id>https://www.qualityology.com</id>
     <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;keepass&#34; tag</title>
     <link href="https://www.qualityology.com" />
@@ -7,7 +8,7 @@
     <category term="tech" />
     <category term="lifestyle" />
     <entry>
-        <id>https://www.qualityology.com/tech/macpasshttp-keepasshttp-plugin-for-mac-keepass/</id>
+        <id>https://www.qualityology.com/tech/macpasshttp-keepasshttp-plugin-for-mac-keepass//</id>
         <title>MacPassHTTP - keepasshttp plugin for Mac keepass</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/macpasshttp-keepasshttp-plugin-for-mac-keepass/"/>
         <content type="html">&lt;p&gt;This plugin is primarily intended for Macpass with PassIFox for Mozilla Firefox, chromeIPass for Google Chrome, or passafari for Mac Safari. KeePassHttp does&amp;#x2019;t not officially support Mac system just like Keepass doesn&amp;#x2019;t have a official native client for Mac. Since MacPass, this situation has changed and now MacOS people can use MacPass as native keepass application together with MacPassHTTP to get the similar experience like the Windows platform. Safari must install passafari extension in order to connect to MacPass or other keepkass application. &lt;a href=&#34;https://github.com/mmichaa/passafari.safariextension/releases/download/v1.0.beta2/passafari-v1.0.beta2.safariextz&#34;&gt;Safari extension passafari download&lt;/a&gt; The latest version of MacPass can be download from &lt;a href=&#34;https://github.com/mstarke/MacPass/releases&#34;&gt;MacPass Official Release&lt;/a&gt;. However, the official MacPass release does not include MacPassHTTP (keepasshttp support). It must be compile manually. Install/compile guide can be found &lt;a href=&#34;https://github.com/MacPass/MacPassHTTP&#34;&gt;MacPassHTTP&lt;/a&gt;. As of now, the last version of MacPass is 0.6.2. If you don&amp;#x2019;t want to go through the compile process, you can download the plugin from this post. &lt;a href=&#34;https://www.qualityology.com/2016/04/MacPassHTTP.mpplugin.zip&#34;&gt;MacPassHTTP.mpplugin&lt;/a&gt; The plugin has been tested for MacPass 0.6.2. Future version support is unknown. It should go to folder ~/Library/Application Support/MacPass/ &lt;img src=&#34;/2016/04/MacPassHTTP.png&#34; alt=&#34;Macpasshttp&#34;&gt; You can open the folder from terminal and drag the plugin into the folder.&lt;/p&gt;
@@ -17,10 +18,10 @@
 </content>
         <category term="tech" />
         <updated>2016-04-26T05:57:37.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
     <entry>
-        <id>https://www.qualityology.com/tech/native-keepass-for-mac-os-x-with-keepasshttp-macpass/</id>
+        <id>https://www.qualityology.com/tech/native-keepass-for-mac-os-x-with-keepasshttp-macpass//</id>
         <title>Native KeePass client for MAC OS X with KeePassHTTP - MacPass</title>
         <link rel="alternate" href="https://www.qualityology.com/tech/native-keepass-for-mac-os-x-with-keepasshttp-macpass/"/>
         <content type="html">&lt;p&gt;Keeps can be used via Mono on OS X but lack of important functionality and not work very well. MacPass is a KeePass compatible password manager for OS X. MacPass is free and open source. &lt;/p&gt;
@@ -29,6 +30,6 @@
 </content>
         <category term="tech" />
         <updated>2015-07-30T02:48:31.000Z</updated>
-        <author>Qualityology</author>
+        <author>Evan Xu(Qualityology)</author>
     </entry>
 </feed>
