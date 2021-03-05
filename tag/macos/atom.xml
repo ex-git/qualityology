@@ -1,20 +1,66 @@
 <?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <atom:link href="https://www.qualityology.com/atom.xml" rel="self" type="application/rss+xml" />
-        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;macos&#34; tag</title>
-        <link>https://www.qualityology.com</link>
-        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
-        <language>en</language>
-        <pubDate>Sun, 31 Dec 2017 16:43:06 -0800</pubDate>
-        <lastBuildDate>Sun, 31 Dec 2017 16:43:06 -0800</lastBuildDate>
-        <item>
-            <guid>https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover/</guid>
-            <title>Asus Z87-A MacOS high sierra upgrade prepare with clover</title>
-            <link>https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover/</link>
-            <category>tech</category>
-            <pubDate>Sun, 31 Dec 2017 16:43:06 -0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;This guide is for upgrading your system from previous version to high sierra 10.13.x. For how to prepare USB installation kit, check here: &lt;a href=&#34;https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/&#34; title=&#34;Install Mac OS X with clover EFI bootloader on ASUS Z87a&#34;&gt;Install Mac OS X with clover EFI bootloader on ASUS Z87a&lt;/a&gt; &lt;img src=&#34;/2017/12/masOS-highsierra.png&#34; alt=&#34;Masos Highsierra&#34;&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.qualityology.com</id>
+    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;macos&#34; tag</title>
+    <link href="https://www.qualityology.com" />
+    <updated>2018-01-01T00:43:06.000Z</updated>
+    <category term="MySQL" />
+    <category term="WordPress" />
+    <category term="apps" />
+    <category term="OpenWrt" />
+    <category term="Ads" />
+    <category term="printers" />
+    <category term="Apache" />
+    <category term="MacOS" />
+    <category term="baby" />
+    <category term="pfsense" />
+    <category term="Nginx" />
+    <category term="Server" />
+    <category term="timezone" />
+    <category term="Windows" />
+    <category term="port" />
+    <category term="Amazon" />
+    <category term="React" />
+    <category term="API" />
+    <category term="Beini" />
+    <category term="DOS" />
+    <category term="PDF" />
+    <category term="UEFI" />
+    <category term="Mikrotik" />
+    <category term="PCC" />
+    <category term="Java" />
+    <category term="DNS" />
+    <category term="Raspberry-Pi" />
+    <category term="SSL" />
+    <category term="Office" />
+    <category term="Wireless" />
+    <category term="Google Voice" />
+    <category term="ram" />
+    <category term="CentOS" />
+    <category term="firmware" />
+    <category term="Docker" />
+    <category term="entware" />
+    <category term="LAMP" />
+    <category term="Opencart" />
+    <category term="iPhone" />
+    <category term="Linksys" />
+    <category term="Safari" />
+    <category term="keepass" />
+    <category term="iptables" />
+    <category term="Open Source" />
+    <category term="patch" />
+    <category term="DISKPART" />
+    <category term="MAC" />
+    <category term="hosts" />
+    <category term="driver" />
+    <category term="iOS" />
+    <category term="Google Drive" />
+    <category term="SEO" />
+    <entry>
+        <id>https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover/</id>
+        <title>Asus Z87-A MacOS high sierra upgrade prepare with clover</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/asus-z87-macos-high-sierra-upgrade-guide-clover/"/>
+        <content type="html">&lt;p&gt;This guide is for upgrading your system from previous version to high sierra 10.13.x. For how to prepare USB installation kit, check here: &lt;a href=&#34;https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/&#34; title=&#34;Install Mac OS X with clover EFI bootloader on ASUS Z87a&#34;&gt;Install Mac OS X with clover EFI bootloader on ASUS Z87a&lt;/a&gt; &lt;img src=&#34;/2017/12/masOS-highsierra.png&#34; alt=&#34;Masos Highsierra&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;First-add-driver-support-to-APFS&#34;&gt;&lt;a href=&#34;#First-add-driver-support-to-APFS&#34; class=&#34;headerlink&#34; title=&#34;First, add driver support to APFS.&#34;&gt;&lt;/a&gt;First, add driver support to APFS.&lt;/h2&gt;&lt;p&gt;Upgrading to high sierra will automatically cover HFS+ file system to APFS. Without the driver, clover will not able to boot to high sierra. &lt;strong&gt;What is APFS?&lt;/strong&gt; APFS is the Apple File System. It was introduced at WWDC 2016 and, starting this year, it will replace the existing HFS+ file system on Apple Watch, Apple TV, iPhone, iPad, MacBook, iMac, and Mac Pro. &lt;a href=&#34;https://www.qualityology.com/2017/12/apfs.efi_.zip&#34;&gt;apfs.efi&lt;/a&gt; for 10.13.2 If you already have apfs.edi in your clover driver folder and want to upgrade it to the version that match your system. You can follow below step. 1. Boot into macOS High Sierra 2. open terminal 3. type&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;open /usr/standalone/i386/&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
@@ -29,15 +75,15 @@
 &lt;h2 id=&#34;Third-raise-USB-Port-limit&#34;&gt;&lt;a href=&#34;#Third-raise-USB-Port-limit&#34; class=&#34;headerlink&#34; title=&#34;Third, raise USB Port limit&#34;&gt;&lt;/a&gt;Third, raise USB Port limit&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Comment: Change 15 port limit to 24 in XHCI kext 10.13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Find: 837D8C10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Name: AppleUSBXHCIPCI&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Replace: 837D8C1B&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;Now you are good to go with the upgrade just like upgrading a real Mac.&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid>https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/</guid>
-            <title>Fix error - Mediakit reports not enough space on device for requested operation</title>
-            <link>https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/</link>
-            <category>tech</category>
-            <pubDate>Sat, 30 Dec 2017 15:15:34 -0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;If you tried use MacOS&amp;#x2019;s disk utility to erase or format a old/new hard drive, you may encounter some issue. MacOS will show below error when you tried to erase or format the drive, regardless your hard drive space:&lt;/p&gt;
+</content>
+        <category term="MacOS" />
+        <updated>2018-01-01T00:43:06.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/</id>
+        <title>Fix error - Mediakit reports not enough space on device for requested operation</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/"/>
+        <content type="html">&lt;p&gt;If you tried use MacOS&amp;#x2019;s disk utility to erase or format a old/new hard drive, you may encounter some issue. MacOS will show below error when you tried to erase or format the drive, regardless your hard drive space:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Erase process has failed, press done to continue&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -58,30 +104,30 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;diskutil partitionDisk disk3 GPT JHFS+ &amp;quot;My External HD&amp;quot; 0g&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;If you have issue with Windows, you can see the tutorial for Windows: &lt;a href=&#34;https://www.qualityology.com/tech/properly-delete-a-partition-on-usb-drive-using-diskpart/&#34;&gt;Properly Delete Extra Partitions on USB Drive using DiskPart&lt;/a&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid>https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install/</guid>
-            <title>macOS Sierra Asus Z87-A Clover Installation for Upgrade from El Capitan Or Fresh Install</title>
-            <link>https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install/</link>
-            <category>tech</category>
-            <pubDate>Thu, 13 Oct 2016 22:54:17 -0700</pubDate>
-            <description><![CDATA[ &lt;p&gt;Instruction for how to prepare Clover USB system installation flash driver can be found from here: &lt;a href=&#34;https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/&#34; title=&#34;Install Mac OS X with clover EFI bootloader on ASUS Z87a&#34;&gt;Install Mac OS X with clover EFI bootloader on ASUS Z87a&lt;/a&gt; Hardwares used in this instruction: Motherboard: Asus Z87-A motherboard (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;fst=as:off&amp;amp;keywords=z87-a&amp;amp;linkCode=ur2&amp;amp;qid=1437343162&amp;amp;rh=n:1048424,k:z87-a&amp;amp;rnid=2941120011&amp;amp;tag=qualityologycom-20&amp;amp;linkId=KIDLVK46HWUS4WMI&#34;&gt;Get ASUS Z87-A motherboard from Amazon&lt;/a&gt;) CPU: I7 4770K CPU or any LGA1150 CPU (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;field-keywords=LGA%201150&amp;amp;linkCode=ur2&amp;amp;rh=n:172282,n:541966,n:193870011,n:229189,k:LGA%201150&amp;amp;tag=qualityologycom-20&amp;amp;url=node=229189&amp;amp;linkId=HCREEQYPNTODHQHU&#34;&gt;Get LGA1150 CPU from Amazon&lt;/a&gt;) Graphics Card: Integrated Graphics Processor (HD Graphics 4600) Sound Card: Integrated Realtek ALC892 Harddriver: SATA3 SSD Clover&amp;#x2019;s configuration and files from this guide will fit El Capitan and Sierra. You can directly upgrade from previous macOS to Sierra using this guide for Asus Z87-A motherboard or other similar Asus motherboards. &lt;strong&gt;What is working?&lt;/strong&gt; CPU Power management/Sleep/Wake OK USB 3.0 OK USB 2.0 OK ALC892 Sound Card OK Graphic Card OK Almost everything &lt;strong&gt;What is not working?&lt;/strong&gt; None &lt;strong&gt;macOS bug or Clover bug and fix?&lt;/strong&gt;&lt;/p&gt;
+</content>
+        <category term="MacOS" />
+        <updated>2017-12-30T23:15:34.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install/</id>
+        <title>macOS Sierra Asus Z87-A Clover Installation for Upgrade from El Capitan Or Fresh Install</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/macos-sierra-asus-z87-a-clover-installation-for-upgrade-from-el-capitan-or-fresh-install/"/>
+        <content type="html">&lt;p&gt;Instruction for how to prepare Clover USB system installation flash driver can be found from here: &lt;a href=&#34;https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/&#34; title=&#34;Install Mac OS X with clover EFI bootloader on ASUS Z87a&#34;&gt;Install Mac OS X with clover EFI bootloader on ASUS Z87a&lt;/a&gt; Hardwares used in this instruction: Motherboard: Asus Z87-A motherboard (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;fst=as:off&amp;amp;keywords=z87-a&amp;amp;linkCode=ur2&amp;amp;qid=1437343162&amp;amp;rh=n:1048424,k:z87-a&amp;amp;rnid=2941120011&amp;amp;tag=qualityologycom-20&amp;amp;linkId=KIDLVK46HWUS4WMI&#34;&gt;Get ASUS Z87-A motherboard from Amazon&lt;/a&gt;) CPU: I7 4770K CPU or any LGA1150 CPU (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;field-keywords=LGA%201150&amp;amp;linkCode=ur2&amp;amp;rh=n:172282,n:541966,n:193870011,n:229189,k:LGA%201150&amp;amp;tag=qualityologycom-20&amp;amp;url=node=229189&amp;amp;linkId=HCREEQYPNTODHQHU&#34;&gt;Get LGA1150 CPU from Amazon&lt;/a&gt;) Graphics Card: Integrated Graphics Processor (HD Graphics 4600) Sound Card: Integrated Realtek ALC892 Harddriver: SATA3 SSD Clover&amp;#x2019;s configuration and files from this guide will fit El Capitan and Sierra. You can directly upgrade from previous macOS to Sierra using this guide for Asus Z87-A motherboard or other similar Asus motherboards. &lt;strong&gt;What is working?&lt;/strong&gt; CPU Power management/Sleep/Wake OK USB 3.0 OK USB 2.0 OK ALC892 Sound Card OK Graphic Card OK Almost everything &lt;strong&gt;What is not working?&lt;/strong&gt; None &lt;strong&gt;macOS bug or Clover bug and fix?&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;  WiFi issue after wake from sleep? uncheck &lt;strong&gt;Disable Wake for network access&lt;/strong&gt; from &lt;strong&gt;Energy Saver&lt;/strong&gt; and restart&lt;/li&gt;
 &lt;li&gt;  No sound after wake from sleep? Install CodecCommander, download the latest version from here: &lt;a href=&#34;https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads&#34;&gt;https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;  iMessage issue? Do you have 17 digit MLB# and Board Serial number? 15 digit Serial#? and SmUUID?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;Step-1-Clover-configuration&#34;&gt;&lt;a href=&#34;#Step-1-Clover-configuration&#34; class=&#34;headerlink&#34; title=&#34;Step 1, Clover configuration&#34;&gt;&lt;/a&gt;Step 1, Clover configuration&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;/2016/10/clover_acpi.png&#34; alt=&#34;Clover Acpi&#34;&gt; &lt;img src=&#34;/2016/10/clover_boot.png&#34; alt=&#34;Clover Boot&#34;&gt; &lt;img src=&#34;/2016/10/clover_devices.png&#34; alt=&#34;Clover Devices&#34;&gt; &lt;img src=&#34;/2016/10/clover_graphics.png&#34; alt=&#34;Clover Graphics&#34;&gt; &lt;img src=&#34;/2016/10/clover_kernel_and_kext_patches.png&#34; alt=&#34;Clover Kernel And Kext Patches&#34;&gt; &lt;img src=&#34;/2016/10/clover_Rt_Variables.png&#34; alt=&#34;Clover Rt Variables&#34;&gt; &lt;img src=&#34;/2016/10/clover_SMBIOS.png&#34; alt=&#34;Clover Smbios&#34;&gt; &lt;img src=&#34;/2016/10/clover_System_Parameters.png&#34; alt=&#34;Clover System Parameters&#34;&gt; &lt;/p&gt;
-&lt;h2 id=&#34;Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34;&gt;&lt;a href=&#34;#Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34; class=&#34;headerlink&#34; title=&#34;Step 2. download SSDT-XOSI.aml and ssdt.amland unzip to EFI/CLOVER/ACPI/patched&#34;&gt;&lt;/a&gt;Step 2. download &lt;a href=&#34;https://www.qualityology.com/2016/10/patch.zip&#34;&gt;SSDT-XOSI.aml and ssdt.aml&lt;/a&gt;and unzip to EFI/CLOVER/ACPI/patched&lt;/h2&gt;&lt;h2 id=&#34;Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34;&gt;&lt;a href=&#34;#Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34; class=&#34;headerlink&#34; title=&#34;Step 3. download AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext and unzip to EFI/CLOVER/kexts/Other&#34;&gt;&lt;/a&gt;Step 3. download &lt;a href=&#34;https://www.qualityology.com/2016/10/other.zip&#34;&gt;AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext&lt;/a&gt; and unzip to EFI/CLOVER/kexts/Other&lt;/h2&gt;&lt;h2 id=&#34;Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34;&gt;&lt;a href=&#34;#Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34; class=&#34;headerlink&#34; title=&#34;Step 4. download FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&#34;&gt;&lt;/a&gt;Step 4. download &lt;a href=&#34;https://www.qualityology.com/2016/10/drivers64UEFI.zip&#34;&gt;FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi&lt;/a&gt; and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&lt;/h2&gt;&lt;h2 id=&#34;Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34;&gt;&lt;a href=&#34;#Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34; class=&#34;headerlink&#34; title=&#34;Step 5. upgrade to macOS Sierra or do a fresh installation.&#34;&gt;&lt;/a&gt;Step 5. upgrade to macOS Sierra or do a fresh installation.&lt;/h2&gt; ]]></description>
-        </item>
-        <item>
-            <guid>https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/</guid>
-            <title>Install MacOS with clover EFI bootloader on ASUS Z87a</title>
-            <link>https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/</link>
-            <category>tech</category>
-            <pubDate>Sat, 15 Aug 2015 18:08:38 -0700</pubDate>
-            <description><![CDATA[ &lt;p&gt;Clover is an open source EFI bootloader. clover can do better job than Chameleon, especially on newer UEFI based systems. Using Clover is easy and straightforward. There are tons of documents about how to use clover on Gigabyte motherboards because Gigabyte motherboards usually have less compatibility issues with MAC OS X in the old day. However, with Clover and new OS X after Yosemite, Asus motherboard can also be turned into a perfect Hackintosh. &lt;img src=&#34;/2015/08/clover-mac-os-e1437342949703.jpg&#34; alt=&#34;Clover Mac Os E1437342949703&#34;&gt; Hardwares used in this instruction: Motherboard: Asus Z87-A motherboard (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;fst=as:off&amp;amp;keywords=z87-a&amp;amp;linkCode=ur2&amp;amp;qid=1437343162&amp;amp;rh=n:1048424,k:z87-a&amp;amp;rnid=2941120011&amp;amp;tag=qualityologycom-20&amp;amp;linkId=KIDLVK46HWUS4WMI&#34;&gt;Get ASUS Z87-A motherboard from Amazon&lt;/a&gt;&lt;img src=&#34;https://ir-na.amazon-adsystem.com/e/ir?t=qualityologycom-20&amp;amp;l=ur2&amp;amp;o=1&#34;&gt;) CPU: I7 4770K CPU or any LGA1150 CPU (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;field-keywords=LGA%201150&amp;amp;linkCode=ur2&amp;amp;rh=n:172282,n:541966,n:193870011,n:229189,k:LGA%201150&amp;amp;tag=qualityologycom-20&amp;amp;url=node=229189&amp;amp;linkId=HCREEQYPNTODHQHU&#34;&gt;Get LGA1150 CPU from Amazon&lt;/a&gt;&lt;img src=&#34;https://ir-na.amazon-adsystem.com/e/ir?t=qualityologycom-20&amp;amp;l=ur2&amp;amp;o=1&#34;&gt;) Graphics Card: Integrated Graphics Processor (HD Graphics 4600) Sound Card: Integrated Realtek ALC892 Overview for this instructions:&lt;/p&gt;
+&lt;h2 id=&#34;Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34;&gt;&lt;a href=&#34;#Step-2-download-SSDT-XOSI-aml-and-ssdt-amland-unzip-to-EFI-CLOVER-ACPI-patched&#34; class=&#34;headerlink&#34; title=&#34;Step 2. download SSDT-XOSI.aml and ssdt.amland unzip to EFI/CLOVER/ACPI/patched&#34;&gt;&lt;/a&gt;Step 2. download &lt;a href=&#34;https://www.qualityology.com/2016/10/patch.zip&#34;&gt;SSDT-XOSI.aml and ssdt.aml&lt;/a&gt;and unzip to EFI/CLOVER/ACPI/patched&lt;/h2&gt;&lt;h2 id=&#34;Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34;&gt;&lt;a href=&#34;#Step-3-download-AppleALC-kext-FakeSMC-kext-RealtekRTL8111-kext-USB-Series8-Injector-kext-and-unzip-to-EFI-CLOVER-kexts-Other&#34; class=&#34;headerlink&#34; title=&#34;Step 3. download AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext and unzip to EFI/CLOVER/kexts/Other&#34;&gt;&lt;/a&gt;Step 3. download &lt;a href=&#34;https://www.qualityology.com/2016/10/other.zip&#34;&gt;AppleALC.kext FakeSMC.kext RealtekRTL8111.kext USB_Series8_Injector.kext&lt;/a&gt; and unzip to EFI/CLOVER/kexts/Other&lt;/h2&gt;&lt;h2 id=&#34;Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34;&gt;&lt;a href=&#34;#Step-4-download-FSInject-64-efi-HFSPlus-efi-NTFS-efi-OsxAptioFix2Drv-64-efi-OsxFatBinaryDrv-64-efi-and-unzip-to-EFI-CLOVER-drivers64UEFI-Delete-other-files-in-this-folder&#34; class=&#34;headerlink&#34; title=&#34;Step 4. download FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&#34;&gt;&lt;/a&gt;Step 4. download &lt;a href=&#34;https://www.qualityology.com/2016/10/drivers64UEFI.zip&#34;&gt;FSInject-64.efi HFSPlus.efi NTFS.efi OsxAptioFix2Drv-64.efi OsxFatBinaryDrv-64.efi&lt;/a&gt; and unzip to EFI/CLOVER/drivers64UEFI Delete other files in this folder.&lt;/h2&gt;&lt;h2 id=&#34;Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34;&gt;&lt;a href=&#34;#Step-5-upgrade-to-macOS-Sierra-or-do-a-fresh-installation&#34; class=&#34;headerlink&#34; title=&#34;Step 5. upgrade to macOS Sierra or do a fresh installation.&#34;&gt;&lt;/a&gt;Step 5. upgrade to macOS Sierra or do a fresh installation.&lt;/h2&gt;</content>
+        <category term="MacOS" />
+        <updated>2016-10-14T05:54:17.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/</id>
+        <title>Install MacOS with clover EFI bootloader on ASUS Z87a</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/"/>
+        <content type="html">&lt;p&gt;Clover is an open source EFI bootloader. clover can do better job than Chameleon, especially on newer UEFI based systems. Using Clover is easy and straightforward. There are tons of documents about how to use clover on Gigabyte motherboards because Gigabyte motherboards usually have less compatibility issues with MAC OS X in the old day. However, with Clover and new OS X after Yosemite, Asus motherboard can also be turned into a perfect Hackintosh. &lt;img src=&#34;/2015/08/clover-mac-os-e1437342949703.jpg&#34; alt=&#34;Clover Mac Os E1437342949703&#34;&gt; Hardwares used in this instruction: Motherboard: Asus Z87-A motherboard (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;fst=as:off&amp;amp;keywords=z87-a&amp;amp;linkCode=ur2&amp;amp;qid=1437343162&amp;amp;rh=n:1048424,k:z87-a&amp;amp;rnid=2941120011&amp;amp;tag=qualityologycom-20&amp;amp;linkId=KIDLVK46HWUS4WMI&#34;&gt;Get ASUS Z87-A motherboard from Amazon&lt;/a&gt;&lt;img src=&#34;https://ir-na.amazon-adsystem.com/e/ir?t=qualityologycom-20&amp;amp;l=ur2&amp;amp;o=1&#34;&gt;) CPU: I7 4770K CPU or any LGA1150 CPU (&lt;a href=&#34;http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;field-keywords=LGA%201150&amp;amp;linkCode=ur2&amp;amp;rh=n:172282,n:541966,n:193870011,n:229189,k:LGA%201150&amp;amp;tag=qualityologycom-20&amp;amp;url=node=229189&amp;amp;linkId=HCREEQYPNTODHQHU&#34;&gt;Get LGA1150 CPU from Amazon&lt;/a&gt;&lt;img src=&#34;https://ir-na.amazon-adsystem.com/e/ir?t=qualityologycom-20&amp;amp;l=ur2&amp;amp;o=1&#34;&gt;) Graphics Card: Integrated Graphics Processor (HD Graphics 4600) Sound Card: Integrated Realtek ALC892 Overview for this instructions:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt; Download the OS X Yosemite (or El Capitan&amp;#x200E;) Application from the Mac App Store&lt;/li&gt;
 &lt;li&gt; Prepare a UEFI Installer USB flash drive&lt;/li&gt;
@@ -154,7 +200,8 @@
 &lt;h2 id=&#34;STEP-8-Install-Sound-card-driver-and-fix-wake-up-no-sound-issue&#34;&gt;&lt;a href=&#34;#STEP-8-Install-Sound-card-driver-and-fix-wake-up-no-sound-issue&#34; class=&#34;headerlink&#34; title=&#34;STEP 8: Install Sound card driver and fix wake up no sound issue.&#34;&gt;&lt;/a&gt;STEP 8: Install Sound card driver and fix wake up no sound issue.&lt;/h2&gt;&lt;p&gt;Note: The config.plist we provided will prevent the popping sound or static noise issue as we use Mac Pro 3,1 identifier. iMac will periodically force sound card to sleep and will cause Realtek ALC892 sound card to make static noise or popping. The performance different between using Mac Pro 3,1 or iMac system definition is not obvious so no need to change that unless you have specific reason to do so. Download &lt;a href=&#34;https://www.qualityology.com/2015/08/alc892.zip&#34;&gt;alc892&lt;/a&gt; Open &lt;strong&gt;Kext Utility&lt;/strong&gt; and drag AppleHDA892.kext and CodecCommander.kext to install both kext into /S/L/E. *&lt;a href=&#34;https://github.com/Dolnor/EAPD-Codec-Commander&#34;&gt;CodecCommander&lt;/a&gt; will fix the no sound problem after sleep and wakeup. *AppleHDA892.kext will not affect original AppleHDA, need to together use with the config.plist provided in this post. &lt;/p&gt;
 &lt;h2 id=&#34;STEP-9-add-Intel-i7-4770K-SSDT-for-better-CPU-SpeedStep-amp-Power-Management&#34;&gt;&lt;a href=&#34;#STEP-9-add-Intel-i7-4770K-SSDT-for-better-CPU-SpeedStep-amp-Power-Management&#34; class=&#34;headerlink&#34; title=&#34;STEP 9, add Intel i7 4770K SSDT for better CPU SpeedStep &amp;amp; Power Management&#34;&gt;&lt;/a&gt;STEP 9, add Intel i7 4770K SSDT for better CPU SpeedStep &amp;amp; Power Management&lt;/h2&gt;&lt;p&gt;Navigate to /Volumes/EFI/EFI/CLOVER/ACPI/patched/ and add &lt;a href=&#34;https://www.qualityology.com/2015/08/SSDT.aml_.zip&#34;&gt;SSDT.aml&lt;/a&gt; &lt;/p&gt;
 &lt;p&gt;Credit: &lt;a href=&#34;http://www.tonymacx86.com/yosemite-desktop-guides/144426-how-install-os-x-yosemite-using-clover.html&#34;&gt;http://www.tonymacx86.com/yosemite-desktop-guides/144426-how-install-os-x-yosemite-using-clover.html&lt;/a&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <category term="MacOS" />
+        <updated>2015-08-16T01:08:38.000Z</updated>
+    </entry>
+</feed>

@@ -1,20 +1,66 @@
 <?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <atom:link href="https://www.qualityology.com/atom.xml" rel="self" type="application/rss+xml" />
-        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;react&#34; tag</title>
-        <link>https://www.qualityology.com</link>
-        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
-        <language>en</language>
-        <pubDate>Fri, 26 Feb 2021 20:53:22 -0800</pubDate>
-        <lastBuildDate>Fri, 26 Feb 2021 20:53:22 -0800</lastBuildDate>
-        <item>
-            <guid>https://www.qualityology.com/tech/connect-to-existing-aws-appsync-api-from-a-react-application/</guid>
-            <title>Connect to existing AWS AppSync API from a React Application</title>
-            <link>https://www.qualityology.com/tech/connect-to-existing-aws-appsync-api-from-a-react-application/</link>
-            <category>tech</category>
-            <pubDate>Fri, 26 Feb 2021 20:53:22 -0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;Have an existing API within AWS AppSync and need to connect it from a React web application? If you are not completely new to GraphQL you should know that the most popular GraphQL client is Apollo. &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.qualityology.com</id>
+    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;react&#34; tag</title>
+    <link href="https://www.qualityology.com" />
+    <updated>2021-02-27T04:53:22.000Z</updated>
+    <category term="MySQL" />
+    <category term="WordPress" />
+    <category term="apps" />
+    <category term="OpenWrt" />
+    <category term="Ads" />
+    <category term="printers" />
+    <category term="Apache" />
+    <category term="MacOS" />
+    <category term="baby" />
+    <category term="pfsense" />
+    <category term="Nginx" />
+    <category term="Server" />
+    <category term="timezone" />
+    <category term="Windows" />
+    <category term="port" />
+    <category term="Amazon" />
+    <category term="React" />
+    <category term="API" />
+    <category term="Beini" />
+    <category term="DOS" />
+    <category term="PDF" />
+    <category term="UEFI" />
+    <category term="Mikrotik" />
+    <category term="PCC" />
+    <category term="Java" />
+    <category term="DNS" />
+    <category term="Raspberry-Pi" />
+    <category term="SSL" />
+    <category term="Office" />
+    <category term="Wireless" />
+    <category term="Google Voice" />
+    <category term="ram" />
+    <category term="CentOS" />
+    <category term="firmware" />
+    <category term="Docker" />
+    <category term="entware" />
+    <category term="LAMP" />
+    <category term="Opencart" />
+    <category term="iPhone" />
+    <category term="Linksys" />
+    <category term="Safari" />
+    <category term="keepass" />
+    <category term="iptables" />
+    <category term="Open Source" />
+    <category term="patch" />
+    <category term="DISKPART" />
+    <category term="MAC" />
+    <category term="hosts" />
+    <category term="driver" />
+    <category term="iOS" />
+    <category term="Google Drive" />
+    <category term="SEO" />
+    <entry>
+        <id>https://www.qualityology.com/tech/connect-to-existing-aws-appsync-api-from-a-react-application/</id>
+        <title>Connect to existing AWS AppSync API from a React Application</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/connect-to-existing-aws-appsync-api-from-a-react-application/"/>
+        <content type="html">&lt;p&gt;Have an existing API within AWS AppSync and need to connect it from a React web application? If you are not completely new to GraphQL you should know that the most popular GraphQL client is Apollo. &lt;/p&gt;
 &lt;p&gt;There are many different way to connect to AWS AppSync with React, using different packages. Some required more packages/dependencies. &lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/2021/aws_appsync.jpeg&#34; alt=&#34;aws_appsync&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;1-Use-Apollo-client&#34;&gt;&lt;a href=&#34;#1-Use-Apollo-client&#34; class=&#34;headerlink&#34; title=&#34;1. Use Apollo client&#34;&gt;&lt;/a&gt;1. Use Apollo client&lt;/h2&gt;&lt;p&gt;The latest version &lt;code&gt;@apollo/client&lt;/code&gt; can handle AWS AppSync&amp;#x2019;s query and mutation just fine with simple setup and also support React hook out of the box. Per their official doc, they will only support &lt;code&gt;useQuery&lt;/code&gt; for query and &lt;code&gt;useMutation&lt;/code&gt; for mutation hooks in their future release. Component based query and mutation will still work but will not be supported. However, for subscription, &lt;code&gt;@apollo/client&lt;/code&gt; and AWS AppSync API won&amp;#x2019;t work without complex setup because AppSync&amp;#x2019;s subscriptions use MQTT as the transport layer, but &lt;code&gt;@apollo/client&lt;/code&gt; support WebSockets.&lt;/p&gt;
@@ -71,7 +117,10 @@
 &lt;p&gt;Example of how the function used to call mutation look like:&lt;/p&gt;
 &lt;figure class=&#34;highlight js hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;import&lt;/span&gt; { API, graphqlOperation } &lt;span class=&#34;hljs-keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;aws-amplify&amp;apos;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;import&lt;/span&gt; { createTodo } &lt;span class=&#34;hljs-keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;/graphql/mutations&amp;apos;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;const&lt;/span&gt; todo = {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	item: &lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;visit qualityology.com&amp;apos;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;const&lt;/span&gt; update = &lt;span class=&#34;hljs-keyword&#34;&gt;await&lt;/span&gt; API.graphql(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            graphqlOperation(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                createTodo,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                {&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                    input: todo,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                },&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            ),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        )&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        .then(&lt;span class=&#34;hljs-function&#34;&gt;(&lt;span class=&#34;hljs-params&#34;&gt;res&lt;/span&gt;) =&amp;gt;&lt;/span&gt; res)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        .catch(&lt;span class=&#34;hljs-function&#34;&gt;(&lt;span class=&#34;hljs-params&#34;&gt;error&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &lt;span class=&#34;hljs-built_in&#34;&gt;console&lt;/span&gt;.log(&lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;error, creating user&amp;apos;&lt;/span&gt;, error));&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-built_in&#34;&gt;console&lt;/span&gt;.log(&lt;span class=&#34;hljs-string&#34;&gt;&amp;apos;update&amp;apos;&lt;/span&gt;, update);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;/ol&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <category term="Server" />
+        <category term="React" />
+        <category term="API" />
+        <updated>2021-02-27T04:53:22.000Z</updated>
+    </entry>
+</feed>

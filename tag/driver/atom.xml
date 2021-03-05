@@ -1,25 +1,72 @@
 <?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <atom:link href="https://www.qualityology.com/atom.xml" rel="self" type="application/rss+xml" />
-        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;driver&#34; tag</title>
-        <link>https://www.qualityology.com</link>
-        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
-        <language>en</language>
-        <pubDate>Wed, 04 Oct 2017 14:25:43 -0700</pubDate>
-        <lastBuildDate>Wed, 04 Oct 2017 14:25:43 -0700</lastBuildDate>
-        <item>
-            <guid>https://www.qualityology.com/tech/ricoh-sp-c250dn-c252dn-ppd-cups-driver-for-linux-macos/</guid>
-            <title>Ricoh SP C250DN C252DN PPD CUPS driver for LINUX and macOS</title>
-            <link>https://www.qualityology.com/tech/ricoh-sp-c250dn-c252dn-ppd-cups-driver-for-linux-macos/</link>
-            <category>tech</category>
-            <pubDate>Wed, 04 Oct 2017 14:25:43 -0700</pubDate>
-            <description><![CDATA[ &lt;p&gt;C250DN or C252DN can be driven by setting PCL6 and use CUPS+Gutenprint driver. However, if we use Generic driver, it will not print out color. &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.qualityology.com</id>
+    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;driver&#34; tag</title>
+    <link href="https://www.qualityology.com" />
+    <updated>2017-10-04T21:25:43.000Z</updated>
+    <category term="MySQL" />
+    <category term="WordPress" />
+    <category term="apps" />
+    <category term="OpenWrt" />
+    <category term="Ads" />
+    <category term="printers" />
+    <category term="Apache" />
+    <category term="MacOS" />
+    <category term="baby" />
+    <category term="pfsense" />
+    <category term="Nginx" />
+    <category term="Server" />
+    <category term="timezone" />
+    <category term="Windows" />
+    <category term="port" />
+    <category term="Amazon" />
+    <category term="React" />
+    <category term="API" />
+    <category term="Beini" />
+    <category term="DOS" />
+    <category term="PDF" />
+    <category term="UEFI" />
+    <category term="Mikrotik" />
+    <category term="PCC" />
+    <category term="Java" />
+    <category term="DNS" />
+    <category term="Raspberry-Pi" />
+    <category term="SSL" />
+    <category term="Office" />
+    <category term="Wireless" />
+    <category term="Google Voice" />
+    <category term="ram" />
+    <category term="CentOS" />
+    <category term="firmware" />
+    <category term="Docker" />
+    <category term="entware" />
+    <category term="LAMP" />
+    <category term="Opencart" />
+    <category term="iPhone" />
+    <category term="Linksys" />
+    <category term="Safari" />
+    <category term="keepass" />
+    <category term="iptables" />
+    <category term="Open Source" />
+    <category term="patch" />
+    <category term="DISKPART" />
+    <category term="MAC" />
+    <category term="hosts" />
+    <category term="driver" />
+    <category term="iOS" />
+    <category term="Google Drive" />
+    <category term="SEO" />
+    <entry>
+        <id>https://www.qualityology.com/tech/ricoh-sp-c250dn-c252dn-ppd-cups-driver-for-linux-macos/</id>
+        <title>Ricoh SP C250DN C252DN PPD CUPS driver for LINUX and macOS</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/ricoh-sp-c250dn-c252dn-ppd-cups-driver-for-linux-macos/"/>
+        <content type="html">&lt;p&gt;C250DN or C252DN can be driven by setting PCL6 and use CUPS+Gutenprint driver. However, if we use Generic driver, it will not print out color. &lt;/p&gt;
 &lt;p&gt;Ricoh does not have dedicate PPD driver for Linux platforms like Ubuntu or Debian for SP C250DN and C252DN color printers. However, Ricoh does have driver for MacOS which in fact is a PPD driver. It comes with a PPD installer for MacOS and it will copy to the PPD to MacOS&amp;#x2019;s CUPS driver folder. We can use this PPD for Linux CUPS setup. With the driver, we can also make Air Print server to make this printer even more valuable if you have Apple devices all around your house. &lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.qualityology.com/2016/06/RICOH-C250DN-C252DN.zip&#34;&gt;Download RICOH C250DN C252DN PPD Driver&lt;/a&gt; &lt;/p&gt;
 &lt;p&gt;Both PPDs has been tested in macOS high sierra, and also in AirPrint setup using Debian and CUPS, print, color and alignment all work perfectly.&lt;/p&gt;
 &lt;p&gt; &lt;img src=&#34;/2016/06/C250DN-CUPS.png&#34; alt=&#34;C250dn Cups&#34;&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <category term="driver" />
+        <updated>2017-10-04T21:25:43.000Z</updated>
+    </entry>
+</feed>

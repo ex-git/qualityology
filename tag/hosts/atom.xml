@@ -1,20 +1,66 @@
 <?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <atom:link href="https://www.qualityology.com/atom.xml" rel="self" type="application/rss+xml" />
-        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;hosts&#34; tag</title>
-        <link>https://www.qualityology.com</link>
-        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
-        <language>en</language>
-        <pubDate>Tue, 22 Jul 2014 11:53:48 -0700</pubDate>
-        <lastBuildDate>Tue, 22 Jul 2014 11:53:48 -0700</lastBuildDate>
-        <item>
-            <guid>https://www.qualityology.com/tech/resetting-hosts-file-to-microsoft-defaults-in-windows-8-7-vista-xp/</guid>
-            <title>Resetting the Hosts File to Microsoft Defaults in Windows 8/7/Vista/XP</title>
-            <link>https://www.qualityology.com/tech/resetting-hosts-file-to-microsoft-defaults-in-windows-8-7-vista-xp/</link>
-            <category>tech</category>
-            <pubDate>Tue, 22 Jul 2014 11:53:48 -0700</pubDate>
-            <description><![CDATA[ &lt;p&gt;To reset the Hosts file back to the default in Windows 8/7/Vista/XP, follow these steps, as appropriate for the operating system that you are running. Navigate to &lt;strong&gt;c:\Windows\System32\drivers\etc&lt;/strong&gt; or press Windows key + R and type in&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.qualityology.com</id>
+    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;hosts&#34; tag</title>
+    <link href="https://www.qualityology.com" />
+    <updated>2014-07-22T18:53:48.000Z</updated>
+    <category term="MySQL" />
+    <category term="WordPress" />
+    <category term="apps" />
+    <category term="OpenWrt" />
+    <category term="Ads" />
+    <category term="printers" />
+    <category term="Apache" />
+    <category term="MacOS" />
+    <category term="baby" />
+    <category term="pfsense" />
+    <category term="Nginx" />
+    <category term="Server" />
+    <category term="timezone" />
+    <category term="Windows" />
+    <category term="port" />
+    <category term="Amazon" />
+    <category term="React" />
+    <category term="API" />
+    <category term="Beini" />
+    <category term="DOS" />
+    <category term="PDF" />
+    <category term="UEFI" />
+    <category term="Mikrotik" />
+    <category term="PCC" />
+    <category term="Java" />
+    <category term="DNS" />
+    <category term="Raspberry-Pi" />
+    <category term="SSL" />
+    <category term="Office" />
+    <category term="Wireless" />
+    <category term="Google Voice" />
+    <category term="ram" />
+    <category term="CentOS" />
+    <category term="firmware" />
+    <category term="Docker" />
+    <category term="entware" />
+    <category term="LAMP" />
+    <category term="Opencart" />
+    <category term="iPhone" />
+    <category term="Linksys" />
+    <category term="Safari" />
+    <category term="keepass" />
+    <category term="iptables" />
+    <category term="Open Source" />
+    <category term="patch" />
+    <category term="DISKPART" />
+    <category term="MAC" />
+    <category term="hosts" />
+    <category term="driver" />
+    <category term="iOS" />
+    <category term="Google Drive" />
+    <category term="SEO" />
+    <entry>
+        <id>https://www.qualityology.com/tech/resetting-hosts-file-to-microsoft-defaults-in-windows-8-7-vista-xp/</id>
+        <title>Resetting the Hosts File to Microsoft Defaults in Windows 8/7/Vista/XP</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/resetting-hosts-file-to-microsoft-defaults-in-windows-8-7-vista-xp/"/>
+        <content type="html">&lt;p&gt;To reset the Hosts file back to the default in Windows 8/7/Vista/XP, follow these steps, as appropriate for the operating system that you are running. Navigate to &lt;strong&gt;c:\Windows\System32\drivers\etc&lt;/strong&gt; or press Windows key + R and type in&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;%WinDir%\System32\Drivers\Etc&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;into the &amp;#x201C;RUN&amp;#x201D; box where you can type commands to either pull up a program or go online. Rename the Hosts file &amp;#x201C;hosts&amp;#x201D; to &amp;#x201C;Hosts.old&amp;#x201D;. Create a new default hosts file:&lt;/p&gt;
@@ -67,19 +113,20 @@
 &lt;li&gt;  Windows 8 Pro&lt;/li&gt;
 &lt;li&gt;  Windows 8 Enterprise&lt;/li&gt;
 &lt;/ul&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid>https://www.qualityology.com/tech/you-dont-have-permission-to-save-in-this-location/</guid>
-            <title>You don&#39;t have permission to save in this location</title>
-            <link>https://www.qualityology.com/tech/you-dont-have-permission-to-save-in-this-location/</link>
-            <category>tech</category>
-            <pubDate>Fri, 18 Jul 2014 15:06:47 -0700</pubDate>
-            <description><![CDATA[ &lt;p&gt;If you encounter the error You don&amp;#x2019;t have permission to save in this location when you are trying to save the Hosts file, that means the account that you logged in you doesn&amp;#x2019;t have administrator permission to save a file or the hosts file is protected by other programs. You may try the following suggestions one by one to check the issue. &lt;img src=&#34;/2014/07/hosts-permission.png&#34; alt=&#34;Hosts Permission&#34;&gt;&lt;/p&gt;
+</content>
+        <category term="hosts" />
+        <updated>2014-07-22T18:53:48.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.qualityology.com/tech/you-dont-have-permission-to-save-in-this-location/</id>
+        <title>You don&#39;t have permission to save in this location</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/you-dont-have-permission-to-save-in-this-location/"/>
+        <content type="html">&lt;p&gt;If you encounter the error You don&amp;#x2019;t have permission to save in this location when you are trying to save the Hosts file, that means the account that you logged in you doesn&amp;#x2019;t have administrator permission to save a file or the hosts file is protected by other programs. You may try the following suggestions one by one to check the issue. &lt;img src=&#34;/2014/07/hosts-permission.png&#34; alt=&#34;Hosts Permission&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;1-Check-if-you-are-logged-in-as-administrator-account-guest-account-will-have-permissions-problem&#34;&gt;&lt;a href=&#34;#1-Check-if-you-are-logged-in-as-administrator-account-guest-account-will-have-permissions-problem&#34; class=&#34;headerlink&#34; title=&#34;1. Check if you are logged in as administrator account, guest account will have permissions problem.&#34;&gt;&lt;/a&gt;1. Check if you are logged in as administrator account, guest account will have permissions problem.&lt;/h2&gt;&lt;h2 id=&#34;2-Temporarily-disable-antivirus-program-when-you-are-editing-the-hosts-file&#34;&gt;&lt;a href=&#34;#2-Temporarily-disable-antivirus-program-when-you-are-editing-the-hosts-file&#34; class=&#34;headerlink&#34; title=&#34;2. Temporarily disable antivirus program when you are editing the hosts file.&#34;&gt;&lt;/a&gt;2. Temporarily disable antivirus program when you are editing the hosts file.&lt;/h2&gt;&lt;h2 id=&#34;3-Programs-like-Windows-Defender-will-prevent-unauthorized-changes-to-the-hosts-file-If-you-know-what-you-are-doing-you-can-temporary-disable-the-hosts-file-protection&#34;&gt;&lt;a href=&#34;#3-Programs-like-Windows-Defender-will-prevent-unauthorized-changes-to-the-hosts-file-If-you-know-what-you-are-doing-you-can-temporary-disable-the-hosts-file-protection&#34; class=&#34;headerlink&#34; title=&#34;3. Programs like Windows Defender will prevent unauthorized changes to the hosts file. If you know what you are doing, you can temporary disable the hosts file protection.&#34;&gt;&lt;/a&gt;3. Programs like Windows Defender will prevent unauthorized changes to the hosts file. If you know what you are doing, you can temporary disable the hosts file protection.&lt;/h2&gt;&lt;p&gt;To disable hosts file protection in Windows Defender: Open Windows Defender, switch to the &amp;#x201C;Settings&amp;#x201D; tab, click on the left side &amp;#x201C;excluded files and locations&amp;#x201D; option, click &amp;#x201C;Browse&amp;#x201D; button, navigate to the location of the hosts file as C:\Windows\System32\Drivers\etc\hosts, then click on the &amp;#x201C;Add&amp;#x201D; button, then click &amp;#x201C;Save Changes.&amp;#x201D;&lt;/p&gt;
 &lt;h2 id=&#34;4-If-you-are-using-administrator-account-and-your-antivirus-programs-is-off-you-can-use-the-following-method-to-resolve-the-problem-Applies-to-win7-win8-win8-1-win10-&amp;#x2026;&#34;&gt;&lt;a href=&#34;#4-If-you-are-using-administrator-account-and-your-antivirus-programs-is-off-you-can-use-the-following-method-to-resolve-the-problem-Applies-to-win7-win8-win8-1-win10-&amp;#x2026;&#34; class=&#34;headerlink&#34; title=&#34;4. If you are using administrator account and your antivirus programs is off, you can use the following method to resolve the problem. Applies to win7/win8/win8.1/win10 &amp;#x2026;&#34;&gt;&lt;/a&gt;4. If you are using administrator account and your antivirus programs is off, you can use the following method to resolve the problem. Applies to win7/win8/win8.1/win10 &amp;#x2026;&lt;/h2&gt;&lt;p&gt;Right-click notepad.exe, then left-click &amp;#x201C;Run as administrator&amp;#x201D;. You can now open and edit the Hosts file.&lt;/p&gt;
 &lt;p&gt;One way that is not recommended for fixing this problem is by modifying the hosts file&amp;#x2019;s permissions and makes it editable for anyone. Changing hosts file&amp;#x2019;s permission will make the system vulnerable.&lt;/p&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <category term="hosts" />
+        <updated>2014-07-18T22:06:47.000Z</updated>
+    </entry>
+</feed>

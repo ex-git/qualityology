@@ -1,20 +1,66 @@
 <?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <atom:link href="https://www.qualityology.com/atom.xml" rel="self" type="application/rss+xml" />
-        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;dns&#34; tag</title>
-        <link>https://www.qualityology.com</link>
-        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
-        <language>en</language>
-        <pubDate>Wed, 25 Apr 2018 10:11:50 -0700</pubDate>
-        <lastBuildDate>Wed, 25 Apr 2018 10:11:50 -0700</lastBuildDate>
-        <item>
-            <guid>https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf/</guid>
-            <title>Set custom DNS servers on Linux with resolv.conf</title>
-            <link>https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf/</link>
-            <category>tech</category>
-            <pubDate>Wed, 25 Apr 2018 10:11:50 -0700</pubDate>
-            <description><![CDATA[ &lt;p&gt;resolv.conf is the configuration file for DNS resolvers for all Linux distributions, including Debian, Mint, Ubuntu, RedHat, CentOS, etc. Usually we change the DNS resolvers list by editing resolv.conf. However, depends on your dhcp client configuration, resolv.conf may be rewrite after reboot. Without deep Linux experience, setting customs DNS servers on Linux maybe time consuming. But one thing we can do is make /etc/resolv.conf immutable to other program after you changed it. This will be the easier setup with no side effects on system.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.qualityology.com</id>
+    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;dns&#34; tag</title>
+    <link href="https://www.qualityology.com" />
+    <updated>2018-04-25T17:11:50.000Z</updated>
+    <category term="MySQL" />
+    <category term="WordPress" />
+    <category term="apps" />
+    <category term="OpenWrt" />
+    <category term="Ads" />
+    <category term="printers" />
+    <category term="Apache" />
+    <category term="MacOS" />
+    <category term="baby" />
+    <category term="pfsense" />
+    <category term="Nginx" />
+    <category term="Server" />
+    <category term="timezone" />
+    <category term="Windows" />
+    <category term="port" />
+    <category term="Amazon" />
+    <category term="React" />
+    <category term="API" />
+    <category term="Beini" />
+    <category term="DOS" />
+    <category term="PDF" />
+    <category term="UEFI" />
+    <category term="Mikrotik" />
+    <category term="PCC" />
+    <category term="Java" />
+    <category term="DNS" />
+    <category term="Raspberry-Pi" />
+    <category term="SSL" />
+    <category term="Office" />
+    <category term="Wireless" />
+    <category term="Google Voice" />
+    <category term="ram" />
+    <category term="CentOS" />
+    <category term="firmware" />
+    <category term="Docker" />
+    <category term="entware" />
+    <category term="LAMP" />
+    <category term="Opencart" />
+    <category term="iPhone" />
+    <category term="Linksys" />
+    <category term="Safari" />
+    <category term="keepass" />
+    <category term="iptables" />
+    <category term="Open Source" />
+    <category term="patch" />
+    <category term="DISKPART" />
+    <category term="MAC" />
+    <category term="hosts" />
+    <category term="driver" />
+    <category term="iOS" />
+    <category term="Google Drive" />
+    <category term="SEO" />
+    <entry>
+        <id>https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf/</id>
+        <title>Set custom DNS servers on Linux with resolv.conf</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/set-custom-dns-server-on-linux-resolv-conf/"/>
+        <content type="html">&lt;p&gt;resolv.conf is the configuration file for DNS resolvers for all Linux distributions, including Debian, Mint, Ubuntu, RedHat, CentOS, etc. Usually we change the DNS resolvers list by editing resolv.conf. However, depends on your dhcp client configuration, resolv.conf may be rewrite after reboot. Without deep Linux experience, setting customs DNS servers on Linux maybe time consuming. But one thing we can do is make /etc/resolv.conf immutable to other program after you changed it. This will be the easier setup with no side effects on system.&lt;/p&gt;
 &lt;h2 id=&#34;Change-the-DNS-server&#34;&gt;&lt;a href=&#34;#Change-the-DNS-server&#34; class=&#34;headerlink&#34; title=&#34;Change the DNS server&#34;&gt;&lt;/a&gt;Change the DNS server&lt;/h2&gt;&lt;p&gt;Below example we will set DNS resolver to 1.1.1.1. (1.1.1.1 is a privacy-first consumer DNS service provided by Cloudflare.)&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo echo &amp;apos;nameserver 1.1.1.1&amp;apos; &amp;gt; /etc/resolv.conf&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
@@ -36,15 +82,15 @@
 &lt;p&gt;Quad9 9.9.9.9 9.9.9.10 2620:fe::fe 2620:fe::10 &lt;/p&gt;
 &lt;p&gt;Cloudflare DNS Resolver 1.1.1.1 1.0.0.1 2606:4700:4700::1111 2606:4700:4700::1001 &lt;/p&gt;
 &lt;p&gt;CleanBrowsing Family Filter 185.228.168.168 185.228.168.169 2a0d:2a00:1:: 2a0d:2a00:2::&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid>https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains/</guid>
-            <title>Edit Hosts file to override DNS record for domains</title>
-            <link>https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains/</link>
-            <category>tech</category>
-            <pubDate>Sun, 01 Oct 2017 12:01:02 -0700</pubDate>
-            <description><![CDATA[ &lt;p&gt;Hosts file will instruct your machine to go directly to an IP address for specified domain instead of checking with DNS server. For example, point &lt;a href=&#34;http://www.qualityology.com/&#34;&gt;www.qualityology.com&lt;/a&gt; and qualityology.com to Google Cloud Platform server:&lt;/p&gt;
+</content>
+        <category term="DNS" />
+        <updated>2018-04-25T17:11:50.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains/</id>
+        <title>Edit Hosts file to override DNS record for domains</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains/"/>
+        <content type="html">&lt;p&gt;Hosts file will instruct your machine to go directly to an IP address for specified domain instead of checking with DNS server. For example, point &lt;a href=&#34;http://www.qualityology.com/&#34;&gt;www.qualityology.com&lt;/a&gt; and qualityology.com to Google Cloud Platform server:&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;35.185.219.11 www.qualityology.com&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35.185.219.11 qualityology.com&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h2 id=&#34;Windows&#34;&gt;&lt;a href=&#34;#Windows&#34; class=&#34;headerlink&#34; title=&#34;Windows&#34;&gt;&lt;/a&gt;Windows&lt;/h2&gt;&lt;p&gt;For Windows 10, Windows 8, Windows 7, and Windows Vista systems that use User Account Control (UAC).&lt;/p&gt;
@@ -83,15 +129,15 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo killall -HUP mDNSResponder&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&#34;/2017/10/mac-terminal.png&#34;&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid>https://www.qualityology.com/tech/host-your-dns-with-google-cloud-dns/</guid>
-            <title>Host Your DNS With Google Cloud DNS</title>
-            <link>https://www.qualityology.com/tech/host-your-dns-with-google-cloud-dns/</link>
-            <category>tech</category>
-            <pubDate>Sun, 27 Jul 2014 17:09:15 -0700</pubDate>
-            <description><![CDATA[ &lt;p&gt;Can Google host my DNS? Yes. We can set domain DNS zones using the Google Cloud DNS service. Google Cloud DNS is a high performance, resilient, and global DNS service, which allows you to easily publish and manage DNS records. It is FREE? Google Cloud DNS provide max billable limit: 50,000 requests/day, so is almost free for a small website. For a website with huge amount of traffic, see &lt;a href=&#34;https://developers.google.com/cloud-dns/pricing&#34; title=&#34;Cloud DNS pricing&#34;&gt;https://developers.google.com/cloud-dns/pricing&lt;/a&gt; for pricing. &lt;strong&gt;1. Create a new Cloud Project.&lt;/strong&gt; Google Cloud DNS is part of the Google Cloud Platform. First you need to create a new Cloud Project.&lt;/p&gt;
+</content>
+        <category term="DNS" />
+        <updated>2017-10-01T19:01:02.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.qualityology.com/tech/host-your-dns-with-google-cloud-dns/</id>
+        <title>Host Your DNS With Google Cloud DNS</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/host-your-dns-with-google-cloud-dns/"/>
+        <content type="html">&lt;p&gt;Can Google host my DNS? Yes. We can set domain DNS zones using the Google Cloud DNS service. Google Cloud DNS is a high performance, resilient, and global DNS service, which allows you to easily publish and manage DNS records. It is FREE? Google Cloud DNS provide max billable limit: 50,000 requests/day, so is almost free for a small website. For a website with huge amount of traffic, see &lt;a href=&#34;https://developers.google.com/cloud-dns/pricing&#34; title=&#34;Cloud DNS pricing&#34;&gt;https://developers.google.com/cloud-dns/pricing&lt;/a&gt; for pricing. &lt;strong&gt;1. Create a new Cloud Project.&lt;/strong&gt; Google Cloud DNS is part of the Google Cloud Platform. First you need to create a new Cloud Project.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt; Go to &lt;a href=&#34;https://console.developers.google.com/project&#34; title=&#34;Google Project&#34;&gt;https://console.developers.google.com/project&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt; Create a new project and choose a descriptive project name such as &amp;#x201C;Google DNS&amp;#x201D;, copy down the project ID because we need it later. &lt;img src=&#34;/2014/07/google-project.png&#34; alt=&#34;Google Project&#34;&gt;&lt;/li&gt;
@@ -164,7 +210,8 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&amp;quot;nameServers&amp;quot;: [&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;quot;ns-cloud-e1.googledomains.com.&amp;quot;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;quot;ns-cloud-e2.googledomains.com.&amp;quot;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;quot;ns-cloud-e3.googledomains.com.&amp;quot;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;quot;ns-cloud-e4.googledomains.com.&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;Change your domain registrar&amp;#x2019;s name servers for your domain, replace the name servers in the registrar&amp;#x2019;s NS records with the four name servers we looked up in the previous step (without the trailing dot). You&amp;#x2019;re all set. It can take up to 24-48 hours for the new nameservers to become fully active. Other useful Google Cloud DNS commands: &lt;a href=&#34;https://developers.google.com/cloud-dns/gcloud-dns-command&#34; title=&#34;Google Cloud DNS commands&#34;&gt;https://developers.google.com/cloud-dns/gcloud-dns-command&lt;/a&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <category term="DNS" />
+        <updated>2014-07-28T00:09:15.000Z</updated>
+    </entry>
+</feed>

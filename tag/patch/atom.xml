@@ -1,20 +1,66 @@
 <?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <atom:link href="https://www.qualityology.com/atom.xml" rel="self" type="application/rss+xml" />
-        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;patch&#34; tag</title>
-        <link>https://www.qualityology.com</link>
-        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
-        <language>en</language>
-        <pubDate>Wed, 24 Sep 2014 22:35:21 -0700</pubDate>
-        <lastBuildDate>Wed, 24 Sep 2014 22:35:21 -0700</lastBuildDate>
-        <item>
-            <guid>https://www.qualityology.com/tech/patch-bash-code-injection-vulnerability/</guid>
-            <title>Patch Bash NOW, Linux, UNIX, Mac OS X Bash Shellshock Code Injection Vulnerability</title>
-            <link>https://www.qualityology.com/tech/patch-bash-code-injection-vulnerability/</link>
-            <category>tech</category>
-            <pubDate>Wed, 24 Sep 2014 22:35:21 -0700</pubDate>
-            <description><![CDATA[ &lt;p&gt;One critical security hole exist in Unix/Linux based system just got uncovered today. Bash is a Unix shell written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell (sh). A security bug in Bash, could create a bigger threat to computer users than the &amp;#x201C;Heartbleed&amp;#x201D; bug in OpenSSL. For many Unix or Linux personal computer, this might not be a really big issue. For Unix or Linux based Web servers, it&amp;#x2019;s a critical problem. Most of the servers are using Linux system. &amp;#x201C;Shellshock&amp;#x201D; Bug detail: CVE-2014-6271 remote code execution through bash which allows unauthorized disclosure of information, unauthorized modification, and allows disruption of service. Vulnerability mostly is exploitable over the network. HTTP requests to CGI scripts have been identified as the major attack vector so far. &lt;strong&gt;How to fix/patch Bash?&lt;/strong&gt; &lt;strong&gt;Ubuntu/Debian&lt;/strong&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.qualityology.com</id>
+    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;patch&#34; tag</title>
+    <link href="https://www.qualityology.com" />
+    <updated>2014-09-25T05:35:21.000Z</updated>
+    <category term="MySQL" />
+    <category term="WordPress" />
+    <category term="apps" />
+    <category term="OpenWrt" />
+    <category term="Ads" />
+    <category term="printers" />
+    <category term="Apache" />
+    <category term="MacOS" />
+    <category term="baby" />
+    <category term="pfsense" />
+    <category term="Nginx" />
+    <category term="Server" />
+    <category term="timezone" />
+    <category term="Windows" />
+    <category term="port" />
+    <category term="Amazon" />
+    <category term="React" />
+    <category term="API" />
+    <category term="Beini" />
+    <category term="DOS" />
+    <category term="PDF" />
+    <category term="UEFI" />
+    <category term="Mikrotik" />
+    <category term="PCC" />
+    <category term="Java" />
+    <category term="DNS" />
+    <category term="Raspberry-Pi" />
+    <category term="SSL" />
+    <category term="Office" />
+    <category term="Wireless" />
+    <category term="Google Voice" />
+    <category term="ram" />
+    <category term="CentOS" />
+    <category term="firmware" />
+    <category term="Docker" />
+    <category term="entware" />
+    <category term="LAMP" />
+    <category term="Opencart" />
+    <category term="iPhone" />
+    <category term="Linksys" />
+    <category term="Safari" />
+    <category term="keepass" />
+    <category term="iptables" />
+    <category term="Open Source" />
+    <category term="patch" />
+    <category term="DISKPART" />
+    <category term="MAC" />
+    <category term="hosts" />
+    <category term="driver" />
+    <category term="iOS" />
+    <category term="Google Drive" />
+    <category term="SEO" />
+    <entry>
+        <id>https://www.qualityology.com/tech/patch-bash-code-injection-vulnerability/</id>
+        <title>Patch Bash NOW, Linux, UNIX, Mac OS X Bash Shellshock Code Injection Vulnerability</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/patch-bash-code-injection-vulnerability/"/>
+        <content type="html">&lt;p&gt;One critical security hole exist in Unix/Linux based system just got uncovered today. Bash is a Unix shell written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell (sh). A security bug in Bash, could create a bigger threat to computer users than the &amp;#x201C;Heartbleed&amp;#x201D; bug in OpenSSL. For many Unix or Linux personal computer, this might not be a really big issue. For Unix or Linux based Web servers, it&amp;#x2019;s a critical problem. Most of the servers are using Linux system. &amp;#x201C;Shellshock&amp;#x201D; Bug detail: CVE-2014-6271 remote code execution through bash which allows unauthorized disclosure of information, unauthorized modification, and allows disruption of service. Vulnerability mostly is exploitable over the network. HTTP requests to CGI scripts have been identified as the major attack vector so far. &lt;strong&gt;How to fix/patch Bash?&lt;/strong&gt; &lt;strong&gt;Ubuntu/Debian&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;apt-get update &amp;amp;&amp;amp; sudo apt-get upgrade&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;or if you just want to update bash:&lt;/p&gt;
@@ -34,7 +80,8 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;brew update&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;brew upgrade bash&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;If you&amp;#x2019;re running bash from MacPorts:&lt;/p&gt;
-&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo port self update&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo port upgrade bash&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
-        </item>
-    </channel>
-</rss>
+&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo port self update&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo port upgrade bash&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+        <category term="patch" />
+        <updated>2014-09-25T05:35:21.000Z</updated>
+    </entry>
+</feed>

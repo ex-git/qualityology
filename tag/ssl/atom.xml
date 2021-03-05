@@ -1,20 +1,66 @@
 <?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <atom:link href="https://www.qualityology.com/atom.xml" rel="self" type="application/rss+xml" />
-        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;ssl&#34; tag</title>
-        <link>https://www.qualityology.com</link>
-        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
-        <language>en</language>
-        <pubDate>Sat, 28 Jan 2017 23:43:55 -0800</pubDate>
-        <lastBuildDate>Sat, 28 Jan 2017 23:43:55 -0800</lastBuildDate>
-        <item>
-            <guid>https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot/</guid>
-            <title>FREE Let&#39;s Encrypt SSL certificate via Certbot and auto renew</title>
-            <link>https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot/</link>
-            <category>tech</category>
-            <pubDate>Sat, 28 Jan 2017 23:43:55 -0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;SSL certificate from Let&amp;#x2019;s Encrypt is free. That is the the whole point of why people are getting Let&amp;#x2019;s Encrypt&amp;#x2019;s SSL certificate. Their SSl are supported in all modern browsers. The only con is the certificate expire in 3 months. However, we can make the renewing process easier with cron. This guide is for server that already have https setup correctly, and will NOT cover how to setup https or modify server ssl configuration file.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.qualityology.com</id>
+    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;ssl&#34; tag</title>
+    <link href="https://www.qualityology.com" />
+    <updated>2017-01-29T07:43:55.000Z</updated>
+    <category term="MySQL" />
+    <category term="WordPress" />
+    <category term="apps" />
+    <category term="OpenWrt" />
+    <category term="Ads" />
+    <category term="printers" />
+    <category term="Apache" />
+    <category term="MacOS" />
+    <category term="baby" />
+    <category term="pfsense" />
+    <category term="Nginx" />
+    <category term="Server" />
+    <category term="timezone" />
+    <category term="Windows" />
+    <category term="port" />
+    <category term="Amazon" />
+    <category term="React" />
+    <category term="API" />
+    <category term="Beini" />
+    <category term="DOS" />
+    <category term="PDF" />
+    <category term="UEFI" />
+    <category term="Mikrotik" />
+    <category term="PCC" />
+    <category term="Java" />
+    <category term="DNS" />
+    <category term="Raspberry-Pi" />
+    <category term="SSL" />
+    <category term="Office" />
+    <category term="Wireless" />
+    <category term="Google Voice" />
+    <category term="ram" />
+    <category term="CentOS" />
+    <category term="firmware" />
+    <category term="Docker" />
+    <category term="entware" />
+    <category term="LAMP" />
+    <category term="Opencart" />
+    <category term="iPhone" />
+    <category term="Linksys" />
+    <category term="Safari" />
+    <category term="keepass" />
+    <category term="iptables" />
+    <category term="Open Source" />
+    <category term="patch" />
+    <category term="DISKPART" />
+    <category term="MAC" />
+    <category term="hosts" />
+    <category term="driver" />
+    <category term="iOS" />
+    <category term="Google Drive" />
+    <category term="SEO" />
+    <entry>
+        <id>https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot/</id>
+        <title>FREE Let&#39;s Encrypt SSL certificate via Certbot and auto renew</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/free-lets-encrypt-ssl-certificate-via-certbot/"/>
+        <content type="html">&lt;p&gt;SSL certificate from Let&amp;#x2019;s Encrypt is free. That is the the whole point of why people are getting Let&amp;#x2019;s Encrypt&amp;#x2019;s SSL certificate. Their SSl are supported in all modern browsers. The only con is the certificate expire in 3 months. However, we can make the renewing process easier with cron. This guide is for server that already have https setup correctly, and will NOT cover how to setup https or modify server ssl configuration file.&lt;/p&gt;
 &lt;h2 id=&#34;Step-1-get-Let&amp;#x2019;s-Encrypt&amp;#x2019;s-client-Certbot&#34;&gt;&lt;a href=&#34;#Step-1-get-Let&amp;#x2019;s-Encrypt&amp;#x2019;s-client-Certbot&#34; class=&#34;headerlink&#34; title=&#34;Step 1, get Let&amp;#x2019;s Encrypt&amp;#x2019;s client: Certbot.&#34;&gt;&lt;/a&gt;Step 1, get Let&amp;#x2019;s Encrypt&amp;#x2019;s client: Certbot.&lt;/h2&gt;&lt;p&gt;Most systems already have Certbot package in the repository. You can check and follow the installation step from &lt;a href=&#34;https://certbot.eff.org/&#34;&gt;https://certbot.eff.org&lt;/a&gt; *You can add more domain to above command if you like.&lt;/p&gt;
 &lt;h2 id=&#34;Step-2-use-CertBot-to-get-SSL-certificate-for-domain1-and-domain2&#34;&gt;&lt;a href=&#34;#Step-2-use-CertBot-to-get-SSL-certificate-for-domain1-and-domain2&#34; class=&#34;headerlink&#34; title=&#34;Step 2, use CertBot to get SSL certificate for domain1 and domain2.&#34;&gt;&lt;/a&gt;Step 2, use CertBot to get SSL certificate for domain1 and domain2.&lt;/h2&gt;&lt;p&gt;*We only need CertBot to generate certificate only in this case and we don&amp;#x2019;t want CertBot to touch SSL configuration file.&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;./certbot certonly --email xxx@xxx.com -d domain1.com -d www.domain1.com -d domain2.com -d www.domain2.com&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -28,7 +74,8 @@
 &lt;h2 id=&#34;Step3-check-if-your-SSL-certificate-is-in-etc-letsencrypt-live-domain1-com-folder-You-should-have-below-files&#34;&gt;&lt;a href=&#34;#Step3-check-if-your-SSL-certificate-is-in-etc-letsencrypt-live-domain1-com-folder-You-should-have-below-files&#34; class=&#34;headerlink&#34; title=&#34;Step3, check if your SSL certificate is in /etc/letsencrypt/live/domain1.com/ folder. You should have below files.&#34;&gt;&lt;/a&gt;Step3, check if your SSL certificate is in /etc/letsencrypt/live/&lt;strong&gt;domain1&lt;/strong&gt;.com/ folder. You should have below files.&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;privkey.pem  : the private key for your certificate.&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;fullchain.pem: the certificate file used in most server software.&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;chain.pem    : used for OCSP stapling in Nginx &amp;gt;=1.3.7.&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cert.pem     : will break many server configurations, and should not be used without reading further documentation.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h2 id=&#34;Step-4-point-your-SSL-certificate-private-key-and-chain-to-the-new-generated-SSL-certificate-location-with-correct-names&#34;&gt;&lt;a href=&#34;#Step-4-point-your-SSL-certificate-private-key-and-chain-to-the-new-generated-SSL-certificate-location-with-correct-names&#34; class=&#34;headerlink&#34; title=&#34;Step 4, point your SSL certificate, private key, and chain to the new generated SSL certificate location with correct names.&#34;&gt;&lt;/a&gt;Step 4, point your SSL certificate, private key, and chain to the new generated SSL certificate location with correct names.&lt;/h2&gt;&lt;p&gt;(How to? please refer to this guide: &lt;a href=&#34;http://nginx.org/en/docs/http/configuring_https_servers.html&#34;&gt;Configuring HTTPS servers&lt;/a&gt;)&lt;/p&gt;
-&lt;h2 id=&#34;Step-5-create-a-auto-renewal-check-task-to-have-your-server-run-CertBot-to-check-the-certification-expiration-date-everyday-to-make-sure-your-SSL-is-not-expired&#34;&gt;&lt;a href=&#34;#Step-5-create-a-auto-renewal-check-task-to-have-your-server-run-CertBot-to-check-the-certification-expiration-date-everyday-to-make-sure-your-SSL-is-not-expired&#34; class=&#34;headerlink&#34; title=&#34;Step 5, create a auto renewal check task to have your server run CertBot to check the certification expiration date everyday to make sure your SSL is not expired.&#34;&gt;&lt;/a&gt;Step 5, create a auto renewal check task to have your server run CertBot to check the certification expiration date everyday to make sure your SSL is not expired.&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;#!/bin/bash&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;certbot renew --noninteractive --renew-hook &amp;apos;sudo systemctl reload nginx&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
-        </item>
-    </channel>
-</rss>
+&lt;h2 id=&#34;Step-5-create-a-auto-renewal-check-task-to-have-your-server-run-CertBot-to-check-the-certification-expiration-date-everyday-to-make-sure-your-SSL-is-not-expired&#34;&gt;&lt;a href=&#34;#Step-5-create-a-auto-renewal-check-task-to-have-your-server-run-CertBot-to-check-the-certification-expiration-date-everyday-to-make-sure-your-SSL-is-not-expired&#34; class=&#34;headerlink&#34; title=&#34;Step 5, create a auto renewal check task to have your server run CertBot to check the certification expiration date everyday to make sure your SSL is not expired.&#34;&gt;&lt;/a&gt;Step 5, create a auto renewal check task to have your server run CertBot to check the certification expiration date everyday to make sure your SSL is not expired.&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;#!/bin/bash&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;certbot renew --noninteractive --renew-hook &amp;apos;sudo systemctl reload nginx&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+        <category term="SSL" />
+        <updated>2017-01-29T07:43:55.000Z</updated>
+    </entry>
+</feed>

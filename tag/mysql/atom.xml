@@ -1,20 +1,66 @@
 <?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <atom:link href="https://www.qualityology.com/atom.xml" rel="self" type="application/rss+xml" />
-        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;mysql&#34; tag</title>
-        <link>https://www.qualityology.com</link>
-        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
-        <language>en</language>
-        <pubDate>Tue, 15 Jul 2014 16:03:21 -0700</pubDate>
-        <lastBuildDate>Tue, 15 Jul 2014 16:03:21 -0700</lastBuildDate>
-        <item>
-            <guid>https://www.qualityology.com/tech/24-practical-usages-of-mysqladmin-commands-for-mysql-mariadb/</guid>
-            <title>24 Practical Usages of Mysqladmin Commands for Mysql MariaDB</title>
-            <link>https://www.qualityology.com/tech/24-practical-usages-of-mysqladmin-commands-for-mysql-mariadb/</link>
-            <category>tech</category>
-            <pubDate>Tue, 15 Jul 2014 16:03:21 -0700</pubDate>
-            <description><![CDATA[ &lt;p&gt;mysqladmin is a client for performing administrative operations. You can use it to check the MySQL/MariaDB configuration and current status, to create and drop databases, and more. You can use mysqladmin to reload/refresh MySQL Privileges, set/change MySQL/MariaDB Root password, check MySQL/MariaDB Server status, show MySQL/MariaDB version, show all MySQL/MariaDB server Variables and Values, check all the running Process of MySQL/MariaDB server, connect remote mysql server, create/drop a Database, reload the grant tables, perform a flush-privileges operation, check mysqladmin options and usage, and shutdown MySQL/MariaDB safely. All this can be done by executing a mysqladmin commands. Invoke mysqladmin like this:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.qualityology.com</id>
+    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;mysql&#34; tag</title>
+    <link href="https://www.qualityology.com" />
+    <updated>2014-07-15T23:03:21.000Z</updated>
+    <category term="MySQL" />
+    <category term="WordPress" />
+    <category term="apps" />
+    <category term="OpenWrt" />
+    <category term="Ads" />
+    <category term="printers" />
+    <category term="Apache" />
+    <category term="MacOS" />
+    <category term="baby" />
+    <category term="pfsense" />
+    <category term="Nginx" />
+    <category term="Server" />
+    <category term="timezone" />
+    <category term="Windows" />
+    <category term="port" />
+    <category term="Amazon" />
+    <category term="React" />
+    <category term="API" />
+    <category term="Beini" />
+    <category term="DOS" />
+    <category term="PDF" />
+    <category term="UEFI" />
+    <category term="Mikrotik" />
+    <category term="PCC" />
+    <category term="Java" />
+    <category term="DNS" />
+    <category term="Raspberry-Pi" />
+    <category term="SSL" />
+    <category term="Office" />
+    <category term="Wireless" />
+    <category term="Google Voice" />
+    <category term="ram" />
+    <category term="CentOS" />
+    <category term="firmware" />
+    <category term="Docker" />
+    <category term="entware" />
+    <category term="LAMP" />
+    <category term="Opencart" />
+    <category term="iPhone" />
+    <category term="Linksys" />
+    <category term="Safari" />
+    <category term="keepass" />
+    <category term="iptables" />
+    <category term="Open Source" />
+    <category term="patch" />
+    <category term="DISKPART" />
+    <category term="MAC" />
+    <category term="hosts" />
+    <category term="driver" />
+    <category term="iOS" />
+    <category term="Google Drive" />
+    <category term="SEO" />
+    <entry>
+        <id>https://www.qualityology.com/tech/24-practical-usages-of-mysqladmin-commands-for-mysql-mariadb/</id>
+        <title>24 Practical Usages of Mysqladmin Commands for Mysql MariaDB</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/24-practical-usages-of-mysqladmin-commands-for-mysql-mariadb/"/>
+        <content type="html">&lt;p&gt;mysqladmin is a client for performing administrative operations. You can use it to check the MySQL/MariaDB configuration and current status, to create and drop databases, and more. You can use mysqladmin to reload/refresh MySQL Privileges, set/change MySQL/MariaDB Root password, check MySQL/MariaDB Server status, show MySQL/MariaDB version, show all MySQL/MariaDB server Variables and Values, check all the running Process of MySQL/MariaDB server, connect remote mysql server, create/drop a Database, reload the grant tables, perform a flush-privileges operation, check mysqladmin options and usage, and shutdown MySQL/MariaDB safely. All this can be done by executing a mysqladmin commands. Invoke mysqladmin like this:&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;mysqladmin [options] command [command-arg] [command [command-arg]] ...&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h2 id=&#34;1-Show-MySQL-version&#34;&gt;&lt;a href=&#34;#1-Show-MySQL-version&#34; class=&#34;headerlink&#34; title=&#34;1. Show MySQL version&#34;&gt;&lt;/a&gt;1. Show MySQL version&lt;/h2&gt;&lt;p&gt;The following command shows MySQL version along with the current running status&lt;/p&gt;
@@ -112,7 +158,8 @@
 &lt;h2 id=&#34;24-To-store-MySQL-server-Debug-Information-to-logs&#34;&gt;&lt;a href=&#34;#24-To-store-MySQL-server-Debug-Information-to-logs&#34; class=&#34;headerlink&#34; title=&#34;24. To store MySQL server Debug Information to logs&#34;&gt;&lt;/a&gt;24. To store MySQL server Debug Information to logs&lt;/h2&gt;&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;mysqladmin  -u root -pPASSWORD debug&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;To find out more options and usage of myslqadmin command&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;mysqladmin --help&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
-        </item>
-    </channel>
-</rss>
+&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;mysqladmin --help&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+        <category term="MySQL" />
+        <updated>2014-07-15T23:03:21.000Z</updated>
+    </entry>
+</feed>

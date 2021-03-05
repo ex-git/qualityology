@@ -1,20 +1,66 @@
 <?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <atom:link href="https://www.qualityology.com/atom.xml" rel="self" type="application/rss+xml" />
-        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;raspberry-pi&#34; tag</title>
-        <link>https://www.qualityology.com</link>
-        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
-        <language>en</language>
-        <pubDate>Mon, 01 Mar 2021 12:55:35 -0800</pubDate>
-        <lastBuildDate>Mon, 01 Mar 2021 12:55:35 -0800</lastBuildDate>
-        <item>
-            <guid>https://www.qualityology.com/tech/install-docker-and-docker-compose-on-raspberry-pi/</guid>
-            <title>Install Docker and Docker Compose On Raspberry Pi</title>
-            <link>https://www.qualityology.com/tech/install-docker-and-docker-compose-on-raspberry-pi/</link>
-            <category>tech</category>
-            <pubDate>Mon, 01 Mar 2021 12:55:35 -0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;If you need help installing Docker on your Raspberry Pi, be sure you pick the guide wisely. Some guides online won&amp;#x2019;t work on Raspberry Pi. The following steps had been tested on Raspberry Pi 4.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.qualityology.com</id>
+    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;raspberry-pi&#34; tag</title>
+    <link href="https://www.qualityology.com" />
+    <updated>2021-03-01T20:55:35.000Z</updated>
+    <category term="MySQL" />
+    <category term="WordPress" />
+    <category term="apps" />
+    <category term="OpenWrt" />
+    <category term="Ads" />
+    <category term="printers" />
+    <category term="Apache" />
+    <category term="MacOS" />
+    <category term="baby" />
+    <category term="pfsense" />
+    <category term="Nginx" />
+    <category term="Server" />
+    <category term="timezone" />
+    <category term="Windows" />
+    <category term="port" />
+    <category term="Amazon" />
+    <category term="React" />
+    <category term="API" />
+    <category term="Beini" />
+    <category term="DOS" />
+    <category term="PDF" />
+    <category term="UEFI" />
+    <category term="Mikrotik" />
+    <category term="PCC" />
+    <category term="Java" />
+    <category term="DNS" />
+    <category term="Raspberry-Pi" />
+    <category term="SSL" />
+    <category term="Office" />
+    <category term="Wireless" />
+    <category term="Google Voice" />
+    <category term="ram" />
+    <category term="CentOS" />
+    <category term="firmware" />
+    <category term="Docker" />
+    <category term="entware" />
+    <category term="LAMP" />
+    <category term="Opencart" />
+    <category term="iPhone" />
+    <category term="Linksys" />
+    <category term="Safari" />
+    <category term="keepass" />
+    <category term="iptables" />
+    <category term="Open Source" />
+    <category term="patch" />
+    <category term="DISKPART" />
+    <category term="MAC" />
+    <category term="hosts" />
+    <category term="driver" />
+    <category term="iOS" />
+    <category term="Google Drive" />
+    <category term="SEO" />
+    <entry>
+        <id>https://www.qualityology.com/tech/install-docker-and-docker-compose-on-raspberry-pi/</id>
+        <title>Install Docker and Docker Compose On Raspberry Pi</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/install-docker-and-docker-compose-on-raspberry-pi/"/>
+        <content type="html">&lt;p&gt;If you need help installing Docker on your Raspberry Pi, be sure you pick the guide wisely. Some guides online won&amp;#x2019;t work on Raspberry Pi. The following steps had been tested on Raspberry Pi 4.&lt;/p&gt;
 &lt;h2 id=&#34;1-Install-Docker&#34;&gt;&lt;a href=&#34;#1-Install-Docker&#34; class=&#34;headerlink&#34; title=&#34;1. Install Docker&#34;&gt;&lt;/a&gt;1. Install Docker&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;/2021/docker.png&#34; alt=&#34;docker&#34;&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight bash hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# Install required packages&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo apt update&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo apt install -y \&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;     apt-transport-https \&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;     ca-certificates \&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;     curl \&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;     gnupg2 \&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;     software-properties-common&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# Get recommened installation script from docker.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;curl -fsSL https://get.docker.com -o get-docker.sh&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo sh get-docker.sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;figure class=&#34;highlight bash hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# verify you have docker installed&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;docker -v&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# Docker version 20.10.4, build d3cb89e&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -28,27 +74,28 @@
 &lt;figure class=&#34;highlight bash hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# Install Docker Compose from pip (Python3)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo apt install -y python3-pip libffi-dev&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo pip3 install docker-compose&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;figure class=&#34;highlight bash hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# verify you have docker-compose installed&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;docker-compose -v&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# docker-compose version 1.28.5, build unknown&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid>https://www.qualityology.com/tech/fix-raspberry-pi-openwrt-boot-problem/</guid>
-            <title>Fix Raspberry Pi OpenWrt Boot problem</title>
-            <link>https://www.qualityology.com/tech/fix-raspberry-pi-openwrt-boot-problem/</link>
-            <category>tech</category>
-            <pubDate>Mon, 13 Apr 2015 16:51:07 -0700</pubDate>
-            <description><![CDATA[ &lt;p&gt;If you install the OpenWrt into your Raspberry Pi can&amp;#x2019;t get it boot. The following steps might help you fix the problem. If you still don&amp;#x2019;t know how to install OpenWrt on Raspberry Pi, you can go to: &lt;a href=&#34;https://www.qualityology.com/router/how-to-install-openwrt-on-raspberry-pi.html&#34; title=&#34;How to install OpenWrt on Raspberry Pi&#34;&gt;How to install OpenWrt on Raspberry Pi&lt;/a&gt; After the installation process complete and when you boot the Raspberry Pi with OpenWrt the first time, you might be stuck while booting up the system. The console will stopped scrolling messages at&lt;/p&gt;
+</content>
+        <category term="Raspberry-Pi" />
+        <category term="Docker" />
+        <updated>2021-03-01T20:55:35.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.qualityology.com/tech/fix-raspberry-pi-openwrt-boot-problem/</id>
+        <title>Fix Raspberry Pi OpenWrt Boot problem</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/fix-raspberry-pi-openwrt-boot-problem/"/>
+        <content type="html">&lt;p&gt;If you install the OpenWrt into your Raspberry Pi can&amp;#x2019;t get it boot. The following steps might help you fix the problem. If you still don&amp;#x2019;t know how to install OpenWrt on Raspberry Pi, you can go to: &lt;a href=&#34;https://www.qualityology.com/router/how-to-install-openwrt-on-raspberry-pi.html&#34; title=&#34;How to install OpenWrt on Raspberry Pi&#34;&gt;How to install OpenWrt on Raspberry Pi&lt;/a&gt; After the installation process complete and when you boot the Raspberry Pi with OpenWrt the first time, you might be stuck while booting up the system. The console will stopped scrolling messages at&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;procd: - init complete -&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;Most likely this issue is because the image does not include the latest boot files and it will not work with the more recent Raspberry Pi boards with different RAM chip. The easiest fix for this is manually replace the boot files with the latest version boot files from Raspbian image. You don&amp;#x2019;t need to download the whole Raspbian image. Simply go to &lt;a href=&#34;https://github.com/raspberrypi/firmware/tree/master/boot&#34; title=&#34;Raspberry Pi Firmware Boot&#34;&gt;https://github.com/raspberrypi/firmware/tree/master/boot&lt;/a&gt; Download &lt;strong&gt;bootcode.bin&lt;/strong&gt; &lt;strong&gt;fixup.dat&lt;/strong&gt; and &lt;strong&gt;start.elf&lt;/strong&gt; &lt;img src=&#34;/2015/04/raspberry-pi-openwrt-fix.jpg&#34; alt=&#34;Raspberry Pi Openwrt Fix&#34;&gt; copy and paste these 3 files to the boot partition to replace the original boot files on your OpenWrt card.&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid>https://www.qualityology.com/tech/how-to-install-openwrt-on-raspberry-pi/</guid>
-            <title>How to install OpenWrt on Raspberry Pi</title>
-            <link>https://www.qualityology.com/tech/how-to-install-openwrt-on-raspberry-pi/</link>
-            <category>tech</category>
-            <pubDate>Tue, 07 Apr 2015 00:20:13 -0700</pubDate>
-            <description><![CDATA[ &lt;p&gt;OpenWrt official supported Raspberry Pi. The latest OpenWrt release as of today already support for Raspberry Pi A, Raspberry Pi B, Raspberry Pi B+, and Raspberry Pi models. The Raspberry Pi is supported in the brcm2708 target. Parts:&lt;/p&gt;
+</content>
+        <category term="Raspberry-Pi" />
+        <updated>2015-04-13T23:51:07.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.qualityology.com/tech/how-to-install-openwrt-on-raspberry-pi/</id>
+        <title>How to install OpenWrt on Raspberry Pi</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/how-to-install-openwrt-on-raspberry-pi/"/>
+        <content type="html">&lt;p&gt;OpenWrt official supported Raspberry Pi. The latest OpenWrt release as of today already support for Raspberry Pi A, Raspberry Pi B, Raspberry Pi B+, and Raspberry Pi models. The Raspberry Pi is supported in the brcm2708 target. Parts:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;  Raspberry Pi (&lt;a href=&#34;http://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_il_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;index=aps&amp;amp;keywords=raspberry%20pi&amp;amp;linkCode=as2&amp;amp;tag=qualityologycom-20&amp;amp;linkId=WETYK25DF76EKUT3&#34; title=&#34;Buy Raspberry Pi&#34;&gt;Click here to buy from Amazon&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;  Power adapter (A popular power supply is the Apple 12W iPad charger, supplying 5V 2.4A. Similar high-powered mobile phone and tablet chargers should suffice. Using cheap power supplies off eBay is not recommended, as they provide a very uneven and noisy current which can lead to unreliable operation.)&lt;/li&gt;
@@ -81,15 +128,16 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;ifconfig eth0&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;Pay attention to the inet addr line. You will need that address to login and manage the OpenWrt. &lt;img src=&#34;/2015/04/openwrt-raspberry-pi-ip.jpg&#34; alt=&#34;Openwrt Raspberry Pi Ip&#34;&gt; Open a web browser to the IP address you identified above and you will be able to configure your OpenWrt by using the interface now.&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid>https://www.qualityology.com/tech/raspberry-pi-model-b-plus-july-2014-vs-model-b/</guid>
-            <title>Raspberry Pi Model B+ (July 2014) VS Model B</title>
-            <link>https://www.qualityology.com/tech/raspberry-pi-model-b-plus-july-2014-vs-model-b/</link>
-            <category>tech</category>
-            <pubDate>Sat, 26 Jul 2014 12:19:51 -0700</pubDate>
-            <description><![CDATA[ &lt;p&gt;After two years since Raspberry Pi Model B was launched, the Raspberry Pi foundation has just released a new version of their popular Model B board: Raspberry Pi Model B+. Raspberry Pi Model B+ contains numerous small improvements. &lt;/p&gt;
+</content>
+        <category term="OpenWrt" />
+        <category term="Raspberry-Pi" />
+        <updated>2015-04-07T07:20:13.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.qualityology.com/tech/raspberry-pi-model-b-plus-july-2014-vs-model-b/</id>
+        <title>Raspberry Pi Model B+ (July 2014) VS Model B</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/raspberry-pi-model-b-plus-july-2014-vs-model-b/"/>
+        <content type="html">&lt;p&gt;After two years since Raspberry Pi Model B was launched, the Raspberry Pi foundation has just released a new version of their popular Model B board: Raspberry Pi Model B+. Raspberry Pi Model B+ contains numerous small improvements. &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Technical Specifications of Raspberry Pi Model B+:&lt;/strong&gt; &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Chip&lt;/strong&gt;: 700MHz Broadcom BCM2835 CPU &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;CPU&lt;/strong&gt;: 700 MHz Low Power ARM1176JZ-F Applications Processor &lt;/p&gt;
@@ -117,15 +165,15 @@
 &lt;p&gt;&lt;strong&gt;Model B+&lt;/strong&gt;: 600mA (Less power usage all around - measured at idle) &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Mounting&lt;/strong&gt; &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Model B&lt;/strong&gt;: 2 holes &lt;strong&gt;Model B+&lt;/strong&gt;: 4 holes (Additional evenly distributed mounting holes make for a sturdier project)&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid>https://www.qualityology.com/tech/set-up-your-raspberry-pi-for-the-first-time/</guid>
-            <title>Set up your Raspberry Pi for the first time</title>
-            <link>https://www.qualityology.com/tech/set-up-your-raspberry-pi-for-the-first-time/</link>
-            <category>tech</category>
-            <pubDate>Mon, 14 Jul 2014 15:34:39 -0700</pubDate>
-            <description><![CDATA[ &lt;p&gt;The Raspberry Pi is a credit-card-sized single-board computer use Linux-kernel based operating systems. Debian GNU/Linux, Iceweasel, Calligra Suite and Python are planned to be bundled with the Raspberry Pi. The Raspberry Pi is powerful and inexpensive, allowing you to create a home media center, internet radio, or even your own VPN server on the cheap. &lt;strong&gt;To set up your Raspberry Pi you will need:&lt;/strong&gt;&lt;/p&gt;
+</content>
+        <category term="Raspberry-Pi" />
+        <updated>2014-07-26T19:19:51.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.qualityology.com/tech/set-up-your-raspberry-pi-for-the-first-time/</id>
+        <title>Set up your Raspberry Pi for the first time</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/set-up-your-raspberry-pi-for-the-first-time/"/>
+        <content type="html">&lt;p&gt;The Raspberry Pi is a credit-card-sized single-board computer use Linux-kernel based operating systems. Debian GNU/Linux, Iceweasel, Calligra Suite and Python are planned to be bundled with the Raspberry Pi. The Raspberry Pi is powerful and inexpensive, allowing you to create a home media center, internet radio, or even your own VPN server on the cheap. &lt;strong&gt;To set up your Raspberry Pi you will need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;  &lt;strong&gt;A Raspberry Pi:&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;  &lt;strong&gt;HDMI to HDMI / DVI lead or RCA video lead&lt;/strong&gt;.&lt;/li&gt;
@@ -168,7 +216,8 @@
 &lt;li&gt; &lt;strong&gt;Composite PAL mode&lt;/strong&gt; select either this mode or composite NTSC mode if you are using the composite RCA video connector&lt;/li&gt;
 &lt;li&gt; &lt;strong&gt;Composite NTSC mode&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <category term="Raspberry-Pi" />
+        <updated>2014-07-14T22:34:39.000Z</updated>
+    </entry>
+</feed>

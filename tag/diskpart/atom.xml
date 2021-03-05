@@ -1,20 +1,66 @@
 <?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <atom:link href="https://www.qualityology.com/atom.xml" rel="self" type="application/rss+xml" />
-        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;diskpart&#34; tag</title>
-        <link>https://www.qualityology.com</link>
-        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
-        <language>en</language>
-        <pubDate>Fri, 03 Oct 2014 21:00:17 -0700</pubDate>
-        <lastBuildDate>Fri, 03 Oct 2014 21:00:17 -0700</lastBuildDate>
-        <item>
-            <guid>https://www.qualityology.com/tech/properly-delete-a-partition-on-usb-drive-using-diskpart/</guid>
-            <title>Properly Delete Extra Partitions on USB Drive using DiskPart</title>
-            <link>https://www.qualityology.com/tech/properly-delete-a-partition-on-usb-drive-using-diskpart/</link>
-            <category>tech</category>
-            <pubDate>Fri, 03 Oct 2014 21:00:17 -0700</pubDate>
-            <description><![CDATA[ &lt;p&gt;Windows does have a Disk Management tool for simple disk management operations. For USB drive or logical drive, if the drive already has more than one partition, Disk Management will not allow you manage extra partitions on removable storage devices, unless you deleted all of the partitions and make a new, full size partition. Disk Management will not provide delete volume option for extra partitions on USB drives if more than one partition is detected. &lt;img src=&#34;/2014/10/DiskPart.png&#34; alt=&#34;Diskpart&#34;&gt; How to combine two partitions or more into one and restore USB drive to it&amp;#x2019;s original state? To delete partitions on USB drive, you will need to use the command-line utility: Diskpart. Diskpart enhances the Disk Management graphical user interface (GUI). Below guide is for Windows systems only. For MacOS, you can have similar solution &lt;a href=&#34;https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/&#34;&gt;here&lt;/a&gt; &lt;strong&gt;Caution:&lt;/strong&gt; When you use DiskPart to clean USB drive partition, all data on the USB will be erased. &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.qualityology.com</id>
+    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;diskpart&#34; tag</title>
+    <link href="https://www.qualityology.com" />
+    <updated>2014-10-04T04:00:17.000Z</updated>
+    <category term="MySQL" />
+    <category term="WordPress" />
+    <category term="apps" />
+    <category term="OpenWrt" />
+    <category term="Ads" />
+    <category term="printers" />
+    <category term="Apache" />
+    <category term="MacOS" />
+    <category term="baby" />
+    <category term="pfsense" />
+    <category term="Nginx" />
+    <category term="Server" />
+    <category term="timezone" />
+    <category term="Windows" />
+    <category term="port" />
+    <category term="Amazon" />
+    <category term="React" />
+    <category term="API" />
+    <category term="Beini" />
+    <category term="DOS" />
+    <category term="PDF" />
+    <category term="UEFI" />
+    <category term="Mikrotik" />
+    <category term="PCC" />
+    <category term="Java" />
+    <category term="DNS" />
+    <category term="Raspberry-Pi" />
+    <category term="SSL" />
+    <category term="Office" />
+    <category term="Wireless" />
+    <category term="Google Voice" />
+    <category term="ram" />
+    <category term="CentOS" />
+    <category term="firmware" />
+    <category term="Docker" />
+    <category term="entware" />
+    <category term="LAMP" />
+    <category term="Opencart" />
+    <category term="iPhone" />
+    <category term="Linksys" />
+    <category term="Safari" />
+    <category term="keepass" />
+    <category term="iptables" />
+    <category term="Open Source" />
+    <category term="patch" />
+    <category term="DISKPART" />
+    <category term="MAC" />
+    <category term="hosts" />
+    <category term="driver" />
+    <category term="iOS" />
+    <category term="Google Drive" />
+    <category term="SEO" />
+    <entry>
+        <id>https://www.qualityology.com/tech/properly-delete-a-partition-on-usb-drive-using-diskpart/</id>
+        <title>Properly Delete Extra Partitions on USB Drive using DiskPart</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/properly-delete-a-partition-on-usb-drive-using-diskpart/"/>
+        <content type="html">&lt;p&gt;Windows does have a Disk Management tool for simple disk management operations. For USB drive or logical drive, if the drive already has more than one partition, Disk Management will not allow you manage extra partitions on removable storage devices, unless you deleted all of the partitions and make a new, full size partition. Disk Management will not provide delete volume option for extra partitions on USB drives if more than one partition is detected. &lt;img src=&#34;/2014/10/DiskPart.png&#34; alt=&#34;Diskpart&#34;&gt; How to combine two partitions or more into one and restore USB drive to it&amp;#x2019;s original state? To delete partitions on USB drive, you will need to use the command-line utility: Diskpart. Diskpart enhances the Disk Management graphical user interface (GUI). Below guide is for Windows systems only. For MacOS, you can have similar solution &lt;a href=&#34;https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/&#34;&gt;here&lt;/a&gt; &lt;strong&gt;Caution:&lt;/strong&gt; When you use DiskPart to clean USB drive partition, all data on the USB will be erased. &lt;/p&gt;
 &lt;h2 id=&#34;Step-1-start-a-command-prompt-as-an-administrator-CMD&#34;&gt;&lt;a href=&#34;#Step-1-start-a-command-prompt-as-an-administrator-CMD&#34; class=&#34;headerlink&#34; title=&#34;Step 1, start a command prompt as an administrator (CMD)&#34;&gt;&lt;/a&gt;Step 1, start a command prompt as an administrator (CMD)&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt; Click Start.&lt;/li&gt;
 &lt;li&gt; In the Start Search box, type cmd, and then press CTRL+SHIFT+ENTER or right click choose &amp;#x201C;Run as administrator&amp;#x201D;&lt;/li&gt;
@@ -48,7 +94,8 @@
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;create partition primary&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;Step X. After all done, exit DISPART.&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;exit&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
-        </item>
-    </channel>
-</rss>
+&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;exit&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+        <category term="DISKPART" />
+        <updated>2014-10-04T04:00:17.000Z</updated>
+    </entry>
+</feed>

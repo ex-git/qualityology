@@ -1,20 +1,66 @@
 <?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <atom:link href="https://www.qualityology.com/atom.xml" rel="self" type="application/rss+xml" />
-        <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;ram&#34; tag</title>
-        <link>https://www.qualityology.com</link>
-        <description>To uncover the best way to achieve desired level of quality in everything. - We dive deep on adding quality to tech gadgets, business, and entertainment because quality matter in life.</description>
-        <language>en</language>
-        <pubDate>Wed, 16 Jul 2014 09:54:12 -0700</pubDate>
-        <lastBuildDate>Wed, 16 Jul 2014 09:54:12 -0700</lastBuildDate>
-        <item>
-            <guid>https://www.qualityology.com/tech/how-to-check-xenopenvz-vps-memoryram-usage/</guid>
-            <title>How to Check XEN/OpenVZ VPS Memory/RAM Usage</title>
-            <link>https://www.qualityology.com/tech/how-to-check-xenopenvz-vps-memoryram-usage/</link>
-            <category>tech</category>
-            <pubDate>Wed, 16 Jul 2014 09:54:12 -0700</pubDate>
-            <description><![CDATA[ &lt;p&gt;To check used and unused ram and swap space on XEN or OpenVZ VPS is easy. The free command provides information about ram usage on VPS running Linux or another Unix-like operating system. The basic syntax of free is&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.qualityology.com</id>
+    <title>Qualityology - Let&#39;s get the most out of life! • Posts by &#34;ram&#34; tag</title>
+    <link href="https://www.qualityology.com" />
+    <updated>2014-07-16T16:54:12.000Z</updated>
+    <category term="MySQL" />
+    <category term="WordPress" />
+    <category term="apps" />
+    <category term="OpenWrt" />
+    <category term="Ads" />
+    <category term="printers" />
+    <category term="Apache" />
+    <category term="MacOS" />
+    <category term="baby" />
+    <category term="pfsense" />
+    <category term="Nginx" />
+    <category term="Server" />
+    <category term="timezone" />
+    <category term="Windows" />
+    <category term="port" />
+    <category term="Amazon" />
+    <category term="React" />
+    <category term="API" />
+    <category term="Beini" />
+    <category term="DOS" />
+    <category term="PDF" />
+    <category term="UEFI" />
+    <category term="Mikrotik" />
+    <category term="PCC" />
+    <category term="Java" />
+    <category term="DNS" />
+    <category term="Raspberry-Pi" />
+    <category term="SSL" />
+    <category term="Office" />
+    <category term="Wireless" />
+    <category term="Google Voice" />
+    <category term="ram" />
+    <category term="CentOS" />
+    <category term="firmware" />
+    <category term="Docker" />
+    <category term="entware" />
+    <category term="LAMP" />
+    <category term="Opencart" />
+    <category term="iPhone" />
+    <category term="Linksys" />
+    <category term="Safari" />
+    <category term="keepass" />
+    <category term="iptables" />
+    <category term="Open Source" />
+    <category term="patch" />
+    <category term="DISKPART" />
+    <category term="MAC" />
+    <category term="hosts" />
+    <category term="driver" />
+    <category term="iOS" />
+    <category term="Google Drive" />
+    <category term="SEO" />
+    <entry>
+        <id>https://www.qualityology.com/tech/how-to-check-xenopenvz-vps-memoryram-usage/</id>
+        <title>How to Check XEN/OpenVZ VPS Memory/RAM Usage</title>
+        <link rel="alternate" href="https://www.qualityology.com/tech/how-to-check-xenopenvz-vps-memoryram-usage/"/>
+        <content type="html">&lt;p&gt;To check used and unused ram and swap space on XEN or OpenVZ VPS is easy. The free command provides information about ram usage on VPS running Linux or another Unix-like operating system. The basic syntax of free is&lt;/p&gt;
 &lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;free [options]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;Free accepts no arguments (i.e., input data) and is commonly used without any options. Below is the example of free command on a XEN VPS&lt;/p&gt;
@@ -25,7 +71,8 @@
 
 &lt;p&gt;Some people might question Xen ram usage. Is XEN VPS used up most of the ram? No worry, your ram is fine! XEN VPS is more like a real dedicated Linux server. Linux system will borrow unused ram for disk caching. This makes it looks like you are low on ram. Xen in their work makes a connection between the environment of OS and the server hardware. OpenVZ creates a virtual server as a layer that runs on another operating system.The model of ram allocation between XEN VPS and OpenVZ is different. Xen provides better isolation and dedicated ram, OpenVZ uses a shared kernel approach so resources are more shared. To put it in simple, for OpenVZ VPS, the most important information for free ram is the first row&amp;#x2019;s free value &lt;img src=&#34;/2014/07/free-openvz.png&#34; alt=&#34;Free Openvz&#34;&gt; &lt;/p&gt;
 &lt;p&gt;For XEN VPS, the free ram available is the second row&amp;#x2019;s free value, - buffers/cache is the &amp;#x201C;used&amp;#x201D;, + buffers/cache is &amp;#x201C;free&amp;#x201D; &lt;img src=&#34;/2014/07/free-xen.png&#34; alt=&#34;Free Xen&#34;&gt; Several options are available to change the unit of display for free from its default kilobytes, including -b for bytes, -m for megabytes and -g for gigabytes. Of these, -m is usually the most useful. Thus, for example, to show all of the data in megabytes, the following would be used:&lt;/p&gt;
-&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;free -m&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
-        </item>
-    </channel>
-</rss>
+&lt;figure class=&#34;highlight plain hljs&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;free -m&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+        <category term="ram" />
+        <updated>2014-07-16T16:54:12.000Z</updated>
+    </entry>
+</feed>
