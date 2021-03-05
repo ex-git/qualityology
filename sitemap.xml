@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.qualityology.com/tech/configure-sendmail-to-use-a-different-port-for-outgoing-mail-other-than-25/</loc>
+    
+    <lastmod>2021-03-05</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.qualityology.com/tech/add-multiple-printers-on-tomato-firmware-router-with-hotplug/</loc>
     
     <lastmod>2021-03-05</lastmod>
@@ -199,13 +206,6 @@
   
   <url>
     <loc>https://www.qualityology.com/tech/install-entware-on-arm-mips-based-ddwrt-tomato-and-asus-merlin/</loc>
-    
-    <lastmod>2021-03-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qualityology.com/tech/configure-sendmail-to-use-a-different-port-for-outgoing-mail-other-than-25/</loc>
     
     <lastmod>2021-03-05</lastmod>
     
