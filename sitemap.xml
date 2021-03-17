@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.qualityology.com/tech/react-native-screens-swipe-flickering-or-white-edge-in-dark-mode-fix/</loc>
+    
+    <lastmod>2021-03-17</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.qualityology.com/tech/install-isso-server-free-with-gcp/</loc>
     
     <lastmod>2021-03-12</lastmod>
@@ -529,7 +536,7 @@
 
   <url>
     <loc>https://www.qualityology.com/</loc>
-    <lastmod>2021-03-12</lastmod>
+    <lastmod>2021-03-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -539,14 +546,14 @@
   
   <url>
     <loc>https://www.qualityology.com/tech/</loc>
-    <lastmod>2021-03-12</lastmod>
+    <lastmod>2021-03-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.qualityology.com/lifestyle/</loc>
-    <lastmod>2021-03-12</lastmod>
+    <lastmod>2021-03-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
