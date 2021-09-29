@@ -121,6 +121,13 @@
   </url>
   
   <url>
+    <loc>https://www.qualityology.com/tech/add-802-11-n-support-to-bcm47xx-and-bcm53xx-openwrt/</loc>
+    
+    <lastmod>2021-03-05</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.qualityology.com/tech/add-multiple-usb-printers-to-openwrt-firmware-router-via-p910nd-using-hotplug/</loc>
     
     <lastmod>2021-03-05</lastmod>
@@ -142,13 +149,6 @@
   </url>
   
   <url>
-    <loc>https://www.qualityology.com/tech/add-802-11-n-support-to-bcm47xx-and-bcm53xx-openwrt/</loc>
-    
-    <lastmod>2021-03-05</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.qualityology.com/tech/iphones-battery-draining-heres-what-you-can-do/</loc>
     
     <lastmod>2021-03-05</lastmod>
@@ -156,7 +156,7 @@
   </url>
   
   <url>
-    <loc>https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/</loc>
+    <loc>https://www.qualityology.com/tech/bridge-multiple-lan-ports-in-pfsense-2-1/</loc>
     
     <lastmod>2021-03-05</lastmod>
     
@@ -177,14 +177,14 @@
   </url>
   
   <url>
-    <loc>https://www.qualityology.com/tech/properly-delete-a-partition-on-usb-drive-using-diskpart/</loc>
+    <loc>https://www.qualityology.com/tech/install-macos-with-clover-efi-bootloader-on-asus-z87-a/</loc>
     
     <lastmod>2021-03-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.qualityology.com/tech/bridge-multiple-lan-ports-in-pfsense-2-1/</loc>
+    <loc>https://www.qualityology.com/tech/properly-delete-a-partition-on-usb-drive-using-diskpart/</loc>
     
     <lastmod>2021-03-05</lastmod>
     
@@ -205,14 +205,14 @@
   </url>
   
   <url>
-    <loc>https://www.qualityology.com/tech/install-docker-and-docker-compose-on-raspberry-pi/</loc>
+    <loc>https://www.qualityology.com/tech/4-must-have-iphone-apps-for-college-students/</loc>
     
     <lastmod>2021-03-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.qualityology.com/tech/linksys-smart-router-slow-download-issue-fix/</loc>
+    <loc>https://www.qualityology.com/tech/common-windows-bootstartup-problems-fix/</loc>
     
     <lastmod>2021-03-05</lastmod>
     
@@ -240,7 +240,21 @@
   </url>
   
   <url>
+    <loc>https://www.qualityology.com/tech/disable-asus-motherboards-uefi-secure-boot/</loc>
+    
+    <lastmod>2021-03-05</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.qualityology.com/tech/google-voice-obi202-free-home-phone-service/</loc>
+    
+    <lastmod>2021-03-05</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.qualityology.com/tech/install-docker-and-docker-compose-on-raspberry-pi/</loc>
     
     <lastmod>2021-03-05</lastmod>
     
@@ -254,28 +268,14 @@
   </url>
   
   <url>
+    <loc>https://www.qualityology.com/tech/linksys-smart-router-slow-download-issue-fix/</loc>
+    
+    <lastmod>2021-03-05</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.qualityology.com/tech/you-dont-have-permission-to-save-in-this-location/</loc>
-    
-    <lastmod>2021-03-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qualityology.com/tech/4-must-have-iphone-apps-for-college-students/</loc>
-    
-    <lastmod>2021-03-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qualityology.com/tech/common-windows-bootstartup-problems-fix/</loc>
-    
-    <lastmod>2021-03-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qualityology.com/tech/disable-asus-motherboards-uefi-secure-boot/</loc>
     
     <lastmod>2021-03-05</lastmod>
     
@@ -401,98 +401,7 @@
   </url>
   
   <url>
-    <loc>https://www.qualityology.com/tech/disable-adobe-reader-build-in-pdf-viewer-in-firefox-chrome-ie/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qualityology.com/tech/easy-fix-for-java-error-oracle-jinitiator-version-too-low/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qualityology.com/tech/host-your-dns-with-google-cloud-dns/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qualityology.com/tech/macpasshttp-keepasshttp-plugin-for-mac-keepass/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qualityology.com/tech/open-pdfa-pdf-file-without-read-mode/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qualityology.com/tech/patch-bash-code-injection-vulnerability/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qualityology.com/tech/no-chain-target-match-by-that-name-iptables-error/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qualityology.com/tech/set-up-your-raspberry-pi-for-the-first-time/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qualityology.com/tech/fix-raspberry-pi-openwrt-boot-problem/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qualityology.com/tech/install-vqmod-to-opencart/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.qualityology.com/tech/apache-blocking-bad-bots-attacks-zmeu/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.qualityology.com/tech/changing-default-date-and-timezones-on-a-linux-server/</loc>
     
     <lastmod>2021-02-20</lastmod>
     
@@ -506,6 +415,20 @@
   </url>
   
   <url>
+    <loc>https://www.qualityology.com/tech/changing-default-date-and-timezones-on-a-linux-server/</loc>
+    
+    <lastmod>2021-02-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.qualityology.com/tech/disable-adobe-reader-build-in-pdf-viewer-in-firefox-chrome-ie/</loc>
+    
+    <lastmod>2021-02-20</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.qualityology.com/tech/easy-dual-wan-load-balancing-with-mikrotik-routeros-pcc/</loc>
     
     <lastmod>2021-02-20</lastmod>
@@ -513,7 +436,77 @@
   </url>
   
   <url>
+    <loc>https://www.qualityology.com/tech/easy-fix-for-java-error-oracle-jinitiator-version-too-low/</loc>
+    
+    <lastmod>2021-02-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.qualityology.com/tech/edit-hosts-file-to-override-dns-record-for-domains/</loc>
+    
+    <lastmod>2021-02-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.qualityology.com/tech/fix-error-mediakit-reports-not-enough-space-device-requested-operation/</loc>
+    
+    <lastmod>2021-02-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.qualityology.com/tech/fix-raspberry-pi-openwrt-boot-problem/</loc>
+    
+    <lastmod>2021-02-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.qualityology.com/tech/host-your-dns-with-google-cloud-dns/</loc>
+    
+    <lastmod>2021-02-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.qualityology.com/tech/install-vqmod-to-opencart/</loc>
+    
+    <lastmod>2021-02-20</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.qualityology.com/tech/installing-epel-and-remi-repository-on-centos-5-x-6-x-or-7-x/</loc>
+    
+    <lastmod>2021-02-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.qualityology.com/tech/macpasshttp-keepasshttp-plugin-for-mac-keepass/</loc>
+    
+    <lastmod>2021-02-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.qualityology.com/tech/no-chain-target-match-by-that-name-iptables-error/</loc>
+    
+    <lastmod>2021-02-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.qualityology.com/tech/open-pdfa-pdf-file-without-read-mode/</loc>
+    
+    <lastmod>2021-02-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.qualityology.com/tech/patch-bash-code-injection-vulnerability/</loc>
     
     <lastmod>2021-02-20</lastmod>
     
@@ -528,6 +521,13 @@
   
   <url>
     <loc>https://www.qualityology.com/tech/rotate-apache-logs-on-daily-basis-using-rotatelogs/</loc>
+    
+    <lastmod>2021-02-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.qualityology.com/tech/set-up-your-raspberry-pi-for-the-first-time/</loc>
     
     <lastmod>2021-02-20</lastmod>
     
@@ -550,7 +550,7 @@
 
   <url>
     <loc>https://www.qualityology.com/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2021-09-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -560,14 +560,14 @@
   
   <url>
     <loc>https://www.qualityology.com/tech/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2021-09-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.qualityology.com/lifestyle/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2021-09-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
